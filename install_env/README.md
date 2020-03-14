@@ -13,7 +13,7 @@ conda env create -f conda_env_yuhe.yml
 git clone https://github.com/colmap/colmap
 cd colmap
 mkdir build
-cp ../__download__ build/__download__
+cp -r ../__download__ build/__download__
 conda activate sfm
 python scripts/python/build.py --build_path ./build --colmap_path ./
 pip install git+https://github.com/ducha-aiki/pyransac
