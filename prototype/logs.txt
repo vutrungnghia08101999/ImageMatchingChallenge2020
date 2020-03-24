@@ -1,0 +1,68 @@
+20-03-22 18:26:36, INFO: Using cuda
+20-03-22 18:26:37, INFO: Generating 5000000 triplets
+20-03-22 18:29:14, INFO: 
+parsed options:
+{'w1bsroot': './data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': False, 'log_dir': 'data/logs/', 'model_dir': 'data/models/', 'experiment_name': 'liberty_train/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 32, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '3', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+20-03-22 19:39:49, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_0.pth
+20-03-22 19:40:24, INFO: [91mTest set: Accuracy(FPR95): 0.01236000
+[0m
+20-03-22 19:40:58, INFO: [91mTest set: Accuracy(FPR95): 0.04174000
+[0m
+20-03-22 19:40:59, INFO: Generating 5000000 triplets
+20-03-22 20:53:52, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_1.pth
+20-03-22 20:54:25, INFO: [91mTest set: Accuracy(FPR95): 0.00962000
+[0m
+20-03-22 20:54:59, INFO: [91mTest set: Accuracy(FPR95): 0.02930000
+[0m
+20-03-22 20:55:00, INFO: Generating 5000000 triplets
+20-03-22 22:08:07, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_2.pth
+20-03-22 22:08:41, INFO: [91mTest set: Accuracy(FPR95): 0.00990000
+[0m
+20-03-22 22:09:15, INFO: [91mTest set: Accuracy(FPR95): 0.03542000
+[0m
+20-03-22 22:09:16, INFO: Generating 5000000 triplets
+20-03-22 23:22:09, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_3.pth
+20-03-22 23:22:43, INFO: [91mTest set: Accuracy(FPR95): 0.00842000
+[0m
+20-03-22 23:23:16, INFO: [91mTest set: Accuracy(FPR95): 0.02588000
+[0m
+20-03-22 23:23:17, INFO: Generating 5000000 triplets
+20-03-23 00:36:10, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_4.pth
+20-03-23 00:36:44, INFO: [91mTest set: Accuracy(FPR95): 0.00948000
+[0m
+20-03-23 00:37:17, INFO: [91mTest set: Accuracy(FPR95): 0.02714000
+[0m
+20-03-23 00:37:18, INFO: Generating 5000000 triplets
+20-03-23 01:50:14, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_5.pth
+20-03-23 01:50:48, INFO: [91mTest set: Accuracy(FPR95): 0.00736000
+[0m
+20-03-23 01:51:22, INFO: [91mTest set: Accuracy(FPR95): 0.03132000
+[0m
+20-03-23 01:51:23, INFO: Generating 5000000 triplets
+20-03-23 03:04:19, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_6.pth
+20-03-23 03:04:53, INFO: [91mTest set: Accuracy(FPR95): 0.00664000
+[0m
+20-03-23 03:05:27, INFO: [91mTest set: Accuracy(FPR95): 0.02516000
+[0m
+20-03-23 03:05:27, INFO: Generating 5000000 triplets
+20-03-23 03:38:02, INFO: Using cuda
+20-03-23 03:38:26, INFO: Generating 5000000 triplets
+20-03-23 04:18:42, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_7.pth
+20-03-23 04:19:16, INFO: [91mTest set: Accuracy(FPR95): 0.00752000
+[0m
+20-03-23 04:19:50, INFO: [91mTest set: Accuracy(FPR95): 0.02384000
+[0m
+20-03-23 04:19:51, INFO: Generating 5000000 triplets
+20-03-23 05:34:56, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_8.pth
+20-03-23 05:35:51, INFO: [91mTest set: Accuracy(FPR95): 0.00620000
+[0m
+20-03-23 05:36:52, INFO: [91mTest set: Accuracy(FPR95): 0.02686000
+[0m
+20-03-23 05:36:53, INFO: Generating 5000000 triplets
+20-03-23 06:57:54, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_9.pth
+20-03-23 06:58:27, INFO: [91mTest set: Accuracy(FPR95): 0.00578000
+[0m
+20-03-23 06:59:01, INFO: [91mTest set: Accuracy(FPR95): 0.02200000
+[0m
+20-03-23 06:59:11, INFO: Generating 5000000 triplets
