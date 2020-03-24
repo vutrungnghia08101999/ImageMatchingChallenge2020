@@ -1,3 +1,5 @@
+import yaml
+
 import torch
 import torch.nn.init
 import torch.nn as nn
@@ -36,3 +38,10 @@ def str2bool(v):
         return True
     elif v.lower() in ('no', 'false', 'f', 'n', '0'):
         return False
+
+def read_yaml(filename: str):
+    with open(filename, 'r') as stream:
+        try:
+            return yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)

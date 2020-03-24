@@ -1,0 +1,35 @@
+dataset:
+    dataroot: data/
+    model_dir: models/
+    train_mean_image: 0.443728476019
+    train_std_image: 0.20197947209
+    training_set: liberty
+    test_set: 
+        set_1: notredame
+        set_2: yosemite
+
+experiment_name: liberty_train/
+
+loss: triplet_margin
+batch_reduce: min
+num_workers: 0
+anchorave: False
+resume: ''
+start_epoch: 0
+epochs: 10
+anchorswap: True
+batch_size: 1024
+test_batch_size: 1024
+n_triplets: 100000
+margin: 1.0
+learning_rate: 10.0
+fliprot: False
+augmentation: False
+lr_decay: 0.000001
+weight_decay: 0.0001
+
+environment:
+    use_cuda: True
+    gpu_id: 3
+    seed: 0
+    log_interval: 10

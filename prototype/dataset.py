@@ -8,16 +8,6 @@ import torch.nn as nn
 
 
 class TripletPhotoTour(Dataset):
-    mean = {'notredame': 0.4854, 'yosemite': 0.4844, 'liberty': 0.4437,
-            'notredame_harris': 0.4854, 'yosemite_harris': 0.4844, 'liberty_harris': 0.4437}
-    std = {'notredame': 0.1864, 'yosemite': 0.1818, 'liberty': 0.2019,
-           'notredame_harris': 0.1864, 'yosemite_harris': 0.1818, 'liberty_harris': 0.2019}
-    lens = {'notredame': 468159, 'yosemite': 633587, 'liberty': 450092,
-            'liberty_harris': 379587, 'yosemite_harris': 450912, 'notredame_harris': 325295}
-    image_ext = 'bmp'
-    info_file = 'info.txt'
-    matches_files = 'm50_100000_100000_0.txt'
-
     def __init__(self, root, name, n_triplets:int, fliprot:bool, train=True, batch_size = None, load_random_triplets = False, transform=None): 
         if isinstance(root, torch._six.string_classes):
             root = os.path.expanduser(root)
@@ -25,18 +15,13 @@ class TripletPhotoTour(Dataset):
         self.name = name
         self.data_dir = os.path.join(self.root, name)
         self.data_file = os.path.join(self.root, '{}.pt'.format(name))
-
         self.train = train
-        self.mean = self.mean[name]
-        self.std = self.std[name]
-
+        
         if not self._check_datafile_exists():
             raise RuntimeError('Dataset not found.')
 
-        # load the serialized data
         self.data, self.labels, self.matches = torch.load(self.data_file)
         
-        # hardnet 
         self.transform = transform
         self.out_triplets = load_random_triplets
         self.n_triplets = n_triplets
@@ -44,7 +29,7 @@ class TripletPhotoTour(Dataset):
         self.fliprot = fliprot
         
         if self.train:
-            print('Generating {} triplets'.format(self.n_triplets))
+            print(f'Generating {self.n_triplets} triplets')
             self.triplets = self.generate_triplets(self.labels, self.n_triplets)
 
     def __getitem__(self, index):
@@ -132,6 +117,3 @@ class TripletPhotoTour(Dataset):
 
     def _check_datafile_exists(self):
         return os.path.exists(self.data_file)
-
-    def extra_repr(self):
-        return "Split: {}".format("Train" if self.train is True else "Test")
