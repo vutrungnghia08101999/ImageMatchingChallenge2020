@@ -543,3 +543,58 @@ EVALUATION DATA
 20-03-28 00:01:10, INFO: average neg_distance/pos_distance: 2.5945232596502805 on 5000 triplets
 20-03-28 00:01:10, INFO: Evaluation completed
 
+20-03-28 00:07:46, INFO: =========================================================
+20-03-28 00:07:46, INFO: 
+GENERATE RGB PATCHES
+
+20-03-28 00:07:46, INFO: input: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid/sacre_coeur/dense
+20-03-28 00:07:46, INFO: output: rgb/sacre_coeur
+
+20-03-28 00:07:53, INFO: Load 1179 images
+20-03-28 00:08:36, INFO: Get 2 patches per 3d point of 140659 3d points
+20-03-28 00:08:41, INFO: n_patches: 273446
+20-03-28 00:08:41, INFO: used/total 3d points: 136723/140659
+20-03-28 00:08:41, INFO: unused 3d poitnts: 3936
+
+20-03-28 00:08:41, INFO: Save info file at: rgb/sacre_coeur/info.txt
+20-03-28 00:08:41, INFO: Concatenate and save 1069 images size 1024 x 1024
+20-03-28 00:09:12, INFO: unique_3d_ids: 136723
+20-03-28 00:09:12, INFO: n_patches: 273446
+20-03-28 00:09:12, INFO: n_pos: 50000 - n_neg: 50000
+20-03-28 00:09:12, INFO: generated_batch_size: 27344
+
+20-03-28 00:09:14, INFO: Save test set file at: rgb/sacre_coeur/50000_50000.txt
+20-03-28 00:09:14, INFO: Conpleted
+
+20-03-28 00:09:42, INFO: =========================================================
+20-03-28 00:09:42, INFO: 
+RGB TO GRAY
+
+20-03-28 00:09:42, INFO: input: rgb/sacre_coeur
+20-03-28 00:09:42, INFO: output: gray/sacre_coeur
+20-03-28 00:09:42, INFO: info_file: info.txt
+20-03-28 00:09:42, INFO: matches_files: 50000_50000.txt
+20-03-28 00:10:47, INFO: Completed
+20-03-28 00:11:35, INFO: =========================================================
+20-03-28 00:11:35, INFO: 
+COMPRESS GRAY DATA
+
+20-03-28 00:11:35, INFO: input: gray/sacre_coeur
+20-03-28 00:11:35, INFO: info_file: info.txt
+20-03-28 00:11:35, INFO: matches_files: 50000_50000.txt
+20-03-28 00:11:35, INFO: n_patches: 273446
+20-03-28 00:11:35, INFO: compress_file: gray/sacre_coeur.pt
+20-03-28 00:14:30, INFO: Completed
+
+20-03-28 00:14:43, INFO: =========================================================
+20-03-28 00:14:43, INFO: 
+EVALUATION DATA
+
+20-03-28 00:14:43, INFO: dataroot: gray
+20-03-28 00:14:43, INFO: dataname: sacre_coeur
+20-03-28 00:14:43, INFO: Test on sacre_coeur dataset
+20-03-28 00:18:39, INFO: [91mTest set: Accuracy(FPR95): 0.01962000
+[0m
+20-03-28 00:19:19, INFO: average neg_distance/pos_distance: 3.0143828403676207 on 5000 triplets
+20-03-28 00:19:19, INFO: Evaluation completed
+
