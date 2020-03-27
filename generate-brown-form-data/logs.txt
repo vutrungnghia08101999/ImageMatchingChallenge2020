@@ -598,3 +598,74 @@ EVALUATION DATA
 20-03-28 00:19:19, INFO: average neg_distance/pos_distance: 3.0143828403676207 on 5000 triplets
 20-03-28 00:19:19, INFO: Evaluation completed
 
+20-03-28 00:44:09, INFO: =========================================================
+20-03-28 00:44:09, INFO: 
+RGB TO GRAY
+
+20-03-28 00:44:09, INFO: input: rgb/st_peters_square
+20-03-28 00:44:09, INFO: output: gray/st_peters_square
+20-03-28 00:44:09, INFO: info_file: info.txt
+20-03-28 00:44:09, INFO: matches_files: 50000_50000.txt
+20-03-28 00:44:34, INFO: =========================================================
+20-03-28 00:44:34, INFO: 
+GENERATE RGB PATCHES
+
+20-03-28 00:44:34, INFO: input: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid/sacre_coeur/dense
+20-03-28 00:44:34, INFO: output: rgb/sacre_coeur
+
+20-03-28 00:44:40, INFO: Load 1179 images
+20-03-28 00:45:26, INFO: =========================================================
+20-03-28 00:45:26, INFO: 
+GENERATE RGB PATCHES
+
+20-03-28 00:45:26, INFO: input: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid/st_peters_square/dense
+20-03-28 00:45:26, INFO: output: rgb/st_peters_square
+
+20-03-28 00:45:39, INFO: Load 2504 images
+20-03-28 00:47:09, INFO: Get 2 patches per 3d point of 232329 3d points
+20-03-28 00:47:17, INFO: n_patches: 443128
+20-03-28 00:47:17, INFO: used/total 3d points: 221564/232329
+20-03-28 00:47:17, INFO: unused 3d poitnts: 10765
+
+20-03-28 00:47:17, INFO: Save info file at: rgb/st_peters_square/info.txt
+20-03-28 00:47:18, INFO: Concatenate and save 1731 images size 1024 x 1024
+20-03-28 00:48:34, INFO: unique_3d_ids: 221564
+20-03-28 00:48:34, INFO: n_patches: 443128
+20-03-28 00:48:34, INFO: n_pos: 50000 - n_neg: 50000
+20-03-28 00:48:34, INFO: generated_batch_size: 44312
+
+20-03-28 00:48:36, INFO: Save test set file at: rgb/st_peters_square/50000_50000.txt
+20-03-28 00:48:36, INFO: Conpleted
+
+20-03-28 00:49:36, INFO: =========================================================
+20-03-28 00:49:36, INFO: 
+RGB TO GRAY
+
+20-03-28 00:49:36, INFO: input: rgb/st_peters_square
+20-03-28 00:49:36, INFO: output: gray/st_peters_square
+20-03-28 00:49:36, INFO: info_file: info.txt
+20-03-28 00:49:36, INFO: matches_files: 50000_50000.txt
+20-03-28 00:52:05, INFO: Completed
+20-03-28 00:52:41, INFO: =========================================================
+20-03-28 00:52:41, INFO: 
+COMPRESS GRAY DATA
+
+20-03-28 00:52:41, INFO: input: gray/st_peters_square
+20-03-28 00:52:41, INFO: info_file: info.txt
+20-03-28 00:52:41, INFO: matches_files: 50000_50000.txt
+20-03-28 00:52:41, INFO: n_patches: 443128
+20-03-28 00:52:41, INFO: compress_file: gray/st_peters_square.pt
+20-03-28 00:56:55, INFO: Completed
+
+20-03-28 00:57:04, INFO: =========================================================
+20-03-28 00:57:04, INFO: 
+EVALUATION DATA
+
+20-03-28 00:57:04, INFO: dataroot: gray
+20-03-28 00:57:04, INFO: dataname: st_peters_square
+20-03-28 00:57:06, INFO: Test on st_peters_square dataset
+20-03-28 01:00:39, INFO: [91mTest set: Accuracy(FPR95): 0.02338000
+[0m
+20-03-28 01:01:19, INFO: average neg_distance/pos_distance: 1.2599809628785301 on 5000 triplets
+20-03-28 01:01:19, INFO: Evaluation completed
+
