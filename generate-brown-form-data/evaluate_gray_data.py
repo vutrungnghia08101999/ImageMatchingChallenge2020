@@ -22,8 +22,9 @@ logging.getLogger().addHandler(console)
 torch.manual_seed(0)
 
 ############### PARAMETERS ##############
-DATAROOT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/brown-dataset'
-DATANAME = 'yosemite'
+DATANAME = 'palace_of_westminster'
+
+DATAROOT = 'gray'
 #########################################
 
 logging.info('=========================================================')

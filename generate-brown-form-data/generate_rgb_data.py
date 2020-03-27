@@ -32,10 +32,13 @@ random.seed(0)
 
 ############### PARAMETERS ##############
 INPUT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-datas\
-et/train/buckingham_palace/dense'
-OUTPUT = 'rgb/buckingham_palace'
+et/train/palace_of_westminster/dense'
+OUTPUT = 'rgb/palace_of_westminster'
+
 N_POS_NEG = 50000
 #########################################
+if not os.path.isdir(OUTPUT):
+    os.makedirs(OUTPUT, exist_ok=False)
 
 
 def is_valid_patch(x: float, y: float, patch_size, image: np.array):

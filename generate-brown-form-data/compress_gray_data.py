@@ -16,12 +16,13 @@ console.setLevel(logging.INFO)
 logging.getLogger().addHandler(console)
 
 ############### PARAMETERS ##############
-INPUT = 'gray/reichstag'
+INPUT = 'gray/palace_of_westminster'
+N_PATCHES = 223642
+COMPRESS_FILE = 'gray/palace_of_westminster.pt'
+
 INFO_FILE = 'info.txt'
 MATCHES_FILE = '50000_50000.txt'
 IMAGE_EXT = 'bmp'
-N_PATCHES = 35262
-COMPRESS_FILE = 'gray/reichstag.pt'
 #########################################
 
 logging.info('=========================================================')
