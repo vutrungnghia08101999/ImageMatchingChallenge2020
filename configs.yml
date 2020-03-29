@@ -1,0 +1,6 @@
+scene_dir: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid/reichstag/dense'
+scene_name: 'reichstag'
+output: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data'
+
+n_pos_neg_test: 50000 # do not change
+generated_test_batch_size: 10000 # in case number of 3dpoints < 10000, set batch_size = n_3dpoints 

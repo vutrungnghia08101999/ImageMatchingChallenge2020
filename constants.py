@@ -1,0 +1,5 @@
+SCENE_DIR = 'scene_dir'
+SCENE_NAME = 'scene_name'
+OUTPUT = 'output'
+N_POS_NEG_TEST = 'n_pos_neg_test'
+GENERATED_TEST_BATCH_SIZE = 'generated_test_batch_size'
