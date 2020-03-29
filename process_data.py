@@ -26,7 +26,7 @@ from constants import (
     GENERATED_TEST_BATCH_SIZE,
 )
 
-logging.basicConfig(filename='logs_test.txt',
+logging.basicConfig(filename='logs.txt',
                     filemode='a',
                     format='%(asctime)s, %(levelname)s: %(message)s',
                     datefmt='%y-%m-%d %H:%M:%S',
