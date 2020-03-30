@@ -1,0 +1,283 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+from __future__ import division, print_function
+
+import argparse
+import copy
+from copy import deepcopy
+import datetime
+import logging
+import math
+import os
+import random
+import sys
+import time
+from tqdm import tqdm
+
+import cv2
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torchvision.transforms as transforms
+import torch.backends.cudnn as cudnn
+import torch.nn.functional as F
+from torch.utils.data import DataLoader
+
+from eval_metrics import ErrorRateAt95Recall
+from models import HardNet
+from dataset import TripletPhotoTour, BrownTest
+from losses import loss_HardNet
+from utils import cv2_scale, np_reshape, read_yaml
+from constants import (
+    ANCHORAVE,
+    ANCHORSWAP,
+    BATCH_SIZE,
+    BATCH_REDUCE,
+    DATASET,
+    DATAROOT,
+    EPOCHS,
+    ENVIRONMENT,
+    EXPERIMENT_NAME,
+    GPU_ID,
+    LR_DECAY,
+    LOSS,
+    LEARNING_RATE,
+    LOG_INTERVAL,
+    MARGIN,
+    N_TRIPLETS,
+    NUM_WORKERS,
+    RESUME,
+    SEED,
+    START_EPOCH,
+    TRAIN_MEAN_IMAGE,
+    TRAIN_STD_IMAGE,
+    USE_CUDA,
+    WEIGHT_DECAY,
+)
+
+logging.basicConfig(filename='logs.txt',
+                    filemode='a',
+                    format='%(asctime)s, %(levelname)s: %(message)s',
+                    datefmt='%y-%m-%d %H:%M:%S',
+                    level=logging.DEBUG)
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+logging.getLogger().addHandler(console)
+# logging.basicConfig(level=logging.INFO)
+
+
+# In[ ]:
+
+
+logging.info('\n\n================ IMAGE MATCHING CHALLENGE 2020 ==================\n\n')
+configs = read_yaml('configs.yml')
+
+
+# In[ ]:
+
+
+models_output = os.path.join('models', f'{configs[EXPERIMENT_NAME]}')
+
+os.environ['CUDA_VISIBLE_DEVICES'] = str(configs[ENVIRONMENT][GPU_ID])
+
+if configs[ENVIRONMENT][USE_CUDA]:
+    cudnn.benchmark = True
+    torch.cuda.manual_seed_all(configs[ENVIRONMENT][SEED])
+torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
+
+random.seed(configs[ENVIRONMENT][SEED])
+torch.manual_seed(configs[ENVIRONMENT][SEED])
+np.random.seed(configs[ENVIRONMENT][SEED])
+
+
+# In[ ]:
+
+
+def train(train_loader, model, optimizer, epoch):
+    # switch to train mode
+    model.train()
+    for batch_id, data in tqdm(enumerate(train_loader)):
+        data_a, data_p, _ = data
+
+        data_a, data_p  = data_a.cuda(), data_p.cuda()
+        if configs[ENVIRONMENT][USE_CUDA]:
+            data_a, data_p  = data_a.cuda(), data_p.cuda()
+            out_a = model(data_a)
+            out_p = model(data_p)
+        else:
+            out_a = model(data_a)
+            out_p = model(data_p)           
+
+        loss = loss_HardNet(out_a, out_p,
+                        margin=configs[MARGIN],
+                        anchor_swap=configs[ANCHORSWAP],
+                        anchor_ave=configs[ANCHORAVE],
+                        batch_reduce = configs[BATCH_REDUCE],
+                        loss_type = configs[LOSS])
+           
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        adjust_learning_rate(optimizer)
+    
+        if batch_id%10 == 0:
+            logging.info(f'{batch_id}/{len(train_loader)} - Loss: {loss.item()}')
+        
+    logging.info(f'{len(train_loader)}/{len(train_loader)} - Loss: {loss.item()}')
+    try:
+        os.stat(f'{models_output}')
+    except:
+        os.makedirs(f'{models_output}')
+    
+    x = datetime.datetime.now()
+    time = x.strftime("%y-%m-%d_%H:%M:%S")
+    torch.save({'epoch': epoch + 1, 'state_dict': model.state_dict()}, f'{models_output}/checkpoint_{time}_{epoch}.pth')
+    logging.info(f'{models_output}/checkpoint_{time}_{epoch}.pth')
+
+
+def test(test_loader, model, epoch):
+    # switch to evaluate mode
+    model.eval()
+
+    labels, distances = [], [] 
+    for (data_a, data_p, label) in tqdm(test_loader):
+
+        if configs[ENVIRONMENT][USE_CUDA]:
+            data_a, data_p = data_a.cuda(), data_p.cuda()
+
+        with torch.no_grad():
+            out_a = model(data_a)
+            out_p = model(data_p)
+        dists = torch.sqrt(torch.sum((out_a - out_p) ** 2, 1))  # euclidean distance
+        distances.append(dists.data.cpu().numpy().reshape(-1,1))
+        ll = label.data.cpu().numpy().reshape(-1, 1)
+        labels.append(ll)
+
+    num_tests = len(test_loader.dataset)
+    labels = np.vstack(labels).reshape(num_tests)
+    distances = np.vstack(distances).reshape(num_tests)
+
+    fpr95 = ErrorRateAt95Recall(labels, 1.0 / (distances + 1e-8))
+    logging.info('\33[91mTest set: Accuracy(FPR95): {:.8f}\n\33[0m'.format(fpr95))
+
+    return
+
+def adjust_learning_rate(optimizer):
+    """Updates the learning rate given the learning rate decay.
+    The routine has been implemented according to the original Lua SGD optimizer
+    """
+    for group in optimizer.param_groups:
+        if 'step' not in group:
+            group['step'] = 0.
+        else:
+            group['step'] += 1.
+        group['lr'] = configs[LEARNING_RATE] * (
+        1.0 - float(group['step']) * float(configs[BATCH_SIZE]) / (configs[N_TRIPLETS] * float(configs[EPOCHS])))
+    return
+
+
+
+def create_transform():
+    return transforms.Compose([transforms.Lambda(cv2_scale),
+                               transforms.Lambda(np_reshape),
+                               transforms.ToTensor(),
+                               transforms.Normalize((configs[DATASET][TRAIN_MEAN_IMAGE],), (configs[DATASET][TRAIN_STD_IMAGE],))])
+
+def create_trainloader(root: str, train_scenes: list, n_triplets: int):   
+    dataset = TripletPhotoTour(root=root,
+                               transform=create_transform(),
+                               train_scenes=train_scenes,
+                               n_triplets=n_triplets)
+    return DataLoader(dataset, batch_size=configs[BATCH_SIZE], shuffle=False, num_workers=configs[NUM_WORKERS])
+
+def create_testloader(root: str, test_scene: str, is_challenge_data: bool):
+    if is_challenge_data:
+        dataset = TripletPhotoTour(root=root,
+                                   transform=create_transform(),
+                                   test_scene=test_scene,
+                                   train=False)
+    else:
+        dataset = BrownTest(root=root,
+                            scene=test_scene,
+                            transform=create_transform())
+    return DataLoader(dataset, batch_size=configs[BATCH_SIZE], shuffle=False, num_workers=configs[NUM_WORKERS])
+
+
+# In[ ]:
+
+
+train_dataloader = create_trainloader(root=configs['dataset']['challenge_root'],
+                                      train_scenes=configs['dataset']['train_scenes'],
+                                      n_triplets=configs['n_triplets'])
+
+test_dataloaders = []
+for scene in configs['dataset']['test_scenes']['challenge']:
+    logging.info(f'load test set: {scene}')
+    dataloader = create_testloader(root=configs['dataset']['challenge_root'],
+                                   test_scene=scene,
+                                   is_challenge_data=True)
+    test_dataloaders.append((scene, dataloader))
+
+for scene in configs['dataset']['test_scenes']['brown']:
+    logging.info(f'load test set: {scene}')
+    dataloader = create_testloader(root=configs['dataset']['brown_root'],
+                                   test_scene=scene,
+                                   is_challenge_data=False)
+    test_dataloaders.append((scene, dataloader))
+
+
+# In[ ]:
+
+
+model = HardNet()
+if configs[ENVIRONMENT][USE_CUDA]:
+    model = model.cuda()
+logging.info(configs)
+
+
+# In[ ]:
+
+
+optimizer = optimizer = optim.SGD(model.features.parameters(), lr=configs[LEARNING_RATE],
+                                  momentum=0.9, dampening=0.9,
+                                  weight_decay=configs[WEIGHT_DECAY])
+# optionally resume from a checkpoint
+if configs[RESUME]:
+    if os.path.isfile(configs[RESUME]):
+        logging.info('=> loading checkpoint {}'.format(configs[RESUME]))
+        checkpoint = torch.load(configs[RESUME])
+        configs[START_EPOCH] = checkpoint['epoch']
+        model.load_state_dict(checkpoint['state_dict'])
+    else:
+        logging.info('=> no checkpoint found at {}'.format(configs[RESUME]))
+
+
+# In[ ]:
+
+
+start = configs[START_EPOCH]
+end = start + configs[EPOCHS]
+for epoch in range(start, end):
+    logging.info(f'epoch: {epoch}')
+    logging.info(configs['dataset']['train_scenes'])
+    train(train_dataloader, model, optimizer, epoch)
+    for tup in test_dataloaders:
+        logging.info(f'Test on {tup[0]}')
+        test(tup[1], model, epoch)
+    
+    train_dataloader = create_trainloader(root=configs['dataset']['challenge_root'],
+                                          train_scenes=configs['dataset']['train_scenes'],
+                                          n_triplets=configs['n_triplets'])
+
+
+# In[ ]:
+
+
+
+
