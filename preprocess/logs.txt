@@ -1,0 +1,79 @@
+
+20-03-29 22:26:45, INFO: Load 1401 images
+20-03-29 22:27:03, INFO: Get 2 patches per 3d point of 166923 3d points
+20-03-29 22:27:08, INFO: n_patches: 319554
+20-03-29 22:27:08, INFO: used/total 3d points: 159777/166923
+20-03-29 22:27:08, INFO: unused 3d poitnts: 7146
+
+20-03-29 22:27:08, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/pantheon_exterior/info.csv
+20-03-29 22:29:10, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:29:10, INFO: generated_batch_size: 10000
+
+20-03-29 22:29:11, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/pantheon_exterior/50000_50000.csv
+20-03-29 22:29:12, INFO: Completed
+##############
+20-03-29 22:29:28, INFO: Load 2316 images
+20-03-29 22:30:00, INFO: Get 2 patches per 3d point of 558600 3d points
+20-03-29 22:30:13, INFO: n_patches: 1074882
+20-03-29 22:30:13, INFO: used/total 3d points: 537441/558600
+20-03-29 22:30:13, INFO: unused 3d poitnts: 21159
+
+20-03-29 22:30:13, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/prague_old_town_square/info.csv
+20-03-29 22:37:28, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:37:28, INFO: generated_batch_size: 10000
+
+20-03-29 22:37:29, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/prague_old_town_square/50000_50000.csv
+20-03-29 22:37:30, INFO: Completed
+###############
+20-03-29 22:37:36, INFO: Load 1312 images
+20-03-29 22:37:52, INFO: Get 2 patches per 3d point of 94121 3d points
+20-03-29 22:37:55, INFO: n_patches: 182524
+20-03-29 22:37:55, INFO: used/total 3d points: 91262/94121
+20-03-29 22:37:55, INFO: unused 3d poitnts: 2859
+
+20-03-29 22:37:55, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/taj_mahal/info.csv
+20-03-29 22:39:10, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:39:10, INFO: generated_batch_size: 10000
+
+20-03-29 22:39:11, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/taj_mahal/50000_50000.csv
+20-03-29 22:39:11, INFO: Completed
+###############
+20-03-29 22:39:16, INFO: Load 904 images
+20-03-29 22:39:29, INFO: Get 2 patches per 3d point of 92131 3d points
+20-03-29 22:39:31, INFO: n_patches: 179628
+20-03-29 22:39:31, INFO: used/total 3d points: 89814/92131
+20-03-29 22:39:31, INFO: unused 3d poitnts: 2317
+
+20-03-29 22:39:31, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/temple_nara_japan/info.csv
+20-03-29 22:40:46, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:40:46, INFO: generated_batch_size: 10000
+
+20-03-29 22:40:47, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/temple_nara_japan/50000_50000.csv
+20-03-29 22:40:47, INFO: Completed
+################
+20-03-29 22:41:11, INFO: Load 3191 images
+20-03-29 22:41:58, INFO: Get 2 patches per 3d point of 580673 3d points
+20-03-29 22:42:15, INFO: n_patches: 1063682
+20-03-29 22:42:15, INFO: used/total 3d points: 531841/580673
+20-03-29 22:42:15, INFO: unused 3d poitnts: 48832
+
+20-03-29 22:42:15, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/trevi_fountain/info.csv
+20-03-29 22:50:01, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:50:01, INFO: generated_batch_size: 10000
+
+20-03-29 22:50:02, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/trevi_fountain/50000_50000.csv
+20-03-29 22:50:02, INFO: Completed
+#################
+20-03-29 22:50:11, INFO: Load 1061 images
+20-03-29 22:50:27, INFO: Get 2 patches per 3d point of 198222 3d points
+20-03-29 22:50:32, INFO: n_patches: 381420
+20-03-29 22:50:32, INFO: used/total 3d points: 190710/198222
+20-03-29 22:50:32, INFO: unused 3d poitnts: 7512
+
+20-03-29 22:50:32, INFO: Save info file at: /mnt/DATA/patch_datasets/challenge/westminster_abbey/info.csv
+20-03-29 22:53:23, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 22:53:23, INFO: generated_batch_size: 10000
+
+20-03-29 22:53:24, INFO: Save test set file at /mnt/DATA/patch_datasets/challenge/westminster_abbey/50000_50000.csv
+20-03-29 22:53:25, INFO: Completed
+

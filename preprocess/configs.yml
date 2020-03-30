@@ -1,0 +1,10 @@
+scene_dir: "/mnt/DATA/Phototourism-dataset/train/palace_of_westminster/dense"
+scene_name: "palace_of_westminster"
+
+
+
+
+output: "/mnt/DATA/patch_datasets/challenge" 
+
+n_pos_neg_test: 50000 # do not change
+generated_test_batch_size: 10000 # in case number of 3dpoints < 10000, set batch_size = n_3dpoints 
