@@ -443,3 +443,107 @@ EVALUATION DATA
 20-03-29 13:38:20, DEBUG: -> code[replace] old[1:1] new[1:1]
 20-03-29 13:38:20, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
 20-03-29 13:38:20, DEBUG: diff parser end
+20-03-29 18:43:07, INFO: Load 1363 images
+20-03-29 18:43:54, INFO: Get 2 patches per 3d point of 100040 3d points
+20-03-29 18:43:57, INFO: n_patches: 190764
+20-03-29 18:43:57, INFO: used/total 3d points: 95382/100040
+20-03-29 18:43:57, INFO: unused 3d poitnts: 4658
+
+20-03-29 18:43:57, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/brandenburg_gate/info.csv
+20-03-29 18:48:51, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 18:48:51, INFO: generated_batch_size: 10000
+
+20-03-29 18:48:53, INFO: Save test set file at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/brandenburg_gate/50000_50000.csv
+20-03-29 18:48:53, INFO: Completed
+
+20-03-29 18:52:34, INFO: Load 3765 images
+20-03-29 18:55:06, INFO: Get 2 patches per 3d point of 488895 3d points
+20-03-29 18:55:26, INFO: n_patches: 930614
+20-03-29 18:55:26, INFO: used/total 3d points: 465307/488895
+20-03-29 18:55:26, INFO: unused 3d poitnts: 23588
+
+20-03-29 18:55:27, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/notre_dame_front_facade/info.csv
+20-03-29 19:48:58, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 19:48:58, INFO: generated_batch_size: 10000
+
+20-03-29 19:49:00, INFO: Save test set file at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/notre_dame_front_facade/50000_50000.csv
+20-03-29 19:49:00, INFO: Completed
+
+20-03-29 20:44:15, INFO: Load 1676 images
+20-03-29 20:47:03, INFO: Get 2 patches per 3d point of 234052 3d points
+20-03-29 20:47:11, INFO: n_patches: 443450
+20-03-29 20:47:11, INFO: used/total 3d points: 221725/234052
+20-03-29 20:47:11, INFO: unused 3d poitnts: 12327
+
+20-03-29 20:47:11, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/buckingham_palace/info.csv
+20-03-29 23:32:04, INFO: n_pos: 50000 - n_neg: 50000
+20-03-29 23:32:04, INFO: generated_batch_size: 10000
+
+20-03-29 23:32:07, INFO: Save test set file at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data/buckingham_palace/50000_50000.csv
+20-03-29 23:32:13, INFO: Completed
+
+20-03-30 00:13:16, INFO: Load 2063 images
+20-03-30 00:15:29, INFO: Get 2 patches per 3d point of 259807 3d points
+20-03-30 00:15:40, INFO: n_patches: 507954
+20-03-30 00:15:40, INFO: used/total 3d points: 253977/259807
+20-03-30 00:15:40, INFO: unused 3d poitnts: 5830
+
+20-03-30 00:15:40, INFO: Save info file at: /home/vutrungnghia/Desktop/colosseum_exterior/info.csv
+20-03-30 00:17:41, INFO: n_pos: 50000 - n_neg: 50000
+20-03-30 00:17:41, INFO: generated_batch_size: 10000
+
+20-03-30 00:17:43, INFO: Save test set file at /home/vutrungnghia/Desktop/colosseum_exterior/50000_50000.csv
+20-03-30 00:17:43, INFO: Completed
+
+20-03-30 00:22:07, INFO: Load 1083 images
+20-03-30 00:23:25, INFO: Get 2 patches per 3d point of 229788 3d points
+20-03-30 00:23:32, INFO: n_patches: 442542
+20-03-30 00:23:32, INFO: used/total 3d points: 221271/229788
+20-03-30 00:23:32, INFO: unused 3d poitnts: 8517
+
+20-03-30 00:23:32, INFO: Save info file at: /home/vutrungnghia/Desktop/grand_place_brussels/info.csv
+20-03-30 00:25:18, INFO: n_pos: 50000 - n_neg: 50000
+20-03-30 00:25:18, INFO: generated_batch_size: 10000
+
+20-03-30 00:25:19, INFO: Save test set file at /home/vutrungnghia/Desktop/grand_place_brussels/50000_50000.csv
+20-03-30 00:25:20, INFO: Completed
+
+20-03-30 00:25:42, INFO: Load 889 images
+20-03-30 00:27:09, INFO: Get 2 patches per 3d point of 235541 3d points
+20-03-30 00:27:15, INFO: n_patches: 442962
+20-03-30 00:27:15, INFO: used/total 3d points: 221481/235541
+20-03-30 00:27:15, INFO: unused 3d poitnts: 14060
+
+20-03-30 00:27:15, INFO: Save info file at: /home/vutrungnghia/Desktop/hagia_sophia_interior/info.csv
+20-03-30 00:28:46, INFO: n_pos: 50000 - n_neg: 50000
+20-03-30 00:28:46, INFO: generated_batch_size: 10000
+
+20-03-30 00:28:47, INFO: Save test set file at /home/vutrungnghia/Desktop/hagia_sophia_interior/50000_50000.csv
+20-03-30 00:28:48, INFO: Completed
+
+20-03-30 00:29:35, INFO: Load 983 images
+20-03-30 00:30:58, INFO: Get 2 patches per 3d point of 115868 3d points
+20-03-30 00:31:02, INFO: n_patches: 223642
+20-03-30 00:31:02, INFO: used/total 3d points: 111821/115868
+20-03-30 00:31:02, INFO: unused 3d poitnts: 4047
+
+20-03-30 00:31:02, INFO: Save info file at: /home/vutrungnghia/Desktop/palace_of_westminster/info.csv
+20-03-30 00:31:50, INFO: n_pos: 50000 - n_neg: 50000
+20-03-30 00:31:50, INFO: generated_batch_size: 10000
+
+20-03-30 00:31:52, INFO: Save test set file at /home/vutrungnghia/Desktop/palace_of_westminster/50000_50000.csv
+20-03-30 00:31:52, INFO: Completed
+
+20-03-30 09:43:41, INFO: Load 2063 images
+20-03-30 09:48:06, INFO: Get 2 patches per 3d point of 259807 3d points
+20-03-30 09:48:16, INFO: n_patches: 507954
+20-03-30 09:48:16, INFO: used/total 3d points: 253977/259807
+20-03-30 09:48:16, INFO: unused 3d poitnts: 5830
+
+20-03-30 09:48:16, INFO: Save info file at: /home/vutrungnghia/Desktop/colosseum_exterior/info.csv
+20-03-30 09:50:20, INFO: n_pos: 50000 - n_neg: 50000
+20-03-30 09:50:20, INFO: generated_batch_size: 10000
+
+20-03-30 09:50:22, INFO: Save test set file at /home/vutrungnghia/Desktop/colosseum_exterior/50000_50000.csv
+20-03-30 09:50:22, INFO: Completed
+
