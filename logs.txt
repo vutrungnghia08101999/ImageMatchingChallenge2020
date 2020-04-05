@@ -1,0 +1,2329 @@
+20-03-22 18:26:36, INFO: Using cuda
+20-03-22 18:26:37, INFO: Generating 5000000 triplets
+20-03-22 18:29:14, INFO: 
+parsed options:
+{'w1bsroot': './data/sets/wxbs-descriptors-benchmark/code/', 'dataroot': 'data/sets/', 'enable_logging': False, 'log_dir': 'data/logs/', 'model_dir': 'data/models/', 'experiment_name': 'liberty_train/', 'training_set': 'liberty', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'pin_memory': True, 'decor': False, 'anchorave': False, 'imageSize': 32, 'mean_image': 0.443728476019, 'std_image': 0.20197947209, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'gor': False, 'freq': 10.0, 'alpha': 1.0, 'lr': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'wd': 0.0001, 'optimizer': 'sgd', 'no_cuda': False, 'gpu_id': '3', 'seed': 0, 'log_interval': 10, 'cuda': True}
+
+20-03-22 19:39:49, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_0.pth
+20-03-22 19:40:24, INFO: [91mTest set: Accuracy(FPR95): 0.01236000
+[0m
+20-03-22 19:40:58, INFO: [91mTest set: Accuracy(FPR95): 0.04174000
+[0m
+20-03-22 19:40:59, INFO: Generating 5000000 triplets
+20-03-22 20:53:52, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_1.pth
+20-03-22 20:54:25, INFO: [91mTest set: Accuracy(FPR95): 0.00962000
+[0m
+20-03-22 20:54:59, INFO: [91mTest set: Accuracy(FPR95): 0.02930000
+[0m
+20-03-22 20:55:00, INFO: Generating 5000000 triplets
+20-03-22 22:08:07, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_2.pth
+20-03-22 22:08:41, INFO: [91mTest set: Accuracy(FPR95): 0.00990000
+[0m
+20-03-22 22:09:15, INFO: [91mTest set: Accuracy(FPR95): 0.03542000
+[0m
+20-03-22 22:09:16, INFO: Generating 5000000 triplets
+20-03-22 23:22:09, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_3.pth
+20-03-22 23:22:43, INFO: [91mTest set: Accuracy(FPR95): 0.00842000
+[0m
+20-03-22 23:23:16, INFO: [91mTest set: Accuracy(FPR95): 0.02588000
+[0m
+20-03-22 23:23:17, INFO: Generating 5000000 triplets
+20-03-23 00:36:10, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_4.pth
+20-03-23 00:36:44, INFO: [91mTest set: Accuracy(FPR95): 0.00948000
+[0m
+20-03-23 00:37:17, INFO: [91mTest set: Accuracy(FPR95): 0.02714000
+[0m
+20-03-23 00:37:18, INFO: Generating 5000000 triplets
+20-03-23 01:50:14, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_5.pth
+20-03-23 01:50:48, INFO: [91mTest set: Accuracy(FPR95): 0.00736000
+[0m
+20-03-23 01:51:22, INFO: [91mTest set: Accuracy(FPR95): 0.03132000
+[0m
+20-03-23 01:51:23, INFO: Generating 5000000 triplets
+20-03-23 03:04:19, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_6.pth
+20-03-23 03:04:53, INFO: [91mTest set: Accuracy(FPR95): 0.00664000
+[0m
+20-03-23 03:05:27, INFO: [91mTest set: Accuracy(FPR95): 0.02516000
+[0m
+20-03-23 03:05:27, INFO: Generating 5000000 triplets
+20-03-23 03:38:02, INFO: Using cuda
+20-03-23 03:38:26, INFO: Generating 5000000 triplets
+20-03-23 04:18:42, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_7.pth
+20-03-23 04:19:16, INFO: [91mTest set: Accuracy(FPR95): 0.00752000
+[0m
+20-03-23 04:19:50, INFO: [91mTest set: Accuracy(FPR95): 0.02384000
+[0m
+20-03-23 04:19:51, INFO: Generating 5000000 triplets
+20-03-23 05:34:56, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_8.pth
+20-03-23 05:35:51, INFO: [91mTest set: Accuracy(FPR95): 0.00620000
+[0m
+20-03-23 05:36:52, INFO: [91mTest set: Accuracy(FPR95): 0.02686000
+[0m
+20-03-23 05:36:53, INFO: Generating 5000000 triplets
+20-03-23 06:57:54, INFO: data/models/liberty_train/_liberty_min_as/checkpoint_9.pth
+20-03-23 06:58:27, INFO: [91mTest set: Accuracy(FPR95): 0.00578000
+[0m
+20-03-23 06:59:01, INFO: [91mTest set: Accuracy(FPR95): 0.02200000
+[0m
+20-03-23 06:59:11, INFO: Generating 5000000 triplets
+20-03-25 17:48:13, DEBUG: $HOME=/home/namvh
+20-03-25 17:48:13, DEBUG: CONFIGDIR=/home/namvh/.config/matplotlib
+20-03-25 17:48:13, DEBUG: matplotlib data path: /home/namvh/.local/lib/python3.6/site-packages/matplotlib/mpl-data
+20-03-25 17:48:13, DEBUG: loaded rc file /home/namvh/.local/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
+20-03-25 17:48:13, DEBUG: matplotlib version 3.1.1
+20-03-25 17:48:13, DEBUG: interactive is False
+20-03-25 17:48:13, DEBUG: platform is linux
+20-03-25 17:48:13, DEBUG: loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', '_bootlocale', '_locale', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_sysconfigdata_m_linux_x86_64-linux-gnu', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'google', 'runpy', 'pkgutil', 'ipykernel', 'ipykernel._version', 'ipykernel.connect', '__future__', 'json', 'json.decoder', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'json.scanner', '_json', 'json.encoder', 'subprocess', 'time', 'signal', '_posixsubprocess', 'select', 'selectors', 'math', 'threading', 'traceback', 'linecache', 'tokenize', 'token', 'IPython', 'IPython.core', 'IPython.core.getipython', 'IPython.core.release', 'IPython.core.application', 'atexit', 'copy', 'glob', 'fnmatch', 'logging', 'string', '_string', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'traitlets', 'traitlets.traitlets', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'six', 'struct', '_struct', 'traitlets.utils', 'traitlets.utils.getargspec', 'traitlets.utils.importstring', 'ipython_genutils', 'ipython_genutils._version', 'ipython_genutils.py3compat', 'ipython_genutils.encoding', 'locale', 'platform', 'traitlets.utils.sentinel', 'traitlets.utils.bunch', 'traitlets._version', 'traitlets.config', 'traitlets.config.application', 'decorator', 'traitlets.config.configurable', 'traitlets.config.loader', 'argparse', 'textwrap', 'gettext', 'ipython_genutils.path', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'ipython_genutils.text', 'ipython_genutils.importstring', 'IPython.core.crashhandler', 'pprint', 'IPython.core.ultratb', 'pydoc', 'urllib', 'urllib.parse', 'IPython.core.debugger', 'bdb', 'IPython.utils', 'IPython.utils.PyColorize', 'IPython.utils.coloransi', 'IPython.utils.ipstruct', 'IPython.utils.colorable', 'pygments', 'IPython.utils.py3compat', 'IPython.utils.encoding', 'IPython.core.excolors', 'IPython.testing', 'IPython.testing.skipdoctest', 'pdb', 'cmd', 'code', 'codeop', 'IPython.core.display_trap', 'IPython.utils.path', 'IPython.utils.process', 'IPython.utils._process_posix', 'pexpect', 'pexpect.exceptions', 'pexpect.utils', 'pexpect.expect', 'pexpect.pty_spawn', 'pty', 'tty', 'termios', 'ptyprocess', 'ptyprocess.ptyprocess', 'fcntl', 'resource', 'ptyprocess.util', 'pexpect.spawnbase', 'pexpect.run', 'IPython.utils._process_common', 'shlex', 'IPython.utils.decorators', 'IPython.utils.data', 'IPython.utils.terminal', 'IPython.utils.sysinfo', 'IPython.utils._sysinfo', 'IPython.core.profiledir', 'IPython.paths', 'tempfile', 'IPython.utils.importstring', 'IPython.terminal', 'IPython.terminal.embed', 'IPython.core.compilerop', 'IPython.core.magic_arguments', 'IPython.core.error', 'IPython.utils.text', 'pathlib', 'ntpath', 'IPython.core.magic', 'getopt', 'IPython.core.oinspect', 'typing', 'typing.io', 'typing.re', 'IPython.core.page', 'IPython.core.display', 'binascii', 'mimetypes', 'IPython.lib', 'IPython.lib.security', 'getpass', 'IPython.lib.pretty', 'datetime', '_datetime', 'IPython.utils.openpy', 'IPython.utils.dir2', 'IPython.utils.wildcard', 'pygments.lexers', 'pygments.lexers._mapping', 'pygments.modeline', 'pygments.plugin', 'pygments.util', 'pygments.lexers.python', 'pygments.lexer', 'pygments.filter', 'pygments.filters', 'pygments.token', 'pygments.regexopt', 'pygments.unistring', 'pygments.formatters', 'pygments.formatters._mapping', 'pygments.formatters.html', 'pygments.formatter', 'pygments.styles', 'IPython.core.inputtransformer2', 'IPython.core.interactiveshell', 'pickleshare', 'pickle', '_compat_pickle', '_pickle', 'IPython.core.prefilter', 'IPython.core.autocall', 'IPython.core.macro', 'IPython.core.splitinput', 'IPython.core.alias', 'IPython.core.builtin_trap', 'IPython.core.events', 'backcall', 'backcall.backcall', 'IPython.core.displayhook', 'IPython.core.displaypub', 'IPython.core.extensions', 'IPython.core.formatters', 'IPython.utils.sentinel', 'IPython.core.history', 'sqlite3', 'sqlite3.dbapi2', '_sqlite3', 'IPython.core.logger', 'IPython.core.payload', 'IPython.core.usage', 'IPython.display', 'IPython.lib.display', 'html', 'html.entities', 'IPython.utils.io', 'IPython.utils.capture', 'IPython.utils.strdispatch', 'IPython.core.hooks', 'IPython.utils.syspathcontext', 'IPython.utils.tempdir', 'IPython.utils.contexts', 'IPython.core.async_helpers', 'IPython.terminal.interactiveshell', 'asyncio', 'asyncio.base_events', 'concurrent', 'concurrent.futures', 'concurrent.futures._base', 'concurrent.futures.process', 'queue', 'multiprocessing', 'multiprocessing.context', 'multiprocessing.process', 'multiprocessing.reduction', 'socket', '_socket', 'array', '__mp_main__', 'multiprocessing.connection', '_multiprocessing', 'multiprocessing.util', 'concurrent.futures.thread', 'asyncio.compat', 'asyncio.coroutines', 'asyncio.constants', 'asyncio.events', 'asyncio.base_futures', 'asyncio.log', 'asyncio.futures', 'asyncio.base_tasks', '_asyncio', 'asyncio.tasks', 'asyncio.locks', 'asyncio.protocols', 'asyncio.queues', 'asyncio.streams', 'asyncio.subprocess', 'asyncio.transports', 'asyncio.unix_events', 'asyncio.base_subprocess', 'asyncio.selector_events', 'ssl', 'ipaddress', '_ssl', 'base64', 'asyncio.sslproto', 'prompt_toolkit', 'prompt_toolkit.application', 'prompt_toolkit.application.application', 'prompt_toolkit.buffer', 'prompt_toolkit.application.current', 'prompt_toolkit.eventloop', 'prompt_toolkit.eventloop.async_generator', 'prompt_toolkit.eventloop.utils', 'prompt_toolkit.eventloop.dummy_contextvars', 'prompt_toolkit.eventloop.inputhook', 'prompt_toolkit.utils', 'wcwidth', 'wcwidth.wcwidth', 'wcwidth.table_wide', 'wcwidth.table_zero', 'prompt_toolkit.application.run_in_terminal', 'prompt_toolkit.eventloop.async_context_manager', 'prompt_toolkit.auto_suggest', 'prompt_toolkit.document', 'prompt_toolkit.clipboard', 'prompt_toolkit.clipboard.base', 'prompt_toolkit.selection', 'prompt_toolkit.clipboard.in_memory', 'prompt_toolkit.filters', 'prompt_toolkit.filters.app', 'prompt_toolkit.cache', 'prompt_toolkit.enums', 'prompt_toolkit.filters.base', 'prompt_toolkit.filters.cli', 'prompt_toolkit.filters.utils', 'prompt_toolkit.completion', 'prompt_toolkit.completion.base', 'prompt_toolkit.formatted_text', 'prompt_toolkit.formatted_text.ansi', 'prompt_toolkit.output', 'prompt_toolkit.output.base', 'prompt_toolkit.data_structures', 'prompt_toolkit.styles', 'prompt_toolkit.styles.base', 'prompt_toolkit.styles.defaults', 'prompt_toolkit.styles.named_colors', 'prompt_toolkit.styles.style', 'prompt_toolkit.styles.pygments', 'prompt_toolkit.styles.style_transformation', 'colorsys', 'prompt_toolkit.output.color_depth', 'prompt_toolkit.output.defaults', 'prompt_toolkit.patch_stdout', 'prompt_toolkit.output.vt100', 'prompt_toolkit.formatted_text.base', 'prompt_toolkit.mouse_events', 'prompt_toolkit.formatted_text.html', 'xml', 'xml.dom', 'xml.dom.domreg', 'xml.dom.minidom', 'xml.dom.minicompat', 'xml.dom.xmlbuilder', 'xml.dom.NodeFilter', 'prompt_toolkit.formatted_text.pygments', 'prompt_toolkit.formatted_text.utils', 'prompt_toolkit.completion.filesystem', 'prompt_toolkit.completion.fuzzy_completer', 'prompt_toolkit.completion.word_completer', 'prompt_toolkit.completion.nested', 'prompt_toolkit.history', 'prompt_toolkit.search', 'prompt_toolkit.key_binding', 'prompt_toolkit.key_binding.key_bindings', 'prompt_toolkit.keys', 'prompt_toolkit.key_binding.key_processor', 'prompt_toolkit.key_binding.vi_state', 'prompt_toolkit.validation', 'prompt_toolkit.input', 'prompt_toolkit.input.base', 'prompt_toolkit.input.defaults', 'prompt_toolkit.input.typeahead', 'prompt_toolkit.key_binding.bindings', 'prompt_toolkit.key_binding.bindings.page_navigation', 'prompt_toolkit.key_binding.bindings.scroll', 'prompt_toolkit.key_binding.defaults', 'prompt_toolkit.key_binding.bindings.basic', 'prompt_toolkit.key_binding.bindings.named_commands', 'prompt_toolkit.layout', 'prompt_toolkit.layout.containers', 'prompt_toolkit.layout.controls', 'prompt_toolkit.lexers', 'prompt_toolkit.lexers.base', 'prompt_toolkit.lexers.pygments', 'prompt_toolkit.layout.processors', 'prompt_toolkit.layout.utils', 'prompt_toolkit.layout.dimension', 'prompt_toolkit.layout.margins', 'prompt_toolkit.layout.mouse_handlers', 'prompt_toolkit.layout.screen', 'prompt_toolkit.layout.layout', 'prompt_toolkit.layout.menus', 'prompt_toolkit.key_binding.bindings.completion', 'prompt_toolkit.key_binding.bindings.cpr', 'prompt_toolkit.key_binding.bindings.emacs', 'prompt_toolkit.key_binding.bindings.mouse', 'prompt_toolkit.key_binding.bindings.vi', 'prompt_toolkit.input.vt100_parser', 'prompt_toolkit.input.ansi_escape_sequences', 'prompt_toolkit.key_binding.digraphs', 'prompt_toolkit.key_binding.emacs_state', 'prompt_toolkit.layout.dummy', 'prompt_toolkit.renderer', 'prompt_toolkit.application.dummy', 'prompt_toolkit.shortcuts', 'prompt_toolkit.shortcuts.dialogs', 'prompt_toolkit.key_binding.bindings.focus', 'prompt_toolkit.widgets', 'prompt_toolkit.widgets.base', 'prompt_toolkit.widgets.toolbars', 'prompt_toolkit.widgets.dialogs', 'prompt_toolkit.widgets.menus', 'prompt_toolkit.shortcuts.progress_bar', 'prompt_toolkit.shortcuts.progress_bar.base', 'prompt_toolkit.shortcuts.progress_bar.formatters', 'prompt_toolkit.shortcuts.prompt', 'prompt_toolkit.key_binding.bindings.auto_suggest', 'prompt_toolkit.key_binding.bindings.open_in_editor', 'prompt_toolkit.shortcuts.utils', 'pygments.style', 'IPython.terminal.debugger', 'IPython.core.completer', 'unicodedata', 'IPython.core.latex_symbols', 'IPython.utils.generics', 'jedi', 'jedi.api', 'parso', 'parso.parser', 'parso.tree', 'parso._compatibility', 'parso.utils', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.tokenize', 'parso.python.token', 'parso.grammar', 'parso.python.diff', 'difflib', 'parso.python.parser', 'parso.python.tree', 'parso.python.prefix', 'parso.cache', 'gc', 'parso.python.errors', 'parso.normalizer', 'parso.python.pep8', 'parso.file_io', 'jedi._compatibility', 'jedi.file_io', 'jedi.parser_utils', 'jedi.debug', 'jedi.settings', 'jedi.cache', 'jedi.api.classes', 'jedi.inference', 'jedi.inference.imports', 'jedi.inference.sys_path', 'jedi.inference.cache', 'jedi.inference.base_value', 'jedi.common', 'jedi.common.value', 'jedi.inference.helpers', 'jedi.inference.utils', 'jedi.common.utils', 'jedi.inference.compiled', 'jedi.inference.compiled.value', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.recursion', 'jedi.inference.names', 'jedi.inference.docstrings', 'jedi.inference.lazy_value', 'jedi.plugins', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.signature', 'jedi.inference.context', 'jedi.inference.analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.stub_value', 'jedi.inference.value', 'jedi.inference.value.module', 'jedi.inference.value.klass', 'jedi.inference.arguments', 'jedi.inference.value.iterable', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.parser_cache', 'jedi.inference.gradual.generics', 'jedi.inference.value.instance', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.base', 'jedi.inference.gradual.type_var', 'jedi.inference.syntax_tree', 'jedi.inference.gradual.annotation', 'jedi.inference.param', 'jedi.inference.value.decorator', 'jedi.inference.gradual.conversion', 'jedi.api.keywords', 'pydoc_data', 'pydoc_data.topics', 'jedi.api.completion_cache', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.inference.compiled.mixed', 'jedi.api.completion', 'jedi.api.strings', 'jedi.api.file_name', 'jedi.api.environment', 'filecmp', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.api.exceptions', 'jedi.api.project', 'jedi.inference.references', 'jedi.inference.gradual.utils', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'IPython.terminal.ptutils', 'IPython.terminal.shortcuts', 'IPython.terminal.magics', 'IPython.lib.clipboard', 'IPython.terminal.pt_inputhooks', 'IPython.terminal.prompts', 'IPython.terminal.ipapp', 'IPython.core.magics', 'IPython.core.magics.auto', 'IPython.core.magics.basic', 'IPython.core.magics.code', 'urllib.request', 'email', 'http', 'http.client', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'email._parseaddr', 'calendar', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'urllib.error', 'urllib.response', 'IPython.core.magics.config', 'IPython.core.magics.display', 'IPython.core.magics.execution', 'timeit', 'cProfile', '_lsprof', 'profile', 'optparse', 'pstats', 'IPython.utils.module_paths', 'IPython.utils.timing', 'IPython.core.magics.extension', 'IPython.core.magics.history', 'IPython.core.magics.logging', 'IPython.core.magics.namespace', 'IPython.core.magics.osm', 'IPython.core.magics.packaging', 'IPython.core.magics.pylab', 'IPython.core.pylabtools', 'IPython.core.magics.script', 'IPython.lib.backgroundjobs', 'IPython.core.shellapp', 'IPython.extensions', 'IPython.extensions.storemagic', 'IPython.utils.frame', 'jupyter_client', 'jupyter_client._version', 'jupyter_client.connect', 'zmq', 'ctypes', '_ctypes', 'ctypes._endian', 'zmq.backend', 'zmq.backend.select', 'zmq.backend.cython', 'zmq.backend.cython.constants', 'cython_runtime', 'zmq.backend.cython.error', '_cython_0_29_14', 'zmq.backend.cython.message', 'zmq.error', 'zmq.backend.cython.context', 'zmq.backend.cython.socket', 'zmq.backend.cython.utils', 'zmq.backend.cython._poll', 'zmq.backend.cython._version', 'zmq.backend.cython._device', 'zmq.backend.cython._proxy_steerable', 'zmq.sugar', 'zmq.sugar.constants', 'zmq.utils', 'zmq.utils.constant_names', 'zmq.sugar.context', 'zmq.sugar.attrsettr', 'zmq.sugar.socket', 'zmq.sugar.poll', 'zmq.utils.jsonapi', 'zmq.utils.strtypes', 'zmq.sugar.frame', 'zmq.sugar.tracker', 'zmq.sugar.version', 'zmq.sugar.stopwatch', 'jupyter_client.localinterfaces', 'jupyter_core', 'jupyter_core.version', 'jupyter_core.paths', 'jupyter_client.launcher', 'traitlets.log', 'jupyter_client.client', 'jupyter_client.channels', 'jupyter_client.channelsabc', 'jupyter_client.clientabc', 'jupyter_client.manager', 'jupyter_client.kernelspec', 'jupyter_client.managerabc', 'jupyter_client.blocking', 'jupyter_client.blocking.client', 'jupyter_client.blocking.channels', 'jupyter_client.asynchronous', 'jupyter_client.asynchronous.client', 'zmq.asyncio', 'zmq._future', 'jupyter_client.asynchronous.channels', 'jupyter_client.multikernelmanager', 'uuid', 'ctypes.util', 'ipykernel.kernelapp', 'tornado', 'tornado.ioloop', 'numbers', 'tornado.concurrent', 'tornado.log', 'logging.handlers', 'tornado.escape', 'tornado.util', 'tornado.speedups', 'curses', '_curses', 'zmq.eventloop', 'zmq.eventloop.ioloop', 'tornado.platform', 'tornado.platform.asyncio', 'tornado.gen', 'zmq.eventloop.zmqstream', 'ipykernel.iostream', 'imp', 'jupyter_client.session', 'hmac', 'jupyter_client.jsonutil', 'dateutil', 'dateutil._version', 'dateutil.parser', 'dateutil.parser._parser', 'decimal', '_decimal', 'dateutil.relativedelta', 'dateutil._common', 'dateutil.tz', 'dateutil.tz.tz', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'dateutil.parser.isoparser', '_strptime', 'jupyter_client.adapter', 'ipykernel.heartbeat', 'ipykernel.ipkernel', 'IPython.utils.tokenutil', 'ipykernel.comm', 'ipykernel.comm.manager', 'ipykernel.comm.comm', 'ipykernel.kernelbase', 'tornado.queues', 'tornado.locks', 'ipykernel.jsonutil', 'ipykernel.zmqshell', 'IPython.core.payloadpage', 'ipykernel.displayhook', 'ipykernel.eventloops', 'distutils', 'distutils.version', 'ipykernel.parentpoller', 'faulthandler', 'ipykernel.datapub', 'ipykernel.serialize', 'ipykernel.pickleutil', 'ipykernel.codeutil', 'IPython.core.completerlib', 'storemagic', 'PIL', 'PIL._version', 'tqdm', 'tqdm.std', 'tqdm.utils', 'tqdm._monitor', 'tqdm.gui', 'tqdm._tqdm_pandas', 'tqdm.cli', 'tqdm._version', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.info', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core._exceptions', 'numpy.core._asarray', 'numpy.core._ufunc_config', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'numpy.random.common', 'numpy.random.bounded_integers', 'numpy.random.mt19937', 'numpy.random.bit_generator', '_cython_0_29_13', 'secrets', 'numpy.random.philox', 'numpy.random.pcg64', 'numpy.random.sfc64', 'numpy.random.generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'cv2', 'cv2.Error', 'cv2.aruco', 'cv2.bgsegm', 'cv2.bioinspired', 'cv2.cuda', 'cv2.datasets', 'cv2.detail', 'cv2.dnn', 'cv2.face', 'cv2.fisheye', 'cv2.flann', 'cv2.freetype', 'cv2.ft', 'cv2.hdf', 'cv2.hfs', 'cv2.img_hash', 'cv2.instr', 'cv2.ipp', 'cv2.line_descriptor', 'cv2.linemod', 'cv2.ml', 'cv2.motempl', 'cv2.multicalib', 'cv2.ocl', 'cv2.ogl', 'cv2.omnidir', 'cv2.optflow', 'cv2.plot', 'cv2.ppf_match_3d', 'cv2.reg', 'cv2.rgbd', 'cv2.saliency', 'cv2.structured_light', 'cv2.text', 'cv2.videostab', 'cv2.xfeatures2d', 'cv2.ximgproc', 'cv2.ximgproc.segmentation', 'cv2.xphoto', 'torch', 'torch._utils', 'torch._utils_internal', 'torch.version', 'torch._six', 'torch._C._onnx', 'torch._C._jit_tree_views', 'torch._C.cpp', 'torch._C.cpp.nn', 'torch._C', 'torch.random', 'torch.serialization', 'tarfile', 'torch._tensor_str', 'torch.tensor', 'torch._namedtensor_internals', 'torch.utils', 'torch.utils.throughput_benchmark', 'torch.utils.hooks', 'torch.storage', 'torch.cuda', 'torch.cuda._utils', 'torch.cuda.random', 'torch.cuda.sparse', 'torch.cuda.profiler', 'torch.cuda.nvtx', 'torch.cuda.streams', 'torch.sparse', 'torch.functional', 'torch.nn', 'torch.nn.modules', 'torch.nn.modules.module', 'torch.nn.parameter', 'torch.nn.modules.linear', 'torch.nn.functional', 'torch.nn._reduction', 'torch.nn.modules.utils', 'torch.nn.grad', 'torch.nn._VF', 'torch._jit_internal', 'torch.nn.init', 'torch.nn.modules.conv', 'torch.nn.modules.activation', 'torch.nn.modules.loss', 'torch.nn.modules.container', 'torch.nn.modules.pooling', 'torch.nn.modules.batchnorm', 'torch.nn.modules._functions', 'torch.autograd', 'torch.autograd.variable', 'torch.autograd.function', 'torch.autograd.gradcheck', 'torch.testing', 'torch.autograd.grad_mode', 'torch.autograd.anomaly_mode', 'torch.autograd.profiler', 'torch.nn.modules.instancenorm', 'torch.nn.modules.normalization', 'torch.nn.modules.dropout', 'torch.nn.modules.padding', 'torch.nn.modules.sparse', 'torch.nn.modules.rnn', 'torch.nn.utils', 'torch.nn.utils.rnn', 'torch.nn.utils.clip_grad', 'torch.nn.utils.weight_norm', 'torch.nn.utils.convert_parameters', 'torch.nn.utils.spectral_norm', 'torch.nn.utils.fusion', 'torch.nn.modules.pixelshuffle', 'torch.nn.modules.upsampling', 'torch.nn.modules.distance', 'torch.nn.modules.fold', 'torch.nn.modules.adaptive', 'torch.nn.modules.transformer', 'torch.nn.modules.flatten', 'torch.nn.parallel', 'torch.nn.parallel.parallel_apply', 'torch.nn.parallel.replicate', 'torch.cuda.comm', 'torch.cuda.nccl', 'torch.nn.parallel.data_parallel', 'torch.nn.parallel.scatter_gather', 'torch.nn.parallel._functions', 'torch.nn.parallel.distributed', 'torch.distributed', 'torch.distributed.autograd', 'torch.distributed.distributed_c10d', 'torch.distributed.rendezvous', 'torch.distributed.rpc', 'torch.distributed.internal_rpc_utils', 'torch.distributed.rpc_backend_registry', 'torch.nn.intrinsic', 'torch.nn.intrinsic.modules', 'torch.nn.intrinsic.modules.fused', 'torch.nn.quantized', 'torch.nn.quantized.modules', 'torch.nn.quantized.modules.activation', 'torch.nn.quantized.functional', 'torch.nn.quantized.modules.conv', 'torch.nn.intrinsic.qat', 'torch.nn.intrinsic.qat.modules', 'torch.nn.intrinsic.qat.modules.linear_relu', 'torch.nn.qat', 'torch.nn.qat.modules', 'torch.nn.qat.modules.linear', 'torch.nn.qat.modules.conv', 'torch.nn.intrinsic.qat.modules.conv_fused', 'torch._ops', 'torch.jit', 'torch.backends', 'torch.backends.cudnn', 'torch.jit.annotations', 'torch.jit._recursive', 'torch.jit.frontend', 'torch.nn.quantized.modules.utils', 'torch.nn.quantized.modules.linear', 'torch.nn.quantized.modules.functional_modules', 'torch.optim', 'torch.optim.adadelta', 'torch.optim.optimizer', 'torch.optim.adagrad', 'torch.optim.adam', 'torch.optim.adamw', 'torch.optim.sparse_adam', 'torch.optim.adamax', 'torch.optim.asgd', 'torch.optim.sgd', 'torch.optim.rprop', 'torch.optim.rmsprop', 'torch.optim.lbfgs', 'torch.optim.lr_scheduler', 'torch.multiprocessing', 'torch.multiprocessing.reductions', 'multiprocessing.resource_sharer', 'torch.multiprocessing.spawn', 'torch.utils.backcompat', 'torch.onnx', 'torch.hub', 'zipfile', 'torch.distributions', 'torch.distributions.bernoulli', 'torch.distributions.constraints', 'torch.distributions.exp_family', 'torch.distributions.distribution', 'torch.distributions.utils', 'torch.distributions.beta', 'torch.distributions.dirichlet', 'torch.distributions.binomial', 'torch.distributions.categorical', 'torch.distributions.cauchy', 'torch.distributions.chi2', 'torch.distributions.gamma', 'torch.distributions.constraint_registry', 'torch.distributions.transforms', 'torch.distributions.exponential', 'torch.distributions.fishersnedecor', 'torch.distributions.geometric', 'torch.distributions.gumbel', 'torch.distributions.uniform', 'torch.distributions.transformed_distribution', 'torch.distributions.half_cauchy', 'torch.distributions.half_normal', 'torch.distributions.normal', 'torch.distributions.independent', 'torch.distributions.kl', 'torch.distributions.laplace', 'torch.distributions.lowrank_multivariate_normal', 'torch.distributions.multivariate_normal', 'torch.distributions.one_hot_categorical', 'torch.distributions.pareto', 'torch.distributions.poisson', 'torch.distributions.log_normal', 'torch.distributions.logistic_normal', 'torch.distributions.multinomial', 'torch.distributions.negative_binomial', 'torch.distributions.relaxed_bernoulli', 'torch.distributions.relaxed_categorical', 'torch.distributions.studentT', 'torch.distributions.weibull', 'torch.backends.cuda', 'torch.backends.mkl', 'torch.backends.openmp', 'torch.backends.quantized', 'torch.quantization', 'torch.quantization.quantize', 'torch.quantization.default_mappings', 'torch.nn.intrinsic.quantized', 'torch.nn.intrinsic.quantized.modules', 'torch.nn.intrinsic.quantized.modules.linear_relu', 'torch.nn.intrinsic.quantized.modules.conv_relu', 'torch.nn.quantized.dynamic', 'torch.nn.quantized.dynamic.modules', 'torch.nn.quantized.dynamic.modules.linear', 'torch.nn.quantized.dynamic.modules.rnn', 'torch.quantization.stubs', 'torch.quantization.QConfig', 'torch.quantization.observer', 'torch.quantization.fake_quantize', 'torch.quantization.fuse_modules', 'torch.utils.data', 'torch.utils.data.sampler', 'torch.utils.data.distributed', 'torch.utils.data.dataset', 'torch.utils.data.dataloader', 'torch.utils.data._utils', 'torch.utils.data._utils.worker', 'torch.utils.data._utils.signal_handling', 'torch.utils.data._utils.pin_memory', 'torch.utils.data._utils.collate', 'torch.utils.data._utils.fetch', 'torch.__config__', 'torch.__future__', 'torch._torch_docs', 'torch._tensor_docs', 'torch._storage_docs', 'torch._classes', 'torch.quasirandom', 'torchvision', 'torchvision.models', 'torchvision.models.alexnet', 'torchvision.models.utils', 'torchvision.models.resnet', 'torchvision.models.vgg', 'torchvision.models.squeezenet', 'torchvision.models.inception', 'torchvision.models.densenet', 'torch.utils.checkpoint', 'torchvision.models.googlenet', 'torchvision.models.mobilenet', 'torchvision.models.mnasnet', 'torchvision.models.shufflenetv2', 'torchvision.models.segmentation', 'torchvision.models.segmentation.segmentation', 'torchvision.models._utils', 'torchvision.models.segmentation.deeplabv3', 'torchvision.models.segmentation._utils', 'torchvision.models.segmentation.fcn', 'torchvision.models.detection', 'torchvision.models.detection.faster_rcnn', 'torchvision.ops', 'torchvision.ops.boxes', 'torchvision.extension', 'torchvision.ops.roi_align', 'torchvision.ops._utils', 'torchvision.ops.roi_pool', 'torchvision.ops.poolers', 'torchvision.ops.feature_pyramid_network', 'torchvision.ops.misc', 'torchvision.models.detection.generalized_rcnn', 'torchvision.models.detection.rpn', 'torchvision.models.detection._utils', 'torchvision.models.detection.roi_heads', 'torchvision.models.detection.transform', 'torchvision.models.detection.image_list', 'torchvision.models.detection.backbone_utils', 'torchvision.models.detection.mask_rcnn', 'torchvision.models.detection.keypoint_rcnn', 'torchvision.models.video', 'torchvision.models.video.resnet', 'torchvision.datasets', 'torchvision.datasets.lsun', 'torchvision.datasets.vision', 'PIL.Image', 'PIL.ImageMode', 'PIL.TiffTags', 'PIL._binary', 'PIL._util', 'PIL._imaging', 'cffi', 'cffi.api', 'cffi.lock', 'cffi.error', 'cffi.model', 'torchvision.datasets.utils', 'gzip', 'torch.utils.model_zoo', 'torchvision.datasets.folder', 'torchvision.datasets.coco', 'torchvision.datasets.cifar', 'torchvision.datasets.stl10', 'torchvision.datasets.mnist', 'torchvision.datasets.svhn', 'torchvision.datasets.phototour', 'torchvision.datasets.fakedata', 'torchvision.transforms', 'torchvision.transforms.transforms', 'torchvision.transforms.functional', 'PIL.ImageOps', 'PIL.ImageEnhance', 'PIL.ImageFilter', 'PIL.ImageStat', 'torchvision.datasets.semeion', 'torchvision.datasets.omniglot', 'torchvision.datasets.sbu', 'torchvision.datasets.flickr', 'html.parser', '_markupbase', 'torchvision.datasets.voc', 'xml.etree', 'xml.etree.ElementTree', 'xml.etree.ElementPath', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', '_elementtree', 'torchvision.datasets.cityscapes', 'torchvision.datasets.imagenet', 'torchvision.datasets.caltech', 'torchvision.datasets.celeba', 'torchvision.datasets.sbd', 'torchvision.datasets.usps', 'torchvision.datasets.kinetics', 'torchvision.datasets.video_utils', 'fractions', 'torchvision.io', 'torchvision.io.video', 'torchvision.io._video_opt', 'torchvision.datasets.hmdb51', 'torchvision.datasets.ucf101', 'torchvision.utils', 'torchvision.version', 'torchvision._C', 'eval_metrics', 'models', 'utils', 'yaml', 'yaml.error', 'yaml.tokens', 'yaml.events', 'yaml.nodes', 'yaml.loader', 'yaml.reader', 'yaml.scanner', 'yaml.parser', 'yaml.composer', 'yaml.constructor', 'yaml.resolver', 'yaml.dumper', 'yaml.emitter', 'yaml.serializer', 'yaml.representer', 'dataset', 'losses', 'constants', 'multiprocessing.synchronize', 'PIL.BmpImagePlugin', 'PIL.ImageFile', 'PIL.ImagePalette', 'PIL.GimpGradientFile', 'PIL.GimpPaletteFile', 'PIL.ImageColor', 'PIL.PaletteFile', 'PIL.GifImagePlugin', 'PIL.ImageChops', 'PIL.ImageSequence', 'PIL.JpegImagePlugin', 'PIL.TiffImagePlugin', 'PIL.JpegPresets', 'PIL.PpmImagePlugin', 'PIL.PngImagePlugin', 'matplotlib', 'matplotlib.cbook', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'matplotlib._version', 'matplotlib.ft2font', 'kiwisolver']
+20-03-25 17:48:13, DEBUG: CACHEDIR=/home/namvh/.cache/matplotlib
+20-03-25 17:48:13, DEBUG: Using fontManager instance from /home/namvh/.cache/matplotlib/fontlist-v310.json
+20-03-25 17:48:14, DEBUG: Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+20-03-25 17:48:14, DEBUG: Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+20-03-25 17:48:14, DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Bold.ttf) normal normal bold condensed>) = 0.5349999999999999
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Math TeX Gyre' (DejaVuMathTeXGyre.ttf) normal normal regular normal>) = 10.05
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed.ttf) normal normal 400 condensed>) = 0.25
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed.ttf) normal normal 400 condensed>) = 10.25
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-BoldItalic.ttf) italic normal bold condensed>) = 11.535
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSans-ExtraLight.ttf) normal normal light normal>) = 0.24
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Bold.ttf) normal normal bold condensed>) = 10.535
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Serif' (DejaVuSerifCondensed-Italic.ttf) italic normal 400 condensed>) = 11.25
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-BoldOblique.ttf) oblique normal bold condensed>) = 1.535
+20-03-25 17:48:14, DEBUG: findfont: score(<Font 'DejaVu Sans' (DejaVuSansCondensed-Oblique.ttf) oblique normal 400 condensed>) = 1.25
+20-03-25 17:48:14, DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/namvh/.local/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+20-03-25 17:50:03, INFO: {'dataset': {'dataroot': 'data/', 'model_dir': 'models/', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'liberty', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'liberty_train/', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 100000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0, 'log_interval': 10}}
+20-03-25 17:53:44, INFO: models/liberty_train//checkpoint_0_20-03-25_17:53:43.pth
+20-03-25 17:55:39, INFO: [91mTest set: Accuracy(FPR95): 0.06136000
+[0m
+20-03-25 17:58:59, INFO: models/liberty_train//checkpoint_1_20-03-25_17:58:59.pth
+20-03-25 18:00:49, INFO: [91mTest set: Accuracy(FPR95): 0.02700000
+[0m
+20-03-25 18:04:03, INFO: models/liberty_train//checkpoint_2_20-03-25_18:04:02.pth
+20-03-25 18:06:04, INFO: [91mTest set: Accuracy(FPR95): 0.01776000
+[0m
+20-03-25 18:32:27, INFO: {'dataset': {'dataroot': 'data/', 'model_dir': 'models/', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag/', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 1, 'seed': 0, 'log_interval': 10}}
+20-03-25 20:55:47, INFO: models/reichstag//checkpoint_20-03-25_20:55:46_0.pth
+20-03-25 20:55:47, INFO: Test on notredame dataset
+20-03-25 20:58:13, INFO: [91mTest set: Accuracy(FPR95): 0.28892000
+[0m
+20-03-25 20:58:13, INFO: Test on yosemite dataset
+20-03-25 21:00:53, INFO: [91mTest set: Accuracy(FPR95): 0.38530000
+[0m
+20-03-26 00:02:28, INFO: models/reichstag//checkpoint_20-03-26_00:02:28_1.pth
+20-03-26 00:02:28, INFO: Test on notredame dataset
+20-03-26 00:04:57, INFO: [91mTest set: Accuracy(FPR95): 0.28136000
+[0m
+20-03-26 00:04:57, INFO: Test on yosemite dataset
+20-03-26 00:07:25, INFO: [91mTest set: Accuracy(FPR95): 0.36100000
+[0m
+20-03-26 03:08:34, INFO: models/reichstag//checkpoint_20-03-26_03:08:33_2.pth
+20-03-26 03:08:34, INFO: Test on notredame dataset
+20-03-26 03:11:13, INFO: [91mTest set: Accuracy(FPR95): 0.30840000
+[0m
+20-03-26 03:11:13, INFO: Test on yosemite dataset
+20-03-26 03:13:36, INFO: [91mTest set: Accuracy(FPR95): 0.39148000
+[0m
+20-03-26 05:56:22, INFO: models/reichstag//checkpoint_20-03-26_05:56:21_3.pth
+20-03-26 05:56:22, INFO: Test on notredame dataset
+20-03-26 05:58:03, INFO: [91mTest set: Accuracy(FPR95): 0.31794000
+[0m
+20-03-26 05:58:03, INFO: Test on yosemite dataset
+20-03-26 05:59:45, INFO: [91mTest set: Accuracy(FPR95): 0.39316000
+[0m
+20-03-26 08:41:17, INFO: {'dataset': {'dataroot': 'data/', 'model_dir': 'models/', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag/', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0, 'log_interval': 10}}
+20-03-26 09:04:52, INFO: models/reichstag//checkpoint_20-03-26_09:04:51_0.pth
+20-03-26 09:04:52, INFO: Test on notredame dataset
+20-03-26 09:05:29, INFO: [91mTest set: Accuracy(FPR95): 0.02314000
+[0m
+20-03-26 09:05:29, INFO: Test on yosemite dataset
+20-03-26 09:06:07, INFO: [91mTest set: Accuracy(FPR95): 0.05108000
+[0m
+20-03-26 09:06:07, INFO: Test on reichstag dataset
+20-03-26 09:06:44, INFO: [91mTest set: Accuracy(FPR95): 0.06312000
+[0m
+20-03-26 09:30:49, INFO: models/reichstag//checkpoint_20-03-26_09:30:49_1.pth
+20-03-26 09:30:49, INFO: Test on notredame dataset
+20-03-26 09:31:28, INFO: [91mTest set: Accuracy(FPR95): 0.01436000
+[0m
+20-03-26 09:31:28, INFO: Test on yosemite dataset
+20-03-26 09:32:08, INFO: [91mTest set: Accuracy(FPR95): 0.03996000
+[0m
+20-03-26 09:32:08, INFO: Test on reichstag dataset
+20-03-26 09:32:46, INFO: [91mTest set: Accuracy(FPR95): 0.04498000
+[0m
+20-03-26 09:56:54, INFO: models/reichstag//checkpoint_20-03-26_09:56:53_2.pth
+20-03-26 09:56:54, INFO: Test on notredame dataset
+20-03-26 09:57:33, INFO: [91mTest set: Accuracy(FPR95): 0.01324000
+[0m
+20-03-26 09:57:33, INFO: Test on yosemite dataset
+20-03-26 09:58:11, INFO: [91mTest set: Accuracy(FPR95): 0.03610000
+[0m
+20-03-26 09:58:11, INFO: Test on reichstag dataset
+20-03-26 09:58:51, INFO: [91mTest set: Accuracy(FPR95): 0.04708000
+[0m
+20-03-26 10:22:59, INFO: models/reichstag//checkpoint_20-03-26_10:22:58_3.pth
+20-03-26 10:22:59, INFO: Test on notredame dataset
+20-03-26 10:23:38, INFO: [91mTest set: Accuracy(FPR95): 0.01040000
+[0m
+20-03-26 10:23:38, INFO: Test on yosemite dataset
+20-03-26 10:24:16, INFO: [91mTest set: Accuracy(FPR95): 0.03426000
+[0m
+20-03-26 10:24:16, INFO: Test on reichstag dataset
+20-03-26 10:24:55, INFO: [91mTest set: Accuracy(FPR95): 0.04550000
+[0m
+20-03-26 10:49:00, INFO: models/reichstag//checkpoint_20-03-26_10:49:00_4.pth
+20-03-26 10:49:00, INFO: Test on notredame dataset
+20-03-26 10:49:40, INFO: [91mTest set: Accuracy(FPR95): 0.00894000
+[0m
+20-03-26 10:49:40, INFO: Test on yosemite dataset
+20-03-26 10:50:19, INFO: [91mTest set: Accuracy(FPR95): 0.03426000
+[0m
+20-03-26 10:50:19, INFO: Test on reichstag dataset
+20-03-26 10:50:58, INFO: [91mTest set: Accuracy(FPR95): 0.04190000
+[0m
+20-03-26 11:15:05, INFO: models/reichstag//checkpoint_20-03-26_11:15:04_5.pth
+20-03-26 11:15:05, INFO: Test on notredame dataset
+20-03-26 11:15:44, INFO: [91mTest set: Accuracy(FPR95): 0.01016000
+[0m
+20-03-26 11:15:44, INFO: Test on yosemite dataset
+20-03-26 11:16:22, INFO: [91mTest set: Accuracy(FPR95): 0.03432000
+[0m
+20-03-26 11:16:22, INFO: Test on reichstag dataset
+20-03-26 11:17:01, INFO: [91mTest set: Accuracy(FPR95): 0.04176000
+[0m
+20-03-26 11:41:09, INFO: models/reichstag//checkpoint_20-03-26_11:41:08_6.pth
+20-03-26 11:41:09, INFO: Test on notredame dataset
+20-03-26 11:41:48, INFO: [91mTest set: Accuracy(FPR95): 0.00756000
+[0m
+20-03-26 11:41:48, INFO: Test on yosemite dataset
+20-03-26 11:42:26, INFO: [91mTest set: Accuracy(FPR95): 0.02648000
+[0m
+20-03-26 11:42:26, INFO: Test on reichstag dataset
+20-03-26 11:43:05, INFO: [91mTest set: Accuracy(FPR95): 0.03498000
+[0m
+20-03-26 12:07:13, INFO: models/reichstag//checkpoint_20-03-26_12:07:12_7.pth
+20-03-26 12:07:13, INFO: Test on notredame dataset
+20-03-26 12:07:52, INFO: [91mTest set: Accuracy(FPR95): 0.00756000
+[0m
+20-03-26 12:07:52, INFO: Test on yosemite dataset
+20-03-26 12:08:31, INFO: [91mTest set: Accuracy(FPR95): 0.02806000
+[0m
+20-03-26 12:08:31, INFO: Test on reichstag dataset
+20-03-26 12:09:10, INFO: [91mTest set: Accuracy(FPR95): 0.03838000
+[0m
+20-03-26 12:33:18, INFO: models/reichstag//checkpoint_20-03-26_12:33:18_8.pth
+20-03-26 12:33:18, INFO: Test on notredame dataset
+20-03-26 12:33:57, INFO: [91mTest set: Accuracy(FPR95): 0.00660000
+[0m
+20-03-26 12:33:57, INFO: Test on yosemite dataset
+20-03-26 12:34:37, INFO: [91mTest set: Accuracy(FPR95): 0.02642000
+[0m
+20-03-26 12:34:37, INFO: Test on reichstag dataset
+20-03-26 12:35:15, INFO: [91mTest set: Accuracy(FPR95): 0.03704000
+[0m
+20-03-26 12:59:23, INFO: models/reichstag//checkpoint_20-03-26_12:59:22_9.pth
+20-03-26 12:59:23, INFO: Test on notredame dataset
+20-03-26 13:00:02, INFO: [91mTest set: Accuracy(FPR95): 0.00646000
+[0m
+20-03-26 13:00:02, INFO: Test on yosemite dataset
+20-03-26 13:00:41, INFO: [91mTest set: Accuracy(FPR95): 0.02378000
+[0m
+20-03-26 13:00:41, INFO: Test on reichstag dataset
+20-03-26 13:01:20, INFO: [91mTest set: Accuracy(FPR95): 0.03580000
+[0m
+20-03-26 16:55:42, INFO: {'dataset': {'dataroot': 'data/', 'model_dir': 'models/', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag/', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0, 'log_interval': 10}}
+20-03-26 17:19:15, INFO: models/reichstag/checkpoint_20-03-26_17:19:14_0.pth
+20-03-26 17:19:15, INFO: Test on buckingham_palace dataset
+20-03-26 17:19:55, INFO: [91mTest set: Accuracy(FPR95): 0.03770000
+[0m
+20-03-26 17:43:43, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0, 'log_interval': 10}}
+20-03-26 18:07:15, INFO: models/reichstag/checkpoint_20-03-26_18:07:14_0.pth
+20-03-26 18:07:15, INFO: Test on notredame dataset
+20-03-26 18:07:55, INFO: [91mTest set: Accuracy(FPR95): 0.31380000
+[0m
+20-03-26 18:07:55, INFO: Test on yosemite dataset
+20-03-26 18:08:33, INFO: [91mTest set: Accuracy(FPR95): 0.39336000
+[0m
+20-03-26 18:08:33, INFO: Test on buckingham_palace dataset
+20-03-26 18:09:13, INFO: [91mTest set: Accuracy(FPR95): 0.03770000
+[0m
+20-03-26 18:33:25, INFO: models/reichstag/checkpoint_20-03-26_18:33:24_1.pth
+20-03-26 18:33:25, INFO: Test on notredame dataset
+20-03-26 18:34:04, INFO: [91mTest set: Accuracy(FPR95): 0.31918000
+[0m
+20-03-26 18:34:04, INFO: Test on yosemite dataset
+20-03-26 18:34:44, INFO: [91mTest set: Accuracy(FPR95): 0.41032000
+[0m
+20-03-26 18:34:44, INFO: Test on buckingham_palace dataset
+20-03-26 18:35:24, INFO: [91mTest set: Accuracy(FPR95): 0.02892000
+[0m
+20-03-26 18:59:35, INFO: models/reichstag/checkpoint_20-03-26_18:59:34_2.pth
+20-03-26 18:59:35, INFO: Test on notredame dataset
+20-03-26 19:00:15, INFO: [91mTest set: Accuracy(FPR95): 0.30990000
+[0m
+20-03-26 19:00:15, INFO: Test on yosemite dataset
+20-03-26 19:00:55, INFO: [91mTest set: Accuracy(FPR95): 0.38362000
+[0m
+20-03-26 19:00:55, INFO: Test on buckingham_palace dataset
+20-03-26 19:01:34, INFO: [91mTest set: Accuracy(FPR95): 0.03008000
+[0m
+20-03-26 19:25:46, INFO: models/reichstag/checkpoint_20-03-26_19:25:45_3.pth
+20-03-26 19:25:46, INFO: Test on notredame dataset
+20-03-26 19:26:25, INFO: [91mTest set: Accuracy(FPR95): 0.30032000
+[0m
+20-03-26 19:26:25, INFO: Test on yosemite dataset
+20-03-26 19:27:05, INFO: [91mTest set: Accuracy(FPR95): 0.38940000
+[0m
+20-03-26 19:27:05, INFO: Test on buckingham_palace dataset
+20-03-26 19:27:44, INFO: [91mTest set: Accuracy(FPR95): 0.02708000
+[0m
+20-03-26 19:51:53, INFO: models/reichstag/checkpoint_20-03-26_19:51:53_4.pth
+20-03-26 19:51:53, INFO: Test on notredame dataset
+20-03-26 19:52:33, INFO: [91mTest set: Accuracy(FPR95): 0.30908000
+[0m
+20-03-26 19:52:33, INFO: Test on yosemite dataset
+20-03-26 19:53:13, INFO: [91mTest set: Accuracy(FPR95): 0.39964000
+[0m
+20-03-26 19:53:13, INFO: Test on buckingham_palace dataset
+20-03-26 19:53:53, INFO: [91mTest set: Accuracy(FPR95): 0.02744000
+[0m
+20-03-26 20:18:05, INFO: models/reichstag/checkpoint_20-03-26_20:18:04_5.pth
+20-03-26 20:18:05, INFO: Test on notredame dataset
+20-03-26 20:18:44, INFO: [91mTest set: Accuracy(FPR95): 0.31514000
+[0m
+20-03-26 20:18:44, INFO: Test on yosemite dataset
+20-03-26 20:19:24, INFO: [91mTest set: Accuracy(FPR95): 0.40410000
+[0m
+20-03-26 20:19:24, INFO: Test on buckingham_palace dataset
+20-03-26 20:20:03, INFO: [91mTest set: Accuracy(FPR95): 0.03068000
+[0m
+20-03-26 20:44:16, INFO: models/reichstag/checkpoint_20-03-26_20:44:15_6.pth
+20-03-26 20:44:16, INFO: Test on notredame dataset
+20-03-26 20:44:55, INFO: [91mTest set: Accuracy(FPR95): 0.31046000
+[0m
+20-03-26 20:44:55, INFO: Test on yosemite dataset
+20-03-26 20:45:35, INFO: [91mTest set: Accuracy(FPR95): 0.40414000
+[0m
+20-03-26 20:45:35, INFO: Test on buckingham_palace dataset
+20-03-26 20:46:14, INFO: [91mTest set: Accuracy(FPR95): 0.02912000
+[0m
+20-03-26 21:10:25, INFO: models/reichstag/checkpoint_20-03-26_21:10:25_7.pth
+20-03-26 21:10:25, INFO: Test on notredame dataset
+20-03-26 21:11:05, INFO: [91mTest set: Accuracy(FPR95): 0.34024000
+[0m
+20-03-26 21:11:05, INFO: Test on yosemite dataset
+20-03-26 21:11:45, INFO: [91mTest set: Accuracy(FPR95): 0.41782000
+[0m
+20-03-26 21:11:45, INFO: Test on buckingham_palace dataset
+20-03-26 21:12:25, INFO: [91mTest set: Accuracy(FPR95): 0.03000000
+[0m
+20-03-26 21:36:36, INFO: models/reichstag/checkpoint_20-03-26_21:36:36_8.pth
+20-03-26 21:36:36, INFO: Test on notredame dataset
+20-03-26 21:37:16, INFO: [91mTest set: Accuracy(FPR95): 0.32648000
+[0m
+20-03-26 21:37:16, INFO: Test on yosemite dataset
+20-03-26 21:37:56, INFO: [91mTest set: Accuracy(FPR95): 0.40846000
+[0m
+20-03-26 21:37:56, INFO: Test on buckingham_palace dataset
+20-03-26 21:38:35, INFO: [91mTest set: Accuracy(FPR95): 0.03196000
+[0m
+20-03-26 22:02:46, INFO: models/reichstag/checkpoint_20-03-26_22:02:46_9.pth
+20-03-26 22:02:46, INFO: Test on notredame dataset
+20-03-26 22:03:26, INFO: [91mTest set: Accuracy(FPR95): 0.32306000
+[0m
+20-03-26 22:03:26, INFO: Test on yosemite dataset
+20-03-26 22:04:06, INFO: [91mTest set: Accuracy(FPR95): 0.40884000
+[0m
+20-03-26 22:04:06, INFO: Test on buckingham_palace dataset
+20-03-26 22:04:45, INFO: [91mTest set: Accuracy(FPR95): 0.03028000
+[0m
+20-03-27 10:28:01, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': 'checkpoint_9_20-03-26_12:59:22.pth', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0, 'log_interval': 10}}
+20-03-27 10:28:04, INFO: => no checkpoint found at checkpoint_9_20-03-26_12:59:22.pth
+20-03-27 10:29:07, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'training_set': 'reichstag', 'test_set': {'set_1': 'notredame', 'set_2': 'yosemite'}}, 'experiment_name': 'reichstag', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': 'models/reichstag/checkpoint_9_20-03-26_12:59:22.pth', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0, 'log_interval': 10}}
+20-03-27 10:29:08, INFO: => loading checkpoint models/reichstag/checkpoint_9_20-03-26_12:59:22.pth
+20-03-27 10:30:11, INFO: [91mTest set: Accuracy(FPR95): 0.00646000
+[0m
+20-03-27 15:50:34, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-27 15:56:57, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-27 16:04:18, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209}, 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0, 'log_interval': 10}}
+20-03-27 16:04:18, INFO: Train on buckingham_palace
+20-03-27 18:13:05, INFO: models/train_on_challenge_data/checkpoint_20-03-27_18:13:05_0.pth
+20-03-27 18:13:05, INFO: Train on colosseum_exterior
+20-03-27 18:15:15, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-27 18:17:25, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209}, 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 1000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0, 'log_interval': 10}}
+20-03-27 18:17:25, INFO: Train on buckingham_palace
+20-03-27 18:41:26, INFO: models/train_on_challenge_data/checkpoint_20-03-27_18:41:24_0.pth
+20-03-27 18:41:26, INFO: Train on colosseum_exterior
+20-03-27 19:05:18, INFO: models/train_on_challenge_data/checkpoint_20-03-27_19:05:18_0.pth
+20-03-27 19:05:18, INFO: Test on liberty dataset
+20-03-27 19:05:58, INFO: [91mTest set: Accuracy(FPR95): 0.16954000
+[0m
+20-03-27 19:05:58, INFO: Test on notredame dataset
+20-03-27 19:06:38, INFO: [91mTest set: Accuracy(FPR95): 0.12214000
+[0m
+20-03-27 19:06:38, INFO: Test on reichstag dataset
+20-03-27 19:07:18, INFO: [91mTest set: Accuracy(FPR95): 0.00600000
+[0m
+20-03-27 19:07:18, INFO: Test on brandenburg_gate dataset
+20-03-27 19:07:58, INFO: [91mTest set: Accuracy(FPR95): 0.01246000
+[0m
+20-03-27 19:09:20, INFO: Train on buckingham_palace
+20-03-27 19:33:12, INFO: models/train_on_challenge_data/checkpoint_20-03-27_19:33:12_1.pth
+20-03-27 19:33:14, INFO: Train on colosseum_exterior
+20-03-27 19:57:06, INFO: models/train_on_challenge_data/checkpoint_20-03-27_19:57:06_1.pth
+20-03-27 19:57:06, INFO: Test on liberty dataset
+20-03-27 19:57:47, INFO: [91mTest set: Accuracy(FPR95): 0.13740000
+[0m
+20-03-27 19:57:47, INFO: Test on notredame dataset
+20-03-27 19:58:27, INFO: [91mTest set: Accuracy(FPR95): 0.08654000
+[0m
+20-03-27 19:58:27, INFO: Test on reichstag dataset
+20-03-27 19:59:08, INFO: [91mTest set: Accuracy(FPR95): 0.00458000
+[0m
+20-03-27 19:59:08, INFO: Test on brandenburg_gate dataset
+20-03-27 19:59:48, INFO: [91mTest set: Accuracy(FPR95): 0.01094000
+[0m
+20-03-27 20:01:05, INFO: Train on buckingham_palace
+20-03-27 20:24:57, INFO: models/train_on_challenge_data/checkpoint_20-03-27_20:24:56_2.pth
+20-03-27 20:24:57, INFO: Train on colosseum_exterior
+20-03-27 20:48:49, INFO: models/train_on_challenge_data/checkpoint_20-03-27_20:48:49_2.pth
+20-03-27 20:48:49, INFO: Test on liberty dataset
+20-03-27 20:49:30, INFO: [91mTest set: Accuracy(FPR95): 0.12500000
+[0m
+20-03-27 20:49:30, INFO: Test on notredame dataset
+20-03-27 20:50:10, INFO: [91mTest set: Accuracy(FPR95): 0.08194000
+[0m
+20-03-27 20:50:10, INFO: Test on reichstag dataset
+20-03-27 20:50:50, INFO: [91mTest set: Accuracy(FPR95): 0.00422000
+[0m
+20-03-27 20:50:50, INFO: Test on brandenburg_gate dataset
+20-03-27 20:51:30, INFO: [91mTest set: Accuracy(FPR95): 0.00880000
+[0m
+20-03-27 20:52:49, INFO: Train on buckingham_palace
+20-03-27 21:16:41, INFO: models/train_on_challenge_data/checkpoint_20-03-27_21:16:40_3.pth
+20-03-27 21:16:41, INFO: Train on colosseum_exterior
+20-03-27 21:40:33, INFO: models/train_on_challenge_data/checkpoint_20-03-27_21:40:33_3.pth
+20-03-27 21:40:33, INFO: Test on liberty dataset
+20-03-27 21:41:13, INFO: [91mTest set: Accuracy(FPR95): 0.10304000
+[0m
+20-03-27 21:41:13, INFO: Test on notredame dataset
+20-03-27 21:41:54, INFO: [91mTest set: Accuracy(FPR95): 0.06402000
+[0m
+20-03-27 21:41:54, INFO: Test on reichstag dataset
+20-03-27 21:42:34, INFO: [91mTest set: Accuracy(FPR95): 0.00360000
+[0m
+20-03-27 21:42:34, INFO: Test on brandenburg_gate dataset
+20-03-27 21:43:14, INFO: [91mTest set: Accuracy(FPR95): 0.00746000
+[0m
+20-03-27 21:44:39, INFO: Train on buckingham_palace
+20-03-27 22:08:30, INFO: models/train_on_challenge_data/checkpoint_20-03-27_22:08:29_4.pth
+20-03-27 22:08:30, INFO: Train on colosseum_exterior
+20-03-27 22:32:23, INFO: models/train_on_challenge_data/checkpoint_20-03-27_22:32:22_4.pth
+20-03-27 22:32:23, INFO: Test on liberty dataset
+20-03-27 22:33:03, INFO: [91mTest set: Accuracy(FPR95): 0.10406000
+[0m
+20-03-27 22:33:03, INFO: Test on notredame dataset
+20-03-27 22:33:44, INFO: [91mTest set: Accuracy(FPR95): 0.06424000
+[0m
+20-03-27 22:33:44, INFO: Test on reichstag dataset
+20-03-27 22:34:24, INFO: [91mTest set: Accuracy(FPR95): 0.00308000
+[0m
+20-03-27 22:34:24, INFO: Test on brandenburg_gate dataset
+20-03-27 22:35:04, INFO: [91mTest set: Accuracy(FPR95): 0.00604000
+[0m
+20-03-27 22:36:23, INFO: Train on buckingham_palace
+20-03-27 23:00:15, INFO: models/train_on_challenge_data/checkpoint_20-03-27_23:00:15_5.pth
+20-03-27 23:00:15, INFO: Train on colosseum_exterior
+20-03-27 23:24:07, INFO: models/train_on_challenge_data/checkpoint_20-03-27_23:24:06_5.pth
+20-03-27 23:24:07, INFO: Test on liberty dataset
+20-03-27 23:24:46, INFO: [91mTest set: Accuracy(FPR95): 0.95082000
+[0m
+20-03-27 23:24:46, INFO: Test on notredame dataset
+20-03-27 23:25:27, INFO: [91mTest set: Accuracy(FPR95): 0.95048000
+[0m
+20-03-27 23:25:27, INFO: Test on reichstag dataset
+20-03-27 23:26:07, INFO: [91mTest set: Accuracy(FPR95): 0.95406000
+[0m
+20-03-27 23:26:07, INFO: Test on brandenburg_gate dataset
+20-03-27 23:26:47, INFO: [91mTest set: Accuracy(FPR95): 0.95528000
+[0m
+20-03-27 23:28:08, INFO: Train on buckingham_palace
+20-03-27 23:52:09, INFO: models/train_on_challenge_data/checkpoint_20-03-27_23:52:09_6.pth
+20-03-27 23:52:09, INFO: Train on colosseum_exterior
+20-03-28 00:16:19, INFO: models/train_on_challenge_data/checkpoint_20-03-28_00:16:18_6.pth
+20-03-28 00:16:19, INFO: Test on liberty dataset
+20-03-28 00:17:11, INFO: [91mTest set: Accuracy(FPR95): 0.95058000
+[0m
+20-03-28 00:17:11, INFO: Test on notredame dataset
+20-03-28 00:18:03, INFO: [91mTest set: Accuracy(FPR95): 0.95226000
+[0m
+20-03-28 00:18:03, INFO: Test on reichstag dataset
+20-03-28 00:18:57, INFO: [91mTest set: Accuracy(FPR95): 0.95652000
+[0m
+20-03-28 00:18:57, INFO: Test on brandenburg_gate dataset
+20-03-28 00:19:50, INFO: [91mTest set: Accuracy(FPR95): 0.95396000
+[0m
+20-03-28 00:21:59, INFO: Train on buckingham_palace
+20-03-28 00:46:11, INFO: models/train_on_challenge_data/checkpoint_20-03-28_00:46:10_7.pth
+20-03-28 00:46:11, INFO: Train on colosseum_exterior
+20-03-28 01:10:52, INFO: models/train_on_challenge_data/checkpoint_20-03-28_01:10:51_7.pth
+20-03-28 01:10:52, INFO: Test on liberty dataset
+20-03-28 01:12:10, INFO: [91mTest set: Accuracy(FPR95): 0.95110000
+[0m
+20-03-28 01:12:10, INFO: Test on notredame dataset
+20-03-28 01:13:29, INFO: [91mTest set: Accuracy(FPR95): 0.95282000
+[0m
+20-03-28 01:13:29, INFO: Test on reichstag dataset
+20-03-28 01:14:45, INFO: [91mTest set: Accuracy(FPR95): 0.95574000
+[0m
+20-03-28 01:14:45, INFO: Test on brandenburg_gate dataset
+20-03-28 01:16:02, INFO: [91mTest set: Accuracy(FPR95): 0.95422000
+[0m
+20-03-28 01:19:03, INFO: Train on buckingham_palace
+20-03-28 01:44:04, INFO: models/train_on_challenge_data/checkpoint_20-03-28_01:44:03_8.pth
+20-03-28 01:44:04, INFO: Train on colosseum_exterior
+20-03-28 02:08:34, INFO: models/train_on_challenge_data/checkpoint_20-03-28_02:08:33_8.pth
+20-03-28 02:08:34, INFO: Test on liberty dataset
+20-03-28 02:09:24, INFO: [91mTest set: Accuracy(FPR95): 0.95142000
+[0m
+20-03-28 02:09:24, INFO: Test on notredame dataset
+20-03-28 02:10:16, INFO: [91mTest set: Accuracy(FPR95): 0.95316000
+[0m
+20-03-28 02:10:16, INFO: Test on reichstag dataset
+20-03-28 02:11:12, INFO: [91mTest set: Accuracy(FPR95): 0.95348000
+[0m
+20-03-28 02:11:12, INFO: Test on brandenburg_gate dataset
+20-03-28 02:12:00, INFO: [91mTest set: Accuracy(FPR95): 0.95454000
+[0m
+20-03-28 02:13:53, INFO: Train on buckingham_palace
+20-03-28 02:38:05, INFO: models/train_on_challenge_data/checkpoint_20-03-28_02:38:04_9.pth
+20-03-28 02:38:05, INFO: Train on colosseum_exterior
+20-03-28 03:02:18, INFO: models/train_on_challenge_data/checkpoint_20-03-28_03:02:17_9.pth
+20-03-28 03:02:18, INFO: Test on liberty dataset
+20-03-28 03:03:06, INFO: [91mTest set: Accuracy(FPR95): 0.95138000
+[0m
+20-03-28 03:03:06, INFO: Test on notredame dataset
+20-03-28 03:03:56, INFO: [91mTest set: Accuracy(FPR95): 0.95336000
+[0m
+20-03-28 03:03:56, INFO: Test on reichstag dataset
+20-03-28 03:04:45, INFO: [91mTest set: Accuracy(FPR95): 0.95378000
+[0m
+20-03-28 03:04:45, INFO: Test on brandenburg_gate dataset
+20-03-28 03:05:32, INFO: [91mTest set: Accuracy(FPR95): 0.95340000
+[0m
+20-03-28 09:47:26, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-28 09:53:20, INFO: {'dataset': {'dataroot': 'data', 'model_dir': 'models', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209}, 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 10, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0, 'log_interval': 10}}
+20-03-28 09:53:20, INFO: Train on buckingham_palace
+20-03-28 11:50:57, INFO: models/train_on_challenge_data/checkpoint_20-03-28_11:50:56_0.pth
+20-03-28 11:50:57, INFO: Train on colosseum_exterior
+20-03-28 13:48:32, INFO: models/train_on_challenge_data/checkpoint_20-03-28_13:48:31_0.pth
+20-03-28 13:48:32, INFO: Test on liberty dataset
+20-03-28 13:49:12, INFO: [91mTest set: Accuracy(FPR95): 0.12952000
+[0m
+20-03-28 13:49:12, INFO: Test on notredame dataset
+20-03-28 13:49:52, INFO: [91mTest set: Accuracy(FPR95): 0.07988000
+[0m
+20-03-28 13:49:52, INFO: Test on reichstag dataset
+20-03-28 13:50:32, INFO: [91mTest set: Accuracy(FPR95): 0.00416000
+[0m
+20-03-28 13:50:32, INFO: Test on brandenburg_gate dataset
+20-03-28 13:51:11, INFO: [91mTest set: Accuracy(FPR95): 0.00956000
+[0m
+20-03-28 13:56:14, INFO: Train on buckingham_palace
+20-03-28 15:53:45, INFO: models/train_on_challenge_data/checkpoint_20-03-28_15:53:45_1.pth
+20-03-28 15:53:45, INFO: Train on colosseum_exterior
+20-03-28 17:51:20, INFO: models/train_on_challenge_data/checkpoint_20-03-28_17:51:19_1.pth
+20-03-28 17:51:20, INFO: Test on liberty dataset
+20-03-28 17:52:00, INFO: [91mTest set: Accuracy(FPR95): 0.10736000
+[0m
+20-03-28 17:52:00, INFO: Test on notredame dataset
+20-03-28 17:52:40, INFO: [91mTest set: Accuracy(FPR95): 0.06534000
+[0m
+20-03-28 17:52:40, INFO: Test on reichstag dataset
+20-03-28 17:53:19, INFO: [91mTest set: Accuracy(FPR95): 0.00396000
+[0m
+20-03-28 17:53:19, INFO: Test on brandenburg_gate dataset
+20-03-28 17:53:59, INFO: [91mTest set: Accuracy(FPR95): 0.00720000
+[0m
+20-03-28 17:59:02, INFO: Train on buckingham_palace
+20-03-28 19:56:38, INFO: models/train_on_challenge_data/checkpoint_20-03-28_19:56:37_2.pth
+20-03-28 19:56:38, INFO: Train on colosseum_exterior
+20-03-28 21:54:11, INFO: models/train_on_challenge_data/checkpoint_20-03-28_21:54:10_2.pth
+20-03-28 21:54:11, INFO: Test on liberty dataset
+20-03-28 21:54:51, INFO: [91mTest set: Accuracy(FPR95): 0.09914000
+[0m
+20-03-28 21:54:51, INFO: Test on notredame dataset
+20-03-28 21:55:30, INFO: [91mTest set: Accuracy(FPR95): 0.06022000
+[0m
+20-03-28 21:55:30, INFO: Test on reichstag dataset
+20-03-28 21:56:10, INFO: [91mTest set: Accuracy(FPR95): 0.00416000
+[0m
+20-03-28 21:56:10, INFO: Test on brandenburg_gate dataset
+20-03-28 21:56:50, INFO: [91mTest set: Accuracy(FPR95): 0.00928000
+[0m
+20-03-28 22:01:49, INFO: Train on buckingham_palace
+20-03-28 23:59:24, INFO: models/train_on_challenge_data/checkpoint_20-03-28_23:59:23_3.pth
+20-03-28 23:59:24, INFO: Train on colosseum_exterior
+20-03-29 01:56:59, INFO: models/train_on_challenge_data/checkpoint_20-03-29_01:56:58_3.pth
+20-03-29 01:56:59, INFO: Test on liberty dataset
+20-03-29 01:57:39, INFO: [91mTest set: Accuracy(FPR95): 0.09676000
+[0m
+20-03-29 01:57:39, INFO: Test on notredame dataset
+20-03-29 01:58:18, INFO: [91mTest set: Accuracy(FPR95): 0.05864000
+[0m
+20-03-29 01:58:18, INFO: Test on reichstag dataset
+20-03-29 01:58:58, INFO: [91mTest set: Accuracy(FPR95): 0.00356000
+[0m
+20-03-29 01:58:58, INFO: Test on brandenburg_gate dataset
+20-03-29 01:59:38, INFO: [91mTest set: Accuracy(FPR95): 0.00690000
+[0m
+20-03-29 02:04:48, INFO: Train on buckingham_palace
+20-03-29 04:02:23, INFO: models/train_on_challenge_data/checkpoint_20-03-29_04:02:22_4.pth
+20-03-29 04:02:23, INFO: Train on colosseum_exterior
+20-03-29 06:00:00, INFO: models/train_on_challenge_data/checkpoint_20-03-29_05:59:59_4.pth
+20-03-29 06:00:00, INFO: Test on liberty dataset
+20-03-29 06:00:40, INFO: [91mTest set: Accuracy(FPR95): 0.08912000
+[0m
+20-03-29 06:00:40, INFO: Test on notredame dataset
+20-03-29 06:01:20, INFO: [91mTest set: Accuracy(FPR95): 0.05446000
+[0m
+20-03-29 06:01:20, INFO: Test on reichstag dataset
+20-03-29 06:01:59, INFO: [91mTest set: Accuracy(FPR95): 0.00264000
+[0m
+20-03-29 06:01:59, INFO: Test on brandenburg_gate dataset
+20-03-29 06:02:39, INFO: [91mTest set: Accuracy(FPR95): 0.00572000
+[0m
+20-03-29 06:07:47, INFO: Train on buckingham_palace
+20-03-29 08:05:13, INFO: models/train_on_challenge_data/checkpoint_20-03-29_08:05:12_5.pth
+20-03-29 08:05:13, INFO: Train on colosseum_exterior
+20-03-29 10:02:45, INFO: models/train_on_challenge_data/checkpoint_20-03-29_10:02:44_5.pth
+20-03-29 10:02:45, INFO: Test on liberty dataset
+20-03-29 10:03:26, INFO: [91mTest set: Accuracy(FPR95): 0.95046000
+[0m
+20-03-29 10:03:26, INFO: Test on notredame dataset
+20-03-29 10:04:07, INFO: [91mTest set: Accuracy(FPR95): 0.95156000
+[0m
+20-03-29 10:04:07, INFO: Test on reichstag dataset
+20-03-29 10:04:49, INFO: [91mTest set: Accuracy(FPR95): 0.95230000
+[0m
+20-03-29 10:04:49, INFO: Test on brandenburg_gate dataset
+20-03-29 10:05:29, INFO: [91mTest set: Accuracy(FPR95): 0.95162000
+[0m
+20-03-29 10:10:39, INFO: Train on buckingham_palace
+20-03-30 03:36:02, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 03:36:02, INFO: num_3d_points: 942191
+20-03-30 03:36:02, INFO: generate 5000000 triplets
+20-03-30 03:45:35, INFO: load test set: reichstag
+20-03-30 03:45:35, INFO: load test set: st_peters_square
+20-03-30 03:45:35, INFO: load test set: sacre_coeur
+20-03-30 03:45:35, INFO: load test set: liberty
+20-03-30 03:46:00, INFO: load test set: notredame
+20-03-30 03:46:13, INFO: load test set: yosemite
+20-03-30 03:46:39, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 5000000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0}}
+20-03-30 03:46:39, INFO: epoch: 0
+20-03-30 03:46:39, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 03:49:24, INFO: 0/4883 - Loss: 1.1434537172317505
+20-03-30 03:49:38, INFO: 10/4883 - Loss: 1.0696855783462524
+20-03-30 03:50:46, INFO: 20/4883 - Loss: 1.0394659042358398
+20-03-30 03:51:59, INFO: 30/4883 - Loss: 1.003218173980713
+20-03-30 03:53:17, INFO: 40/4883 - Loss: 1.0042308568954468
+20-03-30 03:54:54, INFO: 50/4883 - Loss: 0.9853059649467468
+20-03-30 03:56:21, INFO: 60/4883 - Loss: 0.960213303565979
+20-03-30 03:57:28, INFO: 70/4883 - Loss: 0.9594792127609253
+20-03-30 03:58:56, INFO: 80/4883 - Loss: 0.9540191292762756
+20-03-30 04:00:44, INFO: 90/4883 - Loss: 0.9371761679649353
+20-03-30 04:02:07, INFO: 100/4883 - Loss: 0.9536154270172119
+20-03-30 04:03:38, INFO: 110/4883 - Loss: 0.9175819158554077
+20-03-30 04:05:35, INFO: 120/4883 - Loss: 0.9130979776382446
+20-03-30 04:07:23, INFO: 130/4883 - Loss: 0.9191215634346008
+20-03-30 04:08:41, INFO: 140/4883 - Loss: 0.91400146484375
+20-03-30 04:09:58, INFO: 150/4883 - Loss: 0.9060083627700806
+20-03-30 04:11:36, INFO: 160/4883 - Loss: 0.9061629176139832
+20-03-30 04:13:47, INFO: 170/4883 - Loss: 0.8932766914367676
+20-03-30 04:14:53, INFO: 180/4883 - Loss: 0.889453649520874
+20-03-30 04:15:53, INFO: 190/4883 - Loss: 0.8806819915771484
+20-03-30 04:17:20, INFO: 200/4883 - Loss: 0.8766682147979736
+20-03-30 04:19:17, INFO: 210/4883 - Loss: 0.864931583404541
+20-03-30 04:20:30, INFO: 220/4883 - Loss: 0.8548785448074341
+20-03-30 04:21:52, INFO: 230/4883 - Loss: 0.8614824414253235
+20-03-30 04:23:16, INFO: 240/4883 - Loss: 0.858857274055481
+20-03-30 04:25:26, INFO: 250/4883 - Loss: 0.8571588397026062
+20-03-30 04:26:39, INFO: 260/4883 - Loss: 0.8487752676010132
+20-03-30 04:27:39, INFO: 270/4883 - Loss: 0.8405364751815796
+20-03-30 04:29:18, INFO: 280/4883 - Loss: 0.8340859413146973
+20-03-30 04:30:25, INFO: 290/4883 - Loss: 0.8479398488998413
+20-03-30 04:31:37, INFO: 300/4883 - Loss: 0.8290640711784363
+20-03-30 04:33:03, INFO: 310/4883 - Loss: 0.839176595211029
+20-03-30 04:34:54, INFO: 320/4883 - Loss: 0.8405004739761353
+20-03-30 04:36:19, INFO: 330/4883 - Loss: 0.835944652557373
+20-03-30 04:37:57, INFO: 340/4883 - Loss: 0.8220903873443604
+20-03-30 04:40:08, INFO: 350/4883 - Loss: 0.8382067680358887
+20-03-30 04:42:58, INFO: 360/4883 - Loss: 0.8328703045845032
+20-03-30 04:45:47, INFO: 370/4883 - Loss: 0.8132905960083008
+20-03-30 04:47:27, INFO: 380/4883 - Loss: 0.8336552381515503
+20-03-30 04:49:01, INFO: 390/4883 - Loss: 0.8219910860061646
+20-03-30 04:50:54, INFO: 400/4883 - Loss: 0.8059830069541931
+20-03-30 04:52:53, INFO: 410/4883 - Loss: 0.8193999528884888
+20-03-30 04:54:16, INFO: 420/4883 - Loss: 0.7916414141654968
+20-03-30 04:56:00, INFO: 430/4883 - Loss: 0.8063632249832153
+20-03-30 04:57:26, INFO: 440/4883 - Loss: 0.800372838973999
+20-03-30 04:58:31, INFO: 450/4883 - Loss: 0.7984611988067627
+20-03-30 04:59:59, INFO: 460/4883 - Loss: 0.8017286062240601
+20-03-30 05:01:30, INFO: 470/4883 - Loss: 0.7878116369247437
+20-03-30 05:41:27, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 05:41:28, INFO: num_3d_points: 942191
+20-03-30 05:41:28, INFO: generate 100000 triplets
+20-03-30 05:41:57, INFO: load test set: reichstag
+20-03-30 05:41:57, INFO: load test set: st_peters_square
+20-03-30 05:41:57, INFO: load test set: sacre_coeur
+20-03-30 05:41:57, INFO: load test set: liberty
+20-03-30 05:42:16, INFO: load test set: notredame
+20-03-30 05:42:27, INFO: load test set: yosemite
+20-03-30 05:42:53, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'n_triplets': 100000, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0}}
+20-03-30 05:42:53, INFO: epoch: 0
+20-03-30 05:42:53, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 05:45:19, INFO: 0/98 - Loss: 1.1434537172317505
+20-03-30 05:45:33, INFO: 10/98 - Loss: 1.0698562860488892
+20-03-30 05:46:28, INFO: 20/98 - Loss: 1.0394799709320068
+20-03-30 05:47:38, INFO: 30/98 - Loss: 1.0037219524383545
+20-03-30 05:49:03, INFO: 40/98 - Loss: 1.0050106048583984
+20-03-30 05:50:32, INFO: 50/98 - Loss: 0.9858107566833496
+20-03-30 05:51:36, INFO: 60/98 - Loss: 0.960631251335144
+20-03-30 05:52:46, INFO: 70/98 - Loss: 0.9601728916168213
+20-03-30 05:53:58, INFO: 80/98 - Loss: 0.9550405740737915
+20-03-30 05:55:25, INFO: 90/98 - Loss: 0.9392621517181396
+20-03-30 05:55:41, INFO: 98/98 - Loss: 0.9129936099052429
+20-03-30 05:55:41, INFO: models/train_on_challenge_data/checkpoint_20-03-30_05:55:41_0.pth
+20-03-30 05:55:41, INFO: Test on reichstag
+20-03-30 05:56:38, INFO: [91mTest set: Accuracy(FPR95): 0.10438000
+[0m
+20-03-30 05:56:38, INFO: Test on st_peters_square
+20-03-30 06:01:28, INFO: [91mTest set: Accuracy(FPR95): 0.09616000
+[0m
+20-03-30 06:01:28, INFO: Test on sacre_coeur
+20-03-30 06:05:09, INFO: [91mTest set: Accuracy(FPR95): 0.13486000
+[0m
+20-03-30 06:05:09, INFO: Test on liberty
+20-03-30 06:05:57, INFO: [91mTest set: Accuracy(FPR95): 0.33402000
+[0m
+20-03-30 06:05:57, INFO: Test on notredame
+20-03-30 06:06:56, INFO: [91mTest set: Accuracy(FPR95): 0.24948000
+[0m
+20-03-30 06:06:56, INFO: Test on yosemite
+20-03-30 06:07:44, INFO: [91mTest set: Accuracy(FPR95): 0.30674000
+[0m
+20-03-30 06:07:45, INFO: num_3d_points: 942191
+20-03-30 06:07:45, INFO: generate 100000 triplets
+20-03-30 06:08:23, INFO: epoch: 1
+20-03-30 06:08:23, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 06:09:24, INFO: 0/98 - Loss: 0.9587422609329224
+20-03-30 06:10:21, INFO: 10/98 - Loss: 0.9402816891670227
+20-03-30 06:11:18, INFO: 20/98 - Loss: 0.9285433292388916
+20-03-30 06:12:12, INFO: 30/98 - Loss: 0.9204143285751343
+20-03-30 06:13:43, INFO: 40/98 - Loss: 0.9116895794868469
+20-03-30 06:14:41, INFO: 50/98 - Loss: 0.9152051210403442
+20-03-30 06:15:35, INFO: 60/98 - Loss: 0.8912707567214966
+20-03-30 06:16:26, INFO: 70/98 - Loss: 0.8930636048316956
+20-03-30 06:17:51, INFO: 80/98 - Loss: 0.884001612663269
+20-03-30 06:18:37, INFO: 90/98 - Loss: 0.8801535367965698
+20-03-30 06:18:54, INFO: 98/98 - Loss: 0.8608641028404236
+20-03-30 06:18:54, INFO: models/train_on_challenge_data/checkpoint_20-03-30_06:18:54_1.pth
+20-03-30 06:18:54, INFO: Test on reichstag
+20-03-30 06:19:25, INFO: [91mTest set: Accuracy(FPR95): 0.05316000
+[0m
+20-03-30 06:19:25, INFO: Test on st_peters_square
+20-03-30 06:19:56, INFO: [91mTest set: Accuracy(FPR95): 0.05326000
+[0m
+20-03-30 06:19:56, INFO: Test on sacre_coeur
+20-03-30 06:20:26, INFO: [91mTest set: Accuracy(FPR95): 0.05952000
+[0m
+20-03-30 06:20:26, INFO: Test on liberty
+20-03-30 06:21:28, INFO: [91mTest set: Accuracy(FPR95): 0.28854000
+[0m
+20-03-30 06:21:28, INFO: Test on notredame
+20-03-30 06:22:16, INFO: [91mTest set: Accuracy(FPR95): 0.20394000
+[0m
+20-03-30 06:22:16, INFO: Test on yosemite
+20-03-30 06:23:23, INFO: [91mTest set: Accuracy(FPR95): 0.26780000
+[0m
+20-03-30 06:23:23, INFO: num_3d_points: 942191
+20-03-30 06:23:23, INFO: generate 100000 triplets
+20-03-30 06:24:12, INFO: epoch: 2
+20-03-30 06:24:12, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 06:24:59, INFO: 0/98 - Loss: 0.8971915245056152
+20-03-30 06:25:53, INFO: 10/98 - Loss: 0.8771576881408691
+20-03-30 06:26:46, INFO: 20/98 - Loss: 0.8747721910476685
+20-03-30 06:27:30, INFO: 30/98 - Loss: 0.8565666079521179
+20-03-30 06:29:07, INFO: 40/98 - Loss: 0.8653551340103149
+20-03-30 06:29:58, INFO: 50/98 - Loss: 0.8504221439361572
+20-03-30 06:30:49, INFO: 60/98 - Loss: 0.8535169363021851
+20-03-30 06:31:45, INFO: 70/98 - Loss: 0.8575832843780518
+20-03-30 06:33:02, INFO: 80/98 - Loss: 0.856161892414093
+20-03-30 06:33:52, INFO: 90/98 - Loss: 0.8555748462677002
+20-03-30 06:34:05, INFO: 98/98 - Loss: 0.8337066173553467
+20-03-30 06:34:05, INFO: models/train_on_challenge_data/checkpoint_20-03-30_06:34:05_2.pth
+20-03-30 06:34:05, INFO: Test on reichstag
+20-03-30 06:34:49, INFO: [91mTest set: Accuracy(FPR95): 0.03940000
+[0m
+20-03-30 06:34:49, INFO: Test on st_peters_square
+20-03-30 06:35:36, INFO: [91mTest set: Accuracy(FPR95): 0.04254000
+[0m
+20-03-30 06:35:36, INFO: Test on sacre_coeur
+20-03-30 06:36:20, INFO: [91mTest set: Accuracy(FPR95): 0.05148000
+[0m
+20-03-30 06:36:20, INFO: Test on liberty
+20-03-30 06:37:07, INFO: [91mTest set: Accuracy(FPR95): 0.25992000
+[0m
+20-03-30 06:37:07, INFO: Test on notredame
+20-03-30 06:37:55, INFO: [91mTest set: Accuracy(FPR95): 0.19486000
+[0m
+20-03-30 06:37:55, INFO: Test on yosemite
+20-03-30 06:38:56, INFO: [91mTest set: Accuracy(FPR95): 0.23574000
+[0m
+20-03-30 06:38:56, INFO: num_3d_points: 942191
+20-03-30 06:38:56, INFO: generate 100000 triplets
+20-03-30 06:39:37, INFO: epoch: 3
+20-03-30 06:39:37, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 06:40:37, INFO: 0/98 - Loss: 0.8424805998802185
+20-03-30 06:41:20, INFO: 10/98 - Loss: 0.8494306802749634
+20-03-30 06:42:04, INFO: 20/98 - Loss: 0.8333728313446045
+20-03-30 06:42:44, INFO: 30/98 - Loss: 0.8388457298278809
+20-03-30 06:43:47, INFO: 40/98 - Loss: 0.8284242153167725
+20-03-30 06:44:30, INFO: 50/98 - Loss: 0.8432258367538452
+20-03-30 06:45:14, INFO: 60/98 - Loss: 0.8282134532928467
+20-03-30 06:46:00, INFO: 70/98 - Loss: 0.8186476826667786
+20-03-30 06:46:52, INFO: 80/98 - Loss: 0.8222779035568237
+20-03-30 06:47:49, INFO: 90/98 - Loss: 0.8192511796951294
+20-03-30 06:48:10, INFO: 98/98 - Loss: 0.8079713582992554
+20-03-30 06:48:10, INFO: models/train_on_challenge_data/checkpoint_20-03-30_06:48:10_3.pth
+20-03-30 06:48:10, INFO: Test on reichstag
+20-03-30 06:48:42, INFO: [91mTest set: Accuracy(FPR95): 0.02812000
+[0m
+20-03-30 06:48:42, INFO: Test on st_peters_square
+20-03-30 06:49:12, INFO: [91mTest set: Accuracy(FPR95): 0.02828000
+[0m
+20-03-30 06:49:13, INFO: Test on sacre_coeur
+20-03-30 06:49:43, INFO: [91mTest set: Accuracy(FPR95): 0.03392000
+[0m
+20-03-30 06:49:43, INFO: Test on liberty
+20-03-30 06:50:31, INFO: [91mTest set: Accuracy(FPR95): 0.24380000
+[0m
+20-03-30 06:50:31, INFO: Test on notredame
+20-03-30 06:51:19, INFO: [91mTest set: Accuracy(FPR95): 0.16518000
+[0m
+20-03-30 06:51:19, INFO: Test on yosemite
+20-03-30 06:52:07, INFO: [91mTest set: Accuracy(FPR95): 0.22138000
+[0m
+20-03-30 06:52:07, INFO: num_3d_points: 942191
+20-03-30 06:52:07, INFO: generate 100000 triplets
+20-03-30 06:52:35, INFO: epoch: 4
+20-03-30 06:52:35, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 06:53:25, INFO: 0/98 - Loss: 0.8404760360717773
+20-03-30 06:54:12, INFO: 10/98 - Loss: 0.8096567392349243
+20-03-30 06:54:54, INFO: 20/98 - Loss: 0.8142638206481934
+20-03-30 06:55:41, INFO: 30/98 - Loss: 0.8027047514915466
+20-03-30 06:56:52, INFO: 40/98 - Loss: 0.8012685775756836
+20-03-30 06:57:36, INFO: 50/98 - Loss: 0.8153867721557617
+20-03-30 06:58:19, INFO: 60/98 - Loss: 0.8127838969230652
+20-03-30 06:59:01, INFO: 70/98 - Loss: 0.8037825226783752
+20-03-30 07:00:10, INFO: 80/98 - Loss: 0.7974106073379517
+20-03-30 07:00:50, INFO: 90/98 - Loss: 0.8149420022964478
+20-03-30 07:01:03, INFO: 98/98 - Loss: 0.7894576191902161
+20-03-30 07:01:03, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:01:03_4.pth
+20-03-30 07:01:03, INFO: Test on reichstag
+20-03-30 07:01:33, INFO: [91mTest set: Accuracy(FPR95): 0.02540000
+[0m
+20-03-30 07:01:33, INFO: Test on st_peters_square
+20-03-30 07:02:05, INFO: [91mTest set: Accuracy(FPR95): 0.02440000
+[0m
+20-03-30 07:02:05, INFO: Test on sacre_coeur
+20-03-30 07:02:36, INFO: [91mTest set: Accuracy(FPR95): 0.03288000
+[0m
+20-03-30 07:02:36, INFO: Test on liberty
+20-03-30 07:03:25, INFO: [91mTest set: Accuracy(FPR95): 0.24162000
+[0m
+20-03-30 07:03:25, INFO: Test on notredame
+20-03-30 07:04:12, INFO: [91mTest set: Accuracy(FPR95): 0.15108000
+[0m
+20-03-30 07:04:12, INFO: Test on yosemite
+20-03-30 07:04:59, INFO: [91mTest set: Accuracy(FPR95): 0.21146000
+[0m
+20-03-30 07:05:00, INFO: num_3d_points: 942191
+20-03-30 07:05:00, INFO: generate 100000 triplets
+20-03-30 07:05:29, INFO: epoch: 5
+20-03-30 07:05:29, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 07:06:10, INFO: 0/98 - Loss: 0.7838054895401001
+20-03-30 07:06:50, INFO: 10/98 - Loss: 0.8256947994232178
+20-03-30 07:07:30, INFO: 20/98 - Loss: 0.798564612865448
+20-03-30 07:08:10, INFO: 30/98 - Loss: 0.7933551669120789
+20-03-30 07:09:03, INFO: 40/98 - Loss: 0.8071900010108948
+20-03-30 07:09:45, INFO: 50/98 - Loss: 0.7989251613616943
+20-03-30 07:10:19, INFO: 60/98 - Loss: 0.7916175127029419
+20-03-30 07:10:56, INFO: 70/98 - Loss: 0.7893890142440796
+20-03-30 07:11:49, INFO: 80/98 - Loss: 0.7982954382896423
+20-03-30 07:12:20, INFO: 90/98 - Loss: 0.80586838722229
+20-03-30 07:12:34, INFO: 98/98 - Loss: 0.7690508961677551
+20-03-30 07:12:34, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:12:34_5.pth
+20-03-30 07:12:34, INFO: Test on reichstag
+20-03-30 07:13:05, INFO: [91mTest set: Accuracy(FPR95): 0.02092000
+[0m
+20-03-30 07:13:05, INFO: Test on st_peters_square
+20-03-30 07:13:35, INFO: [91mTest set: Accuracy(FPR95): 0.02274000
+[0m
+20-03-30 07:13:35, INFO: Test on sacre_coeur
+20-03-30 07:14:06, INFO: [91mTest set: Accuracy(FPR95): 0.02706000
+[0m
+20-03-30 07:14:06, INFO: Test on liberty
+20-03-30 07:14:53, INFO: [91mTest set: Accuracy(FPR95): 0.22656000
+[0m
+20-03-30 07:14:53, INFO: Test on notredame
+20-03-30 07:15:40, INFO: [91mTest set: Accuracy(FPR95): 0.15616000
+[0m
+20-03-30 07:15:40, INFO: Test on yosemite
+20-03-30 07:16:29, INFO: [91mTest set: Accuracy(FPR95): 0.21052000
+[0m
+20-03-30 07:16:29, INFO: num_3d_points: 942191
+20-03-30 07:16:29, INFO: generate 100000 triplets
+20-03-30 07:16:58, INFO: epoch: 6
+20-03-30 07:16:58, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 07:17:45, INFO: 0/98 - Loss: 0.8113329410552979
+20-03-30 07:18:14, INFO: 10/98 - Loss: 0.7891089916229248
+20-03-30 07:18:46, INFO: 20/98 - Loss: 0.7924337387084961
+20-03-30 07:19:16, INFO: 30/98 - Loss: 0.7745267748832703
+20-03-30 07:19:58, INFO: 40/98 - Loss: 0.7946134805679321
+20-03-30 07:20:29, INFO: 50/98 - Loss: 0.7800077199935913
+20-03-30 07:20:57, INFO: 60/98 - Loss: 0.7943617105484009
+20-03-30 07:21:29, INFO: 70/98 - Loss: 0.7787566781044006
+20-03-30 07:22:08, INFO: 80/98 - Loss: 0.7898953557014465
+20-03-30 07:22:31, INFO: 90/98 - Loss: 0.7703680396080017
+20-03-30 07:22:42, INFO: 98/98 - Loss: 0.7855947613716125
+20-03-30 07:22:42, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:22:42_6.pth
+20-03-30 07:22:42, INFO: Test on reichstag
+20-03-30 07:23:32, INFO: [91mTest set: Accuracy(FPR95): 0.01628000
+[0m
+20-03-30 07:23:32, INFO: Test on st_peters_square
+20-03-30 07:24:16, INFO: [91mTest set: Accuracy(FPR95): 0.01534000
+[0m
+20-03-30 07:24:16, INFO: Test on sacre_coeur
+20-03-30 07:25:03, INFO: [91mTest set: Accuracy(FPR95): 0.01886000
+[0m
+20-03-30 07:25:03, INFO: Test on liberty
+20-03-30 07:26:22, INFO: [91mTest set: Accuracy(FPR95): 0.18304000
+[0m
+20-03-30 07:26:22, INFO: Test on notredame
+20-03-30 07:27:35, INFO: [91mTest set: Accuracy(FPR95): 0.12720000
+[0m
+20-03-30 07:27:35, INFO: Test on yosemite
+20-03-30 07:28:53, INFO: [91mTest set: Accuracy(FPR95): 0.18276000
+[0m
+20-03-30 07:28:53, INFO: num_3d_points: 942191
+20-03-30 07:28:53, INFO: generate 100000 triplets
+20-03-30 07:29:40, INFO: epoch: 7
+20-03-30 07:29:40, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 07:30:15, INFO: 0/98 - Loss: 0.7787112593650818
+20-03-30 07:30:52, INFO: 10/98 - Loss: 0.7721538543701172
+20-03-30 07:31:25, INFO: 20/98 - Loss: 0.7761095762252808
+20-03-30 07:31:59, INFO: 30/98 - Loss: 0.7731812000274658
+20-03-30 07:32:49, INFO: 40/98 - Loss: 0.7665576934814453
+20-03-30 07:33:22, INFO: 50/98 - Loss: 0.7705445289611816
+20-03-30 07:33:52, INFO: 60/98 - Loss: 0.7678529024124146
+20-03-30 07:34:21, INFO: 70/98 - Loss: 0.7711665630340576
+20-03-30 07:35:08, INFO: 80/98 - Loss: 0.76817387342453
+20-03-30 07:35:36, INFO: 90/98 - Loss: 0.7711865901947021
+20-03-30 07:35:48, INFO: 98/98 - Loss: 0.7456347942352295
+20-03-30 07:35:48, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:35:48_7.pth
+20-03-30 07:35:48, INFO: Test on reichstag
+20-03-30 07:36:19, INFO: [91mTest set: Accuracy(FPR95): 0.01566000
+[0m
+20-03-30 07:36:19, INFO: Test on st_peters_square
+20-03-30 07:36:50, INFO: [91mTest set: Accuracy(FPR95): 0.01284000
+[0m
+20-03-30 07:36:50, INFO: Test on sacre_coeur
+20-03-30 07:37:21, INFO: [91mTest set: Accuracy(FPR95): 0.01792000
+[0m
+20-03-30 07:37:21, INFO: Test on liberty
+20-03-30 07:38:09, INFO: [91mTest set: Accuracy(FPR95): 0.18342000
+[0m
+20-03-30 07:38:09, INFO: Test on notredame
+20-03-30 07:38:58, INFO: [91mTest set: Accuracy(FPR95): 0.12308000
+[0m
+20-03-30 07:38:58, INFO: Test on yosemite
+20-03-30 07:39:45, INFO: [91mTest set: Accuracy(FPR95): 0.17548000
+[0m
+20-03-30 07:39:45, INFO: num_3d_points: 942191
+20-03-30 07:39:45, INFO: generate 100000 triplets
+20-03-30 07:40:15, INFO: epoch: 8
+20-03-30 07:40:15, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 07:40:47, INFO: 0/98 - Loss: 0.7760182023048401
+20-03-30 07:41:15, INFO: 10/98 - Loss: 0.7664049863815308
+20-03-30 07:41:45, INFO: 20/98 - Loss: 0.7648053169250488
+20-03-30 07:42:14, INFO: 30/98 - Loss: 0.764997124671936
+20-03-30 07:42:52, INFO: 40/98 - Loss: 0.7617624998092651
+20-03-30 07:43:20, INFO: 50/98 - Loss: 0.7731518745422363
+20-03-30 07:43:48, INFO: 60/98 - Loss: 0.7539443373680115
+20-03-30 07:44:23, INFO: 70/98 - Loss: 0.7743170857429504
+20-03-30 07:44:56, INFO: 80/98 - Loss: 0.769220232963562
+20-03-30 07:45:23, INFO: 90/98 - Loss: 0.7572565078735352
+20-03-30 07:45:34, INFO: 98/98 - Loss: 0.7266798615455627
+20-03-30 07:45:34, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:45:34_8.pth
+20-03-30 07:45:34, INFO: Test on reichstag
+20-03-30 07:46:05, INFO: [91mTest set: Accuracy(FPR95): 0.01280000
+[0m
+20-03-30 07:46:05, INFO: Test on st_peters_square
+20-03-30 07:46:36, INFO: [91mTest set: Accuracy(FPR95): 0.01250000
+[0m
+20-03-30 07:46:36, INFO: Test on sacre_coeur
+20-03-30 07:47:07, INFO: [91mTest set: Accuracy(FPR95): 0.01446000
+[0m
+20-03-30 07:47:07, INFO: Test on liberty
+20-03-30 07:47:56, INFO: [91mTest set: Accuracy(FPR95): 0.17300000
+[0m
+20-03-30 07:47:56, INFO: Test on notredame
+20-03-30 07:48:45, INFO: [91mTest set: Accuracy(FPR95): 0.11534000
+[0m
+20-03-30 07:48:45, INFO: Test on yosemite
+20-03-30 07:49:34, INFO: [91mTest set: Accuracy(FPR95): 0.16364000
+[0m
+20-03-30 07:49:34, INFO: num_3d_points: 942191
+20-03-30 07:49:34, INFO: generate 100000 triplets
+20-03-30 07:50:03, INFO: epoch: 9
+20-03-30 07:50:03, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 07:50:38, INFO: 0/98 - Loss: 0.7579414248466492
+20-03-30 07:51:13, INFO: 10/98 - Loss: 0.7440983653068542
+20-03-30 07:51:44, INFO: 20/98 - Loss: 0.7696373462677002
+20-03-30 07:52:16, INFO: 30/98 - Loss: 0.760380744934082
+20-03-30 07:53:03, INFO: 40/98 - Loss: 0.7537465691566467
+20-03-30 07:53:32, INFO: 50/98 - Loss: 0.754834771156311
+20-03-30 07:54:03, INFO: 60/98 - Loss: 0.7577724456787109
+20-03-30 07:54:32, INFO: 70/98 - Loss: 0.7660260200500488
+20-03-30 07:55:16, INFO: 80/98 - Loss: 0.7566340565681458
+20-03-30 07:55:42, INFO: 90/98 - Loss: 0.759283721446991
+20-03-30 07:55:53, INFO: 98/98 - Loss: 0.7372193932533264
+20-03-30 07:55:53, INFO: models/train_on_challenge_data/checkpoint_20-03-30_07:55:53_9.pth
+20-03-30 07:55:53, INFO: Test on reichstag
+20-03-30 07:56:25, INFO: [91mTest set: Accuracy(FPR95): 0.01146000
+[0m
+20-03-30 07:56:25, INFO: Test on st_peters_square
+20-03-30 07:56:56, INFO: [91mTest set: Accuracy(FPR95): 0.00978000
+[0m
+20-03-30 07:56:56, INFO: Test on sacre_coeur
+20-03-30 07:57:27, INFO: [91mTest set: Accuracy(FPR95): 0.01266000
+[0m
+20-03-30 07:57:27, INFO: Test on liberty
+20-03-30 07:58:16, INFO: [91mTest set: Accuracy(FPR95): 0.16990000
+[0m
+20-03-30 07:58:16, INFO: Test on notredame
+20-03-30 07:59:03, INFO: [91mTest set: Accuracy(FPR95): 0.10858000
+[0m
+20-03-30 07:59:03, INFO: Test on yosemite
+20-03-30 07:59:55, INFO: [91mTest set: Accuracy(FPR95): 0.16020000
+[0m
+20-03-30 07:59:55, INFO: num_3d_points: 942191
+20-03-30 07:59:56, INFO: generate 100000 triplets
+20-03-30 08:00:35, INFO: epoch: 10
+20-03-30 08:00:35, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:01:09, INFO: 0/98 - Loss: 0.7473896741867065
+20-03-30 08:01:39, INFO: 10/98 - Loss: 0.7582407593727112
+20-03-30 08:02:11, INFO: 20/98 - Loss: 0.7416536808013916
+20-03-30 08:02:40, INFO: 30/98 - Loss: 0.7520183324813843
+20-03-30 08:03:23, INFO: 40/98 - Loss: 0.7535542249679565
+20-03-30 08:03:49, INFO: 50/98 - Loss: 0.7540374994277954
+20-03-30 08:04:15, INFO: 60/98 - Loss: 0.7535111904144287
+20-03-30 08:04:42, INFO: 70/98 - Loss: 0.7507840394973755
+20-03-30 08:05:21, INFO: 80/98 - Loss: 0.7511847019195557
+20-03-30 08:05:44, INFO: 90/98 - Loss: 0.765559196472168
+20-03-30 08:05:54, INFO: 98/98 - Loss: 0.7277945876121521
+20-03-30 08:05:54, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:05:54_10.pth
+20-03-30 08:05:54, INFO: Test on reichstag
+20-03-30 08:06:25, INFO: [91mTest set: Accuracy(FPR95): 0.01094000
+[0m
+20-03-30 08:06:25, INFO: Test on st_peters_square
+20-03-30 08:06:57, INFO: [91mTest set: Accuracy(FPR95): 0.00956000
+[0m
+20-03-30 08:06:57, INFO: Test on sacre_coeur
+20-03-30 08:07:28, INFO: [91mTest set: Accuracy(FPR95): 0.01262000
+[0m
+20-03-30 08:07:28, INFO: Test on liberty
+20-03-30 08:08:17, INFO: [91mTest set: Accuracy(FPR95): 0.15844000
+[0m
+20-03-30 08:08:17, INFO: Test on notredame
+20-03-30 08:09:08, INFO: [91mTest set: Accuracy(FPR95): 0.10656000
+[0m
+20-03-30 08:09:08, INFO: Test on yosemite
+20-03-30 08:10:09, INFO: [91mTest set: Accuracy(FPR95): 0.15084000
+[0m
+20-03-30 08:10:09, INFO: num_3d_points: 942191
+20-03-30 08:10:09, INFO: generate 100000 triplets
+20-03-30 08:10:37, INFO: epoch: 11
+20-03-30 08:10:37, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:11:12, INFO: 0/98 - Loss: 0.7473710775375366
+20-03-30 08:11:54, INFO: 10/98 - Loss: 0.7495461106300354
+20-03-30 08:12:30, INFO: 20/98 - Loss: 0.7356792688369751
+20-03-30 08:13:03, INFO: 30/98 - Loss: 0.7470152378082275
+20-03-30 08:13:45, INFO: 40/98 - Loss: 0.7505189180374146
+20-03-30 08:14:20, INFO: 50/98 - Loss: 0.7539401054382324
+20-03-30 08:14:51, INFO: 60/98 - Loss: 0.7596189975738525
+20-03-30 08:15:19, INFO: 70/98 - Loss: 0.7361013889312744
+20-03-30 08:15:59, INFO: 80/98 - Loss: 0.7375067472457886
+20-03-30 08:16:29, INFO: 90/98 - Loss: 0.7474712133407593
+20-03-30 08:16:48, INFO: 98/98 - Loss: 0.7356076836585999
+20-03-30 08:16:48, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:16:48_11.pth
+20-03-30 08:16:48, INFO: Test on reichstag
+20-03-30 08:17:21, INFO: [91mTest set: Accuracy(FPR95): 0.01066000
+[0m
+20-03-30 08:17:21, INFO: Test on st_peters_square
+20-03-30 08:18:02, INFO: [91mTest set: Accuracy(FPR95): 0.00884000
+[0m
+20-03-30 08:18:02, INFO: Test on sacre_coeur
+20-03-30 08:18:33, INFO: [91mTest set: Accuracy(FPR95): 0.01156000
+[0m
+20-03-30 08:18:33, INFO: Test on liberty
+20-03-30 08:19:21, INFO: [91mTest set: Accuracy(FPR95): 0.15928000
+[0m
+20-03-30 08:19:21, INFO: Test on notredame
+20-03-30 08:20:28, INFO: [91mTest set: Accuracy(FPR95): 0.10334000
+[0m
+20-03-30 08:20:28, INFO: Test on yosemite
+20-03-30 08:21:17, INFO: [91mTest set: Accuracy(FPR95): 0.13902000
+[0m
+20-03-30 08:21:18, INFO: num_3d_points: 942191
+20-03-30 08:21:18, INFO: generate 100000 triplets
+20-03-30 08:21:47, INFO: epoch: 12
+20-03-30 08:21:47, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:22:15, INFO: 0/98 - Loss: 0.7431914210319519
+20-03-30 08:22:55, INFO: 10/98 - Loss: 0.7450381517410278
+20-03-30 08:23:37, INFO: 20/98 - Loss: 0.7427703142166138
+20-03-30 08:24:16, INFO: 30/98 - Loss: 0.74472975730896
+20-03-30 08:25:03, INFO: 40/98 - Loss: 0.7391627430915833
+20-03-30 08:25:35, INFO: 50/98 - Loss: 0.7492121458053589
+20-03-30 08:26:08, INFO: 60/98 - Loss: 0.7566432952880859
+20-03-30 08:26:44, INFO: 70/98 - Loss: 0.7479201555252075
+20-03-30 08:27:23, INFO: 80/98 - Loss: 0.7531057000160217
+20-03-30 08:27:50, INFO: 90/98 - Loss: 0.7343692183494568
+20-03-30 08:28:01, INFO: 98/98 - Loss: 0.7185349464416504
+20-03-30 08:28:01, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:28:01_12.pth
+20-03-30 08:28:01, INFO: Test on reichstag
+20-03-30 08:28:48, INFO: [91mTest set: Accuracy(FPR95): 0.01038000
+[0m
+20-03-30 08:28:48, INFO: Test on st_peters_square
+20-03-30 08:29:20, INFO: [91mTest set: Accuracy(FPR95): 0.00828000
+[0m
+20-03-30 08:29:20, INFO: Test on sacre_coeur
+20-03-30 08:29:52, INFO: [91mTest set: Accuracy(FPR95): 0.01106000
+[0m
+20-03-30 08:29:52, INFO: Test on liberty
+20-03-30 08:30:43, INFO: [91mTest set: Accuracy(FPR95): 0.15420000
+[0m
+20-03-30 08:30:43, INFO: Test on notredame
+20-03-30 08:31:32, INFO: [91mTest set: Accuracy(FPR95): 0.10182000
+[0m
+20-03-30 08:31:32, INFO: Test on yosemite
+20-03-30 08:32:22, INFO: [91mTest set: Accuracy(FPR95): 0.14254000
+[0m
+20-03-30 08:32:23, INFO: num_3d_points: 942191
+20-03-30 08:32:23, INFO: generate 100000 triplets
+20-03-30 08:32:52, INFO: epoch: 13
+20-03-30 08:32:52, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:33:27, INFO: 0/98 - Loss: 0.7336710095405579
+20-03-30 08:33:56, INFO: 10/98 - Loss: 0.7333215475082397
+20-03-30 08:34:27, INFO: 20/98 - Loss: 0.7321301102638245
+20-03-30 08:34:56, INFO: 30/98 - Loss: 0.7394524812698364
+20-03-30 08:35:37, INFO: 40/98 - Loss: 0.7385772466659546
+20-03-30 08:36:07, INFO: 50/98 - Loss: 0.7390810251235962
+20-03-30 08:36:32, INFO: 60/98 - Loss: 0.7392728328704834
+20-03-30 08:37:00, INFO: 70/98 - Loss: 0.7335048317909241
+20-03-30 08:37:36, INFO: 80/98 - Loss: 0.7489880919456482
+20-03-30 08:38:02, INFO: 90/98 - Loss: 0.7490590810775757
+20-03-30 08:38:12, INFO: 98/98 - Loss: 0.7021331191062927
+20-03-30 08:38:12, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:38:12_13.pth
+20-03-30 08:38:12, INFO: Test on reichstag
+20-03-30 08:38:43, INFO: [91mTest set: Accuracy(FPR95): 0.01012000
+[0m
+20-03-30 08:38:43, INFO: Test on st_peters_square
+20-03-30 08:39:14, INFO: [91mTest set: Accuracy(FPR95): 0.00742000
+[0m
+20-03-30 08:39:14, INFO: Test on sacre_coeur
+20-03-30 08:39:46, INFO: [91mTest set: Accuracy(FPR95): 0.00956000
+[0m
+20-03-30 08:39:46, INFO: Test on liberty
+20-03-30 08:40:36, INFO: [91mTest set: Accuracy(FPR95): 0.15500000
+[0m
+20-03-30 08:40:36, INFO: Test on notredame
+20-03-30 08:41:46, INFO: [91mTest set: Accuracy(FPR95): 0.10254000
+[0m
+20-03-30 08:41:46, INFO: Test on yosemite
+20-03-30 08:42:55, INFO: [91mTest set: Accuracy(FPR95): 0.14578000
+[0m
+20-03-30 08:42:55, INFO: num_3d_points: 942191
+20-03-30 08:42:55, INFO: generate 100000 triplets
+20-03-30 08:43:23, INFO: epoch: 14
+20-03-30 08:43:23, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:43:53, INFO: 0/98 - Loss: 0.7358784675598145
+20-03-30 08:44:24, INFO: 10/98 - Loss: 0.731160581111908
+20-03-30 08:44:56, INFO: 20/98 - Loss: 0.7310615181922913
+20-03-30 08:45:24, INFO: 30/98 - Loss: 0.7270669937133789
+20-03-30 08:46:00, INFO: 40/98 - Loss: 0.7318758964538574
+20-03-30 08:46:33, INFO: 50/98 - Loss: 0.7450786232948303
+20-03-30 08:46:59, INFO: 60/98 - Loss: 0.7364535927772522
+20-03-30 08:47:23, INFO: 70/98 - Loss: 0.7396278977394104
+20-03-30 08:47:53, INFO: 80/98 - Loss: 0.7405259609222412
+20-03-30 08:48:18, INFO: 90/98 - Loss: 0.7305299043655396
+20-03-30 08:48:28, INFO: 98/98 - Loss: 0.7032317519187927
+20-03-30 08:48:28, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:48:28_14.pth
+20-03-30 08:48:28, INFO: Test on reichstag
+20-03-30 08:49:00, INFO: [91mTest set: Accuracy(FPR95): 0.00904000
+[0m
+20-03-30 08:49:00, INFO: Test on st_peters_square
+20-03-30 08:49:31, INFO: [91mTest set: Accuracy(FPR95): 0.00714000
+[0m
+20-03-30 08:49:31, INFO: Test on sacre_coeur
+20-03-30 08:50:03, INFO: [91mTest set: Accuracy(FPR95): 0.00898000
+[0m
+20-03-30 08:50:03, INFO: Test on liberty
+20-03-30 08:50:52, INFO: [91mTest set: Accuracy(FPR95): 0.14434000
+[0m
+20-03-30 08:50:52, INFO: Test on notredame
+20-03-30 08:51:41, INFO: [91mTest set: Accuracy(FPR95): 0.09344000
+[0m
+20-03-30 08:51:41, INFO: Test on yosemite
+20-03-30 08:52:30, INFO: [91mTest set: Accuracy(FPR95): 0.13668000
+[0m
+20-03-30 08:52:31, INFO: num_3d_points: 942191
+20-03-30 08:52:31, INFO: generate 100000 triplets
+20-03-30 08:53:00, INFO: epoch: 15
+20-03-30 08:53:00, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 08:53:37, INFO: 0/98 - Loss: 0.7416962385177612
+20-03-30 08:54:12, INFO: 10/98 - Loss: 0.7430159449577332
+20-03-30 08:54:48, INFO: 20/98 - Loss: 0.7473827600479126
+20-03-30 08:55:20, INFO: 30/98 - Loss: 0.7340675592422485
+20-03-30 08:56:10, INFO: 40/98 - Loss: 0.7182621955871582
+20-03-30 08:56:43, INFO: 50/98 - Loss: 0.7284462451934814
+20-03-30 08:57:15, INFO: 60/98 - Loss: 0.7283692359924316
+20-03-30 08:57:45, INFO: 70/98 - Loss: 0.745459794998169
+20-03-30 08:58:27, INFO: 80/98 - Loss: 0.7420154213905334
+20-03-30 08:59:00, INFO: 90/98 - Loss: 0.7416168451309204
+20-03-30 08:59:10, INFO: 98/98 - Loss: 0.7045931220054626
+20-03-30 08:59:10, INFO: models/train_on_challenge_data/checkpoint_20-03-30_08:59:10_15.pth
+20-03-30 08:59:10, INFO: Test on reichstag
+20-03-30 08:59:41, INFO: [91mTest set: Accuracy(FPR95): 0.00816000
+[0m
+20-03-30 08:59:41, INFO: Test on st_peters_square
+20-03-30 09:00:12, INFO: [91mTest set: Accuracy(FPR95): 0.00638000
+[0m
+20-03-30 09:00:12, INFO: Test on sacre_coeur
+20-03-30 09:00:44, INFO: [91mTest set: Accuracy(FPR95): 0.00800000
+[0m
+20-03-30 09:00:44, INFO: Test on liberty
+20-03-30 09:01:33, INFO: [91mTest set: Accuracy(FPR95): 0.14314000
+[0m
+20-03-30 09:01:33, INFO: Test on notredame
+20-03-30 09:02:21, INFO: [91mTest set: Accuracy(FPR95): 0.09570000
+[0m
+20-03-30 09:02:21, INFO: Test on yosemite
+20-03-30 09:03:10, INFO: [91mTest set: Accuracy(FPR95): 0.13648000
+[0m
+20-03-30 09:03:10, INFO: num_3d_points: 942191
+20-03-30 09:03:10, INFO: generate 100000 triplets
+20-03-30 09:03:40, INFO: epoch: 16
+20-03-30 09:03:40, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 09:04:13, INFO: 0/98 - Loss: 0.7218072414398193
+20-03-30 09:04:46, INFO: 10/98 - Loss: 0.7451750636100769
+20-03-30 09:05:19, INFO: 20/98 - Loss: 0.7402181029319763
+20-03-30 09:05:51, INFO: 30/98 - Loss: 0.7423802614212036
+20-03-30 09:06:42, INFO: 40/98 - Loss: 0.7420541048049927
+20-03-30 09:07:14, INFO: 50/98 - Loss: 0.7210328578948975
+20-03-30 09:07:47, INFO: 60/98 - Loss: 0.731329083442688
+20-03-30 09:08:21, INFO: 70/98 - Loss: 0.7296344041824341
+20-03-30 09:09:10, INFO: 80/98 - Loss: 0.7218499183654785
+20-03-30 09:09:40, INFO: 90/98 - Loss: 0.7341539263725281
+20-03-30 09:09:50, INFO: 98/98 - Loss: 0.7151052355766296
+20-03-30 09:09:50, INFO: models/train_on_challenge_data/checkpoint_20-03-30_09:09:50_16.pth
+20-03-30 09:09:50, INFO: Test on reichstag
+20-03-30 09:10:38, INFO: [91mTest set: Accuracy(FPR95): 0.00812000
+[0m
+20-03-30 09:10:38, INFO: Test on st_peters_square
+20-03-30 09:11:24, INFO: [91mTest set: Accuracy(FPR95): 0.00616000
+[0m
+20-03-30 09:11:24, INFO: Test on sacre_coeur
+20-03-30 09:12:11, INFO: [91mTest set: Accuracy(FPR95): 0.00818000
+[0m
+20-03-30 09:12:11, INFO: Test on liberty
+20-03-30 09:13:28, INFO: [91mTest set: Accuracy(FPR95): 0.14252000
+[0m
+20-03-30 09:13:28, INFO: Test on notredame
+20-03-30 09:14:48, INFO: [91mTest set: Accuracy(FPR95): 0.09758000
+[0m
+20-03-30 09:14:48, INFO: Test on yosemite
+20-03-30 09:16:04, INFO: [91mTest set: Accuracy(FPR95): 0.14416000
+[0m
+20-03-30 09:16:04, INFO: num_3d_points: 942191
+20-03-30 09:16:04, INFO: generate 100000 triplets
+20-03-30 09:16:51, INFO: epoch: 17
+20-03-30 09:16:51, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 09:17:30, INFO: 0/98 - Loss: 0.7282606959342957
+20-03-30 09:18:07, INFO: 10/98 - Loss: 0.7275896072387695
+20-03-30 09:18:43, INFO: 20/98 - Loss: 0.7331606149673462
+20-03-30 09:19:19, INFO: 30/98 - Loss: 0.7255767583847046
+20-03-30 09:20:13, INFO: 40/98 - Loss: 0.7338441610336304
+20-03-30 09:20:48, INFO: 50/98 - Loss: 0.7219864726066589
+20-03-30 09:21:24, INFO: 60/98 - Loss: 0.7186136245727539
+20-03-30 09:21:56, INFO: 70/98 - Loss: 0.7275913953781128
+20-03-30 09:22:39, INFO: 80/98 - Loss: 0.7179310321807861
+20-03-30 09:23:18, INFO: 90/98 - Loss: 0.7227147817611694
+20-03-30 09:23:28, INFO: 98/98 - Loss: 0.711534321308136
+20-03-30 09:23:28, INFO: models/train_on_challenge_data/checkpoint_20-03-30_09:23:28_17.pth
+20-03-30 09:23:28, INFO: Test on reichstag
+20-03-30 09:24:14, INFO: [91mTest set: Accuracy(FPR95): 0.00790000
+[0m
+20-03-30 09:24:14, INFO: Test on st_peters_square
+20-03-30 09:25:02, INFO: [91mTest set: Accuracy(FPR95): 0.00594000
+[0m
+20-03-30 09:25:02, INFO: Test on sacre_coeur
+20-03-30 09:25:48, INFO: [91mTest set: Accuracy(FPR95): 0.00794000
+[0m
+20-03-30 09:25:48, INFO: Test on liberty
+20-03-30 09:27:07, INFO: [91mTest set: Accuracy(FPR95): 0.14096000
+[0m
+20-03-30 09:27:07, INFO: Test on notredame
+20-03-30 09:28:27, INFO: [91mTest set: Accuracy(FPR95): 0.09618000
+[0m
+20-03-30 09:28:27, INFO: Test on yosemite
+20-03-30 09:29:43, INFO: [91mTest set: Accuracy(FPR95): 0.13874000
+[0m
+20-03-30 09:29:44, INFO: num_3d_points: 942191
+20-03-30 09:29:44, INFO: generate 100000 triplets
+20-03-30 09:30:30, INFO: epoch: 18
+20-03-30 09:30:30, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 09:31:14, INFO: 0/98 - Loss: 0.7233636379241943
+20-03-30 09:31:54, INFO: 10/98 - Loss: 0.7265868782997131
+20-03-30 09:32:35, INFO: 20/98 - Loss: 0.7287030220031738
+20-03-30 09:33:16, INFO: 30/98 - Loss: 0.7202221155166626
+20-03-30 09:34:24, INFO: 40/98 - Loss: 0.716494083404541
+20-03-30 09:35:00, INFO: 50/98 - Loss: 0.7222650051116943
+20-03-30 09:35:37, INFO: 60/98 - Loss: 0.7193524837493896
+20-03-30 09:36:16, INFO: 70/98 - Loss: 0.723970353603363
+20-03-30 09:37:03, INFO: 80/98 - Loss: 0.7236044406890869
+20-03-30 09:37:43, INFO: 90/98 - Loss: 0.717879056930542
+20-03-30 09:37:54, INFO: 98/98 - Loss: 0.7077186107635498
+20-03-30 09:37:54, INFO: models/train_on_challenge_data/checkpoint_20-03-30_09:37:54_18.pth
+20-03-30 09:37:54, INFO: Test on reichstag
+20-03-30 09:38:43, INFO: [91mTest set: Accuracy(FPR95): 0.00782000
+[0m
+20-03-30 09:38:43, INFO: Test on st_peters_square
+20-03-30 09:39:31, INFO: [91mTest set: Accuracy(FPR95): 0.00610000
+[0m
+20-03-30 09:39:31, INFO: Test on sacre_coeur
+20-03-30 09:40:21, INFO: [91mTest set: Accuracy(FPR95): 0.00782000
+[0m
+20-03-30 09:40:21, INFO: Test on liberty
+20-03-30 09:41:40, INFO: [91mTest set: Accuracy(FPR95): 0.14234000
+[0m
+20-03-30 09:41:40, INFO: Test on notredame
+20-03-30 09:42:55, INFO: [91mTest set: Accuracy(FPR95): 0.09532000
+[0m
+20-03-30 09:42:55, INFO: Test on yosemite
+20-03-30 09:44:11, INFO: [91mTest set: Accuracy(FPR95): 0.13314000
+[0m
+20-03-30 09:44:12, INFO: num_3d_points: 942191
+20-03-30 09:44:12, INFO: generate 100000 triplets
+20-03-30 09:44:57, INFO: epoch: 19
+20-03-30 09:44:57, INFO: ['brandenburg_gate', 'notre_dame_front_facade', 'pantheon_exterior', 'buckingham_palace']
+20-03-30 09:45:54, INFO: 0/98 - Loss: 0.7146872878074646
+20-03-30 09:46:48, INFO: 10/98 - Loss: 0.7321001291275024
+20-03-30 09:47:39, INFO: 20/98 - Loss: 0.7141588926315308
+20-03-30 09:48:27, INFO: 30/98 - Loss: 0.7246246337890625
+20-03-30 09:49:31, INFO: 40/98 - Loss: 0.7175654172897339
+20-03-30 09:50:31, INFO: 50/98 - Loss: 0.735068678855896
+20-03-30 09:51:15, INFO: 60/98 - Loss: 0.7259624004364014
+20-03-30 09:52:00, INFO: 70/98 - Loss: 0.7251837253570557
+20-03-30 09:53:09, INFO: 80/98 - Loss: 0.7324603796005249
+20-03-30 09:53:56, INFO: 90/98 - Loss: 0.7327436208724976
+20-03-30 09:54:09, INFO: 98/98 - Loss: 0.6812108755111694
+20-03-30 09:54:09, INFO: models/train_on_challenge_data/checkpoint_20-03-30_09:54:09_19.pth
+20-03-30 09:54:09, INFO: Test on reichstag
+20-03-30 09:55:24, INFO: [91mTest set: Accuracy(FPR95): 0.00742000
+[0m
+20-03-30 09:55:24, INFO: Test on st_peters_square
+20-03-30 10:00:03, INFO: [91mTest set: Accuracy(FPR95): 0.00576000
+[0m
+20-03-30 10:00:03, INFO: Test on sacre_coeur
+20-03-30 10:02:54, INFO: [91mTest set: Accuracy(FPR95): 0.00764000
+[0m
+20-03-30 10:02:54, INFO: Test on liberty
+20-03-30 10:03:45, INFO: [91mTest set: Accuracy(FPR95): 0.14036000
+[0m
+20-03-30 10:03:45, INFO: Test on notredame
+20-03-30 10:04:36, INFO: [91mTest set: Accuracy(FPR95): 0.09526000
+[0m
+20-03-30 10:04:36, INFO: Test on yosemite
+20-03-30 10:05:26, INFO: [91mTest set: Accuracy(FPR95): 0.13754000
+[0m
+20-03-30 10:05:26, INFO: num_3d_points: 942191
+20-03-30 10:05:26, INFO: generate 100000 triplets
+20-03-30 11:54:28, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 11:54:28, INFO: num_3d_points: 95382
+20-03-30 11:54:28, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 11:54:38, INFO: 10 first triplets: 
+20-03-30 11:54:38, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1  brandenburg_gate        156502          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  brandenburg_gate        106344          0
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  brandenburg_gate        112940          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1  brandenburg_gate        105119          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  brandenburg_gate        188284          0
+5  brandenburg_gate            18          0  brandenburg_gate            18          1  brandenburg_gate        179967          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1  brandenburg_gate        118581          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1  brandenburg_gate        126548          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1  brandenburg_gate         46561          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1  brandenburg_gate         52253          1
+20-03-30 11:54:41, INFO: 10 last triplets: 
+20-03-30 11:57:12, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 11:57:12, INFO: num_3d_points: 95382
+20-03-30 11:57:12, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 11:57:32, INFO: 10 first triplets: 
+20-03-30 11:57:32, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1  brandenburg_gate        156502          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  brandenburg_gate        106344          0
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  brandenburg_gate        112940          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1  brandenburg_gate        105119          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  brandenburg_gate        188284          0
+5  brandenburg_gate            18          0  brandenburg_gate            18          1  brandenburg_gate        179967          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1  brandenburg_gate        118581          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1  brandenburg_gate        126548          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1  brandenburg_gate         46561          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1  brandenburg_gate         52253          1
+20-03-30 11:57:32, INFO: 10 last triplets: 
+20-03-30 11:59:13, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 11:59:13, INFO: num_3d_points: 95382
+20-03-30 11:59:13, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 11:59:27, INFO: 10 first triplets: 
+20-03-30 11:59:27, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1  brandenburg_gate        156502          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  brandenburg_gate        106344          0
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  brandenburg_gate        112940          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1  brandenburg_gate        105119          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  brandenburg_gate        188284          0
+5  brandenburg_gate            18          0  brandenburg_gate            18          1  brandenburg_gate        179967          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1  brandenburg_gate        118581          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1  brandenburg_gate        126548          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1  brandenburg_gate         46561          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1  brandenburg_gate         52253          1
+20-03-30 11:59:27, INFO: 10 last triplets: 
+20-03-30 11:59:27, INFO:                 scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+95372  brandenburg_gate        202581          0  brandenburg_gate        202581          1  brandenburg_gate        107331          0
+95373  brandenburg_gate        202582          0  brandenburg_gate        202582          1  brandenburg_gate         55325          0
+95374  brandenburg_gate        202583          0  brandenburg_gate        202583          1  brandenburg_gate        146836          1
+95375  brandenburg_gate        202585          0  brandenburg_gate        202585          1  brandenburg_gate          2611          0
+95376  brandenburg_gate        202586          0  brandenburg_gate        202586          1  brandenburg_gate        199994          1
+95377  brandenburg_gate        202587          0  brandenburg_gate        202587          1  brandenburg_gate         64335          0
+95378  brandenburg_gate        202588          0  brandenburg_gate        202588          1  brandenburg_gate        173621          0
+95379  brandenburg_gate        202589          0  brandenburg_gate        202589          1  brandenburg_gate        147246          0
+95380  brandenburg_gate        202590          0  brandenburg_gate        202590          1  brandenburg_gate        109467          0
+95381  brandenburg_gate        202591          0  brandenburg_gate        202591          1  brandenburg_gate        138819          0
+20-03-30 11:59:27, INFO: load test set: reichstag
+20-03-30 11:59:27, INFO: load test set: st_peters_square
+20-03-30 11:59:27, INFO: load test set: sacre_coeur
+20-03-30 11:59:27, INFO: load test set: liberty
+20-03-30 11:59:50, INFO: load test set: notredame
+20-03-30 12:00:01, INFO: load test set: yosemite
+20-03-30 12:00:29, INFO: Training configurations: 
+20-03-30 12:00:29, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0}}
+20-03-30 12:00:29, INFO: epoch: 0
+20-03-30 12:00:29, INFO: ['brandenburg_gate']
+20-03-30 12:08:20, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 12:08:25, INFO: num_3d_points: 95382
+20-03-30 12:08:25, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 12:08:45, INFO: 10 first triplets: 
+20-03-30 12:08:45, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  \
+0  brandenburg_gate             2          0  brandenburg_gate             2   
+1  brandenburg_gate             4          0  brandenburg_gate             4   
+2  brandenburg_gate             7          0  brandenburg_gate             7   
+3  brandenburg_gate            16          0  brandenburg_gate            16   
+4  brandenburg_gate            17          0  brandenburg_gate            17   
+5  brandenburg_gate            18          0  brandenburg_gate            18   
+6  brandenburg_gate            24          0  brandenburg_gate            24   
+7  brandenburg_gate            25          0  brandenburg_gate            25   
+8  brandenburg_gate            26          0  brandenburg_gate            26   
+9  brandenburg_gate            28          0  brandenburg_gate            28   
+
+   patch_id2           scene_3  3d_point_id3  patch_id3  
+0          1  brandenburg_gate        156502          1  
+1          1  brandenburg_gate        106344          0  
+2          1  brandenburg_gate        112940          1  
+3          1  brandenburg_gate        105119          1  
+4          1  brandenburg_gate        188284          0  
+5          1  brandenburg_gate        179967          0  
+6          1  brandenburg_gate        118581          0  
+7          1  brandenburg_gate        126548          0  
+8          1  brandenburg_gate         46561          0  
+9          1  brandenburg_gate         52253          1  
+20-03-30 12:08:45, INFO: 10 last triplets: 
+20-03-30 12:08:45, INFO:                 scene_1  3d_point_id1  patch_id1           scene_2  \
+95372  brandenburg_gate        202581          0  brandenburg_gate   
+95373  brandenburg_gate        202582          0  brandenburg_gate   
+95374  brandenburg_gate        202583          0  brandenburg_gate   
+95375  brandenburg_gate        202585          0  brandenburg_gate   
+95376  brandenburg_gate        202586          0  brandenburg_gate   
+95377  brandenburg_gate        202587          0  brandenburg_gate   
+95378  brandenburg_gate        202588          0  brandenburg_gate   
+95379  brandenburg_gate        202589          0  brandenburg_gate   
+95380  brandenburg_gate        202590          0  brandenburg_gate   
+95381  brandenburg_gate        202591          0  brandenburg_gate   
+
+       3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3  
+95372        202581          1  brandenburg_gate        107331          0  
+95373        202582          1  brandenburg_gate         55325          0  
+95374        202583          1  brandenburg_gate        146836          1  
+95375        202585          1  brandenburg_gate          2611          0  
+95376        202586          1  brandenburg_gate        199994          1  
+95377        202587          1  brandenburg_gate         64335          0  
+95378        202588          1  brandenburg_gate        173621          0  
+95379        202589          1  brandenburg_gate        147246          0  
+95380        202590          1  brandenburg_gate        109467          0  
+95381        202591          1  brandenburg_gate        138819          0  
+20-03-30 12:08:45, INFO: load test set: reichstag
+20-03-30 12:08:45, INFO: load test set: st_peters_square
+20-03-30 12:08:45, INFO: load test set: sacre_coeur
+20-03-30 12:08:45, INFO: load test set: liberty
+20-03-30 12:09:08, INFO: load test set: notredame
+20-03-30 12:09:10, INFO: load test set: yosemite
+20-03-30 12:10:26, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 12:10:26, INFO: num_3d_points: 95382
+20-03-30 12:10:26, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 12:10:48, INFO: 10 first triplets: 
+20-03-30 12:10:48, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1  brandenburg_gate        156502          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  brandenburg_gate        106344          0
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  brandenburg_gate        112940          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1  brandenburg_gate        105119          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  brandenburg_gate        188284          0
+5  brandenburg_gate            18          0  brandenburg_gate            18          1  brandenburg_gate        179967          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1  brandenburg_gate        118581          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1  brandenburg_gate        126548          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1  brandenburg_gate         46561          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1  brandenburg_gate         52253          1
+20-03-30 12:10:48, INFO: 10 last triplets: 
+20-03-30 12:10:48, INFO:                 scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+95372  brandenburg_gate        202581          0  brandenburg_gate        202581          1  brandenburg_gate        107331          0
+95373  brandenburg_gate        202582          0  brandenburg_gate        202582          1  brandenburg_gate         55325          0
+95374  brandenburg_gate        202583          0  brandenburg_gate        202583          1  brandenburg_gate        146836          1
+95375  brandenburg_gate        202585          0  brandenburg_gate        202585          1  brandenburg_gate          2611          0
+95376  brandenburg_gate        202586          0  brandenburg_gate        202586          1  brandenburg_gate        199994          1
+95377  brandenburg_gate        202587          0  brandenburg_gate        202587          1  brandenburg_gate         64335          0
+95378  brandenburg_gate        202588          0  brandenburg_gate        202588          1  brandenburg_gate        173621          0
+95379  brandenburg_gate        202589          0  brandenburg_gate        202589          1  brandenburg_gate        147246          0
+95380  brandenburg_gate        202590          0  brandenburg_gate        202590          1  brandenburg_gate        109467          0
+95381  brandenburg_gate        202591          0  brandenburg_gate        202591          1  brandenburg_gate        138819          0
+20-03-30 12:10:48, INFO: load test set: reichstag
+20-03-30 12:10:48, INFO: load test set: st_peters_square
+20-03-30 12:10:48, INFO: load test set: sacre_coeur
+20-03-30 12:10:48, INFO: load test set: liberty
+20-03-30 12:10:50, INFO: load test set: notredame
+20-03-30 12:10:51, INFO: load test set: yosemite
+20-03-30 12:10:56, INFO: 
+Training configurations: 
+20-03-30 12:10:56, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0}}
+20-03-30 12:10:56, INFO: epoch: 0
+20-03-30 12:10:56, INFO: ['brandenburg_gate']
+20-03-30 12:11:56, INFO: 0/94 - Loss: 1.145402193069458
+20-03-30 12:12:17, INFO: 10/94 - Loss: 1.1119027137756348
+20-03-30 12:12:40, INFO: 20/94 - Loss: 1.0849697589874268
+20-03-30 12:13:22, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 12:13:22, INFO: num_3d_points: 95382
+20-03-30 12:13:22, INFO: generate 95382 triplets (simple add a negative patch to a matched patch)
+20-03-30 12:13:37, INFO: 10 first triplets: 
+20-03-30 12:13:37, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1  brandenburg_gate        156502          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  brandenburg_gate        106344          0
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  brandenburg_gate        112940          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1  brandenburg_gate        105119          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  brandenburg_gate        188284          0
+5  brandenburg_gate            18          0  brandenburg_gate            18          1  brandenburg_gate        179967          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1  brandenburg_gate        118581          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1  brandenburg_gate        126548          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1  brandenburg_gate         46561          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1  brandenburg_gate         52253          1
+20-03-30 12:13:37, INFO: 10 last triplets: 
+20-03-30 12:13:37, INFO:                 scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2           scene_3  3d_point_id3  patch_id3
+95372  brandenburg_gate        202581          0  brandenburg_gate        202581          1  brandenburg_gate        107331          0
+95373  brandenburg_gate        202582          0  brandenburg_gate        202582          1  brandenburg_gate         55325          0
+95374  brandenburg_gate        202583          0  brandenburg_gate        202583          1  brandenburg_gate        146836          1
+95375  brandenburg_gate        202585          0  brandenburg_gate        202585          1  brandenburg_gate          2611          0
+95376  brandenburg_gate        202586          0  brandenburg_gate        202586          1  brandenburg_gate        199994          1
+95377  brandenburg_gate        202587          0  brandenburg_gate        202587          1  brandenburg_gate         64335          0
+95378  brandenburg_gate        202588          0  brandenburg_gate        202588          1  brandenburg_gate        173621          0
+95379  brandenburg_gate        202589          0  brandenburg_gate        202589          1  brandenburg_gate        147246          0
+95380  brandenburg_gate        202590          0  brandenburg_gate        202590          1  brandenburg_gate        109467          0
+95381  brandenburg_gate        202591          0  brandenburg_gate        202591          1  brandenburg_gate        138819          0
+20-03-30 12:13:37, INFO: load test set: reichstag
+20-03-30 12:13:37, INFO: load test set: st_peters_square
+20-03-30 12:13:37, INFO: load test set: sacre_coeur
+20-03-30 12:13:37, INFO: load test set: liberty
+20-03-30 12:13:38, INFO: load test set: notredame
+20-03-30 12:13:39, INFO: load test set: yosemite
+20-03-30 12:13:45, INFO: 
+Training configurations: 
+20-03-30 12:13:45, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 3, 'seed': 0}}
+20-03-30 12:13:45, INFO: EPOCH: 0
+20-03-30 12:13:45, INFO: ========================
+20-03-30 12:13:45, INFO: Training sceces: 
+20-03-30 12:13:45, INFO: ['brandenburg_gate']
+20-03-30 12:13:54, INFO: 0/94 - Loss: 1.145402193069458
+20-03-30 12:14:19, INFO: 10/94 - Loss: 1.1119027137756348
+20-03-30 12:14:40, INFO: 20/94 - Loss: 1.0849697589874268
+20-03-30 12:14:56, INFO: 30/94 - Loss: 1.0702646970748901
+20-03-30 12:15:32, INFO: 40/94 - Loss: 1.0454903841018677
+20-03-30 12:16:12, INFO: 50/94 - Loss: 1.0329039096832275
+20-03-30 12:16:41, INFO: 60/94 - Loss: 1.0173089504241943
+20-03-30 12:17:04, INFO: 70/94 - Loss: 1.0009922981262207
+20-03-30 12:17:30, INFO: 80/94 - Loss: 0.977557361125946
+20-03-30 12:17:51, INFO: 90/94 - Loss: 0.982252299785614
+20-03-30 12:17:56, INFO: 94/94 - Loss: 0.8551193475723267
+20-03-30 12:17:56, INFO: models/train_on_challenge_data/checkpoint_20-03-30_12:17:56_0.pth
+20-03-30 12:17:56, INFO: Test on 100000 pairs of reichstag
+20-03-30 12:19:20, INFO: [91mTest set: Accuracy(FPR95): 0.06050000
+[0m
+20-03-30 12:19:20, INFO: Test on 100000 pairs of st_peters_square
+20-03-30 12:26:26, INFO: [91mTest set: Accuracy(FPR95): 0.06482000
+[0m
+20-03-30 12:26:26, INFO: Test on 100000 pairs of sacre_coeur
+20-03-30 13:24:32, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 13:24:34, INFO: num_3d_points: 3191809
+20-03-30 13:24:34, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 13:56:47, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 13:56:48, INFO: num_3d_points: 3191809
+20-03-30 13:56:48, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 14:05:21, INFO: 10 first triplets: 
+20-03-30 14:05:21, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-30 14:05:21, INFO: 10 last triplets: 
+20-03-30 14:05:21, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-30 14:05:22, INFO: load test set: reichstag
+20-03-30 14:05:22, INFO: load test set: st_peters_square
+20-03-30 14:05:22, INFO: load test set: sacre_coeur
+20-03-30 14:06:56, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 14:06:57, INFO: num_3d_points: 3191809
+20-03-30 14:06:57, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 14:08:03, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 14:08:05, INFO: num_3d_points: 3191809
+20-03-30 14:08:05, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 14:16:04, INFO: 10 first triplets: 
+20-03-30 14:16:04, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-30 14:16:04, INFO: 10 last triplets: 
+20-03-30 14:16:04, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-30 14:16:06, INFO: load test set: reichstag
+20-03-30 14:16:06, INFO: load test set: st_peters_square
+20-03-30 14:16:06, INFO: load test set: sacre_coeur
+20-03-30 14:21:27, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 14:21:28, INFO: num_3d_points: 3191809
+20-03-30 14:21:28, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 14:30:03, INFO: 10 first triplets: 
+20-03-30 14:30:03, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-30 14:30:03, INFO: 10 last triplets: 
+20-03-30 14:30:03, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-30 14:30:04, INFO: load test set: reichstag
+20-03-30 14:30:04, INFO: load test set: st_peters_square
+20-03-30 14:30:04, INFO: load test set: sacre_coeur
+20-03-30 14:33:22, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 14:33:25, INFO: num_3d_points: 3191809
+20-03-30 14:33:25, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 14:41:03, INFO: 10 first triplets: 
+20-03-30 14:41:03, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-30 14:41:03, INFO: 10 last triplets: 
+20-03-30 14:41:03, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-30 14:41:04, INFO: load test set: reichstag
+20-03-30 14:41:04, INFO: load test set: st_peters_square
+20-03-30 14:41:04, INFO: load test set: sacre_coeur
+20-03-30 14:41:04, INFO: load test set: liberty
+20-03-30 14:41:22, INFO: load test set: notredame
+20-03-30 14:41:37, INFO: load test set: yosemite
+20-03-30 14:42:00, INFO: 
+Training configurations: 
+20-03-30 14:42:00, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty', 'notredame', 'yosemite']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 8, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0}}
+20-03-30 14:42:00, INFO: EPOCH: 0
+20-03-30 14:42:00, INFO: ========================
+20-03-30 14:42:00, INFO: Training sceces: 
+20-03-30 14:42:00, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-03-30 14:49:32, INFO: 0/3118 - Loss: 1.1444761753082275
+20-03-30 14:49:47, INFO: 10/3118 - Loss: 1.0420546531677246
+20-03-30 14:51:54, INFO: 20/3118 - Loss: 0.9932966828346252
+20-03-30 14:53:46, INFO: 30/3118 - Loss: 0.981537938117981
+20-03-30 14:56:20, INFO: 40/3118 - Loss: 0.9531170725822449
+20-03-30 14:58:38, INFO: 50/3118 - Loss: 0.9405283331871033
+20-03-30 15:00:38, INFO: 60/3118 - Loss: 0.926864504814148
+20-03-30 15:02:36, INFO: 70/3118 - Loss: 0.9163123965263367
+20-03-30 15:05:28, INFO: 80/3118 - Loss: 0.8983991146087646
+20-03-30 15:07:48, INFO: 90/3118 - Loss: 0.8817651867866516
+20-03-30 15:09:48, INFO: 100/3118 - Loss: 0.8968612551689148
+20-03-30 15:12:31, INFO: 110/3118 - Loss: 0.8666413426399231
+20-03-30 15:16:08, INFO: 120/3118 - Loss: 0.8760837316513062
+20-03-30 15:18:49, INFO: 130/3118 - Loss: 0.8497132062911987
+20-03-30 15:20:57, INFO: 140/3118 - Loss: 0.8571329116821289
+20-03-30 15:23:00, INFO: 150/3118 - Loss: 0.8462285399436951
+20-03-30 15:25:47, INFO: 160/3118 - Loss: 0.8532018065452576
+20-03-30 15:29:28, INFO: 170/3118 - Loss: 0.8412636518478394
+20-03-30 15:32:26, INFO: 180/3118 - Loss: 0.8471379280090332
+20-03-30 15:34:47, INFO: 190/3118 - Loss: 0.8390821814537048
+20-03-30 15:37:33, INFO: 200/3118 - Loss: 0.8253141045570374
+20-03-30 15:39:55, INFO: 210/3118 - Loss: 0.8228353261947632
+20-03-30 15:41:22, INFO: 220/3118 - Loss: 0.8118011355400085
+20-03-30 15:43:33, INFO: 230/3118 - Loss: 0.8073859214782715
+20-03-30 15:46:17, INFO: 240/3118 - Loss: 0.8187861442565918
+20-03-30 15:49:57, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 15:50:00, INFO: num_3d_points: 3191809
+20-03-30 15:50:00, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 15:51:35, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 15:51:36, INFO: num_3d_points: 3191809
+20-03-30 15:51:36, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 15:57:40, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-30 15:57:41, INFO: num_3d_points: 3191809
+20-03-30 15:57:41, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-30 16:05:34, INFO: 10 first triplets: 
+20-03-30 16:05:34, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-30 16:05:34, INFO: 10 last triplets: 
+20-03-30 16:05:34, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-30 16:05:35, INFO: load test set: reichstag
+20-03-30 16:05:35, INFO: load test set: st_peters_square
+20-03-30 16:05:35, INFO: load test set: sacre_coeur
+20-03-30 16:05:36, INFO: load test set: liberty
+20-03-30 16:06:09, INFO: 
+Training configurations: 
+20-03-30 16:06:09, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 16, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0}}
+20-03-30 16:06:09, INFO: EPOCH: 0
+20-03-30 16:06:09, INFO: ========================
+20-03-30 16:06:09, INFO: Training sceces: 
+20-03-30 16:06:09, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-03-30 16:14:04, INFO: 0/3118 - Loss: 1.1444761753082275
+20-03-30 16:14:19, INFO: 10/3118 - Loss: 1.0420546531677246
+20-03-30 16:14:34, INFO: 20/3118 - Loss: 0.9932966828346252
+20-03-30 16:14:50, INFO: 30/3118 - Loss: 0.981537938117981
+20-03-30 16:17:47, INFO: 40/3118 - Loss: 0.9531170725822449
+20-03-30 16:20:19, INFO: 50/3118 - Loss: 0.9405283331871033
+20-03-30 16:20:51, INFO: 60/3118 - Loss: 0.926864504814148
+20-03-30 16:23:14, INFO: 70/3118 - Loss: 0.9163123965263367
+20-03-30 16:25:06, INFO: 80/3118 - Loss: 0.8983991146087646
+20-03-30 16:26:08, INFO: 90/3118 - Loss: 0.8817651867866516
+20-03-30 16:28:28, INFO: 100/3118 - Loss: 0.8968612551689148
+20-03-30 16:29:01, INFO: 110/3118 - Loss: 0.8666413426399231
+20-03-30 16:31:38, INFO: 120/3118 - Loss: 0.8760837316513062
+20-03-30 16:33:57, INFO: 130/3118 - Loss: 0.8497132062911987
+20-03-30 16:34:21, INFO: 140/3118 - Loss: 0.8571329116821289
+20-03-30 16:36:26, INFO: 150/3118 - Loss: 0.8462285399436951
+20-03-30 16:38:01, INFO: 160/3118 - Loss: 0.8532018065452576
+20-03-30 16:38:56, INFO: 170/3118 - Loss: 0.8412636518478394
+20-03-30 16:40:54, INFO: 180/3118 - Loss: 0.8471379280090332
+20-03-30 16:41:24, INFO: 190/3118 - Loss: 0.8390821814537048
+20-03-30 16:43:22, INFO: 200/3118 - Loss: 0.8253141045570374
+20-03-30 16:45:33, INFO: 210/3118 - Loss: 0.8228353261947632
+20-03-30 16:46:06, INFO: 220/3118 - Loss: 0.8118011355400085
+20-03-30 16:48:35, INFO: 230/3118 - Loss: 0.8073859214782715
+20-03-30 16:50:43, INFO: 240/3118 - Loss: 0.8187861442565918
+20-03-30 16:52:03, INFO: 250/3118 - Loss: 0.8145674467086792
+20-03-30 16:54:33, INFO: 260/3118 - Loss: 0.79166579246521
+20-03-30 16:55:25, INFO: 270/3118 - Loss: 0.792761504650116
+20-03-30 16:59:06, INFO: 280/3118 - Loss: 0.7996234893798828
+20-03-30 17:03:48, INFO: 290/3118 - Loss: 0.7918647527694702
+20-03-30 17:04:52, INFO: 300/3118 - Loss: 0.799103856086731
+20-03-30 17:08:04, INFO: 310/3118 - Loss: 0.8019531965255737
+20-03-30 17:10:19, INFO: 320/3118 - Loss: 0.7978934049606323
+20-03-30 17:11:03, INFO: 330/3118 - Loss: 0.788779616355896
+20-03-30 17:13:07, INFO: 340/3118 - Loss: 0.7940592169761658
+20-03-30 17:14:09, INFO: 350/3118 - Loss: 0.7789897918701172
+20-03-30 17:16:38, INFO: 360/3118 - Loss: 0.7791166305541992
+20-03-30 17:19:14, INFO: 370/3118 - Loss: 0.7647732496261597
+20-03-30 17:19:55, INFO: 380/3118 - Loss: 0.7729815244674683
+20-03-30 17:22:19, INFO: 390/3118 - Loss: 0.7760368585586548
+20-03-30 17:24:04, INFO: 400/3118 - Loss: 0.7658330798149109
+20-03-30 17:24:33, INFO: 410/3118 - Loss: 0.7880740165710449
+20-03-30 17:27:07, INFO: 420/3118 - Loss: 0.7631567716598511
+20-03-30 17:27:58, INFO: 430/3118 - Loss: 0.7842622995376587
+20-03-30 17:29:56, INFO: 440/3118 - Loss: 0.7734805345535278
+20-03-30 17:32:14, INFO: 450/3118 - Loss: 0.7574601173400879
+20-03-30 17:32:43, INFO: 460/3118 - Loss: 0.7529482245445251
+20-03-30 17:34:57, INFO: 470/3118 - Loss: 0.7744183540344238
+20-03-30 17:37:02, INFO: 480/3118 - Loss: 0.7746562957763672
+20-03-30 17:37:38, INFO: 490/3118 - Loss: 0.7590038180351257
+20-03-30 17:39:47, INFO: 500/3118 - Loss: 0.751040518283844
+20-03-30 17:40:41, INFO: 510/3118 - Loss: 0.7577246427536011
+20-03-30 17:42:41, INFO: 520/3118 - Loss: 0.7590482831001282
+20-03-30 17:45:28, INFO: 530/3118 - Loss: 0.7543144226074219
+20-03-30 17:45:59, INFO: 540/3118 - Loss: 0.7459195256233215
+20-03-30 17:48:46, INFO: 550/3118 - Loss: 0.7576159238815308
+20-03-30 17:51:07, INFO: 560/3118 - Loss: 0.7528605461120605
+20-03-30 17:51:46, INFO: 570/3118 - Loss: 0.7586772441864014
+20-03-30 17:54:25, INFO: 580/3118 - Loss: 0.7536300420761108
+20-03-30 17:54:49, INFO: 590/3118 - Loss: 0.753993570804596
+20-03-30 17:57:05, INFO: 600/3118 - Loss: 0.7445499300956726
+20-03-30 17:59:28, INFO: 610/3118 - Loss: 0.7475193738937378
+20-03-30 17:59:42, INFO: 620/3118 - Loss: 0.7437875270843506
+20-03-30 18:02:00, INFO: 630/3118 - Loss: 0.7476454377174377
+20-03-30 18:03:44, INFO: 640/3118 - Loss: 0.7506979703903198
+20-03-30 18:04:36, INFO: 650/3118 - Loss: 0.7503204345703125
+20-03-30 18:07:13, INFO: 660/3118 - Loss: 0.752456784248352
+20-03-30 18:07:49, INFO: 670/3118 - Loss: 0.7310948967933655
+20-03-30 18:09:54, INFO: 680/3118 - Loss: 0.7428539991378784
+20-03-30 18:12:39, INFO: 690/3118 - Loss: 0.7340471744537354
+20-03-30 18:12:54, INFO: 700/3118 - Loss: 0.7424514293670654
+20-03-30 18:15:13, INFO: 710/3118 - Loss: 0.7405434846878052
+20-03-30 18:16:14, INFO: 720/3118 - Loss: 0.7426364421844482
+20-03-30 18:17:21, INFO: 730/3118 - Loss: 0.7537986040115356
+20-03-30 18:19:10, INFO: 740/3118 - Loss: 0.7349213361740112
+20-03-30 18:19:51, INFO: 750/3118 - Loss: 0.7186194658279419
+20-03-30 18:21:44, INFO: 760/3118 - Loss: 0.7305723428726196
+20-03-30 18:23:56, INFO: 770/3118 - Loss: 0.7240252494812012
+20-03-30 18:24:10, INFO: 780/3118 - Loss: 0.7252151966094971
+20-03-30 18:26:36, INFO: 790/3118 - Loss: 0.7244104146957397
+20-03-30 18:27:40, INFO: 800/3118 - Loss: 0.7171205282211304
+20-03-30 18:29:27, INFO: 810/3118 - Loss: 0.7118034958839417
+20-03-30 18:32:07, INFO: 820/3118 - Loss: 0.7188318967819214
+20-03-30 18:32:54, INFO: 830/3118 - Loss: 0.7301384210586548
+20-03-30 18:34:57, INFO: 840/3118 - Loss: 0.7065232992172241
+20-03-30 18:37:21, INFO: 850/3118 - Loss: 0.7244203686714172
+20-03-30 18:37:35, INFO: 860/3118 - Loss: 0.7065474987030029
+20-03-30 18:40:07, INFO: 870/3118 - Loss: 0.7199759483337402
+20-03-30 18:41:23, INFO: 880/3118 - Loss: 0.7272927761077881
+20-03-30 18:43:10, INFO: 890/3118 - Loss: 0.7195647954940796
+20-03-30 18:46:23, INFO: 900/3118 - Loss: 0.724579930305481
+20-03-30 18:47:35, INFO: 910/3118 - Loss: 0.7353383302688599
+20-03-30 18:49:34, INFO: 920/3118 - Loss: 0.7228784561157227
+20-03-30 18:52:15, INFO: 930/3118 - Loss: 0.7186727523803711
+20-03-30 18:52:29, INFO: 940/3118 - Loss: 0.7226020097732544
+20-03-30 18:55:03, INFO: 950/3118 - Loss: 0.7134363651275635
+20-03-30 18:56:19, INFO: 960/3118 - Loss: 0.7257137298583984
+20-03-30 18:57:45, INFO: 970/3118 - Loss: 0.7043638229370117
+20-03-30 18:59:58, INFO: 980/3118 - Loss: 0.6989222764968872
+20-03-30 19:00:54, INFO: 990/3118 - Loss: 0.7049014568328857
+20-03-30 19:02:34, INFO: 1000/3118 - Loss: 0.7177098989486694
+20-03-30 19:04:59, INFO: 1010/3118 - Loss: 0.724442720413208
+20-03-30 19:05:13, INFO: 1020/3118 - Loss: 0.7133827805519104
+20-03-30 19:08:03, INFO: 1030/3118 - Loss: 0.7179660797119141
+20-03-30 19:08:59, INFO: 1040/3118 - Loss: 0.70084148645401
+20-03-30 19:10:17, INFO: 1050/3118 - Loss: 0.7063598036766052
+20-03-30 19:12:05, INFO: 1060/3118 - Loss: 0.6964536905288696
+20-03-30 19:12:44, INFO: 1070/3118 - Loss: 0.7064352035522461
+20-03-30 19:14:17, INFO: 1080/3118 - Loss: 0.7002229690551758
+20-03-30 19:16:37, INFO: 1090/3118 - Loss: 0.6883749961853027
+20-03-30 19:16:52, INFO: 1100/3118 - Loss: 0.6951988935470581
+20-03-30 19:19:31, INFO: 1110/3118 - Loss: 0.7138752937316895
+20-03-30 19:20:56, INFO: 1120/3118 - Loss: 0.7051417827606201
+20-03-30 19:22:04, INFO: 1130/3118 - Loss: 0.7109625935554504
+20-03-30 19:24:27, INFO: 1140/3118 - Loss: 0.7176142930984497
+20-03-30 19:25:20, INFO: 1150/3118 - Loss: 0.69781494140625
+20-03-30 19:27:04, INFO: 1160/3118 - Loss: 0.6821088194847107
+20-03-30 19:29:17, INFO: 1170/3118 - Loss: 0.7068644762039185
+20-03-30 19:30:15, INFO: 1180/3118 - Loss: 0.6974337100982666
+20-03-30 19:32:33, INFO: 1190/3118 - Loss: 0.7050708532333374
+20-03-30 19:34:02, INFO: 1200/3118 - Loss: 0.6953709125518799
+20-03-30 19:35:02, INFO: 1210/3118 - Loss: 0.7001866102218628
+20-03-30 19:37:04, INFO: 1220/3118 - Loss: 0.6988073587417603
+20-03-30 19:38:36, INFO: 1230/3118 - Loss: 0.6836949586868286
+20-03-30 19:40:29, INFO: 1240/3118 - Loss: 0.691891074180603
+20-03-30 19:43:08, INFO: 1250/3118 - Loss: 0.698663592338562
+20-03-30 19:44:07, INFO: 1260/3118 - Loss: 0.7121553421020508
+20-03-30 19:46:00, INFO: 1270/3118 - Loss: 0.6976431012153625
+20-03-30 19:48:12, INFO: 1280/3118 - Loss: 0.6880981922149658
+20-03-30 19:49:18, INFO: 1290/3118 - Loss: 0.6939791440963745
+20-03-30 19:51:32, INFO: 1300/3118 - Loss: 0.686403751373291
+20-03-30 19:52:51, INFO: 1310/3118 - Loss: 0.6726454496383667
+20-03-30 19:54:58, INFO: 1320/3118 - Loss: 0.6861574649810791
+20-03-30 19:58:16, INFO: 1330/3118 - Loss: 0.6845442056655884
+20-03-30 19:59:17, INFO: 1340/3118 - Loss: 0.6863563060760498
+20-03-30 20:01:22, INFO: 1350/3118 - Loss: 0.6930844783782959
+20-03-30 20:03:18, INFO: 1360/3118 - Loss: 0.7041245698928833
+20-03-30 20:04:04, INFO: 1370/3118 - Loss: 0.6836548447608948
+20-03-30 20:06:18, INFO: 1380/3118 - Loss: 0.7043877840042114
+20-03-30 20:07:22, INFO: 1390/3118 - Loss: 0.6779944896697998
+20-03-30 20:08:31, INFO: 1400/3118 - Loss: 0.6884028315544128
+20-03-30 20:10:38, INFO: 1410/3118 - Loss: 0.6955351829528809
+20-03-30 20:11:07, INFO: 1420/3118 - Loss: 0.6752896308898926
+20-03-30 20:12:56, INFO: 1430/3118 - Loss: 0.6791564226150513
+20-03-30 20:14:50, INFO: 1440/3118 - Loss: 0.6826598644256592
+20-03-30 20:15:24, INFO: 1450/3118 - Loss: 0.6756568551063538
+20-03-30 20:17:59, INFO: 1460/3118 - Loss: 0.6821061372756958
+20-03-30 20:18:50, INFO: 1470/3118 - Loss: 0.6920274496078491
+20-03-30 20:20:38, INFO: 1480/3118 - Loss: 0.6949031352996826
+20-03-30 20:22:56, INFO: 1490/3118 - Loss: 0.673833429813385
+20-03-30 20:23:29, INFO: 1500/3118 - Loss: 0.6858295202255249
+20-03-30 20:26:48, INFO: 1510/3118 - Loss: 0.6818933486938477
+20-03-30 20:28:48, INFO: 1520/3118 - Loss: 0.6751790642738342
+20-03-30 20:29:46, INFO: 1530/3118 - Loss: 0.6908453702926636
+20-03-30 20:32:35, INFO: 1540/3118 - Loss: 0.6802841424942017
+20-03-30 20:33:49, INFO: 1550/3118 - Loss: 0.6725262403488159
+20-03-30 20:35:33, INFO: 1560/3118 - Loss: 0.6730673909187317
+20-03-30 20:38:24, INFO: 1570/3118 - Loss: 0.6718049645423889
+20-03-30 20:39:01, INFO: 1580/3118 - Loss: 0.6858584880828857
+20-03-30 20:41:55, INFO: 1590/3118 - Loss: 0.6893982887268066
+20-03-30 20:44:15, INFO: 1600/3118 - Loss: 0.685426652431488
+20-03-30 20:45:03, INFO: 1610/3118 - Loss: 0.6842247247695923
+20-03-30 20:48:16, INFO: 1620/3118 - Loss: 0.6953260898590088
+20-03-30 20:49:57, INFO: 1630/3118 - Loss: 0.6880620121955872
+20-03-30 20:51:41, INFO: 1640/3118 - Loss: 0.6972600221633911
+20-03-30 20:54:12, INFO: 1650/3118 - Loss: 0.6871005296707153
+20-03-30 20:54:42, INFO: 1660/3118 - Loss: 0.6795774102210999
+20-03-30 20:56:26, INFO: 1670/3118 - Loss: 0.6885454058647156
+20-03-30 20:58:11, INFO: 1680/3118 - Loss: 0.6668537259101868
+20-03-30 20:58:58, INFO: 1690/3118 - Loss: 0.6817917823791504
+20-03-30 21:01:00, INFO: 1700/3118 - Loss: 0.6783187389373779
+20-03-30 21:01:54, INFO: 1710/3118 - Loss: 0.6791537404060364
+20-03-30 21:04:01, INFO: 1720/3118 - Loss: 0.6661293506622314
+20-03-30 21:06:10, INFO: 1730/3118 - Loss: 0.6758213043212891
+20-03-30 21:06:54, INFO: 1740/3118 - Loss: 0.6907543540000916
+20-03-30 21:08:47, INFO: 1750/3118 - Loss: 0.6826726198196411
+20-03-30 21:10:38, INFO: 1760/3118 - Loss: 0.6748001575469971
+20-03-30 21:11:16, INFO: 1770/3118 - Loss: 0.6913434863090515
+20-03-30 21:13:52, INFO: 1780/3118 - Loss: 0.6757882833480835
+20-03-30 21:15:11, INFO: 1790/3118 - Loss: 0.6736819744110107
+20-03-30 21:17:10, INFO: 1800/3118 - Loss: 0.6826133728027344
+20-03-30 21:19:42, INFO: 1810/3118 - Loss: 0.6866593956947327
+20-03-30 21:20:04, INFO: 1820/3118 - Loss: 0.6688704490661621
+20-03-30 21:22:19, INFO: 1830/3118 - Loss: 0.6684622764587402
+20-03-30 21:24:39, INFO: 1840/3118 - Loss: 0.6656595468521118
+20-03-30 21:25:10, INFO: 1850/3118 - Loss: 0.6769567728042603
+20-03-30 21:27:25, INFO: 1860/3118 - Loss: 0.6687906980514526
+20-03-30 21:28:18, INFO: 1870/3118 - Loss: 0.6760318875312805
+20-03-30 21:29:53, INFO: 1880/3118 - Loss: 0.6801329851150513
+20-03-30 21:32:02, INFO: 1890/3118 - Loss: 0.6738948225975037
+20-03-30 21:32:36, INFO: 1900/3118 - Loss: 0.6732653379440308
+20-03-30 21:34:43, INFO: 1910/3118 - Loss: 0.6678507328033447
+20-03-30 21:37:09, INFO: 1920/3118 - Loss: 0.6758003830909729
+20-03-30 21:37:34, INFO: 1930/3118 - Loss: 0.6718353033065796
+20-03-30 21:40:25, INFO: 1940/3118 - Loss: 0.6709454655647278
+20-03-30 21:41:10, INFO: 1950/3118 - Loss: 0.6707619428634644
+20-03-30 21:42:59, INFO: 1960/3118 - Loss: 0.6780261993408203
+20-03-30 21:45:10, INFO: 1970/3118 - Loss: 0.6733478307723999
+20-03-30 21:45:33, INFO: 1980/3118 - Loss: 0.6636165976524353
+20-03-30 21:47:34, INFO: 1990/3118 - Loss: 0.6638385653495789
+20-03-30 21:49:11, INFO: 2000/3118 - Loss: 0.6765724420547485
+20-03-30 21:49:31, INFO: 2010/3118 - Loss: 0.6855710744857788
+20-03-30 21:51:20, INFO: 2020/3118 - Loss: 0.6793595552444458
+20-03-30 21:51:34, INFO: 2030/3118 - Loss: 0.6756953001022339
+20-03-30 21:53:29, INFO: 2040/3118 - Loss: 0.6817642450332642
+20-03-30 21:55:29, INFO: 2050/3118 - Loss: 0.6759989261627197
+20-03-30 21:55:49, INFO: 2060/3118 - Loss: 0.6727904081344604
+20-03-30 21:57:55, INFO: 2070/3118 - Loss: 0.6674700975418091
+20-03-30 21:59:51, INFO: 2080/3118 - Loss: 0.6569081544876099
+20-03-30 22:00:24, INFO: 2090/3118 - Loss: 0.6670770049095154
+20-03-30 22:02:34, INFO: 2100/3118 - Loss: 0.677727460861206
+20-03-30 22:02:48, INFO: 2110/3118 - Loss: 0.672930121421814
+20-03-30 22:05:13, INFO: 2120/3118 - Loss: 0.6793010830879211
+20-03-30 22:07:54, INFO: 2130/3118 - Loss: 0.6745259761810303
+20-03-30 22:08:21, INFO: 2140/3118 - Loss: 0.6793553233146667
+20-03-30 22:10:57, INFO: 2150/3118 - Loss: 0.6752575635910034
+20-03-30 22:13:56, INFO: 2160/3118 - Loss: 0.683655858039856
+20-03-30 22:14:10, INFO: 2170/3118 - Loss: 0.6707844734191895
+20-03-30 22:16:49, INFO: 2180/3118 - Loss: 0.672965407371521
+20-03-30 22:17:04, INFO: 2190/3118 - Loss: 0.678597092628479
+20-03-30 22:19:22, INFO: 2200/3118 - Loss: 0.6703639030456543
+20-03-30 22:21:26, INFO: 2210/3118 - Loss: 0.6717511415481567
+20-03-30 22:21:41, INFO: 2220/3118 - Loss: 0.6675394773483276
+20-03-30 22:24:20, INFO: 2230/3118 - Loss: 0.6574751138687134
+20-03-30 22:27:27, INFO: 2240/3118 - Loss: 0.6686899065971375
+20-03-30 22:27:45, INFO: 2250/3118 - Loss: 0.6736398339271545
+20-03-30 22:30:47, INFO: 2260/3118 - Loss: 0.6718557476997375
+20-03-30 22:31:02, INFO: 2270/3118 - Loss: 0.666136622428894
+20-03-30 22:33:29, INFO: 2280/3118 - Loss: 0.6623226404190063
+20-03-30 22:35:38, INFO: 2290/3118 - Loss: 0.6686255931854248
+20-03-30 22:35:57, INFO: 2300/3118 - Loss: 0.6724942922592163
+20-03-30 22:37:43, INFO: 2310/3118 - Loss: 0.6575173735618591
+20-03-30 22:39:51, INFO: 2320/3118 - Loss: 0.6746478080749512
+20-03-30 22:40:08, INFO: 2330/3118 - Loss: 0.6712191104888916
+20-03-30 22:42:29, INFO: 2340/3118 - Loss: 0.668689489364624
+20-03-30 22:42:44, INFO: 2350/3118 - Loss: 0.6742760539054871
+20-03-30 22:45:00, INFO: 2360/3118 - Loss: 0.672362208366394
+20-03-30 22:47:13, INFO: 2370/3118 - Loss: 0.663911759853363
+20-03-30 22:47:28, INFO: 2380/3118 - Loss: 0.6791148781776428
+20-03-30 22:49:33, INFO: 2390/3118 - Loss: 0.6740039587020874
+20-03-30 22:52:00, INFO: 2400/3118 - Loss: 0.6597234606742859
+20-03-30 22:52:15, INFO: 2410/3118 - Loss: 0.6720290184020996
+20-03-30 22:54:43, INFO: 2420/3118 - Loss: 0.6617419719696045
+20-03-30 22:54:57, INFO: 2430/3118 - Loss: 0.6621189713478088
+20-03-30 22:57:47, INFO: 2440/3118 - Loss: 0.6675592660903931
+20-03-30 23:00:14, INFO: 2450/3118 - Loss: 0.6595925092697144
+20-03-30 23:00:28, INFO: 2460/3118 - Loss: 0.6559768319129944
+20-03-30 23:02:37, INFO: 2470/3118 - Loss: 0.6768411993980408
+20-03-30 23:04:51, INFO: 2480/3118 - Loss: 0.6642604470252991
+20-03-30 23:05:30, INFO: 2490/3118 - Loss: 0.6649924516677856
+20-03-30 23:07:43, INFO: 2500/3118 - Loss: 0.6654170751571655
+20-03-30 23:07:58, INFO: 2510/3118 - Loss: 0.6674071550369263
+20-03-30 23:10:23, INFO: 2520/3118 - Loss: 0.6443912982940674
+20-03-30 23:12:51, INFO: 2530/3118 - Loss: 0.643311619758606
+20-03-30 23:13:13, INFO: 2540/3118 - Loss: 0.6647374629974365
+20-03-30 23:16:04, INFO: 2550/3118 - Loss: 0.6565166115760803
+20-03-30 23:18:03, INFO: 2560/3118 - Loss: 0.6685819625854492
+20-03-30 23:18:34, INFO: 2570/3118 - Loss: 0.6656931638717651
+20-03-30 23:20:39, INFO: 2580/3118 - Loss: 0.6634993553161621
+20-03-30 23:20:57, INFO: 2590/3118 - Loss: 0.666297972202301
+20-03-30 23:23:26, INFO: 2600/3118 - Loss: 0.6622433662414551
+20-03-30 23:25:31, INFO: 2610/3118 - Loss: 0.6613175272941589
+20-03-30 23:25:55, INFO: 2620/3118 - Loss: 0.6711411476135254
+20-03-30 23:28:02, INFO: 2630/3118 - Loss: 0.6624176502227783
+20-03-30 23:29:23, INFO: 2640/3118 - Loss: 0.6804587841033936
+20-03-30 23:29:53, INFO: 2650/3118 - Loss: 0.6637682914733887
+20-03-30 23:31:54, INFO: 2660/3118 - Loss: 0.659675121307373
+20-03-30 23:32:08, INFO: 2670/3118 - Loss: 0.6591885685920715
+20-03-30 23:34:24, INFO: 2680/3118 - Loss: 0.661353349685669
+20-03-30 23:36:28, INFO: 2690/3118 - Loss: 0.6743382215499878
+20-03-30 23:37:03, INFO: 2700/3118 - Loss: 0.6737854480743408
+20-03-30 23:39:17, INFO: 2710/3118 - Loss: 0.6580387353897095
+20-03-30 23:41:51, INFO: 2720/3118 - Loss: 0.6634256839752197
+20-03-30 23:42:24, INFO: 2730/3118 - Loss: 0.6640289425849915
+20-03-30 23:45:06, INFO: 2740/3118 - Loss: 0.6652783155441284
+20-03-30 23:45:21, INFO: 2750/3118 - Loss: 0.6726711988449097
+20-03-30 23:48:04, INFO: 2760/3118 - Loss: 0.6655117869377136
+20-03-30 23:50:00, INFO: 2770/3118 - Loss: 0.6582509279251099
+20-03-30 23:50:21, INFO: 2780/3118 - Loss: 0.6778709888458252
+20-03-30 23:52:41, INFO: 2790/3118 - Loss: 0.6577564477920532
+20-03-30 23:54:46, INFO: 2800/3118 - Loss: 0.6725945472717285
+20-03-30 23:55:23, INFO: 2810/3118 - Loss: 0.666346549987793
+20-03-30 23:57:51, INFO: 2820/3118 - Loss: 0.6687043905258179
+20-03-30 23:58:06, INFO: 2830/3118 - Loss: 0.6746088266372681
+20-03-31 00:00:39, INFO: 2840/3118 - Loss: 0.6640619039535522
+20-03-31 00:02:45, INFO: 2850/3118 - Loss: 0.6596057415008545
+20-03-31 00:03:01, INFO: 2860/3118 - Loss: 0.657763659954071
+20-03-31 00:05:11, INFO: 2870/3118 - Loss: 0.6645531058311462
+20-03-31 00:06:40, INFO: 2880/3118 - Loss: 0.6631655693054199
+20-03-31 00:07:54, INFO: 2890/3118 - Loss: 0.6630270481109619
+20-03-31 00:10:12, INFO: 2900/3118 - Loss: 0.6523838043212891
+20-03-31 00:10:27, INFO: 2910/3118 - Loss: 0.6626201868057251
+20-03-31 00:12:58, INFO: 2920/3118 - Loss: 0.6509720683097839
+20-03-31 00:15:14, INFO: 2930/3118 - Loss: 0.671393871307373
+20-03-31 00:15:28, INFO: 2940/3118 - Loss: 0.6664786338806152
+20-03-31 00:17:20, INFO: 2950/3118 - Loss: 0.6677452325820923
+20-03-31 00:18:18, INFO: 2960/3118 - Loss: 0.6717283725738525
+20-03-31 00:19:41, INFO: 2970/3118 - Loss: 0.6686675548553467
+20-03-31 00:21:55, INFO: 2980/3118 - Loss: 0.6537555456161499
+20-03-31 00:22:09, INFO: 2990/3118 - Loss: 0.6603487730026245
+20-03-31 00:24:15, INFO: 3000/3118 - Loss: 0.6528869867324829
+20-03-31 00:26:22, INFO: 3010/3118 - Loss: 0.6484899520874023
+20-03-31 00:26:36, INFO: 3020/3118 - Loss: 0.6632704734802246
+20-03-31 00:29:01, INFO: 3030/3118 - Loss: 0.6715958118438721
+20-03-31 00:30:06, INFO: 3040/3118 - Loss: 0.6641724109649658
+20-03-31 00:31:45, INFO: 3050/3118 - Loss: 0.6506866216659546
+20-03-31 00:34:21, INFO: 3060/3118 - Loss: 0.6593983173370361
+20-03-31 00:34:36, INFO: 3070/3118 - Loss: 0.6564527750015259
+20-03-31 00:37:08, INFO: 3080/3118 - Loss: 0.6574020385742188
+20-03-31 00:39:08, INFO: 3090/3118 - Loss: 0.6534355282783508
+20-03-31 00:39:23, INFO: 3100/3118 - Loss: 0.6666728258132935
+20-03-31 00:40:19, INFO: 3110/3118 - Loss: 0.6617695093154907
+20-03-31 02:58:28, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-03-31 02:58:29, INFO: num_3d_points: 3191809
+20-03-31 02:58:29, INFO: generate 3191809 triplets (simple add a negative patch to a matched patch)
+20-03-31 03:03:33, INFO: 10 first triplets: 
+20-03-31 03:03:33, INFO:             scene_1  3d_point_id1  patch_id1           scene_2  3d_point_id2  patch_id2                 scene_3  3d_point_id3  patch_id3
+0  brandenburg_gate             2          0  brandenburg_gate             2          1       buckingham_palace        437281          1
+1  brandenburg_gate             4          0  brandenburg_gate             4          1  prague_old_town_square       1372143          1
+2  brandenburg_gate             7          0  brandenburg_gate             7          1  prague_old_town_square       1424538          1
+3  brandenburg_gate            16          0  brandenburg_gate            16          1       temple_nara_japan        154086          1
+4  brandenburg_gate            17          0  brandenburg_gate            17          1  prague_old_town_square       1379530          1
+5  brandenburg_gate            18          0  brandenburg_gate            18          1          trevi_fountain        348893          0
+6  brandenburg_gate            24          0  brandenburg_gate            24          1          trevi_fountain       1033023          0
+7  brandenburg_gate            25          0  brandenburg_gate            25          1       buckingham_palace        444500          0
+8  brandenburg_gate            26          0  brandenburg_gate            26          1   hagia_sophia_interior        136283          0
+9  brandenburg_gate            28          0  brandenburg_gate            28          1      colosseum_exterior        549907          0
+20-03-31 03:03:33, INFO: 10 last triplets: 
+20-03-31 03:03:33, INFO:                    scene_1  3d_point_id1  patch_id1            scene_2  3d_point_id2  patch_id2                  scene_3  3d_point_id3  patch_id3
+3191799  westminster_abbey        373536          0  westminster_abbey        373536          1        pantheon_exterior        268742          0
+3191800  westminster_abbey        373537          0  westminster_abbey        373537          1        buckingham_palace         44797          1
+3191801  westminster_abbey        373538          0  westminster_abbey        373538          1    hagia_sophia_interior         44920          0
+3191802  westminster_abbey        373539          0  westminster_abbey        373539          1        buckingham_palace         70821          0
+3191803  westminster_abbey        373540          0  westminster_abbey        373540          1       colosseum_exterior        413231          0
+3191804  westminster_abbey        373541          0  westminster_abbey        373541          1     grand_place_brussels        372351          1
+3191805  westminster_abbey        373542          0  westminster_abbey        373542          1        buckingham_palace        322968          0
+3191806  westminster_abbey        373543          0  westminster_abbey        373543          1  notre_dame_front_facade        825174          1
+3191807  westminster_abbey        373544          0  westminster_abbey        373544          1    hagia_sophia_interior         91930          0
+3191808  westminster_abbey        373545          0  westminster_abbey        373545          1  notre_dame_front_facade       1098019          0
+20-03-31 03:03:34, INFO: load test set: reichstag
+20-03-31 03:03:34, INFO: load test set: st_peters_square
+20-03-31 03:03:34, INFO: load test set: sacre_coeur
+20-03-31 03:03:34, INFO: load test set: liberty
+20-03-31 03:04:03, INFO: 
+Training configurations: 
+20-03-31 03:04:03, INFO: {'dataset': {'challenge_root': 'challenge-data', 'brown_root': 'brown-data', 'train_mean_image': 0.443728476019, 'train_std_image': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey'], 'test_scenes': {'challenge': ['reichstag', 'st_peters_square', 'sacre_coeur'], 'brown': ['liberty']}}, 'model_dir': 'models', 'experiment_name': 'train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'num_workers': 32, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'learning_rate': 10.0, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'environment': {'use_cuda': True, 'gpu_id': 0, 'seed': 0}}
+20-03-31 03:04:03, INFO: EPOCH: 0
+20-03-31 03:04:03, INFO: ========================
+20-03-31 03:04:03, INFO: Training sceces: 
+20-03-31 03:04:03, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-03-31 03:14:27, INFO: 0/3118 - Loss: 1.1444761753082275
+20-03-31 03:14:42, INFO: 10/3118 - Loss: 1.0420546531677246
+20-03-31 03:14:56, INFO: 20/3118 - Loss: 0.9932966828346252
+20-03-31 03:15:11, INFO: 30/3118 - Loss: 0.981537938117981
+20-03-31 03:15:25, INFO: 40/3118 - Loss: 0.9531170725822449
+20-03-31 03:15:40, INFO: 50/3118 - Loss: 0.9405283331871033
+20-03-31 03:15:54, INFO: 60/3118 - Loss: 0.926864504814148
+20-03-31 03:19:08, INFO: 70/3118 - Loss: 0.9163123965263367
+20-03-31 03:19:22, INFO: 80/3118 - Loss: 0.8983991146087646
+20-03-31 03:19:41, INFO: 90/3118 - Loss: 0.8817651867866516
+20-03-31 03:22:58, INFO: 100/3118 - Loss: 0.8968612551689148
+20-03-31 03:23:29, INFO: 110/3118 - Loss: 0.8666413426399231
+20-03-31 03:23:47, INFO: 120/3118 - Loss: 0.8760837316513062
+20-03-31 03:26:40, INFO: 130/3118 - Loss: 0.8497132062911987
+20-03-31 03:27:48, INFO: 140/3118 - Loss: 0.8571329116821289
+20-03-31 03:28:09, INFO: 150/3118 - Loss: 0.8462285399436951
+20-03-31 03:29:48, INFO: 160/3118 - Loss: 0.8532018065452576
+20-03-31 03:32:09, INFO: 170/3118 - Loss: 0.8412636518478394
+20-03-31 03:32:30, INFO: 180/3118 - Loss: 0.8471379280090332
+20-03-31 03:32:50, INFO: 190/3118 - Loss: 0.8390821814537048
+20-03-31 03:36:42, INFO: 200/3118 - Loss: 0.8253141045570374
+20-03-31 03:37:03, INFO: 210/3118 - Loss: 0.8228353261947632
+20-03-31 03:37:37, INFO: 220/3118 - Loss: 0.8118011355400085
+20-03-31 03:41:31, INFO: 230/3118 - Loss: 0.8073859214782715
+20-03-31 03:41:54, INFO: 240/3118 - Loss: 0.8187861442565918
+20-03-31 03:42:16, INFO: 250/3118 - Loss: 0.8145674467086792
+20-03-31 03:45:09, INFO: 260/3118 - Loss: 0.79166579246521
+20-03-31 03:45:56, INFO: 270/3118 - Loss: 0.792761504650116
+20-03-31 03:46:10, INFO: 280/3118 - Loss: 0.7996234893798828
+20-03-31 03:48:21, INFO: 290/3118 - Loss: 0.7918647527694702
+20-03-31 03:49:47, INFO: 300/3118 - Loss: 0.799103856086731
+20-03-31 03:50:11, INFO: 310/3118 - Loss: 0.8019531965255737
+20-03-31 03:52:14, INFO: 320/3118 - Loss: 0.7978934049606323
+20-03-31 03:54:19, INFO: 330/3118 - Loss: 0.788779616355896
+20-03-31 03:54:34, INFO: 340/3118 - Loss: 0.7940592169761658
+20-03-31 03:55:02, INFO: 350/3118 - Loss: 0.7789897918701172
+20-03-31 03:58:34, INFO: 360/3118 - Loss: 0.7791166305541992
+20-03-31 03:59:02, INFO: 370/3118 - Loss: 0.7647732496261597
+20-03-31 03:59:25, INFO: 380/3118 - Loss: 0.7729815244674683
+20-03-31 04:02:50, INFO: 390/3118 - Loss: 0.7760368585586548
+20-03-31 04:03:18, INFO: 400/3118 - Loss: 0.7658330798149109
+20-03-31 04:03:48, INFO: 410/3118 - Loss: 0.7880740165710449
+20-03-31 04:06:16, INFO: 420/3118 - Loss: 0.7631567716598511
+20-03-31 04:07:22, INFO: 430/3118 - Loss: 0.7842622995376587
+20-03-31 04:07:36, INFO: 440/3118 - Loss: 0.7734805345535278
+20-03-31 04:08:48, INFO: 450/3118 - Loss: 0.7574601173400879
+20-03-31 04:10:22, INFO: 460/3118 - Loss: 0.7529482245445251
+20-03-31 04:10:43, INFO: 470/3118 - Loss: 0.7744183540344238
+20-03-31 04:12:05, INFO: 480/3118 - Loss: 0.7746562957763672
+20-03-31 04:14:07, INFO: 490/3118 - Loss: 0.7590038180351257
+20-03-31 04:14:26, INFO: 500/3118 - Loss: 0.751040518283844
+20-03-31 04:14:41, INFO: 510/3118 - Loss: 0.7577246427536011
+20-03-31 04:18:43, INFO: 520/3118 - Loss: 0.7590482831001282
+20-03-31 04:18:57, INFO: 530/3118 - Loss: 0.7543144226074219
+20-03-31 04:19:12, INFO: 540/3118 - Loss: 0.7459195256233215
+20-03-31 04:23:17, INFO: 550/3118 - Loss: 0.7576159238815308
+20-03-31 04:23:59, INFO: 560/3118 - Loss: 0.7528605461120605
+20-03-31 04:24:14, INFO: 570/3118 - Loss: 0.7586772441864014
+20-03-31 04:27:41, INFO: 580/3118 - Loss: 0.7536300420761108
+20-03-31 04:29:00, INFO: 590/3118 - Loss: 0.753993570804596
+20-03-31 04:29:33, INFO: 600/3118 - Loss: 0.7445499300956726

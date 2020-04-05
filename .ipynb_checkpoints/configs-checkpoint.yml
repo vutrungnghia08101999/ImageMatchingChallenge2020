@@ -1,0 +1,33 @@
+dataset:
+    challenge_root: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress
+    brown_root: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/brown-dataset
+    
+    mean: 0.443728476019 # mean on train patch
+    std: 0.20197947209 # std on train patch
+    train_scenes: ['reichstag']
+    test_scenes:
+        challenge: ['sacre_coeur']
+        brown: ['liberty'] #['liberty'] #, 'notredame', 'yosemite']
+
+model_dir: models/train_on_challenge_data
+
+loss: triplet_margin
+batch_reduce: min
+n_workers: 0
+anchorave: False
+resume: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/submission/checkpoint_20-03-30_09:54:09_19.pth
+start_epoch: 0
+epochs: 20
+anchorswap: True
+batch_size: 1024
+test_batch_size: 1024
+margin: 1.0
+lr: 10.0
+fliprot: False
+augmentation: False
+lr_decay: 0.000001
+weight_decay: 0.0001
+
+
+use_cuda: False
+gpu_id: 0
