@@ -1,0 +1,82 @@
+20-04-06 02:48:40, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:48:40, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:48:40, INFO: british_museum
+20-04-06 02:48:40, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:48:40, INFO: Load 100 images
+20-04-06 02:48:51, INFO: Completed
+
+20-04-06 02:48:53, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:48:53, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:48:53, INFO: florence_cathedral_side
+20-04-06 02:48:53, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:48:53, INFO: Load 100 images
+20-04-06 02:49:19, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:49:19, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:49:19, INFO: british_museum
+20-04-06 02:49:19, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:49:19, INFO: Load 100 images
+20-04-06 02:49:31, INFO: Completed
+
+20-04-06 02:49:32, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:49:32, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:49:32, INFO: florence_cathedral_side
+20-04-06 02:49:32, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:49:32, INFO: Load 100 images
+20-04-06 02:49:51, INFO: Completed
+
+20-04-06 02:49:52, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:49:52, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:49:52, INFO: lincoln_memorial_statue
+20-04-06 02:49:52, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:49:52, INFO: Load 100 images
+20-04-06 02:50:06, INFO: Completed
+
+20-04-06 02:50:07, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:50:07, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:50:07, INFO: london_bridge
+20-04-06 02:50:07, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:50:07, INFO: Load 100 images
+20-04-06 02:50:26, INFO: Completed
+
+20-04-06 02:50:27, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:50:27, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:50:27, INFO: milan_cathedral
+20-04-06 02:50:27, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:50:27, INFO: Load 100 images
+20-04-06 02:50:40, INFO: Completed
+
+20-04-06 02:50:41, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:50:41, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:50:41, INFO: mount_rushmore
+20-04-06 02:50:41, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:50:41, INFO: Load 100 images
+20-04-06 02:50:57, INFO: Completed
+
+20-04-06 02:50:59, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:50:59, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:50:59, INFO: piazza_san_marco
+20-04-06 02:50:59, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:50:59, INFO: Load 100 images
+20-04-06 02:51:21, INFO: Completed
+
+20-04-06 02:51:22, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:51:22, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:51:22, INFO: sagrada_familia
+20-04-06 02:51:22, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:51:22, INFO: Load 100 images
+20-04-06 02:51:45, INFO: Completed
+
+20-04-06 02:51:47, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:51:47, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:51:47, INFO: st_pauls_cathedral
+20-04-06 02:51:47, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:51:47, INFO: Load 100 images
+20-04-06 02:52:00, INFO: Completed
+
+20-04-06 02:52:01, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020
+20-04-06 02:52:01, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-06 02:52:01, INFO: united_states_capitol
+20-04-06 02:52:01, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+20-04-06 02:52:01, INFO: Load 100 images
+20-04-06 02:52:18, INFO: Completed
+
