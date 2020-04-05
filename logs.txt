@@ -547,3 +547,506 @@ EVALUATION DATA
 20-03-30 09:50:22, INFO: Save test set file at /home/vutrungnghia/Desktop/colosseum_exterior/50000_50000.csv
 20-03-30 09:50:22, INFO: Completed
 
+20-04-05 20:31:05, INFO: Load 75 images
+20-04-05 20:31:12, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 20:31:49, INFO: n_patches: 35262
+20-04-05 20:31:49, INFO: used/total 3d points: 17631/17823
+20-04-05 20:31:49, INFO: unused 3d poitnts: 192
+
+20-04-05 20:31:52, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/rgb.pt
+20-04-05 20:32:03, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.pt
+20-04-05 20:33:10, INFO: Load 75 images
+20-04-05 20:33:12, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 20:33:13, INFO: n_patches: 35262
+20-04-05 20:33:13, INFO: used/total 3d points: 17631/17823
+20-04-05 20:33:13, INFO: unused 3d poitnts: 192
+
+20-04-05 20:33:13, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/rgb.pt
+20-04-05 20:33:21, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.pt
+20-04-05 20:35:50, INFO: Load 75 images
+20-04-05 20:35:52, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 20:35:52, INFO: n_patches: 35262
+20-04-05 20:35:52, INFO: used/total 3d points: 17631/17823
+20-04-05 20:35:52, INFO: unused 3d poitnts: 192
+
+20-04-05 20:35:52, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/rgb.pt
+20-04-05 20:36:04, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.pt
+20-04-05 20:38:02, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 20:38:02, INFO: generated_batch_size: 10000
+
+20-04-05 20:40:36, INFO: Load 75 images
+20-04-05 20:40:38, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 20:40:38, INFO: n_patches: 35262
+20-04-05 20:40:38, INFO: used/total 3d points: 17631/17823
+20-04-05 20:40:38, INFO: unused 3d poitnts: 192
+
+20-04-05 20:40:38, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/rgb.pt
+20-04-05 20:40:47, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.pt
+20-04-05 20:42:01, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/points.csv
+20-04-05 20:42:55, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 20:42:55, INFO: generated_batch_size: 10000
+
+20-04-05 20:42:58, INFO: Save test set file at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/50000_50000.csv
+20-04-05 20:42:58, INFO: Completed
+
+20-04-05 20:49:27, INFO: Load 75 images
+20-04-05 20:49:28, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 20:49:29, INFO: n_patches: 35262
+20-04-05 20:49:29, INFO: used/total 3d points: 17631/17823
+20-04-05 20:49:29, INFO: unused 3d poitnts: 192
+
+20-04-05 20:49:29, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/rgb.pt
+20-04-05 20:49:36, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.pt
+20-04-05 20:49:39, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/points.csv
+20-04-05 20:49:39, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 20:49:39, INFO: generated_batch_size: 10000
+
+20-04-05 20:49:41, INFO: Save test set file at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/50000_50000.csv
+20-04-05 20:49:41, INFO: Completed
+
+20-04-05 20:49:52, INFO: Load 1179 images
+20-04-05 20:50:33, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 20:50:38, INFO: n_patches: 273446
+20-04-05 20:50:38, INFO: used/total 3d points: 136723/140659
+20-04-05 20:50:38, INFO: unused 3d poitnts: 3936
+
+20-04-05 20:50:38, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/rgb.pt
+20-04-05 20:56:19, INFO: Load 1179 images
+20-04-05 20:56:56, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 20:57:01, INFO: n_patches: 273446
+20-04-05 20:57:01, INFO: used/total 3d points: 136723/140659
+20-04-05 20:57:01, INFO: unused 3d poitnts: 3936
+
+20-04-05 20:57:01, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/rgb.pt
+20-04-05 21:13:32, INFO: Load 1179 images
+20-04-05 21:14:14, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 21:14:25, INFO: n_patches: 273446
+20-04-05 21:14:25, INFO: used/total 3d points: 136723/140659
+20-04-05 21:14:25, INFO: unused 3d poitnts: 3936
+
+20-04-05 21:14:25, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/rgb.pt
+20-04-05 21:14:30, DEBUG: diff parser start
+20-04-05 21:14:30, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:14:30, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:14:30, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:14:30, DEBUG: diff parser end
+20-04-05 21:15:30, DEBUG: diff parser start
+20-04-05 21:15:30, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:15:30, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:15:30, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:15:30, DEBUG: diff parser end
+20-04-05 21:15:31, DEBUG: diff parser start
+20-04-05 21:15:31, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:15:31, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:15:31, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:15:31, DEBUG: diff parser end
+20-04-05 21:15:32, DEBUG: diff parser start
+20-04-05 21:15:32, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:15:32, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:15:32, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:15:32, DEBUG: diff parser end
+20-04-05 21:15:37, DEBUG: diff parser start
+20-04-05 21:15:37, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:15:37, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:15:37, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:15:37, DEBUG: diff parser end
+20-04-05 21:19:10, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-05 21:19:10, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-05 21:19:10, DEBUG: diff parser start
+20-04-05 21:19:10, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:10, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:10, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:10, DEBUG: diff parser end
+20-04-05 21:19:10, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-04-05 21:19:10, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-04-05 21:19:11, DEBUG: diff parser start
+20-04-05 21:19:11, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:11, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:11, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:11, DEBUG: diff parser end
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/__init__.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/__future__.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/function_base.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/fromnumeric.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/numeric.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/function_base.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/shape_base.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/arrayprint.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/_asarray.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/type_check.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/shape_base.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/stride_tricks.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/utils.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/index_tricks.py
+20-04-05 21:19:11, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/numerictypes.py
+20-04-05 21:19:36, DEBUG: diff parser start
+20-04-05 21:19:36, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:36, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:36, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:36, DEBUG: diff parser end
+20-04-05 21:19:54, DEBUG: diff parser start
+20-04-05 21:19:54, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:54, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:54, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:54, DEBUG: diff parser end
+20-04-05 21:19:54, DEBUG: diff parser start
+20-04-05 21:19:54, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:54, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:54, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:54, DEBUG: diff parser end
+20-04-05 21:19:55, DEBUG: diff parser start
+20-04-05 21:19:55, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:55, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:55, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:55, DEBUG: diff parser end
+20-04-05 21:19:55, DEBUG: diff parser start
+20-04-05 21:19:55, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:19:55, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:19:55, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:19:55, DEBUG: diff parser end
+20-04-05 21:20:33, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-05 21:20:33, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-05 21:20:33, DEBUG: diff parser start
+20-04-05 21:20:33, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:20:33, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:20:33, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:20:33, DEBUG: diff parser end
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-04-05 21:20:34, DEBUG: diff parser start
+20-04-05 21:20:34, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:20:34, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:20:34, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:20:34, DEBUG: diff parser end
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/__init__.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/__future__.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/function_base.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/fromnumeric.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/numeric.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/function_base.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/shape_base.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/arrayprint.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/_asarray.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/type_check.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/shape_base.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/stride_tricks.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/utils.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/lib/index_tricks.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/numerictypes.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/defchararray.py
+20-04-05 21:20:34, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/core/__init__.py
+20-04-05 21:21:50, DEBUG: diff parser start
+20-04-05 21:21:50, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:21:50, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:21:50, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:21:50, DEBUG: diff parser end
+20-04-05 21:21:51, DEBUG: diff parser start
+20-04-05 21:21:51, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:21:51, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:21:51, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:21:51, DEBUG: diff parser end
+20-04-05 21:21:57, DEBUG: diff parser start
+20-04-05 21:21:57, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:21:57, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:21:57, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:21:57, DEBUG: diff parser end
+20-04-05 21:21:58, DEBUG: diff parser start
+20-04-05 21:21:58, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:21:58, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:21:58, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:21:58, DEBUG: diff parser end
+20-04-05 21:21:59, DEBUG: diff parser start
+20-04-05 21:21:59, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:21:59, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:21:59, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:21:59, DEBUG: diff parser end
+20-04-05 21:30:45, INFO: Load 1179 images
+20-04-05 21:31:27, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 21:31:32, INFO: n_patches: 273446
+20-04-05 21:31:32, INFO: used/total 3d points: 136723/140659
+20-04-05 21:31:32, INFO: unused 3d poitnts: 3936
+
+20-04-05 21:31:32, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/rgb.pt
+20-04-05 21:39:39, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-05 21:39:39, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-05 21:39:39, DEBUG: diff parser start
+20-04-05 21:39:39, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:39:39, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:39:39, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:39:39, DEBUG: diff parser end
+20-04-05 21:39:39, DEBUG: pickle loaded: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/ImageMatchingChallenge2020/colmap/scripts/python/read_dense.py
+20-04-05 21:39:39, DEBUG: pickle loaded: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/ImageMatchingChallenge2020/colmap/scripts/python/read_write_model.py
+20-04-05 21:39:39, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-04-05 21:39:39, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-04-05 21:41:27, DEBUG: diff parser start
+20-04-05 21:41:27, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:41:27, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:41:27, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:41:27, DEBUG: diff parser end
+20-04-05 21:46:42, DEBUG: diff parser start
+20-04-05 21:46:42, DEBUG: line_lengths old: 1; new: 1
+20-04-05 21:46:42, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 21:46:42, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 21:46:42, DEBUG: diff parser end
+20-04-05 21:55:44, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/gray.pt
+20-04-05 22:03:36, DEBUG: diff parser start
+20-04-05 22:03:36, DEBUG: line_lengths old: 1; new: 1
+20-04-05 22:03:36, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 22:03:36, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 22:03:36, DEBUG: diff parser end
+20-04-05 22:03:37, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/IPython/core/interactiveshell.py
+20-04-05 22:12:47, INFO: Load 1179 images
+20-04-05 22:13:28, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 22:13:50, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-05 22:13:51, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-05 22:13:51, DEBUG: diff parser start
+20-04-05 22:13:51, DEBUG: line_lengths old: 1; new: 1
+20-04-05 22:13:51, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 22:13:51, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 22:13:51, DEBUG: diff parser end
+20-04-05 22:13:51, DEBUG: pickle loaded: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/ImageMatchingChallenge2020/utils.py
+20-04-05 22:13:51, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/IPython/core/interactiveshell.py
+20-04-05 22:15:58, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/gray.pt
+20-04-05 22:16:05, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/gray.pth
+20-04-05 22:27:05, INFO: Load 1179 images
+20-04-05 22:27:45, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 23:03:39, INFO: Load 75 images
+20-04-05 23:03:42, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 23:03:42, INFO: n_patches: 35262
+20-04-05 23:03:42, INFO: used/total 3d points: 17631/17823
+20-04-05 23:03:42, INFO: unused 3d poitnts: 192
+
+20-04-05 23:03:42, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.npy
+20-04-05 23:04:15, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-05 23:04:15, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-05 23:04:15, DEBUG: pickle loaded: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/ImageMatchingChallenge2020/utils.py
+20-04-05 23:09:25, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/points.csv
+20-04-05 23:09:25, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:09:25, INFO: generated_batch_size: 10000
+
+20-04-05 23:09:42, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:09:42, INFO: generated_batch_size: 10000
+
+20-04-05 23:09:50, DEBUG: diff parser start
+20-04-05 23:09:50, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:09:50, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:09:50, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:09:50, DEBUG: diff parser end
+20-04-05 23:09:51, DEBUG: diff parser start
+20-04-05 23:09:51, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:09:51, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:09:51, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:09:51, DEBUG: diff parser end
+20-04-05 23:11:15, DEBUG: diff parser start
+20-04-05 23:11:15, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:11:15, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:11:15, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:11:15, DEBUG: diff parser end
+20-04-05 23:11:51, DEBUG: diff parser start
+20-04-05 23:11:51, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:11:51, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:11:51, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:11:51, DEBUG: diff parser end
+20-04-05 23:11:55, DEBUG: diff parser start
+20-04-05 23:11:55, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:11:55, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:11:55, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:11:55, DEBUG: diff parser end
+20-04-05 23:11:55, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/PIL/Image.py
+20-04-05 23:11:55, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/PIL/_binary.py
+20-04-05 23:11:55, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/PIL/_util.py
+20-04-05 23:11:57, DEBUG: diff parser start
+20-04-05 23:11:57, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:11:57, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:11:57, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:11:57, DEBUG: diff parser end
+20-04-05 23:11:58, DEBUG: diff parser start
+20-04-05 23:11:58, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:11:58, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:11:58, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:11:58, DEBUG: diff parser end
+20-04-05 23:13:04, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:13:04, INFO: generated_batch_size: 10000
+
+20-04-05 23:13:06, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/50000_50000.npy
+20-04-05 23:13:31, DEBUG: diff parser start
+20-04-05 23:13:31, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:13:31, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:13:31, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:13:31, DEBUG: diff parser end
+20-04-05 23:13:32, DEBUG: diff parser start
+20-04-05 23:13:32, DEBUG: line_lengths old: 1; new: 1
+20-04-05 23:13:32, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-05 23:13:32, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-05 23:13:32, DEBUG: diff parser end
+20-04-05 23:13:32, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/IPython/core/interactiveshell.py
+20-04-05 23:13:32, DEBUG: diff parser start
+20-04-05 23:13:32, DEBUG: line_lengths old: 83; new: 85
+20-04-05 23:13:32, DEBUG: -> code[equal] old[1:58] new[1:58]
+20-04-05 23:13:32, DEBUG: copy old[1:56] new[1:56]
+20-04-05 23:13:32, DEBUG: parse_part from 57 to 60 (to 60 in part parser)
+20-04-05 23:13:32, DEBUG: -> code[replace] old[59:59] new[59:59]
+20-04-05 23:13:32, DEBUG: -> code[equal] old[60:78] new[60:78]
+20-04-05 23:13:32, DEBUG: copy old[61:62] new[61:62]
+20-04-05 23:13:32, DEBUG: parse_part from 63 to 84 (to 84 in part parser)
+20-04-05 23:13:32, DEBUG: -> code[replace] old[79:80] new[79:82]
+20-04-05 23:13:32, DEBUG: -> code[equal] old[81:81] new[83:83]
+20-04-05 23:13:32, DEBUG: -> code[replace] old[82:82] new[84:84]
+20-04-05 23:13:32, DEBUG: -> code[equal] old[83:83] new[85:85]
+20-04-05 23:13:32, DEBUG: diff parser end
+20-04-05 23:16:39, INFO: Load 75 images
+20-04-05 23:16:40, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 23:16:41, INFO: n_patches: 35262
+20-04-05 23:16:41, INFO: used/total 3d points: 17631/17823
+20-04-05 23:16:41, INFO: unused 3d poitnts: 192
+
+20-04-05 23:16:41, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.npy
+20-04-05 23:16:42, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/points.csv
+20-04-05 23:16:42, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:16:42, INFO: generated_batch_size: 10000
+
+20-04-05 23:16:44, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/50000_50000.npy
+20-04-05 23:16:46, INFO: Completed
+
+20-04-05 23:17:23, INFO: Load 75 images
+20-04-05 23:17:24, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-05 23:17:24, INFO: n_patches: 35262
+20-04-05 23:17:24, INFO: used/total 3d points: 17631/17823
+20-04-05 23:17:24, INFO: unused 3d poitnts: 192
+
+20-04-05 23:17:24, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/gray.npy
+20-04-05 23:17:26, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/points.csv
+20-04-05 23:17:26, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:17:26, INFO: generated_batch_size: 10000
+
+20-04-05 23:17:28, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/reichstag/50000_50000.npy
+20-04-05 23:17:30, INFO: Completed
+
+20-04-05 23:17:37, INFO: Load 1179 images
+20-04-05 23:17:56, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-05 23:18:01, INFO: n_patches: 273446
+20-04-05 23:18:01, INFO: used/total 3d points: 136723/140659
+20-04-05 23:18:01, INFO: unused 3d poitnts: 3936
+
+20-04-05 23:18:01, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/gray.npy
+20-04-05 23:18:14, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/points.csv
+20-04-05 23:18:15, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:18:15, INFO: generated_batch_size: 10000
+
+20-04-05 23:18:16, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/sacre_coeur/50000_50000.npy
+20-04-05 23:18:22, INFO: Completed
+
+20-04-05 23:18:50, INFO: Load 2504 images
+20-04-05 23:20:21, INFO: Get 2 patches per 3d point of 232329 3d points
+20-04-05 23:20:30, INFO: n_patches: 443128
+20-04-05 23:20:30, INFO: used/total 3d points: 221564/232329
+20-04-05 23:20:30, INFO: unused 3d poitnts: 10765
+
+20-04-05 23:20:30, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/st_peters_square/gray.npy
+20-04-05 23:20:54, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/st_peters_square/points.csv
+20-04-05 23:20:54, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:20:54, INFO: generated_batch_size: 10000
+
+20-04-05 23:20:57, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/st_peters_square/50000_50000.npy
+20-04-05 23:21:04, INFO: Completed
+
+20-04-05 23:23:01, INFO: Load 1363 images
+20-04-05 23:23:48, INFO: Get 2 patches per 3d point of 100040 3d points
+20-04-05 23:23:51, INFO: n_patches: 190764
+20-04-05 23:23:51, INFO: used/total 3d points: 95382/100040
+20-04-05 23:23:51, INFO: unused 3d poitnts: 4658
+
+20-04-05 23:23:51, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/brandenburg_gate/gray.npy
+20-04-05 23:24:00, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/brandenburg_gate/points.csv
+20-04-05 23:24:00, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:24:00, INFO: generated_batch_size: 10000
+
+20-04-05 23:24:02, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/brandenburg_gate/50000_50000.npy
+20-04-05 23:24:08, INFO: Completed
+
+20-04-05 23:24:34, INFO: Load 1676 images
+20-04-05 23:25:30, INFO: Get 2 patches per 3d point of 234052 3d points
+20-04-05 23:25:37, INFO: n_patches: 443450
+20-04-05 23:25:37, INFO: used/total 3d points: 221725/234052
+20-04-05 23:25:37, INFO: unused 3d poitnts: 12327
+
+20-04-05 23:25:37, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/buckingham_palace/gray.npy
+20-04-05 23:26:01, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/buckingham_palace/points.csv
+20-04-05 23:26:01, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:26:01, INFO: generated_batch_size: 10000
+
+20-04-05 23:26:03, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/buckingham_palace/50000_50000.npy
+20-04-05 23:26:10, INFO: Completed
+
+20-04-05 23:26:37, INFO: Load 2063 images
+20-04-05 23:27:51, INFO: Get 2 patches per 3d point of 259807 3d points
+20-04-05 23:28:00, INFO: n_patches: 507954
+20-04-05 23:28:00, INFO: used/total 3d points: 253977/259807
+20-04-05 23:28:00, INFO: unused 3d poitnts: 5830
+
+20-04-05 23:28:00, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/colosseum_exterior/gray.npy
+20-04-05 23:28:30, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/colosseum_exterior/points.csv
+20-04-05 23:28:31, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:28:31, INFO: generated_batch_size: 10000
+
+20-04-05 23:28:32, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/colosseum_exterior/50000_50000.npy
+20-04-05 23:28:39, INFO: Completed
+
+20-04-05 23:28:54, INFO: Load 1083 images
+20-04-05 23:29:31, INFO: Get 2 patches per 3d point of 229788 3d points
+20-04-05 23:29:37, INFO: n_patches: 442542
+20-04-05 23:29:37, INFO: used/total 3d points: 221271/229788
+20-04-05 23:29:37, INFO: unused 3d poitnts: 8517
+
+20-04-05 23:29:37, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/grand_place_brussels/gray.npy
+20-04-05 23:29:59, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/grand_place_brussels/points.csv
+20-04-05 23:30:00, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:30:00, INFO: generated_batch_size: 10000
+
+20-04-05 23:30:02, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/grand_place_brussels/50000_50000.npy
+20-04-05 23:30:08, INFO: Completed
+
+20-04-05 23:30:33, INFO: Load 889 images
+20-04-05 23:31:05, INFO: Get 2 patches per 3d point of 235541 3d points
+20-04-05 23:31:11, INFO: n_patches: 442962
+20-04-05 23:31:11, INFO: used/total 3d points: 221481/235541
+20-04-05 23:31:11, INFO: unused 3d poitnts: 14060
+
+20-04-05 23:31:11, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/hagia_sophia_interior/gray.npy
+20-04-05 23:31:35, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/hagia_sophia_interior/points.csv
+20-04-05 23:31:35, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:31:35, INFO: generated_batch_size: 10000
+
+20-04-05 23:31:37, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/hagia_sophia_interior/50000_50000.npy
+20-04-05 23:31:44, INFO: Completed
+
+20-04-05 23:32:31, INFO: Load 3765 images
+20-04-05 23:35:00, INFO: Get 2 patches per 3d point of 488895 3d points
+20-04-05 23:35:20, INFO: n_patches: 930614
+20-04-05 23:35:20, INFO: used/total 3d points: 465307/488895
+20-04-05 23:35:20, INFO: unused 3d poitnts: 23588
+
+20-04-05 23:35:20, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/notre_dame_front_facade/gray.npy
+20-04-05 23:37:33, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/notre_dame_front_facade/points.csv
+20-04-05 23:37:34, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:37:34, INFO: generated_batch_size: 10000
+
+20-04-05 23:37:36, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/notre_dame_front_facade/50000_50000.npy
+20-04-05 23:38:05, INFO: Completed
+
+20-04-05 23:38:25, INFO: Load 983 images
+20-04-05 23:38:57, INFO: Get 2 patches per 3d point of 115868 3d points
+20-04-05 23:39:00, INFO: n_patches: 223642
+20-04-05 23:39:00, INFO: used/total 3d points: 111821/115868
+20-04-05 23:39:00, INFO: unused 3d poitnts: 4047
+
+20-04-05 23:39:00, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/palace_of_westminster/gray.npy
+20-04-05 23:39:12, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/palace_of_westminster/points.csv
+20-04-05 23:39:12, INFO: n_pos: 50000 - n_neg: 50000
+20-04-05 23:39:12, INFO: generated_batch_size: 10000
+
+20-04-05 23:39:13, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/palace_of_westminster/50000_50000.npy
+20-04-05 23:39:19, INFO: Completed
+

@@ -14,6 +14,9 @@ def read_yaml(file_path: str):
     return file
 
 
+def save_h5(file_path: str):
+    with h5py.File(file_path, 'w') as file:
+        file.create_dataset("name-of-dataset",  data=data_to_write)
 ############################################################################
 """
 Functions for generate step
@@ -53,7 +56,7 @@ def concatenate_patches(patches: list) -> np.array:
     return np.concatenate(rows, axis=0)
 
 
-def generate_test_set(points_ids: list, num_triplets:int, batch_size: int):
+def generate_test_set(points_ids: list, num_triplets:int, batch_size: int, dataset: dict):
     test_set = []
     n_3dpoints = len(points_ids)
     already_idxs = set()
@@ -73,7 +76,9 @@ def generate_test_set(points_ids: list, num_triplets:int, batch_size: int):
         pos_patch_id = np.random.randint(0, 2)
         neg_patch_id = np.random.randint(0, 2)
 
-        test_set.append([point_id1, pos_patch_id, point_id2, neg_patch_id, 0])
-        test_set.append([point_id1, 0, point_id1, 1, 1])
+        test_set.append(
+            (dataset[point_id1][pos_patch_id], dataset[point_id2][neg_patch_id], 0))
+        test_set.append(
+            (dataset[point_id1][0], dataset[point_id1][1], 1))
     # return triplets
-    return pd.DataFrame(test_set, columns=['3d_point_id1', 'patch_id1', '3d_point_id2', 'patch_id2', 'label'])
+    return test_set

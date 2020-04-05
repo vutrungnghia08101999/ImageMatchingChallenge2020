@@ -1,6 +1,6 @@
-scene_dir: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/train/colosseum_exterior/dense'
-scene_name: 'colosseum_exterior'
-output: /home/vutrungnghia/Desktop #'/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-to-brown-data'
+input: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/train'
+output: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress
 
-n_pos_neg_test: 50000 # do not change
-generated_test_batch_size: 10000 # in case number of 3dpoints < 10000, set batch_size = n_3dpoints 
+test_size: 50000 # pos = neg = test_size, do not change
+batch_size: 10000 # use to generate test set, 
+                  # in case number of 3dpoints < 10000, set batch_size = n_3dpoints 
