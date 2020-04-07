@@ -1,0 +1,5 @@
+root: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+scene: # argparse
+checkpoint: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth
+mean: 0.443728476019
+std: 0.20197947209

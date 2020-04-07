@@ -1,0 +1,40 @@
+20-04-06 10:49:48, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'british_museum', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 10:49:49, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 10:55:23, INFO: Completed
+
+20-04-06 10:55:24, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'florence_cathedral_side', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 10:55:25, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:00:46, INFO: Completed
+
+20-04-06 11:00:47, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'lincoln_memorial_statue', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:00:58, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:06:43, INFO: Completed
+
+20-04-06 11:06:45, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'london_bridge', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:06:54, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:12:58, INFO: Completed
+
+20-04-06 11:13:00, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'milan_cathedral', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:13:11, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:19:14, INFO: Completed
+
+20-04-06 11:19:15, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'mount_rushmore', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:19:27, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:24:51, INFO: Completed
+
+20-04-06 11:24:52, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'piazza_san_marco', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:25:04, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:31:13, INFO: Completed
+
+20-04-06 11:31:14, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'sagrada_familia', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:31:26, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:37:09, INFO: Completed
+
+20-04-06 11:37:10, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'st_pauls_cathedral', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:37:22, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:42:40, INFO: Completed
+
+20-04-06 11:42:41, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'united_states_capitol', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-06 11:42:53, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-06 11:48:19, INFO: Completed
+

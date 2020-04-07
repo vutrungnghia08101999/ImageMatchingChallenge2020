@@ -1,5 +1,9 @@
-Using baselines to extract 8000 keypoints per image
+Cut patch
+=====
+- Using baselines to detect keypoints (8000)
 
-Choose 2000 keypoints which can be cut without error "out of range"
+- Patch_size = 64 x 64 and get randomly 2000 keypoints
 
-patch_size = 64 x 64
+Embed
+=====
+- Using model to embed: patch (64 x 64) => 128 dimensions vector
