@@ -38,3 +38,66 @@
 20-04-06 11:42:53, INFO: Go throught 100 images and embed 2000 patches by Hardnet
 20-04-06 11:48:19, INFO: Completed
 
+20-04-07 18:34:42, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'british_museum', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:43, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'florence_cathedral_side', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:44, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'lincoln_memorial_statue', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:47, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'piazza_san_marco', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:49, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'sagrada_familia', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:50, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'st_pauls_cathedral', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:34:51, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'united_states_capitol', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:35:04, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'british_museum', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:35:05, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 18:40:28, INFO: Completed
+
+20-04-07 18:40:29, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'florence_cathedral_side', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:40:31, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 18:45:50, INFO: Completed
+
+20-04-07 18:45:52, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'lincoln_memorial_statue', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:46:03, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 18:51:45, INFO: Completed
+
+20-04-07 18:51:46, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'london_bridge', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:51:58, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 18:57:35, INFO: Completed
+
+20-04-07 18:57:37, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'milan_cathedral', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 18:57:49, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:03:57, INFO: Completed
+
+20-04-07 19:03:59, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'mount_rushmore', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 19:04:10, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:10:01, INFO: Completed
+
+20-04-07 19:10:03, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'piazza_san_marco', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 19:10:15, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:15:46, INFO: Completed
+
+20-04-07 19:15:48, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'sagrada_familia', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 19:15:59, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:21:21, INFO: Completed
+
+20-04-07 19:21:23, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'st_pauls_cathedral', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 19:21:35, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:26:27, INFO: Completed
+
+20-04-07 19:26:28, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission', 'scene': 'united_states_capitol', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-07 19:26:40, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-07 19:31:22, INFO: Completed
+
+20-04-10 17:37:37, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:37:38, INFO: Go throught 100 images and embed 2000 patches by Hardnet
+20-04-10 17:40:47, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:40:49, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'sacre_coeur', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:40:58, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:40:59, INFO: Go throught 74 images and embed 2048 patches by Hardnet
+20-04-10 17:44:57, INFO: Completed
+
+20-04-10 17:44:58, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'sacre_coeur', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:44:59, INFO: Go throught 100 images and embed 2048 patches by Hardnet
+20-04-10 17:50:24, INFO: Completed
+
+20-04-10 17:50:26, INFO: {'root': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet', 'scene': 'st_peters_square', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-10 17:50:27, INFO: Go throught 100 images and embed 2048 patches by Hardnet
+20-04-10 17:55:50, INFO: Completed
+

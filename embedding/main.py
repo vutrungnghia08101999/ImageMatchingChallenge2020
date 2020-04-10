@@ -45,7 +45,7 @@ patches = read_h5(os.path.join(configs['root'], configs['scene'], 'patches.h5'))
 descriptors = {}
 transform = create_transform()
 
-logging.info('Go throught 100 images and embed 2000 patches by Hardnet')
+logging.info(f'Go throught {len(patches)} images and embed {patches[list(patches.keys())[0]].shape[0]} patches by Hardnet')
 model.eval()
 for key in tqdm(patches.keys()):
     dataset = SubmissionDataset(key, patches, create_transform())

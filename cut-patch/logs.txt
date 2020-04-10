@@ -80,3 +80,24 @@
 20-04-06 02:52:01, INFO: Load 100 images
 20-04-06 02:52:18, INFO: Completed
 
+20-04-10 17:33:57, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/imw-2020
+20-04-10 17:33:57, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-10 17:33:57, INFO: reichstag
+20-04-10 17:33:57, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet
+20-04-10 17:33:57, INFO: Load 74 images
+20-04-10 17:34:07, INFO: Completed
+
+20-04-10 17:34:08, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/imw-2020
+20-04-10 17:34:08, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-10 17:34:08, INFO: sacre_coeur
+20-04-10 17:34:08, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet
+20-04-10 17:34:08, INFO: Load 100 images
+20-04-10 17:34:22, INFO: Completed
+
+20-04-10 17:34:24, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/imw-2020
+20-04-10 17:34:24, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k
+20-04-10 17:34:24, INFO: st_peters_square
+20-04-10 17:34:24, INFO: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet
+20-04-10 17:34:24, INFO: Load 100 images
+20-04-10 17:34:39, INFO: Completed
+

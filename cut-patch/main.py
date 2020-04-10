@@ -28,10 +28,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--scene', type=str)
 args = parser.parse_args()
 
-INPUT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/test/imw-2020'
+INPUT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/imw-2020'
 BASELINES_KPS = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/baselines/benchmark-patches-8k'
 SCENE = args.scene
-OUTPUT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission'
+OUTPUT = '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet'
 
 logging.info(INPUT)
 logging.info(BASELINES_KPS)
@@ -58,7 +58,7 @@ for key in tqdm(keypoints.keys()):
         if is_valid_patch(x, y, img):
             idxs.append(idx)
     random.shuffle(idxs)
-    idxs = idxs[0:2000]
+    idxs = idxs[0:2048]
     keypoints[key] = keypoints[key][idxs]
     img_patches = []
     for idx in idxs:

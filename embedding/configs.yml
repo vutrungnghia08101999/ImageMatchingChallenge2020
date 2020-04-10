@@ -1,5 +1,5 @@
-root: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/submission
+root: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/2048-hardnet
 scene: # argparse
-checkpoint: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-03-30_09:54:09_19.pth
+checkpoint: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth
 mean: 0.443728476019
 std: 0.20197947209
