@@ -23,7 +23,7 @@ Functions for generate step
 """
 
 
-def is_valid_patch(x: float, y: float, image: np.array, patch_size=64) -> bool:
+def is_valid_patch(x: float, y: float, image: np.array, patch_size=32) -> bool:
     height = image.shape[0]
     width = image.shape[1]
 
@@ -35,7 +35,7 @@ def is_valid_patch(x: float, y: float, image: np.array, patch_size=64) -> bool:
     return True
 
 
-def get_patch(x: float, y: float, image: np.array, patch_size=64) -> np.array:
+def get_patch(x: float, y: float, image: np.array, patch_size=32) -> np.array:
     half_size = int(patch_size/2)
     
     x_start = int(x - half_size)
@@ -48,7 +48,7 @@ def concatenate_patches(patches: list) -> np.array:
     cache = patches.copy()
     n = len(cache)
     for i in range(256 - n):
-        cache.append(np.zeros((64, 64, 3), np.uint8) + 255)
+        cache.append(np.zeros((32, 32, 3), np.uint8) + 255)
     
     rows = []
     for row in range(16):

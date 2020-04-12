@@ -1050,3 +1050,33 @@ EVALUATION DATA
 20-04-05 23:39:13, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/palace_of_westminster/50000_50000.npy
 20-04-05 23:39:19, INFO: Completed
 
+20-04-13 01:43:54, INFO: Load 1363 images
+20-04-13 01:44:44, INFO: Get 2 patches per 3d point of 100040 3d points
+20-04-13 01:44:48, INFO: n_patches: 195396
+20-04-13 01:44:48, INFO: used/total 3d points: 97698/100040
+20-04-13 01:44:48, INFO: unused 3d poitnts: 2342
+
+20-04-13 01:44:48, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/brandenburg_gate/gray.npy
+20-04-13 01:44:52, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/brandenburg_gate/rgb.npy
+20-04-13 01:45:01, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/brandenburg_gate/points.csv
+20-04-13 01:45:01, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:45:01, INFO: generated_batch_size: 10000
+
+20-04-13 01:45:03, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/brandenburg_gate/50000_50000.npy
+20-04-13 01:45:05, INFO: Completed
+
+20-04-13 01:45:27, INFO: Load 1676 images
+20-04-13 01:46:39, INFO: Get 2 patches per 3d point of 234052 3d points
+20-04-13 01:46:47, INFO: n_patches: 456082
+20-04-13 01:46:47, INFO: used/total 3d points: 228041/234052
+20-04-13 01:46:47, INFO: unused 3d poitnts: 6011
+
+20-04-13 01:46:47, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/buckingham_palace/gray.npy
+20-04-13 01:46:56, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/buckingham_palace/rgb.npy
+20-04-13 01:47:16, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/buckingham_palace/points.csv
+20-04-13 01:47:17, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:47:17, INFO: generated_batch_size: 10000
+
+20-04-13 01:47:18, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/buckingham_palace/50000_50000.npy
+20-04-13 01:47:21, INFO: Completed
+

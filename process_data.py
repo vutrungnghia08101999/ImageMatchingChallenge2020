@@ -100,6 +100,10 @@ gray_file = os.path.join(OUTPUT, 'gray.npy')
 logging.info(f'Saving gray data at: {gray_file}')
 np.save(gray_file, gray)
 
+rgb_file = os.path.join(OUTPUT, 'rgb.npy')
+logging.info(f'Saving rgb data at: {rgb_file}')
+np.save(rgb_file, rgb)
+
 ###############################################################################
 point_ids = list(gray.keys())
 point_ids.sort()
