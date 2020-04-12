@@ -1080,3 +1080,4 @@ EVALUATION DATA
 20-04-13 01:47:18, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/buckingham_palace/50000_50000.npy
 20-04-13 01:47:21, INFO: Completed
 
+20-04-13 01:47:49, INFO: Load 2063 images
