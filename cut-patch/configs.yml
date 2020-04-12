@@ -1,0 +1,3 @@
+images: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images
+kps: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/keypoints
+output: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/features

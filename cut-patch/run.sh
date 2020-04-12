@@ -9,5 +9,5 @@
 # python main.py --scene 'st_pauls_cathedral'
 # python main.py --scene 'united_states_capitol'
 python main.py --scene 'reichstag'
-python main.py --scene 'sacre_coeur'
-python main.py --scene 'st_peters_square'
+# python main.py --scene 'sacre_coeur'
+# python main.py --scene 'st_peters_square'

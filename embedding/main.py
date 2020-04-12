@@ -20,6 +20,7 @@ logging.basicConfig(filename='logs.txt',
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
 logging.getLogger().addHandler(console)
+# logging.basicConfig(level=logging.INFO)
 
 configs = read_yaml('configs.yml')
 parser = argparse.ArgumentParser()
@@ -40,20 +41,24 @@ model = HardNet()
 checkpoint = torch.load(configs['checkpoint'], map_location=torch.device('cpu'))
 model.load_state_dict(checkpoint['state_dict'])
 
-patches = read_h5(os.path.join(configs['root'], configs['scene'], 'patches.h5'))
+patches = read_h5(os.path.join(configs['patches'], configs['scene'], 'patches.h5'))
 
 descriptors = {}
 transform = create_transform()
 
-logging.info(f'Go throught {len(patches)} images and embed {patches[list(patches.keys())[0]].shape[0]} patches by Hardnet')
+logging.info(f'Go throught {len(patches)} images and embed n patches by Hardnet')
 model.eval()
 for key in tqdm(patches.keys()):
     dataset = SubmissionDataset(key, patches, create_transform())
-    dataloader = DataLoader(dataset, batch_size=len(dataset))
+    dataloader = DataLoader(dataset, 128, shuffle=False)
+    bag = []
     with torch.no_grad():
-        descriptors_img = model(iter(dataloader).next())
-    descriptors[key] = descriptors_img.numpy()
+        for batch in dataloader:
+            descriptors_img = model(batch)
+            bag.append(descriptors_img)
+    bag = torch.cat(bag, axis=0)
+    descriptors[key] = bag.numpy()
 
-write_h5(os.path.join(configs['root'], configs['scene'], 'descriptors.h5'), descriptors)
+write_h5(os.path.join(configs['patches'], configs['scene'], 'descriptors.h5'), descriptors)
 
 logging.info('Completed\n')

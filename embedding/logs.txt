@@ -101,3 +101,228 @@
 20-04-10 17:50:27, INFO: Go throught 100 images and embed 2048 patches by Hardnet
 20-04-10 17:55:50, INFO: Completed
 
+20-04-11 02:26:49, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:26:50, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:29:29, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:29:37, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:30:53, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:30:53, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:32:28, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:32:32, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:35:09, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:35:13, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:37:24, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:37:33, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:37:34, INFO: Go throught 74 images and embed 1914 patches by Hardnet
+20-04-11 02:49:02, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:49:03, INFO: Go throught 74 images and embed 1549 patches by Hardnet
+20-04-11 02:52:03, INFO: Completed
+
+20-04-11 02:52:05, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:52:05, INFO: Go throught 74 images and embed 1549 patches by Hardnet
+20-04-11 02:52:49, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'sacre_coeur', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:52:50, INFO: Go throught 100 images and embed 1544 patches by Hardnet
+20-04-11 02:56:52, INFO: Completed
+
+20-04-11 02:56:54, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'st_peters_square', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 02:56:56, INFO: Go throught 100 images and embed 1421 patches by Hardnet
+20-04-11 03:00:54, INFO: Completed
+
+20-04-11 10:05:01, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 10:07:02, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 10:07:07, INFO: Go throught 74 images and embed 1577 patches by Hardnet
+20-04-11 10:07:29, INFO: Go throught 74 images and embed n patches by Hardnet
+20-04-11 10:07:42, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-04-11 10:07:42, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-04-11 10:07:43, DEBUG: diff parser start
+20-04-11 10:07:43, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:07:43, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:07:43, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:07:43, DEBUG: diff parser end
+20-04-11 10:08:33, DEBUG: diff parser start
+20-04-11 10:08:33, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:33, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:33, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:33, DEBUG: diff parser end
+20-04-11 10:08:33, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-04-11 10:08:33, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.3.71659/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-04-11 10:08:43, DEBUG: diff parser start
+20-04-11 10:08:43, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:43, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:43, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:43, DEBUG: diff parser end
+20-04-11 10:08:45, DEBUG: diff parser start
+20-04-11 10:08:45, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:45, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:45, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:45, DEBUG: diff parser end
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/utils/data/dataloader.pyi
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/__init__.py
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/utils/__init__.py
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/utils/data/__init__.py
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/utils/data/dataset.py
+20-04-11 10:08:46, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/utils/data/dataset.pyi
+20-04-11 10:08:51, DEBUG: diff parser start
+20-04-11 10:08:51, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:51, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:51, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:51, DEBUG: diff parser end
+20-04-11 10:08:52, DEBUG: diff parser start
+20-04-11 10:08:52, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:52, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:52, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:52, DEBUG: diff parser end
+20-04-11 10:08:52, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/__init__.pyi
+20-04-11 10:08:52, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/functional.py
+20-04-11 10:08:56, DEBUG: diff parser start
+20-04-11 10:08:56, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:08:56, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:08:56, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:08:56, DEBUG: diff parser end
+20-04-11 10:09:02, DEBUG: diff parser start
+20-04-11 10:09:02, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:09:02, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:09:02, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:09:02, DEBUG: diff parser end
+20-04-11 10:13:41, DEBUG: diff parser start
+20-04-11 10:13:41, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:13:41, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:13:41, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:13:41, DEBUG: diff parser end
+20-04-11 10:13:50, DEBUG: diff parser start
+20-04-11 10:13:50, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:13:50, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:13:50, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:13:50, DEBUG: diff parser end
+20-04-11 10:14:35, DEBUG: diff parser start
+20-04-11 10:14:35, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:14:35, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:14:35, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:14:35, DEBUG: diff parser end
+20-04-11 10:14:46, DEBUG: diff parser start
+20-04-11 10:14:46, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:14:46, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:14:46, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:14:46, DEBUG: diff parser end
+20-04-11 10:14:47, DEBUG: diff parser start
+20-04-11 10:14:47, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:14:47, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:14:47, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:14:47, DEBUG: diff parser end
+20-04-11 10:14:47, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/serialization.py
+20-04-11 10:15:19, DEBUG: diff parser start
+20-04-11 10:15:19, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:19, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:19, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:19, DEBUG: diff parser end
+20-04-11 10:15:22, DEBUG: diff parser start
+20-04-11 10:15:22, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:22, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:22, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:22, DEBUG: diff parser end
+20-04-11 10:15:26, DEBUG: diff parser start
+20-04-11 10:15:26, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:26, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:26, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:26, DEBUG: diff parser end
+20-04-11 10:15:27, DEBUG: diff parser start
+20-04-11 10:15:27, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:27, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:27, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:27, DEBUG: diff parser end
+20-04-11 10:15:27, DEBUG: diff parser start
+20-04-11 10:15:27, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:27, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:27, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:27, DEBUG: diff parser end
+20-04-11 10:15:28, DEBUG: diff parser start
+20-04-11 10:15:28, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:28, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:28, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:28, DEBUG: diff parser end
+20-04-11 10:15:40, DEBUG: diff parser start
+20-04-11 10:15:40, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:40, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:40, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:40, DEBUG: diff parser end
+20-04-11 10:15:40, DEBUG: diff parser start
+20-04-11 10:15:40, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:15:40, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:15:40, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:15:40, DEBUG: diff parser end
+20-04-11 10:16:00, DEBUG: diff parser start
+20-04-11 10:16:00, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:00, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:00, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:00, DEBUG: diff parser end
+20-04-11 10:16:00, DEBUG: diff parser start
+20-04-11 10:16:00, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:00, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:00, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:00, DEBUG: diff parser end
+20-04-11 10:16:01, DEBUG: diff parser start
+20-04-11 10:16:01, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:01, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:01, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:01, DEBUG: diff parser end
+20-04-11 10:16:14, DEBUG: diff parser start
+20-04-11 10:16:14, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:14, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:14, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:14, DEBUG: diff parser end
+20-04-11 10:16:17, DEBUG: diff parser start
+20-04-11 10:16:17, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:17, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:17, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:17, DEBUG: diff parser end
+20-04-11 10:16:19, DEBUG: diff parser start
+20-04-11 10:16:19, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:19, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:19, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:19, DEBUG: diff parser end
+20-04-11 10:16:28, DEBUG: diff parser start
+20-04-11 10:16:28, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:28, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:28, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:28, DEBUG: diff parser end
+20-04-11 10:16:29, DEBUG: diff parser start
+20-04-11 10:16:29, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:29, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:29, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:29, DEBUG: diff parser end
+20-04-11 10:16:29, DEBUG: diff parser start
+20-04-11 10:16:29, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:29, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:29, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:29, DEBUG: diff parser end
+20-04-11 10:16:31, DEBUG: diff parser start
+20-04-11 10:16:31, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:31, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:31, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:31, DEBUG: diff parser end
+20-04-11 10:16:31, DEBUG: diff parser start
+20-04-11 10:16:31, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:31, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:31, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:31, DEBUG: diff parser end
+20-04-11 10:16:33, DEBUG: diff parser start
+20-04-11 10:16:33, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:33, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:33, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:33, DEBUG: diff parser end
+20-04-11 10:16:34, DEBUG: diff parser start
+20-04-11 10:16:34, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:34, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:34, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:34, DEBUG: diff parser end
+20-04-11 10:16:35, DEBUG: diff parser start
+20-04-11 10:16:35, DEBUG: line_lengths old: 1; new: 1
+20-04-11 10:16:35, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-04-11 10:16:35, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-04-11 10:16:35, DEBUG: diff parser end
+20-04-11 10:17:56, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 10:17:56, INFO: Go throught 74 images and embed n patches by Hardnet
+20-04-11 10:18:43, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/features', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-11 10:18:43, INFO: Go throught 74 images and embed n patches by Hardnet
+20-04-11 10:22:03, INFO: Completed
+

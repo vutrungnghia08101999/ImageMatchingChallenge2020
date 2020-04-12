@@ -1,10 +1,18 @@
 from tqdm import tqdm
 import h5py
+import yaml
+
 
 import torch
 import torch.nn as nn
 import numpy as np
 
+def read_yaml(filename: str):
+    with open(filename, 'r') as stream:
+        try:
+            return yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
 
 def read_h5(filename: str):
     data = {}
@@ -41,4 +49,6 @@ def get_patch(x: float, y: float, image: np.array, patch_size=64) -> np.array:
     
     x_start = int(x - half_size)
     y_start = int(y - half_size)
+    assert x_start >= 0 and y_start >= 0
+    assert x_start + patch_size <= image.shape[1] and y_start + patch_size <= image.shape[0]
     return image[y_start: y_start+patch_size, x_start: x_start+patch_size, :]
