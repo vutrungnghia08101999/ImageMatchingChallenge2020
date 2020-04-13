@@ -1278,3 +1278,5 @@ EVALUATION DATA
 20-04-13 18:57:09, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/50000_50000_rgb.npy
 20-04-13 18:57:17, INFO: Completed
 
+20-04-13 18:57:29, INFO: Load 1083 images
+20-04-13 18:58:06, INFO: Get 2 patches per 3d point of 229788 3d points
