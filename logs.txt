@@ -1266,3 +1266,15 @@ EVALUATION DATA
 20-04-13 18:55:18, INFO: Completed
 
 20-04-13 18:55:40, INFO: Load 2063 images
+20-04-13 18:56:57, INFO: Get 2 patches per 3d point of 259807 3d points
+20-04-13 18:57:07, INFO: n_patches: 514458
+20-04-13 18:57:07, INFO: used/total 3d points: 257229/259807
+20-04-13 18:57:07, INFO: unused 3d poitnts: 2578
+
+20-04-13 18:57:07, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/points.csv
+20-04-13 18:57:07, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 18:57:07, INFO: generated_batch_size: 10000
+
+20-04-13 18:57:09, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/50000_50000_rgb.npy
+20-04-13 18:57:17, INFO: Completed
+
