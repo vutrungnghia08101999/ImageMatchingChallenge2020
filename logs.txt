@@ -1081,3 +1081,136 @@ EVALUATION DATA
 20-04-13 01:47:21, INFO: Completed
 
 20-04-13 01:47:49, INFO: Load 2063 images
+20-04-13 01:49:12, INFO: Get 2 patches per 3d point of 259807 3d points
+20-04-13 01:49:22, INFO: n_patches: 514458
+20-04-13 01:49:22, INFO: used/total 3d points: 257229/259807
+20-04-13 01:49:22, INFO: unused 3d poitnts: 2578
+
+20-04-13 01:49:22, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/gray.npy
+20-04-13 01:49:33, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/rgb.npy
+20-04-13 01:49:55, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/points.csv
+20-04-13 01:49:55, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:49:55, INFO: generated_batch_size: 10000
+
+20-04-13 01:49:57, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/colosseum_exterior/50000_50000.npy
+20-04-13 01:50:00, INFO: Completed
+
+20-04-13 01:50:19, INFO: Load 1083 images
+20-04-13 01:51:00, INFO: Get 2 patches per 3d point of 229788 3d points
+20-04-13 01:51:08, INFO: n_patches: 451466
+20-04-13 01:51:08, INFO: used/total 3d points: 225733/229788
+20-04-13 01:51:08, INFO: unused 3d poitnts: 4055
+
+20-04-13 01:51:08, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/grand_place_brussels/gray.npy
+20-04-13 01:51:18, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/grand_place_brussels/rgb.npy
+20-04-13 01:51:40, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/grand_place_brussels/points.csv
+20-04-13 01:51:41, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:51:41, INFO: generated_batch_size: 10000
+
+20-04-13 01:51:43, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/grand_place_brussels/50000_50000.npy
+20-04-13 01:51:46, INFO: Completed
+
+20-04-13 01:52:07, INFO: Load 889 images
+20-04-13 01:52:42, INFO: Get 2 patches per 3d point of 235541 3d points
+20-04-13 01:52:50, INFO: n_patches: 456276
+20-04-13 01:52:50, INFO: used/total 3d points: 228138/235541
+20-04-13 01:52:50, INFO: unused 3d poitnts: 7403
+
+20-04-13 01:52:50, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/hagia_sophia_interior/gray.npy
+20-04-13 01:52:59, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/hagia_sophia_interior/rgb.npy
+20-04-13 01:53:22, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/hagia_sophia_interior/points.csv
+20-04-13 01:53:22, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:53:22, INFO: generated_batch_size: 10000
+
+20-04-13 01:53:24, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/hagia_sophia_interior/50000_50000.npy
+20-04-13 01:53:27, INFO: Completed
+
+20-04-13 01:54:09, INFO: Load 3765 images
+20-04-13 01:56:53, INFO: Get 2 patches per 3d point of 488895 3d points
+20-04-13 01:57:16, INFO: n_patches: 954210
+20-04-13 01:57:16, INFO: used/total 3d points: 477105/488895
+20-04-13 01:57:16, INFO: unused 3d poitnts: 11790
+
+20-04-13 01:57:16, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/notre_dame_front_facade/gray.npy
+20-04-13 01:57:48, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/notre_dame_front_facade/rgb.npy
+20-04-13 01:59:40, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/notre_dame_front_facade/points.csv
+20-04-13 01:59:41, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 01:59:41, INFO: generated_batch_size: 10000
+
+20-04-13 01:59:43, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/notre_dame_front_facade/50000_50000.npy
+20-04-13 02:00:00, INFO: Completed
+
+20-04-13 02:00:13, INFO: Load 983 images
+20-04-13 02:00:48, INFO: Get 2 patches per 3d point of 115868 3d points
+20-04-13 02:00:52, INFO: n_patches: 228050
+20-04-13 02:00:52, INFO: used/total 3d points: 114025/115868
+20-04-13 02:00:52, INFO: unused 3d poitnts: 1843
+
+20-04-13 02:00:52, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/palace_of_westminster/gray.npy
+20-04-13 02:00:56, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/palace_of_westminster/rgb.npy
+20-04-13 02:01:06, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/palace_of_westminster/points.csv
+20-04-13 02:01:06, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 02:01:06, INFO: generated_batch_size: 10000
+
+20-04-13 02:01:08, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/palace_of_westminster/50000_50000.npy
+20-04-13 02:01:10, INFO: Completed
+
+20-04-13 02:04:38, INFO: Load 75 images
+20-04-13 02:04:41, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-13 02:04:41, INFO: n_patches: 35530
+20-04-13 02:04:41, INFO: used/total 3d points: 17765/17823
+20-04-13 02:04:41, INFO: unused 3d poitnts: 58
+
+20-04-13 02:04:41, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/gray.npy
+20-04-13 02:04:42, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/rgb.npy
+20-04-13 02:04:44, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/points.csv
+20-04-13 02:04:44, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 02:04:44, INFO: generated_batch_size: 10000
+
+20-04-13 02:04:45, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/50000_50000.npy
+20-04-13 02:04:46, INFO: Completed
+
+20-04-13 02:04:55, INFO: Load 1179 images
+20-04-13 02:05:38, INFO: Get 2 patches per 3d point of 140659 3d points
+20-04-13 02:05:44, INFO: n_patches: 278110
+20-04-13 02:05:44, INFO: used/total 3d points: 139055/140659
+20-04-13 02:05:44, INFO: unused 3d poitnts: 1604
+
+20-04-13 02:05:44, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/sacre_coeur/gray.npy
+20-04-13 02:05:49, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/sacre_coeur/rgb.npy
+20-04-13 02:06:01, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/sacre_coeur/points.csv
+20-04-13 02:06:02, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 02:06:02, INFO: generated_batch_size: 10000
+
+20-04-13 02:06:03, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/sacre_coeur/50000_50000.npy
+20-04-13 02:06:06, INFO: Completed
+
+20-04-13 02:06:39, INFO: Load 2504 images
+20-04-13 02:08:15, INFO: Get 2 patches per 3d point of 232329 3d points
+20-04-13 02:08:24, INFO: n_patches: 455014
+20-04-13 02:08:24, INFO: used/total 3d points: 227507/232329
+20-04-13 02:08:24, INFO: unused 3d poitnts: 4822
+
+20-04-13 02:08:24, INFO: Saving gray data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/st_peters_square/gray.npy
+20-04-13 02:08:32, INFO: Saving rgb data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/st_peters_square/rgb.npy
+20-04-13 02:08:54, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/st_peters_square/points.csv
+20-04-13 02:08:55, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 02:08:55, INFO: generated_batch_size: 10000
+
+20-04-13 02:08:57, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/st_peters_square/50000_50000.npy
+20-04-13 02:08:59, INFO: Completed
+
+20-04-13 18:44:51, INFO: Load 75 images
+20-04-13 18:44:53, INFO: Get 2 patches per 3d point of 17823 3d points
+20-04-13 18:44:53, INFO: n_patches: 35530
+20-04-13 18:44:53, INFO: used/total 3d points: 17765/17823
+20-04-13 18:44:53, INFO: unused 3d poitnts: 58
+
+20-04-13 18:44:53, INFO: Save info file at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/points.csv
+20-04-13 18:44:53, INFO: n_pos: 50000 - n_neg: 50000
+20-04-13 18:44:53, INFO: generated_batch_size: 10000
+
+20-04-13 18:44:55, INFO: Save test set at /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32/reichstag/50000_50000_rgb.npy
+20-04-13 18:44:56, INFO: Completed
+
+20-04-13 18:45:04, INFO: Load 1179 images

@@ -44,7 +44,7 @@ OUTPUT = os.path.join(configs['output'], configs['scene'])
 #########################################
 if not os.path.isdir(INPUT):
     raise RuntimeError(f'{INPUT} does not exist!')
-os.makedirs(OUTPUT, exist_ok=False)
+os.makedirs(OUTPUT, exist_ok=True)
 
 ###########################################################################
 """
@@ -96,13 +96,13 @@ for point_id in tqdm(pbar):
 logging.info(f'n_patches: {2 * len(rgb)}')
 logging.info(f'used/total 3d points: {int(len(rgb))}/{len(pbar)}')
 logging.info(f'unused 3d poitnts: {len(pbar) - int(len(rgb))}\n')
-gray_file = os.path.join(OUTPUT, 'gray.npy')
-logging.info(f'Saving gray data at: {gray_file}')
-np.save(gray_file, gray)
+# gray_file = os.path.join(OUTPUT, 'gray.npy')
+# logging.info(f'Saving gray data at: {gray_file}')
+# np.save(gray_file, gray)
 
-rgb_file = os.path.join(OUTPUT, 'rgb.npy')
-logging.info(f'Saving rgb data at: {rgb_file}')
-np.save(rgb_file, rgb)
+# rgb_file = os.path.join(OUTPUT, 'rgb.npy')
+# logging.info(f'Saving rgb data at: {rgb_file}')
+# np.save(rgb_file, rgb)
 
 ###############################################################################
 point_ids = list(gray.keys())
@@ -110,7 +110,7 @@ point_ids.sort()
 info_file_path = os.path.join(OUTPUT, 'points.csv')
 logging.info(f'Save info file at: {info_file_path}')
 info = pd.DataFrame(point_ids, columns=['point_id'])
-info.to_csv(info_file_path, index=None)
+# info.to_csv(info_file_path, index=None)
 ###############################################################################
 """
 Generate test set
@@ -123,8 +123,11 @@ logging.info(f'n_pos: {TEST_SIZE} - n_neg: {TEST_SIZE}')
 logging.info(f'generated_batch_size: {BATCH_SIZE}\n')
 
 
-test_set = generate_test_set(point_ids, TEST_SIZE, BATCH_SIZE, gray)
-test_set_file = os.path.join(OUTPUT, f'{TEST_SIZE}_{TEST_SIZE}.npy')
+# test_set = generate_test_set(point_ids, TEST_SIZE, BATCH_SIZE, gray)
+# test_set_file = os.path.join(OUTPUT, f'{TEST_SIZE}_{TEST_SIZE}_gray.npy')
+
+test_set = generate_test_set(point_ids, TEST_SIZE, BATCH_SIZE, rgb)
+test_set_file = os.path.join(OUTPUT, f'{TEST_SIZE}_{TEST_SIZE}_rgb.npy')
 
 logging.info(f'Save test set at {test_set_file}')
 np.save(test_set_file, test_set)

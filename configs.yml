@@ -1,4 +1,4 @@
-input: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/train'
+input: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid'
 output: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32
 
 test_size: 50000 # pos = neg = test_size, do not change
