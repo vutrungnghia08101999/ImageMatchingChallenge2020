@@ -1,5 +1,8 @@
-input: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/valid'
+input: '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-dataset/train'
 output: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/challenge-data-brown-data-compress/32
+
+# input: "/mnt/DATA/Phototourism-dataset/train" 
+# output: "/mnt/DATA/patch_datasets/challenge3"
 
 test_size: 50000 # pos = neg = test_size, do not change
 batch_size: 10000 # use to generate test set, 
