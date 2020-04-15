@@ -58,7 +58,7 @@ random.seed(0)
 configs = read_yaml('configs.yml')
 parser = argparse.ArgumentParser()
 parser.add_argument('--scene', type=str)
-args = parser.parse_args()
+args = parser.parse_args(['--scene', 'reichstag'])
 
 configs['scene'] = args.scene
 INPUT = os.path.join(configs['input'], configs['scene'], 'dense')
