@@ -1,5 +1,5 @@
-patches: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/kps2/features
+patches: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray
 scene: # argparse
-checkpoint: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-07_09:49:41_0_3100.pth
+checkpoint: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-08_15:13:10_8_2100.pth
 mean: 0.443728476019
 std: 0.20197947209

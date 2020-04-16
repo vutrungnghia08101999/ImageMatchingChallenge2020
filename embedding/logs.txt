@@ -326,3 +326,18 @@
 20-04-11 10:18:43, INFO: Go throught 74 images and embed n patches by Hardnet
 20-04-11 10:22:03, INFO: Completed
 
+20-04-16 01:01:13, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:01:14, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'sacre_coeur', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:01:16, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'st_peters_square', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:01:35, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'reichstag', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:01:35, INFO: Go throught 74 images and embed n patches by Hardnet
+20-04-16 01:04:23, INFO: Completed
+
+20-04-16 01:04:24, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'sacre_coeur', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:04:25, INFO: Go throught 100 images and embed n patches by Hardnet
+20-04-16 01:08:38, INFO: Completed
+
+20-04-16 01:08:40, INFO: {'patches': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'st_peters_square', 'checkpoint': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/models/checkpoint_20-04-08_15:13:10_8_2100.pth', 'mean': 0.443728476019, 'std': 0.20197947209}
+20-04-16 01:08:40, INFO: Go throught 100 images and embed n patches by Hardnet
+20-04-16 01:12:52, INFO: Completed
+

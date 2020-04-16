@@ -32,7 +32,7 @@ class L2Norm(nn.Module):
         return x
 
 
-def is_valid_patch(x: float, y: float, image: np.array, patch_size=64) -> bool:
+def is_valid_patch(x: float, y: float, image: np.array, patch_size: int) -> bool:
     height = image.shape[0]
     width = image.shape[1]
 
@@ -44,7 +44,7 @@ def is_valid_patch(x: float, y: float, image: np.array, patch_size=64) -> bool:
     return True
 
 
-def get_patch(x: float, y: float, image: np.array, patch_size=64) -> np.array:
+def get_patch(x: float, y: float, image: np.array, patch_size: int) -> np.array:
     half_size = int(patch_size/2)
     
     x_start = int(x - half_size)

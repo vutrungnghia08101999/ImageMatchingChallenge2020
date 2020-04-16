@@ -55,15 +55,18 @@ for key in tqdm(keypoints.keys()):
     idxs = []
     for idx in range(kps.shape[0]):
         x, y = kps[idx]
-        if is_valid_patch(x, y, img):
+        if is_valid_patch(x, y, img, configs['size']):
             idxs.append(idx)
 
     keypoints[key] = keypoints[key][idxs]
     img_patches = []
     for idx in range(keypoints[key].shape[0]):
         x, y = keypoints[key][idx]
-        patch = get_patch(x, y, img)
-        patch = patch[:, :, 0].reshape(1, 64, 64)
+        patch = get_patch(x, y, img, configs['size'])
+        if configs['rgb']:
+            patch = patch.reshape(1, configs['size'], configs['size'], 3)
+        else:
+            patch = patch[:, :, 0].reshape(1, configs['size'], configs['size'])
         img_patches.append(patch)
     patches[key] = np.concatenate(img_patches, axis=0)
 
@@ -76,9 +79,7 @@ for key in keypoints.keys():
 logging.info(f'max n kps: {max(n_kps)}')
 logging.info(f'min n kps: {min(n_kps)}')
 logging.info(f'average n kps: {sum(n_kps)/len(n_kps)}')
-# for key in keypoints.keys():
-#     keypoints[key] = keypoints[key][0:n]
-#     patches[key] = patches[key][0:n]
+
 
 h = h5py.File(os.path.join(OUTPUT, SCENE, 'keypoints.h5'), 'w')
 for key in keypoints.keys():

@@ -161,3 +161,56 @@
 20-04-11 10:04:02, INFO: average n kps: 1826.7027027027027
 20-04-11 10:04:05, INFO: Completed
 
+20-04-16 00:50:29, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'reichstag'}
+20-04-16 00:50:29, INFO: Load 74 images
+20-04-16 00:50:33, INFO: max n kps: 2007
+20-04-16 00:50:33, INFO: min n kps: 686
+20-04-16 00:50:33, INFO: average n kps: 1826.6486486486488
+20-04-16 00:50:35, INFO: Completed
+
+20-04-16 00:50:36, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'sacre_coeur'}
+20-04-16 00:50:36, INFO: Load 100 images
+20-04-16 00:50:40, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'st_peters_square'}
+20-04-16 00:50:40, INFO: Load 100 images
+20-04-16 00:52:22, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'reichstag'}
+20-04-16 00:52:22, INFO: Load 74 images
+20-04-16 00:52:24, INFO: max n kps: 2007
+20-04-16 00:52:24, INFO: min n kps: 686
+20-04-16 00:52:24, INFO: average n kps: 1826.6486486486488
+20-04-16 00:52:27, INFO: Completed
+
+20-04-16 00:52:28, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'sacre_coeur'}
+20-04-16 00:52:28, INFO: Load 100 images
+20-04-16 00:52:32, INFO: max n kps: 2012
+20-04-16 00:52:32, INFO: min n kps: 958
+20-04-16 00:52:32, INFO: average n kps: 1875.91
+20-04-16 00:52:38, INFO: Completed
+
+20-04-16 00:52:39, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'scene': 'st_peters_square'}
+20-04-16 00:52:39, INFO: Load 100 images
+20-04-16 00:52:46, INFO: max n kps: 2009
+20-04-16 00:52:46, INFO: min n kps: 370
+20-04-16 00:52:46, INFO: average n kps: 1802.39
+20-04-16 00:52:52, INFO: Completed
+
+20-04-16 00:58:01, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'size': 64, 'rgb': False, 'scene': 'reichstag'}
+20-04-16 00:58:01, INFO: Load 74 images
+20-04-16 00:58:04, INFO: max n kps: 2007
+20-04-16 00:58:04, INFO: min n kps: 686
+20-04-16 00:58:04, INFO: average n kps: 1826.6486486486488
+20-04-16 00:58:07, INFO: Completed
+
+20-04-16 00:58:08, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'size': 64, 'rgb': False, 'scene': 'sacre_coeur'}
+20-04-16 00:58:08, INFO: Load 100 images
+20-04-16 00:58:11, INFO: max n kps: 2012
+20-04-16 00:58:11, INFO: min n kps: 958
+20-04-16 00:58:11, INFO: average n kps: 1875.91
+20-04-16 00:58:17, INFO: Completed
+
+20-04-16 00:58:18, INFO: {'images': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/images', 'kps': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu', 'output': '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/evaluation/hieu-64-gray', 'size': 64, 'rgb': False, 'scene': 'st_peters_square'}
+20-04-16 00:58:18, INFO: Load 100 images
+20-04-16 00:58:22, INFO: max n kps: 2009
+20-04-16 00:58:22, INFO: min n kps: 370
+20-04-16 00:58:22, INFO: average n kps: 1802.39
+20-04-16 00:58:28, INFO: Completed
+
