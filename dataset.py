@@ -27,21 +27,26 @@ class TripletPhotoTour(Dataset):
 
     def __getitem__(self, index):
         if self.train:
-            (scene_1, point_id1, patch_id1, scene_2, point_id2, patch_id2,
-            scene_3, point_id3, patch_id3) = self.triplets.iloc[index]
+            (scene_1, point_id1, patch_id1, scene_2, point_id2, patch_id2) = self.triplets.iloc[index]
+#             scene_3, point_id3, patch_id3) 
 
-            patch_1 = to_3d_tensor(torch.tensor(self.dataset[scene_1][point_id1][patch_id1]))
-            patch_2 = to_3d_tensor(torch.tensor(self.dataset[scene_2][point_id2][patch_id2]))
-            patch_3 = to_3d_tensor(torch.tensor(self.dataset[scene_3][point_id3][patch_id3]))
+
+            patch_1 = torch.tensor(self.dataset[scene_1][point_id1][patch_id1])
+            patch_2 = torch.tensor(self.dataset[scene_2][point_id2][patch_id2])
+#             patch_1 = to_3d_tensor(torch.tensor(self.dataset[scene_1][point_id1][patch_id1]))
+#             patch_2 = to_3d_tensor(torch.tensor(self.dataset[scene_2][point_id2][patch_id2]))
+#             patch_3 = to_3d_tensor(torch.tensor(self.dataset[scene_3][point_id3][patch_id3]))
             if self.transform is not None:
                 patch_1 = self.transform(patch_1.numpy())
                 patch_2 = self.transform(patch_2.numpy())
-                patch_3 = self.transform(patch_3.numpy())
-            return (patch_1, patch_2, patch_3)
+#                 patch_3 = self.transform(patch_3.numpy())
+            return (patch_1, patch_2) #, patch_3)
         else:
             patch_1, patch_2, label = self.test_set[index]
-            patch_1 = to_3d_tensor(torch.tensor(patch_1))
-            patch_2 = to_3d_tensor(torch.tensor(patch_2))
+            patch_1 = torch.tensor(patch_1)
+            patch_2 = torch.tensor(patch_2)
+#             patch_1 = to_3d_tensor(torch.tensor(patch_1))
+#             patch_2 = to_3d_tensor(torch.tensor(patch_2))
             if self.transform is not None:
                 patch_1 = self.transform(patch_1.numpy())
                 patch_2 = self.transform(patch_2.numpy())
@@ -69,18 +74,16 @@ def generate_triplets(train_scenes_info: pd.DataFrame) -> pd.DataFrame:
     n_3d_points = train_scenes_info.shape[0]
     logging.info(f'generate {n_3d_points} triplets (simple add a negative patch to a matched patch)')
     for idx1 in tqdm(range(n_3d_points)):
-        idx2 = np.random.randint(0, n_3d_points)
-        while idx1 == idx2:
-            idx2 = np.random.randint(0, n_3d_points)
+#         idx2 = np.random.randint(0, n_3d_points)
+#         while idx1 == idx2:
+#             idx2 = np.random.randint(0, n_3d_points)
 
-        c = np.random.randint(0, 2)
+#         c = np.random.randint(0, 2)
         tup = (train_scenes_info['scene'].iloc[idx1], train_scenes_info['point_id'].iloc[idx1], 0,
-               train_scenes_info['scene'].iloc[idx1], train_scenes_info['point_id'].iloc[idx1], 1,
-               train_scenes_info['scene'].iloc[idx2], train_scenes_info['point_id'].iloc[idx2], c)
+               train_scenes_info['scene'].iloc[idx1], train_scenes_info['point_id'].iloc[idx1], 1)
         triplets.append(tup)
     columns = ['scene_1', 'point_id1', 'patch_id1',
-               'scene_2', 'point_id2', 'patch_id2',
-               'scene_3', 'point_id3', 'patch_id3']
+               'scene_2', 'point_id2', 'patch_id2']
     df = pd.DataFrame(triplets, columns=columns)
     logging.info('10 first triplets: ')
     logging.info(df.head(10))
@@ -91,14 +94,14 @@ def generate_triplets(train_scenes_info: pd.DataFrame) -> pd.DataFrame:
 def load_train_dataset(root: str, scenes: list):
     dataset = {}
     for scene in scenes:
-        dic = np.load(os.path.join(root, scene, 'gray.npy'), allow_pickle=True)
+        dic = np.load(os.path.join(root, scene, 'rgb.npy'), allow_pickle=True)
         dic = dic.item()
         logging.info(f'Load {scene} dataset with n_points: {len(dic)}')
         dataset[scene] = dic
     return dataset
 
 def load_test_dataset(root: str, test_scene: str):
-    return np.load(os.path.join(root, test_scene, '50000_50000.npy'), allow_pickle=True)
+    return np.load(os.path.join(root, test_scene, '50000_50000_rgb.npy'), allow_pickle=True)
 
 def to_3d_tensor(s: torch.tensor):
     s = s.view(64, 64, 1)
