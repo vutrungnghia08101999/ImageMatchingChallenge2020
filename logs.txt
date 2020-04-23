@@ -8751,3 +8751,2253 @@ Training configurations:
 20-04-16 05:36:15, INFO: Load taj_mahal dataset with n_points: 92991
 20-04-16 05:36:17, INFO: Load temple_nara_japan dataset with n_points: 91040
 20-04-16 05:36:28, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-16 18:06:56, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-16 18:07:41, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-16 18:07:45, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-16 18:07:50, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-16 18:07:55, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-16 18:08:00, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-16 18:08:08, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-16 18:08:10, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-16 18:08:14, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-16 18:08:14, INFO: num_3d_points: 292164
+20-04-16 18:08:14, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-16 18:08:37, INFO: 10 first triplets: 
+20-04-16 18:08:37, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-16 18:08:37, INFO: 10 last triplets: 
+20-04-16 18:08:37, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-16 18:09:58, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-16 18:10:01, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-16 18:10:01, INFO: num_3d_points: 292164
+20-04-16 18:10:01, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-16 18:10:23, INFO: 10 first triplets: 
+20-04-16 18:10:23, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-16 18:10:23, INFO: 10 last triplets: 
+20-04-16 18:10:23, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-16 18:13:36, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-16 18:13:39, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-16 18:13:43, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-16 18:13:43, INFO: num_3d_points: 292164
+20-04-16 18:13:43, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-16 18:14:07, INFO: 10 first triplets: 
+20-04-16 18:14:07, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-16 18:14:07, INFO: 10 last triplets: 
+20-04-16 18:14:07, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-16 18:14:25, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-16 18:14:39, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-16 18:14:42, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-16 18:14:43, INFO: num_3d_points: 292164
+20-04-16 18:14:43, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-16 18:15:05, INFO: 10 first triplets: 
+20-04-16 18:15:05, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-16 18:15:05, INFO: 10 last triplets: 
+20-04-16 18:15:05, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-22 19:08:44, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-22 19:08:49, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 19:08:53, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-22 19:08:57, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-22 19:09:07, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-22 19:09:09, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 19:09:12, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-22 19:09:12, INFO: num_3d_points: 292164
+20-04-22 19:09:12, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-22 19:09:29, INFO: 10 first triplets: 
+20-04-22 19:09:29, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-22 19:09:29, INFO: 10 last triplets: 
+20-04-22 19:09:29, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-22 19:20:39, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-22 19:20:48, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 19:20:51, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-22 19:20:51, INFO: num_3d_points: 292164
+20-04-22 19:20:51, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-22 19:21:08, INFO: 10 first triplets: 
+20-04-22 19:21:08, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-22 19:21:08, INFO: 10 last triplets: 
+20-04-22 19:21:08, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-22 19:23:07, INFO: load test set: sacre_coeur
+20-04-22 19:23:08, INFO: load test set: st_peters_square
+20-04-22 19:23:09, INFO: load test set: reichstag
+20-04-22 19:23:36, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-22 19:23:39, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 19:23:42, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-22 19:23:42, INFO: num_3d_points: 292164
+20-04-22 19:23:42, INFO: generate 292164 triplets (simple add a negative patch to a matched patch)
+20-04-22 19:23:59, INFO: 10 first triplets: 
+20-04-22 19:23:59, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  \
+0  brandenburg_gate          2          0  brandenburg_gate          2   
+1  brandenburg_gate          4          0  brandenburg_gate          4   
+2  brandenburg_gate          7          0  brandenburg_gate          7   
+3  brandenburg_gate         16          0  brandenburg_gate         16   
+4  brandenburg_gate         17          0  brandenburg_gate         17   
+5  brandenburg_gate         18          0  brandenburg_gate         18   
+6  brandenburg_gate         24          0  brandenburg_gate         24   
+7  brandenburg_gate         25          0  brandenburg_gate         25   
+8  brandenburg_gate         26          0  brandenburg_gate         26   
+9  brandenburg_gate         28          0  brandenburg_gate         28   
+
+   patch_id2  
+0          1  
+1          1  
+2          1  
+3          1  
+4          1  
+5          1  
+6          1  
+7          1  
+8          1  
+9          1  
+20-04-22 19:23:59, INFO: 10 last triplets: 
+20-04-22 19:23:59, INFO:                   scene_1  point_id1  patch_id1            scene_2  point_id2  \
+292154  westminster_abbey     373536          0  westminster_abbey     373536   
+292155  westminster_abbey     373537          0  westminster_abbey     373537   
+292156  westminster_abbey     373538          0  westminster_abbey     373538   
+292157  westminster_abbey     373539          0  westminster_abbey     373539   
+292158  westminster_abbey     373540          0  westminster_abbey     373540   
+292159  westminster_abbey     373541          0  westminster_abbey     373541   
+292160  westminster_abbey     373542          0  westminster_abbey     373542   
+292161  westminster_abbey     373543          0  westminster_abbey     373543   
+292162  westminster_abbey     373544          0  westminster_abbey     373544   
+292163  westminster_abbey     373545          0  westminster_abbey     373545   
+
+        patch_id2  
+292154          1  
+292155          1  
+292156          1  
+292157          1  
+292158          1  
+292159          1  
+292160          1  
+292161          1  
+292162          1  
+292163          1  
+20-04-22 19:24:02, INFO: load test set: sacre_coeur
+20-04-22 19:24:03, INFO: load test set: st_peters_square
+20-04-22 19:24:04, INFO: load test set: reichstag
+20-04-22 19:24:06, INFO: 
+Training configurations: 
+20-04-22 19:24:06, INFO: {'dataset': {'challenge_root': '/home/nghiavt/workspace/dataset/32', 'brown_root': '/home/nghiavt/workspace/brown-data', 'mean': 0.443728476019, 'std': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'westminster_abbey'], 'test_scenes': {'challenge': ['sacre_coeur', 'st_peters_square', 'reichstag']}}, 'model_dir': 'models/train_on_challenge_data', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'n_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'lr': 0.001, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'use_cuda': False, 'gpu_id': 0}
+20-04-22 19:24:27, INFO: EPOCH: 0
+20-04-22 19:24:27, INFO: ========================
+20-04-22 19:24:27, INFO: Training sceces: 
+20-04-22 19:24:27, INFO: ['brandenburg_gate', 'westminster_abbey']
+20-04-22 19:24:32, INFO: 0/286 - Loss: 1.2427411079406738
+20-04-22 19:24:32, INFO: models/train_on_challenge_data/checkpoint_20-04-22_19:24:32_0_0.pth
+20-04-22 19:25:17, INFO: 10/286 - Loss: 1.0235685110092163
+20-04-22 19:25:59, INFO: 20/286 - Loss: 1.001132845878601
+20-04-22 19:27:49, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-22 19:27:51, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 19:27:54, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-22 19:27:58, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-22 19:28:01, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-22 19:28:04, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-22 19:28:10, INFO: Load notre_dame_front_facade dataset with n_points: 477105
+20-04-22 19:28:12, INFO: Load palace_of_westminster dataset with n_points: 114025
+20-04-22 19:28:14, INFO: Load pantheon_exterior dataset with n_points: 163635
+20-04-22 19:28:22, INFO: Load prague_old_town_square dataset with n_points: 549152
+20-04-22 19:28:23, INFO: Load taj_mahal dataset with n_points: 92991
+20-04-22 19:28:24, INFO: Load temple_nara_japan dataset with n_points: 91040
+20-04-22 19:28:32, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-22 19:28:35, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-22 19:28:35, INFO: num_3d_points: 3271254
+20-04-22 19:28:35, INFO: generate 3271254 triplets (simple add a negative patch to a matched patch)
+20-04-22 19:31:33, INFO: 10 first triplets: 
+20-04-22 19:31:33, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  patch_id2
+0  brandenburg_gate          2          0  brandenburg_gate          2          1
+1  brandenburg_gate          4          0  brandenburg_gate          4          1
+2  brandenburg_gate          7          0  brandenburg_gate          7          1
+3  brandenburg_gate         16          0  brandenburg_gate         16          1
+4  brandenburg_gate         17          0  brandenburg_gate         17          1
+5  brandenburg_gate         18          0  brandenburg_gate         18          1
+6  brandenburg_gate         24          0  brandenburg_gate         24          1
+7  brandenburg_gate         25          0  brandenburg_gate         25          1
+8  brandenburg_gate         26          0  brandenburg_gate         26          1
+9  brandenburg_gate         28          0  brandenburg_gate         28          1
+20-04-22 19:31:33, INFO: 10 last triplets: 
+20-04-22 19:31:33, INFO:                    scene_1  point_id1  patch_id1            scene_2  point_id2  patch_id2
+3271244  westminster_abbey     373536          0  westminster_abbey     373536          1
+3271245  westminster_abbey     373537          0  westminster_abbey     373537          1
+3271246  westminster_abbey     373538          0  westminster_abbey     373538          1
+3271247  westminster_abbey     373539          0  westminster_abbey     373539          1
+3271248  westminster_abbey     373540          0  westminster_abbey     373540          1
+3271249  westminster_abbey     373541          0  westminster_abbey     373541          1
+3271250  westminster_abbey     373542          0  westminster_abbey     373542          1
+3271251  westminster_abbey     373543          0  westminster_abbey     373543          1
+3271252  westminster_abbey     373544          0  westminster_abbey     373544          1
+3271253  westminster_abbey     373545          0  westminster_abbey     373545          1
+20-04-22 19:31:34, INFO: load test set: sacre_coeur
+20-04-22 19:31:35, INFO: load test set: st_peters_square
+20-04-22 19:31:36, INFO: load test set: reichstag
+20-04-22 19:31:36, INFO: 
+Training configurations: 
+20-04-22 19:31:36, INFO: {'dataset': {'challenge_root': '/home/nghiavt/workspace/dataset/32', 'brown_root': '/home/nghiavt/workspace/brown-data', 'mean': 0.443728476019, 'std': 0.20197947209, 'train_scenes': ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey'], 'test_scenes': {'challenge': ['sacre_coeur', 'st_peters_square', 'reichstag']}}, 'model_dir': 'models/resnet', 'loss': 'triplet_margin', 'batch_reduce': 'min', 'n_workers': 0, 'anchorave': False, 'resume': '', 'start_epoch': 0, 'epochs': 20, 'anchorswap': True, 'batch_size': 1024, 'test_batch_size': 1024, 'margin': 1.0, 'lr': 0.001, 'fliprot': False, 'augmentation': False, 'lr_decay': 1e-06, 'weight_decay': 0.0001, 'use_cuda': False, 'gpu_id': 0}
+20-04-22 19:31:36, INFO: EPOCH: 0
+20-04-22 19:31:36, INFO: ========================
+20-04-22 19:31:36, INFO: Training sceces: 
+20-04-22 19:31:36, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-04-22 19:31:41, INFO: 0/3195 - Loss: 1.236250400543213
+20-04-22 19:31:41, INFO: models/resnet/checkpoint_20-04-22_19:31:41_0_0.pth
+20-04-22 19:32:25, INFO: 10/3195 - Loss: 1.0252068042755127
+20-04-22 19:33:06, INFO: 20/3195 - Loss: 1.0072376728057861
+20-04-22 19:33:46, INFO: 30/3195 - Loss: 1.000408411026001
+20-04-22 19:34:27, INFO: 40/3195 - Loss: 0.9951475858688354
+20-04-22 19:35:08, INFO: 50/3195 - Loss: 0.9900425672531128
+20-04-22 19:35:49, INFO: 60/3195 - Loss: 0.9856448769569397
+20-04-22 19:36:31, INFO: 70/3195 - Loss: 0.9808486104011536
+20-04-22 19:37:11, INFO: 80/3195 - Loss: 0.9699092507362366
+20-04-22 19:37:52, INFO: 90/3195 - Loss: 0.945265531539917
+20-04-22 19:38:33, INFO: 100/3195 - Loss: 0.884931743144989
+20-04-22 19:38:33, INFO: models/resnet/checkpoint_20-04-22_19:38:33_0_100.pth
+20-04-22 19:39:13, INFO: 110/3195 - Loss: 0.8928110599517822
+20-04-22 19:39:54, INFO: 120/3195 - Loss: 0.8830501437187195
+20-04-22 19:40:34, INFO: 130/3195 - Loss: 0.8718944787979126
+20-04-22 19:41:14, INFO: 140/3195 - Loss: 0.8491622805595398
+20-04-22 19:41:55, INFO: 150/3195 - Loss: 0.8454651236534119
+20-04-22 19:42:36, INFO: 160/3195 - Loss: 0.8338748812675476
+20-04-22 19:43:16, INFO: 170/3195 - Loss: 0.8363524675369263
+20-04-22 19:43:56, INFO: 180/3195 - Loss: 0.8152104616165161
+20-04-22 19:44:36, INFO: 190/3195 - Loss: 0.8087966442108154
+20-04-22 19:45:16, INFO: 200/3195 - Loss: 0.7935472130775452
+20-04-22 19:45:16, INFO: models/resnet/checkpoint_20-04-22_19:45:16_0_200.pth
+20-04-22 19:45:56, INFO: 210/3195 - Loss: 0.7810600996017456
+20-04-22 19:46:35, INFO: 220/3195 - Loss: 0.7918061017990112
+20-04-22 19:47:16, INFO: 230/3195 - Loss: 0.7828611731529236
+20-04-22 19:47:55, INFO: 240/3195 - Loss: 0.7846225500106812
+20-04-22 19:48:35, INFO: 250/3195 - Loss: 0.7739222049713135
+20-04-22 19:49:16, INFO: 260/3195 - Loss: 0.7691550254821777
+20-04-22 19:49:56, INFO: 270/3195 - Loss: 0.7621950507164001
+20-04-22 19:50:37, INFO: 280/3195 - Loss: 0.7571006417274475
+20-04-22 19:51:17, INFO: 290/3195 - Loss: 0.7599917650222778
+20-04-22 19:51:58, INFO: 300/3195 - Loss: 0.7511407136917114
+20-04-22 19:51:58, INFO: models/resnet/checkpoint_20-04-22_19:51:58_0_300.pth
+20-04-22 19:52:40, INFO: 310/3195 - Loss: 0.7526127099990845
+20-04-22 19:53:19, INFO: 320/3195 - Loss: 0.7359558939933777
+20-04-22 19:54:00, INFO: 330/3195 - Loss: 0.7480097413063049
+20-04-22 19:54:40, INFO: 340/3195 - Loss: 0.7452258467674255
+20-04-22 19:55:21, INFO: 350/3195 - Loss: 0.7448400855064392
+20-04-22 19:56:01, INFO: 360/3195 - Loss: 0.7552745342254639
+20-04-22 19:56:41, INFO: 370/3195 - Loss: 0.7417306303977966
+20-04-22 19:57:23, INFO: 380/3195 - Loss: 0.7352669835090637
+20-04-22 19:58:04, INFO: 390/3195 - Loss: 0.7323637008666992
+20-04-22 19:58:44, INFO: 400/3195 - Loss: 0.7414108514785767
+20-04-22 19:58:44, INFO: models/resnet/checkpoint_20-04-22_19:58:44_0_400.pth
+20-04-22 19:59:25, INFO: 410/3195 - Loss: 0.7245126962661743
+20-04-22 20:00:05, INFO: 420/3195 - Loss: 0.7384027242660522
+20-04-22 20:00:44, INFO: 430/3195 - Loss: 0.7168115377426147
+20-04-22 20:01:24, INFO: 440/3195 - Loss: 0.7279505133628845
+20-04-22 20:02:03, INFO: 450/3195 - Loss: 0.7241987586021423
+20-04-22 20:02:44, INFO: 460/3195 - Loss: 0.7253709435462952
+20-04-22 20:03:24, INFO: 470/3195 - Loss: 0.7107961773872375
+20-04-22 20:04:04, INFO: 480/3195 - Loss: 0.7425180673599243
+20-04-22 20:04:45, INFO: 490/3195 - Loss: 0.738366425037384
+20-04-22 20:05:25, INFO: 500/3195 - Loss: 0.7180247902870178
+20-04-22 20:05:25, INFO: models/resnet/checkpoint_20-04-22_20:05:25_0_500.pth
+20-04-22 20:06:05, INFO: 510/3195 - Loss: 0.7157742381095886
+20-04-22 20:06:46, INFO: 520/3195 - Loss: 0.7141181826591492
+20-04-22 20:07:26, INFO: 530/3195 - Loss: 0.696139931678772
+20-04-22 20:08:07, INFO: 540/3195 - Loss: 0.7089294195175171
+20-04-22 20:08:46, INFO: 550/3195 - Loss: 0.7073560953140259
+20-04-22 20:09:26, INFO: 560/3195 - Loss: 0.7119554281234741
+20-04-22 20:10:07, INFO: 570/3195 - Loss: 0.7135135531425476
+20-04-22 20:10:48, INFO: 580/3195 - Loss: 0.7204659581184387
+20-04-22 20:11:28, INFO: 590/3195 - Loss: 0.7119495272636414
+20-04-22 20:12:09, INFO: 600/3195 - Loss: 0.6968844532966614
+20-04-22 20:12:09, INFO: models/resnet/checkpoint_20-04-22_20:12:09_0_600.pth
+20-04-22 20:12:49, INFO: 610/3195 - Loss: 0.7124310731887817
+20-04-22 20:13:29, INFO: 620/3195 - Loss: 0.701216995716095
+20-04-22 20:14:09, INFO: 630/3195 - Loss: 0.6954033970832825
+20-04-22 20:14:49, INFO: 640/3195 - Loss: 0.7201692461967468
+20-04-22 20:15:29, INFO: 650/3195 - Loss: 0.6912392377853394
+20-04-22 20:16:09, INFO: 660/3195 - Loss: 0.7051368951797485
+20-04-22 20:16:50, INFO: 670/3195 - Loss: 0.6915703415870667
+20-04-22 20:17:29, INFO: 680/3195 - Loss: 0.7048500776290894
+20-04-22 20:18:10, INFO: 690/3195 - Loss: 0.6747174263000488
+20-04-22 20:18:50, INFO: 700/3195 - Loss: 0.6911776661872864
+20-04-22 20:18:50, INFO: models/resnet/checkpoint_20-04-22_20:18:50_0_700.pth
+20-04-22 20:19:31, INFO: 710/3195 - Loss: 0.6745826005935669
+20-04-22 20:20:12, INFO: 720/3195 - Loss: 0.6795458793640137
+20-04-22 20:20:52, INFO: 730/3195 - Loss: 0.6855466961860657
+20-04-22 20:21:33, INFO: 740/3195 - Loss: 0.6892824172973633
+20-04-22 20:22:12, INFO: 750/3195 - Loss: 0.7004152536392212
+20-04-22 20:22:53, INFO: 760/3195 - Loss: 0.6974719166755676
+20-04-22 20:23:34, INFO: 770/3195 - Loss: 0.7044883966445923
+20-04-22 20:24:14, INFO: 780/3195 - Loss: 0.6963998675346375
+20-04-22 20:24:55, INFO: 790/3195 - Loss: 0.6843082904815674
+20-04-22 20:25:35, INFO: 800/3195 - Loss: 0.6965596079826355
+20-04-22 20:25:35, INFO: models/resnet/checkpoint_20-04-22_20:25:35_0_800.pth
+20-04-22 20:26:15, INFO: 810/3195 - Loss: 0.7048466801643372
+20-04-22 20:26:55, INFO: 820/3195 - Loss: 0.6873372793197632
+20-04-22 20:27:36, INFO: 830/3195 - Loss: 0.6930885910987854
+20-04-22 20:28:15, INFO: 840/3195 - Loss: 0.6943840980529785
+20-04-22 20:28:56, INFO: 850/3195 - Loss: 0.6827607154846191
+20-04-22 20:29:36, INFO: 860/3195 - Loss: 0.6960209608078003
+20-04-22 20:30:17, INFO: 870/3195 - Loss: 0.690326452255249
+20-04-22 20:30:57, INFO: 880/3195 - Loss: 0.6902858018875122
+20-04-22 20:31:39, INFO: 890/3195 - Loss: 0.6933174133300781
+20-04-22 20:32:20, INFO: 900/3195 - Loss: 0.6874903440475464
+20-04-22 20:32:20, INFO: models/resnet/checkpoint_20-04-22_20:32:20_0_900.pth
+20-04-22 20:33:00, INFO: 910/3195 - Loss: 0.6911450028419495
+20-04-22 20:33:41, INFO: 920/3195 - Loss: 0.667304515838623
+20-04-22 20:34:22, INFO: 930/3195 - Loss: 0.6773391962051392
+20-04-22 20:35:02, INFO: 940/3195 - Loss: 0.7043755054473877
+20-04-22 20:35:42, INFO: 950/3195 - Loss: 0.6804141402244568
+20-04-22 20:36:22, INFO: 960/3195 - Loss: 0.6928541660308838
+20-04-22 20:37:02, INFO: 970/3195 - Loss: 0.6737042665481567
+20-04-22 20:37:43, INFO: 980/3195 - Loss: 0.6815395355224609
+20-04-22 20:38:22, INFO: 990/3195 - Loss: 0.6703298091888428
+20-04-22 20:39:04, INFO: 1000/3195 - Loss: 0.6805757284164429
+20-04-22 20:39:04, INFO: models/resnet/checkpoint_20-04-22_20:39:04_0_1000.pth
+20-04-22 20:39:46, INFO: 1010/3195 - Loss: 0.683536171913147
+20-04-22 20:40:25, INFO: 1020/3195 - Loss: 0.670620858669281
+20-04-22 20:41:05, INFO: 1030/3195 - Loss: 0.6833277940750122
+20-04-22 20:41:46, INFO: 1040/3195 - Loss: 0.6728601455688477
+20-04-22 20:42:26, INFO: 1050/3195 - Loss: 0.6882760524749756
+20-04-22 20:43:06, INFO: 1060/3195 - Loss: 0.6772135496139526
+20-04-22 20:43:46, INFO: 1070/3195 - Loss: 0.684201180934906
+20-04-22 20:44:27, INFO: 1080/3195 - Loss: 0.668891191482544
+20-04-22 20:45:08, INFO: 1090/3195 - Loss: 0.6687471866607666
+20-04-22 20:45:48, INFO: 1100/3195 - Loss: 0.6802714467048645
+20-04-22 20:45:48, INFO: models/resnet/checkpoint_20-04-22_20:45:48_0_1100.pth
+20-04-22 20:46:29, INFO: 1110/3195 - Loss: 0.6862285137176514
+20-04-22 20:47:08, INFO: 1120/3195 - Loss: 0.6785340905189514
+20-04-22 20:47:48, INFO: 1130/3195 - Loss: 0.673579216003418
+20-04-22 20:48:28, INFO: 1140/3195 - Loss: 0.6702059507369995
+20-04-22 20:49:09, INFO: 1150/3195 - Loss: 0.6772480607032776
+20-04-22 20:49:50, INFO: 1160/3195 - Loss: 0.6749073266983032
+20-04-22 20:50:31, INFO: 1170/3195 - Loss: 0.672010600566864
+20-04-22 20:51:12, INFO: 1180/3195 - Loss: 0.6722784042358398
+20-04-22 20:51:53, INFO: 1190/3195 - Loss: 0.6691312789916992
+20-04-22 20:52:33, INFO: 1200/3195 - Loss: 0.683456540107727
+20-04-22 20:52:33, INFO: models/resnet/checkpoint_20-04-22_20:52:33_0_1200.pth
+20-04-22 20:53:14, INFO: 1210/3195 - Loss: 0.6650945544242859
+20-04-22 20:53:54, INFO: 1220/3195 - Loss: 0.6851324439048767
+20-04-22 20:54:35, INFO: 1230/3195 - Loss: 0.6678937673568726
+20-04-22 20:55:16, INFO: 1240/3195 - Loss: 0.6699575185775757
+20-04-22 20:55:56, INFO: 1250/3195 - Loss: 0.6891254782676697
+20-04-22 20:56:36, INFO: 1260/3195 - Loss: 0.6633191108703613
+20-04-22 20:57:16, INFO: 1270/3195 - Loss: 0.6869834065437317
+20-04-22 20:57:56, INFO: 1280/3195 - Loss: 0.6638985872268677
+20-04-22 20:58:36, INFO: 1290/3195 - Loss: 0.6713697910308838
+20-04-22 20:59:16, INFO: 1300/3195 - Loss: 0.6659726500511169
+20-04-22 20:59:16, INFO: models/resnet/checkpoint_20-04-22_20:59:16_0_1300.pth
+20-04-22 20:59:56, INFO: 1310/3195 - Loss: 0.6694297194480896
+20-04-22 21:00:37, INFO: 1320/3195 - Loss: 0.667455792427063
+20-04-22 21:01:17, INFO: 1330/3195 - Loss: 0.6650875806808472
+20-04-22 21:01:57, INFO: 1340/3195 - Loss: 0.6691022515296936
+20-04-22 21:02:37, INFO: 1350/3195 - Loss: 0.6703944206237793
+20-04-22 21:03:17, INFO: 1360/3195 - Loss: 0.6735021471977234
+20-04-22 21:03:58, INFO: 1370/3195 - Loss: 0.6728578805923462
+20-04-22 21:04:38, INFO: 1380/3195 - Loss: 0.6673955917358398
+20-04-22 21:05:18, INFO: 1390/3195 - Loss: 0.662643313407898
+20-04-22 21:05:57, INFO: 1400/3195 - Loss: 0.6639175415039062
+20-04-22 21:05:58, INFO: models/resnet/checkpoint_20-04-22_21:05:57_0_1400.pth
+20-04-22 21:06:37, INFO: 1410/3195 - Loss: 0.6659941077232361
+20-04-22 21:07:17, INFO: 1420/3195 - Loss: 0.6630152463912964
+20-04-22 21:07:58, INFO: 1430/3195 - Loss: 0.6540508270263672
+20-04-22 21:08:38, INFO: 1440/3195 - Loss: 0.6740146279335022
+20-04-22 21:09:18, INFO: 1450/3195 - Loss: 0.6597716808319092
+20-04-22 21:09:59, INFO: 1460/3195 - Loss: 0.6758038997650146
+20-04-22 21:10:39, INFO: 1470/3195 - Loss: 0.6682639718055725
+20-04-22 21:11:19, INFO: 1480/3195 - Loss: 0.6670500040054321
+20-04-22 21:11:59, INFO: 1490/3195 - Loss: 0.656941294670105
+20-04-22 21:12:39, INFO: 1500/3195 - Loss: 0.6644577980041504
+20-04-22 21:12:39, INFO: models/resnet/checkpoint_20-04-22_21:12:39_0_1500.pth
+20-04-22 21:13:20, INFO: 1510/3195 - Loss: 0.6633559465408325
+20-04-22 21:14:00, INFO: 1520/3195 - Loss: 0.6576245427131653
+20-04-22 21:14:41, INFO: 1530/3195 - Loss: 0.642322301864624
+20-04-22 21:15:20, INFO: 1540/3195 - Loss: 0.6671963334083557
+20-04-22 21:16:00, INFO: 1550/3195 - Loss: 0.6883029341697693
+20-04-22 21:16:40, INFO: 1560/3195 - Loss: 0.6444506645202637
+20-04-22 21:17:21, INFO: 1570/3195 - Loss: 0.6468868255615234
+20-04-22 21:18:01, INFO: 1580/3195 - Loss: 0.6659841537475586
+20-04-22 21:18:42, INFO: 1590/3195 - Loss: 0.6529107689857483
+20-04-22 21:19:22, INFO: 1600/3195 - Loss: 0.6556376218795776
+20-04-22 21:19:22, INFO: models/resnet/checkpoint_20-04-22_21:19:22_0_1600.pth
+20-04-22 21:20:03, INFO: 1610/3195 - Loss: 0.6636189818382263
+20-04-22 21:20:44, INFO: 1620/3195 - Loss: 0.6584609746932983
+20-04-22 21:21:24, INFO: 1630/3195 - Loss: 0.6459041237831116
+20-04-22 21:22:05, INFO: 1640/3195 - Loss: 0.6579254865646362
+20-04-22 21:22:46, INFO: 1650/3195 - Loss: 0.6472617387771606
+20-04-22 21:23:26, INFO: 1660/3195 - Loss: 0.6668821573257446
+20-04-22 21:24:06, INFO: 1670/3195 - Loss: 0.6511167883872986
+20-04-22 21:24:47, INFO: 1680/3195 - Loss: 0.6497511863708496
+20-04-22 21:25:28, INFO: 1690/3195 - Loss: 0.6544178128242493
+20-04-22 21:26:07, INFO: 1700/3195 - Loss: 0.6582328677177429
+20-04-22 21:26:07, INFO: models/resnet/checkpoint_20-04-22_21:26:07_0_1700.pth
+20-04-22 21:26:48, INFO: 1710/3195 - Loss: 0.649404764175415
+20-04-22 21:27:28, INFO: 1720/3195 - Loss: 0.6550236940383911
+20-04-22 21:28:07, INFO: 1730/3195 - Loss: 0.6545103192329407
+20-04-22 21:28:48, INFO: 1740/3195 - Loss: 0.6665025949478149
+20-04-22 21:29:28, INFO: 1750/3195 - Loss: 0.6586955189704895
+20-04-22 21:30:09, INFO: 1760/3195 - Loss: 0.6585503816604614
+20-04-22 21:30:51, INFO: 1770/3195 - Loss: 0.6388395428657532
+20-04-22 21:31:32, INFO: 1780/3195 - Loss: 0.630580484867096
+20-04-22 21:32:12, INFO: 1790/3195 - Loss: 0.6490118503570557
+20-04-22 21:32:52, INFO: 1800/3195 - Loss: 0.6515758633613586
+20-04-22 21:32:52, INFO: models/resnet/checkpoint_20-04-22_21:32:52_0_1800.pth
+20-04-22 21:33:31, INFO: 1810/3195 - Loss: 0.6542983055114746
+20-04-22 21:34:11, INFO: 1820/3195 - Loss: 0.6430556774139404
+20-04-22 21:34:51, INFO: 1830/3195 - Loss: 0.6591380834579468
+20-04-22 21:35:31, INFO: 1840/3195 - Loss: 0.6504560112953186
+20-04-22 21:36:12, INFO: 1850/3195 - Loss: 0.6743960380554199
+20-04-22 21:36:52, INFO: 1860/3195 - Loss: 0.6391589641571045
+20-04-22 21:37:32, INFO: 1870/3195 - Loss: 0.6449447274208069
+20-04-22 21:38:12, INFO: 1880/3195 - Loss: 0.6572672128677368
+20-04-22 21:38:54, INFO: 1890/3195 - Loss: 0.6410716772079468
+20-04-22 21:39:36, INFO: 1900/3195 - Loss: 0.6671175956726074
+20-04-22 21:39:36, INFO: models/resnet/checkpoint_20-04-22_21:39:36_0_1900.pth
+20-04-22 21:40:16, INFO: 1910/3195 - Loss: 0.6643950343132019
+20-04-22 21:40:56, INFO: 1920/3195 - Loss: 0.6501240134239197
+20-04-22 21:41:37, INFO: 1930/3195 - Loss: 0.635987401008606
+20-04-22 21:42:18, INFO: 1940/3195 - Loss: 0.657112717628479
+20-04-22 21:42:59, INFO: 1950/3195 - Loss: 0.6535235047340393
+20-04-22 21:43:40, INFO: 1960/3195 - Loss: 0.6504496335983276
+20-04-22 21:44:20, INFO: 1970/3195 - Loss: 0.650158703327179
+20-04-22 21:45:01, INFO: 1980/3195 - Loss: 0.6533529162406921
+20-04-22 21:45:42, INFO: 1990/3195 - Loss: 0.6562689542770386
+20-04-22 21:46:23, INFO: 2000/3195 - Loss: 0.6459915637969971
+20-04-22 21:46:23, INFO: models/resnet/checkpoint_20-04-22_21:46:23_0_2000.pth
+20-04-22 21:47:03, INFO: 2010/3195 - Loss: 0.6550908088684082
+20-04-22 21:47:43, INFO: 2020/3195 - Loss: 0.653273344039917
+20-04-22 21:48:24, INFO: 2030/3195 - Loss: 0.6396039724349976
+20-04-22 21:49:03, INFO: 2040/3195 - Loss: 0.6431427597999573
+20-04-22 21:49:44, INFO: 2050/3195 - Loss: 0.6490935683250427
+20-04-22 21:50:24, INFO: 2060/3195 - Loss: 0.6467286348342896
+20-04-22 21:51:04, INFO: 2070/3195 - Loss: 0.6374703645706177
+20-04-22 21:51:45, INFO: 2080/3195 - Loss: 0.6432475447654724
+20-04-22 21:52:24, INFO: 2090/3195 - Loss: 0.6280509233474731
+20-04-22 21:53:04, INFO: 2100/3195 - Loss: 0.6518998742103577
+20-04-22 21:53:04, INFO: models/resnet/checkpoint_20-04-22_21:53:04_0_2100.pth
+20-04-22 21:53:44, INFO: 2110/3195 - Loss: 0.6305420994758606
+20-04-22 21:54:26, INFO: 2120/3195 - Loss: 0.649561882019043
+20-04-22 21:55:06, INFO: 2130/3195 - Loss: 0.6323352456092834
+20-04-22 21:55:46, INFO: 2140/3195 - Loss: 0.6606227159500122
+20-04-22 21:56:27, INFO: 2150/3195 - Loss: 0.6492204666137695
+20-04-22 21:57:07, INFO: 2160/3195 - Loss: 0.6486852169036865
+20-04-22 21:57:48, INFO: 2170/3195 - Loss: 0.6522148847579956
+20-04-22 21:58:28, INFO: 2180/3195 - Loss: 0.6446459889411926
+20-04-22 21:59:09, INFO: 2190/3195 - Loss: 0.6307538151741028
+20-04-22 21:59:49, INFO: 2200/3195 - Loss: 0.643764853477478
+20-04-22 21:59:49, INFO: models/resnet/checkpoint_20-04-22_21:59:49_0_2200.pth
+20-04-22 22:00:31, INFO: 2210/3195 - Loss: 0.6324830055236816
+20-04-22 22:01:12, INFO: 2220/3195 - Loss: 0.64500892162323
+20-04-22 22:01:51, INFO: 2230/3195 - Loss: 0.6395617723464966
+20-04-22 22:02:32, INFO: 2240/3195 - Loss: 0.6500205397605896
+20-04-22 22:03:12, INFO: 2250/3195 - Loss: 0.6372870206832886
+20-04-22 22:03:53, INFO: 2260/3195 - Loss: 0.6417484283447266
+20-04-22 22:04:34, INFO: 2270/3195 - Loss: 0.6340951919555664
+20-04-22 22:05:14, INFO: 2280/3195 - Loss: 0.6350926160812378
+20-04-22 22:05:54, INFO: 2290/3195 - Loss: 0.6385689973831177
+20-04-22 22:06:35, INFO: 2300/3195 - Loss: 0.6366870403289795
+20-04-22 22:06:35, INFO: models/resnet/checkpoint_20-04-22_22:06:35_0_2300.pth
+20-04-22 22:07:15, INFO: 2310/3195 - Loss: 0.6371285319328308
+20-04-22 22:07:57, INFO: 2320/3195 - Loss: 0.6337567567825317
+20-04-22 22:08:38, INFO: 2330/3195 - Loss: 0.6416444182395935
+20-04-22 22:09:18, INFO: 2340/3195 - Loss: 0.6354457139968872
+20-04-22 22:09:59, INFO: 2350/3195 - Loss: 0.6427710056304932
+20-04-22 22:10:40, INFO: 2360/3195 - Loss: 0.6283375024795532
+20-04-22 22:11:20, INFO: 2370/3195 - Loss: 0.6429216265678406
+20-04-22 22:12:02, INFO: 2380/3195 - Loss: 0.6427696347236633
+20-04-22 22:12:42, INFO: 2390/3195 - Loss: 0.6370702981948853
+20-04-22 22:13:22, INFO: 2400/3195 - Loss: 0.6325207948684692
+20-04-22 22:13:22, INFO: models/resnet/checkpoint_20-04-22_22:13:22_0_2400.pth
+20-04-22 22:14:03, INFO: 2410/3195 - Loss: 0.6173283457756042
+20-04-22 22:14:44, INFO: 2420/3195 - Loss: 0.6319136619567871
+20-04-22 22:15:23, INFO: 2430/3195 - Loss: 0.6478456854820251
+20-04-22 22:16:03, INFO: 2440/3195 - Loss: 0.6338859796524048
+20-04-22 22:16:44, INFO: 2450/3195 - Loss: 0.6304183602333069
+20-04-22 22:17:24, INFO: 2460/3195 - Loss: 0.6476990580558777
+20-04-22 22:18:05, INFO: 2470/3195 - Loss: 0.6373888254165649
+20-04-22 22:18:46, INFO: 2480/3195 - Loss: 0.6475846767425537
+20-04-22 22:19:26, INFO: 2490/3195 - Loss: 0.6312295794487
+20-04-22 22:20:07, INFO: 2500/3195 - Loss: 0.6342654228210449
+20-04-22 22:20:07, INFO: models/resnet/checkpoint_20-04-22_22:20:07_0_2500.pth
+20-04-22 22:20:46, INFO: 2510/3195 - Loss: 0.6380221843719482
+20-04-22 22:21:27, INFO: 2520/3195 - Loss: 0.6408672332763672
+20-04-22 22:22:07, INFO: 2530/3195 - Loss: 0.6356998085975647
+20-04-22 22:22:47, INFO: 2540/3195 - Loss: 0.6328012943267822
+20-04-22 22:23:28, INFO: 2550/3195 - Loss: 0.6372107267379761
+20-04-22 22:24:08, INFO: 2560/3195 - Loss: 0.6155374646186829
+20-04-22 22:24:48, INFO: 2570/3195 - Loss: 0.6282110214233398
+20-04-22 22:25:29, INFO: 2580/3195 - Loss: 0.6423011422157288
+20-04-22 22:26:09, INFO: 2590/3195 - Loss: 0.6356140375137329
+20-04-22 22:26:50, INFO: 2600/3195 - Loss: 0.6319308280944824
+20-04-22 22:26:50, INFO: models/resnet/checkpoint_20-04-22_22:26:50_0_2600.pth
+20-04-22 22:27:30, INFO: 2610/3195 - Loss: 0.6409382224082947
+20-04-22 22:28:11, INFO: 2620/3195 - Loss: 0.6325848698616028
+20-04-22 22:28:51, INFO: 2630/3195 - Loss: 0.6271336078643799
+20-04-22 22:29:30, INFO: 2640/3195 - Loss: 0.6394758224487305
+20-04-22 22:30:10, INFO: 2650/3195 - Loss: 0.6317415237426758
+20-04-22 22:30:51, INFO: 2660/3195 - Loss: 0.6305443048477173
+20-04-22 22:31:32, INFO: 2670/3195 - Loss: 0.646329939365387
+20-04-22 22:32:13, INFO: 2680/3195 - Loss: 0.6271247267723083
+20-04-22 22:32:54, INFO: 2690/3195 - Loss: 0.649189293384552
+20-04-22 22:33:34, INFO: 2700/3195 - Loss: 0.6238417625427246
+20-04-22 22:33:34, INFO: models/resnet/checkpoint_20-04-22_22:33:34_0_2700.pth
+20-04-22 22:34:15, INFO: 2710/3195 - Loss: 0.6368408799171448
+20-04-22 22:34:56, INFO: 2720/3195 - Loss: 0.6266771554946899
+20-04-22 22:35:36, INFO: 2730/3195 - Loss: 0.6397719383239746
+20-04-22 22:36:16, INFO: 2740/3195 - Loss: 0.6284942030906677
+20-04-22 22:36:55, INFO: 2750/3195 - Loss: 0.6323354840278625
+20-04-22 22:37:36, INFO: 2760/3195 - Loss: 0.644428014755249
+20-04-22 22:38:16, INFO: 2770/3195 - Loss: 0.6384055614471436
+20-04-22 22:38:58, INFO: 2780/3195 - Loss: 0.6321461796760559
+20-04-22 22:39:37, INFO: 2790/3195 - Loss: 0.617817759513855
+20-04-22 22:40:18, INFO: 2800/3195 - Loss: 0.6082367897033691
+20-04-22 22:40:18, INFO: models/resnet/checkpoint_20-04-22_22:40:18_0_2800.pth
+20-04-22 22:41:00, INFO: 2810/3195 - Loss: 0.6233382225036621
+20-04-22 22:41:41, INFO: 2820/3195 - Loss: 0.6415981650352478
+20-04-22 22:42:22, INFO: 2830/3195 - Loss: 0.643562912940979
+20-04-22 22:43:03, INFO: 2840/3195 - Loss: 0.6248325109481812
+20-04-22 22:43:43, INFO: 2850/3195 - Loss: 0.6173612475395203
+20-04-22 22:44:23, INFO: 2860/3195 - Loss: 0.6310163736343384
+20-04-22 22:45:03, INFO: 2870/3195 - Loss: 0.630958080291748
+20-04-22 22:45:45, INFO: 2880/3195 - Loss: 0.6205011010169983
+20-04-22 22:46:26, INFO: 2890/3195 - Loss: 0.6186149716377258
+20-04-22 22:47:07, INFO: 2900/3195 - Loss: 0.6038665771484375
+20-04-22 22:47:07, INFO: models/resnet/checkpoint_20-04-22_22:47:07_0_2900.pth
+20-04-22 22:47:48, INFO: 2910/3195 - Loss: 0.6212952136993408
+20-04-22 22:48:27, INFO: 2920/3195 - Loss: 0.6449005603790283
+20-04-22 22:49:08, INFO: 2930/3195 - Loss: 0.6200363636016846
+20-04-22 22:49:49, INFO: 2940/3195 - Loss: 0.6132469177246094
+20-04-22 22:50:30, INFO: 2950/3195 - Loss: 0.6418516635894775
+20-04-22 22:51:11, INFO: 2960/3195 - Loss: 0.6337600946426392
+20-04-22 22:51:51, INFO: 2970/3195 - Loss: 0.6277827620506287
+20-04-22 22:52:32, INFO: 2980/3195 - Loss: 0.6321911215782166
+20-04-22 22:53:12, INFO: 2990/3195 - Loss: 0.6350911259651184
+20-04-22 22:53:52, INFO: 3000/3195 - Loss: 0.629836916923523
+20-04-22 22:53:52, INFO: models/resnet/checkpoint_20-04-22_22:53:52_0_3000.pth
+20-04-22 22:54:32, INFO: 3010/3195 - Loss: 0.6318027973175049
+20-04-22 22:55:11, INFO: 3020/3195 - Loss: 0.6199111342430115
+20-04-22 22:55:52, INFO: 3030/3195 - Loss: 0.6155359745025635
+20-04-22 22:56:32, INFO: 3040/3195 - Loss: 0.6166622638702393
+20-04-22 22:57:12, INFO: 3050/3195 - Loss: 0.6231652498245239
+20-04-22 22:57:54, INFO: 3060/3195 - Loss: 0.6269412040710449
+20-04-22 22:58:35, INFO: 3070/3195 - Loss: 0.6309881210327148
+20-04-22 22:59:15, INFO: 3080/3195 - Loss: 0.6329271793365479
+20-04-22 22:59:55, INFO: 3090/3195 - Loss: 0.6339920163154602
+20-04-22 23:00:35, INFO: 3100/3195 - Loss: 0.609110414981842
+20-04-22 23:00:35, INFO: models/resnet/checkpoint_20-04-22_23:00:35_0_3100.pth
+20-04-22 23:01:16, INFO: 3110/3195 - Loss: 0.619674563407898
+20-04-22 23:01:56, INFO: 3120/3195 - Loss: 0.6475993990898132
+20-04-22 23:02:35, INFO: 3130/3195 - Loss: 0.6235178112983704
+20-04-22 23:03:16, INFO: 3140/3195 - Loss: 0.6191599369049072
+20-04-22 23:03:57, INFO: 3150/3195 - Loss: 0.6324449181556702
+20-04-22 23:04:38, INFO: 3160/3195 - Loss: 0.6230777502059937
+20-04-22 23:05:18, INFO: 3170/3195 - Loss: 0.6265263557434082
+20-04-22 23:05:58, INFO: 3180/3195 - Loss: 0.6166166663169861
+20-04-22 23:06:38, INFO: 3190/3195 - Loss: 0.6360507011413574
+20-04-22 23:06:51, INFO: 3195/3195 - Loss: 0.6304032802581787
+20-04-22 23:06:51, INFO: models/resnet/checkpoint_20-04-22_23:06:51_0.pth
+20-04-22 23:06:51, INFO: Test on 100000 pairs of sacre_coeur
+20-04-22 23:07:55, INFO: [91mTest set: Accuracy(FPR95): 0.00276000
+[0m
+20-04-22 23:07:55, INFO: Test on 100000 pairs of st_peters_square
+20-04-22 23:08:56, INFO: [91mTest set: Accuracy(FPR95): 0.00252000
+[0m
+20-04-22 23:08:56, INFO: Test on 100000 pairs of reichstag
+20-04-22 23:09:58, INFO: [91mTest set: Accuracy(FPR95): 0.00360000
+[0m
+20-04-22 23:09:59, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-22 23:10:03, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-22 23:10:08, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-22 23:10:11, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-22 23:10:15, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-22 23:10:23, INFO: Load notre_dame_front_facade dataset with n_points: 477105
+20-04-22 23:10:24, INFO: Load palace_of_westminster dataset with n_points: 114025
+20-04-22 23:10:27, INFO: Load pantheon_exterior dataset with n_points: 163635
+20-04-22 23:10:35, INFO: Load prague_old_town_square dataset with n_points: 549152
+20-04-22 23:10:37, INFO: Load taj_mahal dataset with n_points: 92991
+20-04-22 23:10:38, INFO: Load temple_nara_japan dataset with n_points: 91040
+20-04-22 23:10:47, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-22 23:10:50, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-22 23:10:51, INFO: num_3d_points: 3271254
+20-04-22 23:10:51, INFO: generate 3271254 triplets (simple add a negative patch to a matched patch)
+20-04-22 23:14:26, INFO: 10 first triplets: 
+20-04-22 23:14:26, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  patch_id2
+0  brandenburg_gate          2          0  brandenburg_gate          2          1
+1  brandenburg_gate          4          0  brandenburg_gate          4          1
+2  brandenburg_gate          7          0  brandenburg_gate          7          1
+3  brandenburg_gate         16          0  brandenburg_gate         16          1
+4  brandenburg_gate         17          0  brandenburg_gate         17          1
+5  brandenburg_gate         18          0  brandenburg_gate         18          1
+6  brandenburg_gate         24          0  brandenburg_gate         24          1
+7  brandenburg_gate         25          0  brandenburg_gate         25          1
+8  brandenburg_gate         26          0  brandenburg_gate         26          1
+9  brandenburg_gate         28          0  brandenburg_gate         28          1
+20-04-22 23:14:26, INFO: 10 last triplets: 
+20-04-22 23:14:26, INFO:                    scene_1  point_id1  patch_id1            scene_2  point_id2  patch_id2
+3271244  westminster_abbey     373536          0  westminster_abbey     373536          1
+3271245  westminster_abbey     373537          0  westminster_abbey     373537          1
+3271246  westminster_abbey     373538          0  westminster_abbey     373538          1
+3271247  westminster_abbey     373539          0  westminster_abbey     373539          1
+3271248  westminster_abbey     373540          0  westminster_abbey     373540          1
+3271249  westminster_abbey     373541          0  westminster_abbey     373541          1
+3271250  westminster_abbey     373542          0  westminster_abbey     373542          1
+3271251  westminster_abbey     373543          0  westminster_abbey     373543          1
+3271252  westminster_abbey     373544          0  westminster_abbey     373544          1
+3271253  westminster_abbey     373545          0  westminster_abbey     373545          1
+20-04-22 23:14:39, INFO: EPOCH: 1
+20-04-22 23:14:39, INFO: ========================
+20-04-22 23:14:39, INFO: Training sceces: 
+20-04-22 23:14:39, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-04-22 23:14:43, INFO: 0/3195 - Loss: 0.6290493011474609
+20-04-22 23:14:43, INFO: models/resnet/checkpoint_20-04-22_23:14:43_1_0.pth
+20-04-22 23:15:24, INFO: 10/3195 - Loss: 0.6256717443466187
+20-04-22 23:16:06, INFO: 20/3195 - Loss: 0.6109651327133179
+20-04-22 23:16:46, INFO: 30/3195 - Loss: 0.6237393021583557
+20-04-22 23:17:27, INFO: 40/3195 - Loss: 0.615770161151886
+20-04-22 23:18:08, INFO: 50/3195 - Loss: 0.6192185878753662
+20-04-22 23:18:48, INFO: 60/3195 - Loss: 0.6170173287391663
+20-04-22 23:19:28, INFO: 70/3195 - Loss: 0.6114277243614197
+20-04-22 23:20:09, INFO: 80/3195 - Loss: 0.6297017335891724
+20-04-22 23:20:49, INFO: 90/3195 - Loss: 0.6212252378463745
+20-04-22 23:21:30, INFO: 100/3195 - Loss: 0.6126941442489624
+20-04-22 23:21:30, INFO: models/resnet/checkpoint_20-04-22_23:21:30_1_100.pth
+20-04-22 23:22:11, INFO: 110/3195 - Loss: 0.6098645329475403
+20-04-22 23:22:51, INFO: 120/3195 - Loss: 0.6122406125068665
+20-04-22 23:23:31, INFO: 130/3195 - Loss: 0.6363047361373901
+20-04-22 23:24:11, INFO: 140/3195 - Loss: 0.617607593536377
+20-04-22 23:24:52, INFO: 150/3195 - Loss: 0.623581051826477
+20-04-22 23:25:32, INFO: 160/3195 - Loss: 0.6123554110527039
+20-04-22 23:26:12, INFO: 170/3195 - Loss: 0.6236228942871094
+20-04-22 23:26:52, INFO: 180/3195 - Loss: 0.6282159090042114
+20-04-22 23:27:32, INFO: 190/3195 - Loss: 0.6154947876930237
+20-04-22 23:28:13, INFO: 200/3195 - Loss: 0.6308456659317017
+20-04-22 23:28:13, INFO: models/resnet/checkpoint_20-04-22_23:28:13_1_200.pth
+20-04-22 23:28:54, INFO: 210/3195 - Loss: 0.6392068862915039
+20-04-22 23:29:35, INFO: 220/3195 - Loss: 0.6139234900474548
+20-04-22 23:30:15, INFO: 230/3195 - Loss: 0.6174073219299316
+20-04-22 23:30:56, INFO: 240/3195 - Loss: 0.6074172854423523
+20-04-22 23:31:36, INFO: 250/3195 - Loss: 0.6154637336730957
+20-04-22 23:32:17, INFO: 260/3195 - Loss: 0.6084984540939331
+20-04-22 23:32:57, INFO: 270/3195 - Loss: 0.6154816150665283
+20-04-22 23:33:37, INFO: 280/3195 - Loss: 0.6037745475769043
+20-04-22 23:34:18, INFO: 290/3195 - Loss: 0.6185113191604614
+20-04-22 23:34:58, INFO: 300/3195 - Loss: 0.6068821549415588
+20-04-22 23:34:58, INFO: models/resnet/checkpoint_20-04-22_23:34:58_1_300.pth
+20-04-22 23:35:38, INFO: 310/3195 - Loss: 0.6101655960083008
+20-04-22 23:36:18, INFO: 320/3195 - Loss: 0.619574785232544
+20-04-22 23:37:00, INFO: 330/3195 - Loss: 0.6233711242675781
+20-04-22 23:37:40, INFO: 340/3195 - Loss: 0.6129801869392395
+20-04-22 23:38:20, INFO: 350/3195 - Loss: 0.6196008920669556
+20-04-22 23:39:00, INFO: 360/3195 - Loss: 0.6307958364486694
+20-04-22 23:39:40, INFO: 370/3195 - Loss: 0.6176430583000183
+20-04-22 23:40:21, INFO: 380/3195 - Loss: 0.6222577691078186
+20-04-22 23:41:02, INFO: 390/3195 - Loss: 0.6101953387260437
+20-04-22 23:41:43, INFO: 400/3195 - Loss: 0.6082991361618042
+20-04-22 23:41:43, INFO: models/resnet/checkpoint_20-04-22_23:41:43_1_400.pth
+20-04-22 23:42:24, INFO: 410/3195 - Loss: 0.5987368822097778
+20-04-22 23:43:04, INFO: 420/3195 - Loss: 0.6097476482391357
+20-04-22 23:43:45, INFO: 430/3195 - Loss: 0.6284999251365662
+20-04-22 23:44:26, INFO: 440/3195 - Loss: 0.616172194480896
+20-04-22 23:45:07, INFO: 450/3195 - Loss: 0.6081066131591797
+20-04-22 23:45:49, INFO: 460/3195 - Loss: 0.6150684356689453
+20-04-22 23:46:30, INFO: 470/3195 - Loss: 0.5976168513298035
+20-04-22 23:47:10, INFO: 480/3195 - Loss: 0.6151382327079773
+20-04-22 23:47:49, INFO: 490/3195 - Loss: 0.6023834347724915
+20-04-22 23:48:30, INFO: 500/3195 - Loss: 0.6098196506500244
+20-04-22 23:48:30, INFO: models/resnet/checkpoint_20-04-22_23:48:30_1_500.pth
+20-04-22 23:49:10, INFO: 510/3195 - Loss: 0.6338897347450256
+20-04-22 23:49:50, INFO: 520/3195 - Loss: 0.6073228120803833
+20-04-22 23:50:30, INFO: 530/3195 - Loss: 0.6120681762695312
+20-04-22 23:51:10, INFO: 540/3195 - Loss: 0.6184604167938232
+20-04-22 23:51:50, INFO: 550/3195 - Loss: 0.614687442779541
+20-04-22 23:52:30, INFO: 560/3195 - Loss: 0.6306323409080505
+20-04-22 23:53:11, INFO: 570/3195 - Loss: 0.6331592798233032
+20-04-22 23:53:51, INFO: 580/3195 - Loss: 0.621109664440155
+20-04-22 23:54:30, INFO: 590/3195 - Loss: 0.6242944598197937
+20-04-22 23:55:11, INFO: 600/3195 - Loss: 0.6290808916091919
+20-04-22 23:55:12, INFO: models/resnet/checkpoint_20-04-22_23:55:11_1_600.pth
+20-04-22 23:55:52, INFO: 610/3195 - Loss: 0.6074995994567871
+20-04-22 23:56:33, INFO: 620/3195 - Loss: 0.606927216053009
+20-04-22 23:57:13, INFO: 630/3195 - Loss: 0.6071534752845764
+20-04-22 23:57:54, INFO: 640/3195 - Loss: 0.6218375563621521
+20-04-22 23:58:34, INFO: 650/3195 - Loss: 0.6386252641677856
+20-04-22 23:59:14, INFO: 660/3195 - Loss: 0.6147375702857971
+20-04-22 23:59:54, INFO: 670/3195 - Loss: 0.6103289127349854
+20-04-23 00:00:35, INFO: 680/3195 - Loss: 0.6086001396179199
+20-04-23 00:01:15, INFO: 690/3195 - Loss: 0.5996158123016357
+20-04-23 00:01:56, INFO: 700/3195 - Loss: 0.6083166599273682
+20-04-23 00:01:56, INFO: models/resnet/checkpoint_20-04-23_00:01:56_1_700.pth
+20-04-23 00:02:37, INFO: 710/3195 - Loss: 0.617870032787323
+20-04-23 00:03:16, INFO: 720/3195 - Loss: 0.6078411936759949
+20-04-23 00:03:57, INFO: 730/3195 - Loss: 0.6158691644668579
+20-04-23 00:04:38, INFO: 740/3195 - Loss: 0.6280660033226013
+20-04-23 00:05:18, INFO: 750/3195 - Loss: 0.602955162525177
+20-04-23 00:05:59, INFO: 760/3195 - Loss: 0.6008027791976929
+20-04-23 00:06:39, INFO: 770/3195 - Loss: 0.6146726608276367
+20-04-23 00:07:20, INFO: 780/3195 - Loss: 0.609817385673523
+20-04-23 00:07:59, INFO: 790/3195 - Loss: 0.6038762927055359
+20-04-23 00:08:39, INFO: 800/3195 - Loss: 0.600530743598938
+20-04-23 00:08:39, INFO: models/resnet/checkpoint_20-04-23_00:08:39_1_800.pth
+20-04-23 00:09:19, INFO: 810/3195 - Loss: 0.6202372312545776
+20-04-23 00:09:59, INFO: 820/3195 - Loss: 0.6122052669525146
+20-04-23 00:10:40, INFO: 830/3195 - Loss: 0.6000803709030151
+20-04-23 00:11:21, INFO: 840/3195 - Loss: 0.6110501289367676
+20-04-23 00:12:02, INFO: 850/3195 - Loss: 0.604827344417572
+20-04-23 00:12:42, INFO: 860/3195 - Loss: 0.6090249419212341
+20-04-23 00:13:23, INFO: 870/3195 - Loss: 0.6106663346290588
+20-04-23 00:14:03, INFO: 880/3195 - Loss: 0.601604163646698
+20-04-23 00:14:43, INFO: 890/3195 - Loss: 0.6236373782157898
+20-04-23 00:15:25, INFO: 900/3195 - Loss: 0.6175796389579773
+20-04-23 00:15:25, INFO: models/resnet/checkpoint_20-04-23_00:15:25_1_900.pth
+20-04-23 00:16:05, INFO: 910/3195 - Loss: 0.6188899278640747
+20-04-23 00:16:45, INFO: 920/3195 - Loss: 0.6025204658508301
+20-04-23 00:17:24, INFO: 930/3195 - Loss: 0.6079572439193726
+20-04-23 00:18:05, INFO: 940/3195 - Loss: 0.6073166131973267
+20-04-23 00:18:45, INFO: 950/3195 - Loss: 0.6152414679527283
+20-04-23 00:19:26, INFO: 960/3195 - Loss: 0.5991636514663696
+20-04-23 00:20:05, INFO: 970/3195 - Loss: 0.6141200661659241
+20-04-23 00:20:46, INFO: 980/3195 - Loss: 0.612716555595398
+20-04-23 00:21:26, INFO: 990/3195 - Loss: 0.6011075973510742
+20-04-23 00:22:07, INFO: 1000/3195 - Loss: 0.5989869236946106
+20-04-23 00:22:07, INFO: models/resnet/checkpoint_20-04-23_00:22:07_1_1000.pth
+20-04-23 00:22:48, INFO: 1010/3195 - Loss: 0.6102588176727295
+20-04-23 00:23:28, INFO: 1020/3195 - Loss: 0.6147159934043884
+20-04-23 00:24:08, INFO: 1030/3195 - Loss: 0.6069247126579285
+20-04-23 00:24:47, INFO: 1040/3195 - Loss: 0.5872983336448669
+20-04-23 00:25:28, INFO: 1050/3195 - Loss: 0.6169913411140442
+20-04-23 00:26:08, INFO: 1060/3195 - Loss: 0.617181658744812
+20-04-23 00:26:48, INFO: 1070/3195 - Loss: 0.5973104238510132
+20-04-23 00:27:28, INFO: 1080/3195 - Loss: 0.6098904609680176
+20-04-23 00:28:08, INFO: 1090/3195 - Loss: 0.5979663729667664
+20-04-23 00:28:50, INFO: 1100/3195 - Loss: 0.6018779873847961
+20-04-23 00:28:50, INFO: models/resnet/checkpoint_20-04-23_00:28:50_1_1100.pth
+20-04-23 00:29:31, INFO: 1110/3195 - Loss: 0.6087914705276489
+20-04-23 00:30:11, INFO: 1120/3195 - Loss: 0.6099032759666443
+20-04-23 00:30:52, INFO: 1130/3195 - Loss: 0.6017965078353882
+20-04-23 00:31:32, INFO: 1140/3195 - Loss: 0.6122065782546997
+20-04-23 00:32:12, INFO: 1150/3195 - Loss: 0.6069303154945374
+20-04-23 00:32:53, INFO: 1160/3195 - Loss: 0.6143131256103516
+20-04-23 00:33:33, INFO: 1170/3195 - Loss: 0.604080855846405
+20-04-23 00:34:14, INFO: 1180/3195 - Loss: 0.6096423864364624
+20-04-23 00:34:53, INFO: 1190/3195 - Loss: 0.6204457879066467
+20-04-23 00:35:34, INFO: 1200/3195 - Loss: 0.6171600222587585
+20-04-23 00:35:34, INFO: models/resnet/checkpoint_20-04-23_00:35:34_1_1200.pth
+20-04-23 00:36:14, INFO: 1210/3195 - Loss: 0.6100139617919922
+20-04-23 00:36:54, INFO: 1220/3195 - Loss: 0.6025201082229614
+20-04-23 00:37:35, INFO: 1230/3195 - Loss: 0.5971186757087708
+20-04-23 00:38:15, INFO: 1240/3195 - Loss: 0.6212243437767029
+20-04-23 00:38:55, INFO: 1250/3195 - Loss: 0.6118574142456055
+20-04-23 00:39:34, INFO: 1260/3195 - Loss: 0.5993266701698303
+20-04-23 00:40:15, INFO: 1270/3195 - Loss: 0.6038826107978821
+20-04-23 00:40:56, INFO: 1280/3195 - Loss: 0.6153836846351624
+20-04-23 00:41:36, INFO: 1290/3195 - Loss: 0.6171873807907104
+20-04-23 00:42:16, INFO: 1300/3195 - Loss: 0.6009214520454407
+20-04-23 00:42:16, INFO: models/resnet/checkpoint_20-04-23_00:42:16_1_1300.pth
+20-04-23 00:42:57, INFO: 1310/3195 - Loss: 0.592444658279419
+20-04-23 00:43:38, INFO: 1320/3195 - Loss: 0.6157529950141907
+20-04-23 00:44:19, INFO: 1330/3195 - Loss: 0.6000936031341553
+20-04-23 00:44:59, INFO: 1340/3195 - Loss: 0.6019188165664673
+20-04-23 00:45:40, INFO: 1350/3195 - Loss: 0.6043205261230469
+20-04-23 00:46:20, INFO: 1360/3195 - Loss: 0.6119590997695923
+20-04-23 00:47:01, INFO: 1370/3195 - Loss: 0.5996690988540649
+20-04-23 00:47:41, INFO: 1380/3195 - Loss: 0.6025516986846924
+20-04-23 00:48:21, INFO: 1390/3195 - Loss: 0.5992599129676819
+20-04-23 00:49:02, INFO: 1400/3195 - Loss: 0.5891624689102173
+20-04-23 00:49:02, INFO: models/resnet/checkpoint_20-04-23_00:49:02_1_1400.pth
+20-04-23 00:49:42, INFO: 1410/3195 - Loss: 0.6050170063972473
+20-04-23 00:50:23, INFO: 1420/3195 - Loss: 0.5916149616241455
+20-04-23 00:51:04, INFO: 1430/3195 - Loss: 0.5961738228797913
+20-04-23 00:51:45, INFO: 1440/3195 - Loss: 0.5970926880836487
+20-04-23 00:52:25, INFO: 1450/3195 - Loss: 0.6171754598617554
+20-04-23 00:53:06, INFO: 1460/3195 - Loss: 0.6035653352737427
+20-04-23 00:53:46, INFO: 1470/3195 - Loss: 0.5946893095970154
+20-04-23 00:54:27, INFO: 1480/3195 - Loss: 0.5980343222618103
+20-04-23 00:55:08, INFO: 1490/3195 - Loss: 0.605692446231842
+20-04-23 00:55:49, INFO: 1500/3195 - Loss: 0.6066454648971558
+20-04-23 00:55:49, INFO: models/resnet/checkpoint_20-04-23_00:55:49_1_1500.pth
+20-04-23 00:56:29, INFO: 1510/3195 - Loss: 0.5917717218399048
+20-04-23 00:57:10, INFO: 1520/3195 - Loss: 0.595015287399292
+20-04-23 00:57:50, INFO: 1530/3195 - Loss: 0.5927566885948181
+20-04-23 00:58:32, INFO: 1540/3195 - Loss: 0.5843852162361145
+20-04-23 00:59:12, INFO: 1550/3195 - Loss: 0.6127370595932007
+20-04-23 00:59:52, INFO: 1560/3195 - Loss: 0.5972292423248291
+20-04-23 01:00:32, INFO: 1570/3195 - Loss: 0.5977677702903748
+20-04-23 01:01:14, INFO: 1580/3195 - Loss: 0.6114259958267212
+20-04-23 01:01:54, INFO: 1590/3195 - Loss: 0.5974682569503784
+20-04-23 01:02:34, INFO: 1600/3195 - Loss: 0.5942189693450928
+20-04-23 01:02:34, INFO: models/resnet/checkpoint_20-04-23_01:02:34_1_1600.pth
+20-04-23 01:03:15, INFO: 1610/3195 - Loss: 0.6013590097427368
+20-04-23 01:03:56, INFO: 1620/3195 - Loss: 0.6086226105690002
+20-04-23 01:04:38, INFO: 1630/3195 - Loss: 0.6037018299102783
+20-04-23 01:05:18, INFO: 1640/3195 - Loss: 0.5926512479782104
+20-04-23 01:05:58, INFO: 1650/3195 - Loss: 0.6032756567001343
+20-04-23 01:06:39, INFO: 1660/3195 - Loss: 0.5905874371528625
+20-04-23 01:07:19, INFO: 1670/3195 - Loss: 0.6032686829566956
+20-04-23 01:07:59, INFO: 1680/3195 - Loss: 0.6076899170875549
+20-04-23 01:08:40, INFO: 1690/3195 - Loss: 0.5997344851493835
+20-04-23 01:09:21, INFO: 1700/3195 - Loss: 0.5984787344932556
+20-04-23 01:09:21, INFO: models/resnet/checkpoint_20-04-23_01:09:21_1_1700.pth
+20-04-23 01:10:01, INFO: 1710/3195 - Loss: 0.5924603939056396
+20-04-23 01:10:42, INFO: 1720/3195 - Loss: 0.6038197875022888
+20-04-23 01:11:22, INFO: 1730/3195 - Loss: 0.5974853038787842
+20-04-23 01:12:02, INFO: 1740/3195 - Loss: 0.6192366480827332
+20-04-23 01:12:41, INFO: 1750/3195 - Loss: 0.6120766997337341
+20-04-23 01:13:22, INFO: 1760/3195 - Loss: 0.611423909664154
+20-04-23 01:14:02, INFO: 1770/3195 - Loss: 0.5995663404464722
+20-04-23 01:14:41, INFO: 1780/3195 - Loss: 0.6045560836791992
+20-04-23 01:15:21, INFO: 1790/3195 - Loss: 0.5885577201843262
+20-04-23 01:16:02, INFO: 1800/3195 - Loss: 0.5932168960571289
+20-04-23 01:16:02, INFO: models/resnet/checkpoint_20-04-23_01:16:02_1_1800.pth
+20-04-23 01:16:43, INFO: 1810/3195 - Loss: 0.5910171270370483
+20-04-23 01:17:22, INFO: 1820/3195 - Loss: 0.6134145259857178
+20-04-23 01:18:04, INFO: 1830/3195 - Loss: 0.6061703562736511
+20-04-23 01:18:44, INFO: 1840/3195 - Loss: 0.583759069442749
+20-04-23 01:19:25, INFO: 1850/3195 - Loss: 0.5926620960235596
+20-04-23 01:20:06, INFO: 1860/3195 - Loss: 0.6005101799964905
+20-04-23 01:20:46, INFO: 1870/3195 - Loss: 0.6040639877319336
+20-04-23 01:21:27, INFO: 1880/3195 - Loss: 0.5934568643569946
+20-04-23 01:22:07, INFO: 1890/3195 - Loss: 0.6005114316940308
+20-04-23 01:22:49, INFO: 1900/3195 - Loss: 0.5971460342407227
+20-04-23 01:22:49, INFO: models/resnet/checkpoint_20-04-23_01:22:49_1_1900.pth
+20-04-23 01:23:29, INFO: 1910/3195 - Loss: 0.6051256656646729
+20-04-23 01:24:09, INFO: 1920/3195 - Loss: 0.5981042385101318
+20-04-23 01:24:50, INFO: 1930/3195 - Loss: 0.5934981107711792
+20-04-23 01:25:31, INFO: 1940/3195 - Loss: 0.6058667898178101
+20-04-23 01:26:11, INFO: 1950/3195 - Loss: 0.6087342500686646
+20-04-23 01:26:51, INFO: 1960/3195 - Loss: 0.6135600209236145
+20-04-23 01:27:32, INFO: 1970/3195 - Loss: 0.5843936204910278
+20-04-23 01:28:12, INFO: 1980/3195 - Loss: 0.5981892347335815
+20-04-23 01:28:53, INFO: 1990/3195 - Loss: 0.5877237915992737
+20-04-23 01:29:33, INFO: 2000/3195 - Loss: 0.5923066735267639
+20-04-23 01:29:33, INFO: models/resnet/checkpoint_20-04-23_01:29:33_1_2000.pth
+20-04-23 01:30:13, INFO: 2010/3195 - Loss: 0.5969440340995789
+20-04-23 01:30:53, INFO: 2020/3195 - Loss: 0.6058194637298584
+20-04-23 01:31:34, INFO: 2030/3195 - Loss: 0.6024072170257568
+20-04-23 01:32:14, INFO: 2040/3195 - Loss: 0.5891730189323425
+20-04-23 01:32:54, INFO: 2050/3195 - Loss: 0.607118546962738
+20-04-23 01:33:36, INFO: 2060/3195 - Loss: 0.5921058654785156
+20-04-23 01:34:16, INFO: 2070/3195 - Loss: 0.6091738343238831
+20-04-23 01:34:56, INFO: 2080/3195 - Loss: 0.5998252630233765
+20-04-23 01:35:36, INFO: 2090/3195 - Loss: 0.598585844039917
+20-04-23 01:36:15, INFO: 2100/3195 - Loss: 0.5981259942054749
+20-04-23 01:36:15, INFO: models/resnet/checkpoint_20-04-23_01:36:15_1_2100.pth
+20-04-23 01:36:55, INFO: 2110/3195 - Loss: 0.6131917238235474
+20-04-23 01:37:36, INFO: 2120/3195 - Loss: 0.603338360786438
+20-04-23 01:38:17, INFO: 2130/3195 - Loss: 0.595350980758667
+20-04-23 01:38:58, INFO: 2140/3195 - Loss: 0.6100571155548096
+20-04-23 01:39:39, INFO: 2150/3195 - Loss: 0.6035245656967163
+20-04-23 01:40:19, INFO: 2160/3195 - Loss: 0.5961950421333313
+20-04-23 01:40:59, INFO: 2170/3195 - Loss: 0.5894543528556824
+20-04-23 01:41:38, INFO: 2180/3195 - Loss: 0.5999717116355896
+20-04-23 01:42:18, INFO: 2190/3195 - Loss: 0.5831754207611084
+20-04-23 01:42:59, INFO: 2200/3195 - Loss: 0.5770584344863892
+20-04-23 01:42:59, INFO: models/resnet/checkpoint_20-04-23_01:42:59_1_2200.pth
+20-04-23 01:43:39, INFO: 2210/3195 - Loss: 0.598040759563446
+20-04-23 01:44:19, INFO: 2220/3195 - Loss: 0.595579206943512
+20-04-23 01:44:59, INFO: 2230/3195 - Loss: 0.6108459830284119
+20-04-23 01:45:40, INFO: 2240/3195 - Loss: 0.6017849445343018
+20-04-23 01:46:20, INFO: 2250/3195 - Loss: 0.6004032492637634
+20-04-23 01:47:01, INFO: 2260/3195 - Loss: 0.6094970703125
+20-04-23 01:47:43, INFO: 2270/3195 - Loss: 0.6019404530525208
+20-04-23 01:48:24, INFO: 2280/3195 - Loss: 0.5898478031158447
+20-04-23 01:49:04, INFO: 2290/3195 - Loss: 0.5955904722213745
+20-04-23 01:49:44, INFO: 2300/3195 - Loss: 0.6133105158805847
+20-04-23 01:49:44, INFO: models/resnet/checkpoint_20-04-23_01:49:44_1_2300.pth
+20-04-23 01:50:24, INFO: 2310/3195 - Loss: 0.5970697402954102
+20-04-23 01:51:03, INFO: 2320/3195 - Loss: 0.5859728455543518
+20-04-23 01:51:45, INFO: 2330/3195 - Loss: 0.5864078998565674
+20-04-23 01:52:27, INFO: 2340/3195 - Loss: 0.6104802489280701
+20-04-23 01:53:06, INFO: 2350/3195 - Loss: 0.5984659194946289
+20-04-23 01:53:47, INFO: 2360/3195 - Loss: 0.5932518839836121
+20-04-23 01:54:27, INFO: 2370/3195 - Loss: 0.5927034616470337
+20-04-23 01:55:07, INFO: 2380/3195 - Loss: 0.6027341485023499
+20-04-23 01:55:46, INFO: 2390/3195 - Loss: 0.586534321308136
+20-04-23 01:56:28, INFO: 2400/3195 - Loss: 0.5950340032577515
+20-04-23 01:56:28, INFO: models/resnet/checkpoint_20-04-23_01:56:28_1_2400.pth
+20-04-23 01:57:08, INFO: 2410/3195 - Loss: 0.5895182490348816
+20-04-23 01:57:49, INFO: 2420/3195 - Loss: 0.59121173620224
+20-04-23 01:58:30, INFO: 2430/3195 - Loss: 0.5987138748168945
+20-04-23 01:59:11, INFO: 2440/3195 - Loss: 0.605864942073822
+20-04-23 01:59:52, INFO: 2450/3195 - Loss: 0.596205472946167
+20-04-23 02:00:33, INFO: 2460/3195 - Loss: 0.596713125705719
+20-04-23 02:01:15, INFO: 2470/3195 - Loss: 0.5879971981048584
+20-04-23 02:01:56, INFO: 2480/3195 - Loss: 0.5988287925720215
+20-04-23 02:02:36, INFO: 2490/3195 - Loss: 0.5971582531929016
+20-04-23 02:03:16, INFO: 2500/3195 - Loss: 0.6042697429656982
+20-04-23 02:03:16, INFO: models/resnet/checkpoint_20-04-23_02:03:16_1_2500.pth
+20-04-23 02:03:56, INFO: 2510/3195 - Loss: 0.5998945236206055
+20-04-23 02:04:36, INFO: 2520/3195 - Loss: 0.599222719669342
+20-04-23 02:05:17, INFO: 2530/3195 - Loss: 0.5929783582687378
+20-04-23 02:05:58, INFO: 2540/3195 - Loss: 0.605181097984314
+20-04-23 02:06:38, INFO: 2550/3195 - Loss: 0.5809114575386047
+20-04-23 02:07:18, INFO: 2560/3195 - Loss: 0.5886580348014832
+20-04-23 02:07:57, INFO: 2570/3195 - Loss: 0.5876280665397644
+20-04-23 02:08:38, INFO: 2580/3195 - Loss: 0.6012647151947021
+20-04-23 02:09:18, INFO: 2590/3195 - Loss: 0.5967099666595459
+20-04-23 02:09:58, INFO: 2600/3195 - Loss: 0.6027966737747192
+20-04-23 02:09:58, INFO: models/resnet/checkpoint_20-04-23_02:09:58_1_2600.pth
+20-04-23 02:10:39, INFO: 2610/3195 - Loss: 0.5777010321617126
+20-04-23 02:11:18, INFO: 2620/3195 - Loss: 0.6024675369262695
+20-04-23 02:11:58, INFO: 2630/3195 - Loss: 0.5825419425964355
+20-04-23 02:12:37, INFO: 2640/3195 - Loss: 0.5877553820610046
+20-04-23 02:13:19, INFO: 2650/3195 - Loss: 0.5903423428535461
+20-04-23 02:13:58, INFO: 2660/3195 - Loss: 0.585402250289917
+20-04-23 02:14:39, INFO: 2670/3195 - Loss: 0.5937473773956299
+20-04-23 02:15:20, INFO: 2680/3195 - Loss: 0.5839073657989502
+20-04-23 02:16:00, INFO: 2690/3195 - Loss: 0.6045665144920349
+20-04-23 02:16:41, INFO: 2700/3195 - Loss: 0.6037560701370239
+20-04-23 02:16:41, INFO: models/resnet/checkpoint_20-04-23_02:16:41_1_2700.pth
+20-04-23 02:17:22, INFO: 2710/3195 - Loss: 0.5819233059883118
+20-04-23 02:18:02, INFO: 2720/3195 - Loss: 0.5941509008407593
+20-04-23 02:18:42, INFO: 2730/3195 - Loss: 0.6062847375869751
+20-04-23 02:19:22, INFO: 2740/3195 - Loss: 0.5899041891098022
+20-04-23 02:20:02, INFO: 2750/3195 - Loss: 0.5910755395889282
+20-04-23 02:20:42, INFO: 2760/3195 - Loss: 0.605802595615387
+20-04-23 02:21:22, INFO: 2770/3195 - Loss: 0.5708938837051392
+20-04-23 02:22:03, INFO: 2780/3195 - Loss: 0.585126519203186
+20-04-23 02:22:43, INFO: 2790/3195 - Loss: 0.5848754644393921
+20-04-23 02:23:23, INFO: 2800/3195 - Loss: 0.5861902832984924
+20-04-23 02:23:23, INFO: models/resnet/checkpoint_20-04-23_02:23:23_1_2800.pth
+20-04-23 02:24:03, INFO: 2810/3195 - Loss: 0.5920543074607849
+20-04-23 02:24:42, INFO: 2820/3195 - Loss: 0.5785043239593506
+20-04-23 02:25:23, INFO: 2830/3195 - Loss: 0.6057164669036865
+20-04-23 02:26:04, INFO: 2840/3195 - Loss: 0.5955060720443726
+20-04-23 02:26:44, INFO: 2850/3195 - Loss: 0.603390634059906
+20-04-23 02:27:24, INFO: 2860/3195 - Loss: 0.5750777125358582
+20-04-23 02:28:05, INFO: 2870/3195 - Loss: 0.5903337597846985
+20-04-23 02:28:47, INFO: 2880/3195 - Loss: 0.6021590828895569
+20-04-23 02:29:28, INFO: 2890/3195 - Loss: 0.59098881483078
+20-04-23 02:30:08, INFO: 2900/3195 - Loss: 0.5879796743392944
+20-04-23 02:30:08, INFO: models/resnet/checkpoint_20-04-23_02:30:08_1_2900.pth
+20-04-23 02:30:49, INFO: 2910/3195 - Loss: 0.5977751016616821
+20-04-23 02:31:29, INFO: 2920/3195 - Loss: 0.5929226875305176
+20-04-23 02:32:09, INFO: 2930/3195 - Loss: 0.5892574787139893
+20-04-23 02:32:49, INFO: 2940/3195 - Loss: 0.5876840949058533
+20-04-23 02:33:31, INFO: 2950/3195 - Loss: 0.5940256118774414
+20-04-23 02:34:12, INFO: 2960/3195 - Loss: 0.5919022560119629
+20-04-23 02:34:51, INFO: 2970/3195 - Loss: 0.5822829008102417
+20-04-23 02:35:32, INFO: 2980/3195 - Loss: 0.5779847502708435
+20-04-23 02:36:13, INFO: 2990/3195 - Loss: 0.5951089859008789
+20-04-23 02:36:54, INFO: 3000/3195 - Loss: 0.5795669555664062
+20-04-23 02:36:54, INFO: models/resnet/checkpoint_20-04-23_02:36:54_1_3000.pth
+20-04-23 02:37:34, INFO: 3010/3195 - Loss: 0.5919505953788757
+20-04-23 02:38:13, INFO: 3020/3195 - Loss: 0.588721752166748
+20-04-23 02:38:54, INFO: 3030/3195 - Loss: 0.5956568717956543
+20-04-23 02:39:33, INFO: 3040/3195 - Loss: 0.5924427509307861
+20-04-23 02:40:15, INFO: 3050/3195 - Loss: 0.5993033051490784
+20-04-23 02:40:55, INFO: 3060/3195 - Loss: 0.6027981638908386
+20-04-23 02:41:35, INFO: 3070/3195 - Loss: 0.5901175737380981
+20-04-23 02:42:17, INFO: 3080/3195 - Loss: 0.5954667925834656
+20-04-23 02:42:57, INFO: 3090/3195 - Loss: 0.593336820602417
+20-04-23 02:43:38, INFO: 3100/3195 - Loss: 0.5888091921806335
+20-04-23 02:43:38, INFO: models/resnet/checkpoint_20-04-23_02:43:38_1_3100.pth
+20-04-23 02:44:18, INFO: 3110/3195 - Loss: 0.6016000509262085
+20-04-23 02:44:58, INFO: 3120/3195 - Loss: 0.5901303887367249
+20-04-23 02:45:38, INFO: 3130/3195 - Loss: 0.5793295502662659
+20-04-23 02:46:18, INFO: 3140/3195 - Loss: 0.5917713046073914
+20-04-23 02:46:57, INFO: 3150/3195 - Loss: 0.5745242834091187
+20-04-23 02:47:39, INFO: 3160/3195 - Loss: 0.5787419080734253
+20-04-23 02:48:19, INFO: 3170/3195 - Loss: 0.5962885618209839
+20-04-23 02:49:01, INFO: 3180/3195 - Loss: 0.5777775049209595
+20-04-23 02:49:42, INFO: 3190/3195 - Loss: 0.5922725200653076
+20-04-23 02:49:55, INFO: 3195/3195 - Loss: 0.5897915363311768
+20-04-23 02:49:55, INFO: models/resnet/checkpoint_20-04-23_02:49:55_1.pth
+20-04-23 02:49:55, INFO: Test on 100000 pairs of sacre_coeur
+20-04-23 02:51:01, INFO: [91mTest set: Accuracy(FPR95): 0.00182000
+[0m
+20-04-23 02:51:01, INFO: Test on 100000 pairs of st_peters_square
+20-04-23 02:52:03, INFO: [91mTest set: Accuracy(FPR95): 0.00162000
+[0m
+20-04-23 02:52:03, INFO: Test on 100000 pairs of reichstag
+20-04-23 02:53:05, INFO: [91mTest set: Accuracy(FPR95): 0.00250000
+[0m
+20-04-23 02:53:07, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-23 02:53:10, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-23 02:53:15, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-23 02:53:19, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-23 02:53:22, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-23 02:53:30, INFO: Load notre_dame_front_facade dataset with n_points: 477105
+20-04-23 02:53:32, INFO: Load palace_of_westminster dataset with n_points: 114025
+20-04-23 02:53:35, INFO: Load pantheon_exterior dataset with n_points: 163635
+20-04-23 02:53:45, INFO: Load prague_old_town_square dataset with n_points: 549152
+20-04-23 02:53:46, INFO: Load taj_mahal dataset with n_points: 92991
+20-04-23 02:53:48, INFO: Load temple_nara_japan dataset with n_points: 91040
+20-04-23 02:53:58, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-23 02:54:01, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-23 02:54:01, INFO: num_3d_points: 3271254
+20-04-23 02:54:01, INFO: generate 3271254 triplets (simple add a negative patch to a matched patch)
+20-04-23 02:57:34, INFO: 10 first triplets: 
+20-04-23 02:57:34, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  patch_id2
+0  brandenburg_gate          2          0  brandenburg_gate          2          1
+1  brandenburg_gate          4          0  brandenburg_gate          4          1
+2  brandenburg_gate          7          0  brandenburg_gate          7          1
+3  brandenburg_gate         16          0  brandenburg_gate         16          1
+4  brandenburg_gate         17          0  brandenburg_gate         17          1
+5  brandenburg_gate         18          0  brandenburg_gate         18          1
+6  brandenburg_gate         24          0  brandenburg_gate         24          1
+7  brandenburg_gate         25          0  brandenburg_gate         25          1
+8  brandenburg_gate         26          0  brandenburg_gate         26          1
+9  brandenburg_gate         28          0  brandenburg_gate         28          1
+20-04-23 02:57:34, INFO: 10 last triplets: 
+20-04-23 02:57:34, INFO:                    scene_1  point_id1  patch_id1            scene_2  point_id2  patch_id2
+3271244  westminster_abbey     373536          0  westminster_abbey     373536          1
+3271245  westminster_abbey     373537          0  westminster_abbey     373537          1
+3271246  westminster_abbey     373538          0  westminster_abbey     373538          1
+3271247  westminster_abbey     373539          0  westminster_abbey     373539          1
+3271248  westminster_abbey     373540          0  westminster_abbey     373540          1
+3271249  westminster_abbey     373541          0  westminster_abbey     373541          1
+3271250  westminster_abbey     373542          0  westminster_abbey     373542          1
+3271251  westminster_abbey     373543          0  westminster_abbey     373543          1
+3271252  westminster_abbey     373544          0  westminster_abbey     373544          1
+3271253  westminster_abbey     373545          0  westminster_abbey     373545          1
+20-04-23 02:57:47, INFO: EPOCH: 2
+20-04-23 02:57:47, INFO: ========================
+20-04-23 02:57:47, INFO: Training sceces: 
+20-04-23 02:57:47, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-04-23 02:57:51, INFO: 0/3195 - Loss: 0.5929322838783264
+20-04-23 02:57:51, INFO: models/resnet/checkpoint_20-04-23_02:57:51_2_0.pth
+20-04-23 02:58:32, INFO: 10/3195 - Loss: 0.5800410509109497
+20-04-23 02:59:12, INFO: 20/3195 - Loss: 0.5817302465438843
+20-04-23 02:59:53, INFO: 30/3195 - Loss: 0.5925996899604797
+20-04-23 03:00:35, INFO: 40/3195 - Loss: 0.5869489908218384
+20-04-23 03:01:16, INFO: 50/3195 - Loss: 0.5947936773300171
+20-04-23 03:01:58, INFO: 60/3195 - Loss: 0.571547269821167
+20-04-23 03:02:39, INFO: 70/3195 - Loss: 0.5846235156059265
+20-04-23 03:03:19, INFO: 80/3195 - Loss: 0.5825300812721252
+20-04-23 03:04:01, INFO: 90/3195 - Loss: 0.597084641456604
+20-04-23 03:04:42, INFO: 100/3195 - Loss: 0.5934733748435974
+20-04-23 03:04:42, INFO: models/resnet/checkpoint_20-04-23_03:04:42_2_100.pth
+20-04-23 03:05:23, INFO: 110/3195 - Loss: 0.5881036520004272
+20-04-23 03:06:04, INFO: 120/3195 - Loss: 0.5905894637107849
+20-04-23 03:06:44, INFO: 130/3195 - Loss: 0.569931149482727
+20-04-23 03:07:26, INFO: 140/3195 - Loss: 0.5882138609886169
+20-04-23 03:08:07, INFO: 150/3195 - Loss: 0.5673116445541382
+20-04-23 03:08:48, INFO: 160/3195 - Loss: 0.5868001580238342
+20-04-23 03:09:28, INFO: 170/3195 - Loss: 0.5805708765983582
+20-04-23 03:10:08, INFO: 180/3195 - Loss: 0.5895667672157288
+20-04-23 03:10:49, INFO: 190/3195 - Loss: 0.5799457430839539
+20-04-23 03:11:29, INFO: 200/3195 - Loss: 0.5819369554519653
+20-04-23 03:11:29, INFO: models/resnet/checkpoint_20-04-23_03:11:29_2_200.pth
+20-04-23 03:12:10, INFO: 210/3195 - Loss: 0.5814861059188843
+20-04-23 03:12:50, INFO: 220/3195 - Loss: 0.5821551084518433
+20-04-23 03:13:30, INFO: 230/3195 - Loss: 0.5947548151016235
+20-04-23 03:14:10, INFO: 240/3195 - Loss: 0.5812803506851196
+20-04-23 03:14:51, INFO: 250/3195 - Loss: 0.5925373435020447
+20-04-23 03:15:31, INFO: 260/3195 - Loss: 0.5876184105873108
+20-04-23 03:16:11, INFO: 270/3195 - Loss: 0.5911487340927124
+20-04-23 03:16:51, INFO: 280/3195 - Loss: 0.5816415548324585
+20-04-23 03:17:31, INFO: 290/3195 - Loss: 0.5731726884841919
+20-04-23 03:18:11, INFO: 300/3195 - Loss: 0.5726161599159241
+20-04-23 03:18:11, INFO: models/resnet/checkpoint_20-04-23_03:18:11_2_300.pth
+20-04-23 03:18:51, INFO: 310/3195 - Loss: 0.5870680809020996
+20-04-23 03:19:31, INFO: 320/3195 - Loss: 0.5860422849655151
+20-04-23 03:20:10, INFO: 330/3195 - Loss: 0.5827680230140686
+20-04-23 03:20:49, INFO: 340/3195 - Loss: 0.566085696220398
+20-04-23 03:21:29, INFO: 350/3195 - Loss: 0.5769243836402893
+20-04-23 03:22:10, INFO: 360/3195 - Loss: 0.5857269167900085
+20-04-23 03:22:49, INFO: 370/3195 - Loss: 0.585590124130249
+20-04-23 03:23:29, INFO: 380/3195 - Loss: 0.58147132396698
+20-04-23 03:24:10, INFO: 390/3195 - Loss: 0.5886434316635132
+20-04-23 03:24:50, INFO: 400/3195 - Loss: 0.5726416110992432
+20-04-23 03:24:50, INFO: models/resnet/checkpoint_20-04-23_03:24:50_2_400.pth
+20-04-23 03:25:29, INFO: 410/3195 - Loss: 0.5961829423904419
+20-04-23 03:26:09, INFO: 420/3195 - Loss: 0.5975194573402405
+20-04-23 03:26:49, INFO: 430/3195 - Loss: 0.5746170282363892
+20-04-23 03:27:29, INFO: 440/3195 - Loss: 0.5873109102249146
+20-04-23 03:28:09, INFO: 450/3195 - Loss: 0.5762125849723816
+20-04-23 03:28:49, INFO: 460/3195 - Loss: 0.5816158652305603
+20-04-23 03:29:29, INFO: 470/3195 - Loss: 0.6111164689064026
+20-04-23 03:30:09, INFO: 480/3195 - Loss: 0.5775833129882812
+20-04-23 03:30:48, INFO: 490/3195 - Loss: 0.5827983021736145
+20-04-23 03:31:27, INFO: 500/3195 - Loss: 0.5813896656036377
+20-04-23 03:31:28, INFO: models/resnet/checkpoint_20-04-23_03:31:27_2_500.pth
+20-04-23 03:32:07, INFO: 510/3195 - Loss: 0.5834941267967224
+20-04-23 03:32:48, INFO: 520/3195 - Loss: 0.5719146728515625
+20-04-23 03:33:28, INFO: 530/3195 - Loss: 0.5924463272094727
+20-04-23 03:34:08, INFO: 540/3195 - Loss: 0.5768649578094482
+20-04-23 03:34:48, INFO: 550/3195 - Loss: 0.5879358053207397
+20-04-23 03:35:28, INFO: 560/3195 - Loss: 0.5928144454956055
+20-04-23 03:36:08, INFO: 570/3195 - Loss: 0.588140606880188
+20-04-23 03:36:48, INFO: 580/3195 - Loss: 0.5739501714706421
+20-04-23 03:37:28, INFO: 590/3195 - Loss: 0.5990159511566162
+20-04-23 03:38:09, INFO: 600/3195 - Loss: 0.5907677412033081
+20-04-23 03:38:09, INFO: models/resnet/checkpoint_20-04-23_03:38:09_2_600.pth
+20-04-23 03:38:49, INFO: 610/3195 - Loss: 0.5768259763717651
+20-04-23 03:39:27, INFO: 620/3195 - Loss: 0.5813910961151123
+20-04-23 03:40:07, INFO: 630/3195 - Loss: 0.5806455612182617
+20-04-23 03:40:47, INFO: 640/3195 - Loss: 0.5978423357009888
+20-04-23 03:41:27, INFO: 650/3195 - Loss: 0.5793269872665405
+20-04-23 03:42:08, INFO: 660/3195 - Loss: 0.5878563523292542
+20-04-23 03:42:47, INFO: 670/3195 - Loss: 0.588402509689331
+20-04-23 03:43:28, INFO: 680/3195 - Loss: 0.5852179527282715
+20-04-23 03:44:09, INFO: 690/3195 - Loss: 0.5899864435195923
+20-04-23 03:44:49, INFO: 700/3195 - Loss: 0.5968238711357117
+20-04-23 03:44:50, INFO: models/resnet/checkpoint_20-04-23_03:44:49_2_700.pth
+20-04-23 03:45:29, INFO: 710/3195 - Loss: 0.5854498744010925
+20-04-23 03:46:09, INFO: 720/3195 - Loss: 0.571397066116333
+20-04-23 03:46:49, INFO: 730/3195 - Loss: 0.5743038058280945
+20-04-23 03:47:29, INFO: 740/3195 - Loss: 0.5860335826873779
+20-04-23 03:48:09, INFO: 750/3195 - Loss: 0.5792431235313416
+20-04-23 03:48:49, INFO: 760/3195 - Loss: 0.5877307653427124
+20-04-23 03:49:28, INFO: 770/3195 - Loss: 0.5854505896568298
+20-04-23 03:50:09, INFO: 780/3195 - Loss: 0.5908369421958923
+20-04-23 03:50:48, INFO: 790/3195 - Loss: 0.5776693224906921
+20-04-23 03:51:29, INFO: 800/3195 - Loss: 0.5802790522575378
+20-04-23 03:51:29, INFO: models/resnet/checkpoint_20-04-23_03:51:29_2_800.pth
+20-04-23 03:52:09, INFO: 810/3195 - Loss: 0.5774460434913635
+20-04-23 03:52:48, INFO: 820/3195 - Loss: 0.5851216316223145
+20-04-23 03:53:27, INFO: 830/3195 - Loss: 0.5806280374526978
+20-04-23 03:54:07, INFO: 840/3195 - Loss: 0.5878676772117615
+20-04-23 03:54:47, INFO: 850/3195 - Loss: 0.5814957022666931
+20-04-23 03:55:28, INFO: 860/3195 - Loss: 0.582112193107605
+20-04-23 03:56:08, INFO: 870/3195 - Loss: 0.592868447303772
+20-04-23 03:56:47, INFO: 880/3195 - Loss: 0.5828299522399902
+20-04-23 03:57:27, INFO: 890/3195 - Loss: 0.5783126354217529
+20-04-23 03:58:06, INFO: 900/3195 - Loss: 0.5862963199615479
+20-04-23 03:58:07, INFO: models/resnet/checkpoint_20-04-23_03:58:06_2_900.pth
+20-04-23 03:58:46, INFO: 910/3195 - Loss: 0.5738944411277771
+20-04-23 03:59:26, INFO: 920/3195 - Loss: 0.5820001363754272
+20-04-23 04:00:06, INFO: 930/3195 - Loss: 0.5768575668334961
+20-04-23 04:00:45, INFO: 940/3195 - Loss: 0.5888532400131226
+20-04-23 04:01:25, INFO: 950/3195 - Loss: 0.5808696746826172
+20-04-23 04:02:04, INFO: 960/3195 - Loss: 0.5814337730407715
+20-04-23 04:02:43, INFO: 970/3195 - Loss: 0.5760868191719055
+20-04-23 04:03:23, INFO: 980/3195 - Loss: 0.5793112516403198
+20-04-23 04:04:02, INFO: 990/3195 - Loss: 0.5880076885223389
+20-04-23 04:04:43, INFO: 1000/3195 - Loss: 0.5873059630393982
+20-04-23 04:04:43, INFO: models/resnet/checkpoint_20-04-23_04:04:43_2_1000.pth
+20-04-23 04:05:23, INFO: 1010/3195 - Loss: 0.5844780206680298
+20-04-23 04:06:04, INFO: 1020/3195 - Loss: 0.5609859824180603
+20-04-23 04:06:44, INFO: 1030/3195 - Loss: 0.5655293464660645
+20-04-23 04:07:24, INFO: 1040/3195 - Loss: 0.5742936134338379
+20-04-23 04:08:04, INFO: 1050/3195 - Loss: 0.5829236507415771
+20-04-23 04:08:45, INFO: 1060/3195 - Loss: 0.5833145380020142
+20-04-23 04:09:25, INFO: 1070/3195 - Loss: 0.5974245071411133
+20-04-23 04:10:05, INFO: 1080/3195 - Loss: 0.5856974124908447
+20-04-23 04:10:53, INFO: 1090/3195 - Loss: 0.5772173404693604
+20-04-23 04:11:48, INFO: 1100/3195 - Loss: 0.5857688784599304
+20-04-23 04:11:48, INFO: models/resnet/checkpoint_20-04-23_04:11:48_2_1100.pth
+20-04-23 04:12:43, INFO: 1110/3195 - Loss: 0.5928340554237366
+20-04-23 04:13:37, INFO: 1120/3195 - Loss: 0.5992915630340576
+20-04-23 04:14:32, INFO: 1130/3195 - Loss: 0.5845122933387756
+20-04-23 04:15:26, INFO: 1140/3195 - Loss: 0.5819205641746521
+20-04-23 04:16:21, INFO: 1150/3195 - Loss: 0.5801730155944824
+20-04-23 04:17:16, INFO: 1160/3195 - Loss: 0.5874497294425964
+20-04-23 04:18:11, INFO: 1170/3195 - Loss: 0.5743008255958557
+20-04-23 04:19:05, INFO: 1180/3195 - Loss: 0.586500346660614
+20-04-23 04:20:01, INFO: 1190/3195 - Loss: 0.5962822437286377
+20-04-23 04:20:55, INFO: 1200/3195 - Loss: 0.5840933322906494
+20-04-23 04:20:55, INFO: models/resnet/checkpoint_20-04-23_04:20:55_2_1200.pth
+20-04-23 04:21:42, INFO: 1210/3195 - Loss: 0.5779128670692444
+20-04-23 04:22:32, INFO: 1220/3195 - Loss: 0.5724674463272095
+20-04-23 04:23:22, INFO: 1230/3195 - Loss: 0.5717601180076599
+20-04-23 04:24:04, INFO: 1240/3195 - Loss: 0.580643892288208
+20-04-23 04:24:49, INFO: 1250/3195 - Loss: 0.5760921239852905
+20-04-23 04:25:34, INFO: 1260/3195 - Loss: 0.5951186418533325
+20-04-23 04:26:15, INFO: 1270/3195 - Loss: 0.5699862837791443
+20-04-23 04:26:56, INFO: 1280/3195 - Loss: 0.5889063477516174
+20-04-23 04:27:39, INFO: 1290/3195 - Loss: 0.587235689163208
+20-04-23 04:28:23, INFO: 1300/3195 - Loss: 0.5869882106781006
+20-04-23 04:28:23, INFO: models/resnet/checkpoint_20-04-23_04:28:23_2_1300.pth
+20-04-23 04:29:04, INFO: 1310/3195 - Loss: 0.5727178454399109
+20-04-23 04:29:51, INFO: 1320/3195 - Loss: 0.5787898302078247
+20-04-23 04:30:41, INFO: 1330/3195 - Loss: 0.5721630454063416
+20-04-23 04:31:23, INFO: 1340/3195 - Loss: 0.5857108235359192
+20-04-23 04:32:08, INFO: 1350/3195 - Loss: 0.5828909873962402
+20-04-23 04:32:57, INFO: 1360/3195 - Loss: 0.5836971998214722
+20-04-23 04:33:38, INFO: 1370/3195 - Loss: 0.5870245695114136
+20-04-23 04:34:19, INFO: 1380/3195 - Loss: 0.5733267068862915
+20-04-23 04:35:06, INFO: 1390/3195 - Loss: 0.5733270049095154
+20-04-23 04:35:46, INFO: 1400/3195 - Loss: 0.5742459893226624
+20-04-23 04:35:46, INFO: models/resnet/checkpoint_20-04-23_04:35:46_2_1400.pth
+20-04-23 04:36:28, INFO: 1410/3195 - Loss: 0.5854533314704895
+20-04-23 04:37:15, INFO: 1420/3195 - Loss: 0.587313175201416
+20-04-23 04:37:56, INFO: 1430/3195 - Loss: 0.5774145126342773
+20-04-23 04:38:37, INFO: 1440/3195 - Loss: 0.5880657434463501
+20-04-23 04:39:19, INFO: 1450/3195 - Loss: 0.5750648975372314
+20-04-23 04:40:04, INFO: 1460/3195 - Loss: 0.5814297199249268
+20-04-23 04:40:47, INFO: 1470/3195 - Loss: 0.5885918736457825
+20-04-23 04:41:38, INFO: 1480/3195 - Loss: 0.5629851818084717
+20-04-23 04:42:22, INFO: 1490/3195 - Loss: 0.58133864402771
+20-04-23 04:43:02, INFO: 1500/3195 - Loss: 0.568281352519989
+20-04-23 04:43:02, INFO: models/resnet/checkpoint_20-04-23_04:43:02_2_1500.pth
+20-04-23 04:43:43, INFO: 1510/3195 - Loss: 0.579695999622345
+20-04-23 04:44:28, INFO: 1520/3195 - Loss: 0.5741705298423767
+20-04-23 04:45:14, INFO: 1530/3195 - Loss: 0.5690972805023193
+20-04-23 04:45:57, INFO: 1540/3195 - Loss: 0.5688007473945618
+20-04-23 04:46:39, INFO: 1550/3195 - Loss: 0.5770913362503052
+20-04-23 04:47:21, INFO: 1560/3195 - Loss: 0.5905013084411621
+20-04-23 04:48:04, INFO: 1570/3195 - Loss: 0.5927262306213379
+20-04-23 04:48:47, INFO: 1580/3195 - Loss: 0.5716116428375244
+20-04-23 04:49:30, INFO: 1590/3195 - Loss: 0.570950984954834
+20-04-23 04:50:14, INFO: 1600/3195 - Loss: 0.5923786759376526
+20-04-23 04:50:14, INFO: models/resnet/checkpoint_20-04-23_04:50:14_2_1600.pth
+20-04-23 04:51:02, INFO: 1610/3195 - Loss: 0.5830433964729309
+20-04-23 04:51:43, INFO: 1620/3195 - Loss: 0.5777875185012817
+20-04-23 04:52:24, INFO: 1630/3195 - Loss: 0.5662267208099365
+20-04-23 04:53:07, INFO: 1640/3195 - Loss: 0.5704050064086914
+20-04-23 04:53:48, INFO: 1650/3195 - Loss: 0.5868768692016602
+20-04-23 04:54:33, INFO: 1660/3195 - Loss: 0.5773259401321411
+20-04-23 04:55:16, INFO: 1670/3195 - Loss: 0.5743849277496338
+20-04-23 04:56:06, INFO: 1680/3195 - Loss: 0.581853985786438
+20-04-23 04:56:48, INFO: 1690/3195 - Loss: 0.5793970823287964
+20-04-23 04:57:28, INFO: 1700/3195 - Loss: 0.5826674699783325
+20-04-23 04:57:28, INFO: models/resnet/checkpoint_20-04-23_04:57:28_2_1700.pth
+20-04-23 04:58:11, INFO: 1710/3195 - Loss: 0.5725666284561157
+20-04-23 04:58:51, INFO: 1720/3195 - Loss: 0.5776015520095825
+20-04-23 04:59:36, INFO: 1730/3195 - Loss: 0.5773214101791382
+20-04-23 05:00:21, INFO: 1740/3195 - Loss: 0.5849030613899231
+20-04-23 05:01:03, INFO: 1750/3195 - Loss: 0.5809454321861267
+20-04-23 05:01:44, INFO: 1760/3195 - Loss: 0.5746610760688782
+20-04-23 05:02:24, INFO: 1770/3195 - Loss: 0.5889672040939331
+20-04-23 05:03:05, INFO: 1780/3195 - Loss: 0.5869540572166443
+20-04-23 05:03:50, INFO: 1790/3195 - Loss: 0.5804913640022278
+20-04-23 05:04:30, INFO: 1800/3195 - Loss: 0.5871804356575012
+20-04-23 05:04:31, INFO: models/resnet/checkpoint_20-04-23_05:04:30_2_1800.pth
+20-04-23 05:05:12, INFO: 1810/3195 - Loss: 0.5821195840835571
+20-04-23 05:05:53, INFO: 1820/3195 - Loss: 0.5804923176765442
+20-04-23 05:06:38, INFO: 1830/3195 - Loss: 0.5851943492889404
+20-04-23 05:07:20, INFO: 1840/3195 - Loss: 0.5759837627410889
+20-04-23 05:08:01, INFO: 1850/3195 - Loss: 0.5745325088500977
+20-04-23 05:08:45, INFO: 1860/3195 - Loss: 0.5749108791351318
+20-04-23 05:09:33, INFO: 1870/3195 - Loss: 0.573167085647583
+20-04-23 05:10:19, INFO: 1880/3195 - Loss: 0.5742095708847046
+20-04-23 05:11:02, INFO: 1890/3195 - Loss: 0.5879042744636536
+20-04-23 05:11:45, INFO: 1900/3195 - Loss: 0.5638525485992432
+20-04-23 05:11:45, INFO: models/resnet/checkpoint_20-04-23_05:11:45_2_1900.pth
+20-04-23 05:12:26, INFO: 1910/3195 - Loss: 0.5816587209701538
+20-04-23 05:13:07, INFO: 1920/3195 - Loss: 0.5870824456214905
+20-04-23 05:13:48, INFO: 1930/3195 - Loss: 0.569957435131073
+20-04-23 05:14:29, INFO: 1940/3195 - Loss: 0.5895447134971619
+20-04-23 05:15:09, INFO: 1950/3195 - Loss: 0.5758055448532104
+20-04-23 05:15:50, INFO: 1960/3195 - Loss: 0.5744563341140747
+20-04-23 05:16:31, INFO: 1970/3195 - Loss: 0.5820721387863159
+20-04-23 05:17:12, INFO: 1980/3195 - Loss: 0.5662857890129089
+20-04-23 05:17:53, INFO: 1990/3195 - Loss: 0.5796383619308472
+20-04-23 05:18:34, INFO: 2000/3195 - Loss: 0.5638540983200073
+20-04-23 05:18:34, INFO: models/resnet/checkpoint_20-04-23_05:18:34_2_2000.pth
+20-04-23 05:19:15, INFO: 2010/3195 - Loss: 0.5819165706634521
+20-04-23 05:19:56, INFO: 2020/3195 - Loss: 0.5652177333831787
+20-04-23 05:20:36, INFO: 2030/3195 - Loss: 0.5749006271362305
+20-04-23 05:21:17, INFO: 2040/3195 - Loss: 0.5744500756263733
+20-04-23 05:21:59, INFO: 2050/3195 - Loss: 0.5797575116157532
+20-04-23 05:22:39, INFO: 2060/3195 - Loss: 0.5755386352539062
+20-04-23 05:23:24, INFO: 2070/3195 - Loss: 0.567192018032074
+20-04-23 05:24:07, INFO: 2080/3195 - Loss: 0.579913854598999
+20-04-23 05:24:47, INFO: 2090/3195 - Loss: 0.5729371309280396
+20-04-23 05:25:37, INFO: 2100/3195 - Loss: 0.5734420418739319
+20-04-23 05:25:37, INFO: models/resnet/checkpoint_20-04-23_05:25:37_2_2100.pth
+20-04-23 05:26:21, INFO: 2110/3195 - Loss: 0.5783094167709351
+20-04-23 05:27:06, INFO: 2120/3195 - Loss: 0.5923892855644226
+20-04-23 05:27:48, INFO: 2130/3195 - Loss: 0.5772042870521545
+20-04-23 05:28:28, INFO: 2140/3195 - Loss: 0.566383957862854
+20-04-23 05:29:10, INFO: 2150/3195 - Loss: 0.5644335746765137
+20-04-23 05:29:50, INFO: 2160/3195 - Loss: 0.5679565072059631
+20-04-23 05:30:31, INFO: 2170/3195 - Loss: 0.5766934156417847
+20-04-23 05:31:11, INFO: 2180/3195 - Loss: 0.570283055305481
+20-04-23 05:31:53, INFO: 2190/3195 - Loss: 0.5891796350479126
+20-04-23 05:32:33, INFO: 2200/3195 - Loss: 0.575223982334137
+20-04-23 05:32:33, INFO: models/resnet/checkpoint_20-04-23_05:32:33_2_2200.pth
+20-04-23 05:33:14, INFO: 2210/3195 - Loss: 0.5632837414741516
+20-04-23 05:33:55, INFO: 2220/3195 - Loss: 0.5756663084030151
+20-04-23 05:34:36, INFO: 2230/3195 - Loss: 0.5820881128311157
+20-04-23 05:35:17, INFO: 2240/3195 - Loss: 0.5750841498374939
+20-04-23 05:35:57, INFO: 2250/3195 - Loss: 0.5764506459236145
+20-04-23 05:36:38, INFO: 2260/3195 - Loss: 0.5814159512519836
+20-04-23 05:37:18, INFO: 2270/3195 - Loss: 0.5643806457519531
+20-04-23 05:38:00, INFO: 2280/3195 - Loss: 0.5721742510795593
+20-04-23 05:38:41, INFO: 2290/3195 - Loss: 0.5576230883598328
+20-04-23 05:39:22, INFO: 2300/3195 - Loss: 0.5833986401557922
+20-04-23 05:39:23, INFO: models/resnet/checkpoint_20-04-23_05:39:22_2_2300.pth
+20-04-23 05:40:03, INFO: 2310/3195 - Loss: 0.5744750499725342
+20-04-23 05:40:44, INFO: 2320/3195 - Loss: 0.5792678594589233
+20-04-23 05:41:25, INFO: 2330/3195 - Loss: 0.5898695588111877
+20-04-23 05:42:05, INFO: 2340/3195 - Loss: 0.5829674005508423
+20-04-23 05:42:46, INFO: 2350/3195 - Loss: 0.5759393572807312
+20-04-23 05:43:27, INFO: 2360/3195 - Loss: 0.5722312927246094
+20-04-23 05:44:09, INFO: 2370/3195 - Loss: 0.5852088928222656
+20-04-23 05:44:50, INFO: 2380/3195 - Loss: 0.5815209150314331
+20-04-23 05:45:31, INFO: 2390/3195 - Loss: 0.5789719820022583
+20-04-23 05:46:11, INFO: 2400/3195 - Loss: 0.5632026791572571
+20-04-23 05:46:11, INFO: models/resnet/checkpoint_20-04-23_05:46:11_2_2400.pth
+20-04-23 05:46:52, INFO: 2410/3195 - Loss: 0.5662840604782104
+20-04-23 05:47:32, INFO: 2420/3195 - Loss: 0.5842993259429932
+20-04-23 05:48:12, INFO: 2430/3195 - Loss: 0.5767419934272766
+20-04-23 05:48:52, INFO: 2440/3195 - Loss: 0.5811423063278198
+20-04-23 05:49:32, INFO: 2450/3195 - Loss: 0.5816854238510132
+20-04-23 05:50:12, INFO: 2460/3195 - Loss: 0.5682607293128967
+20-04-23 05:50:52, INFO: 2470/3195 - Loss: 0.5779539942741394
+20-04-23 05:51:32, INFO: 2480/3195 - Loss: 0.591833770275116
+20-04-23 05:52:13, INFO: 2490/3195 - Loss: 0.5670124292373657
+20-04-23 05:52:54, INFO: 2500/3195 - Loss: 0.5903836488723755
+20-04-23 05:52:54, INFO: models/resnet/checkpoint_20-04-23_05:52:54_2_2500.pth
+20-04-23 05:53:35, INFO: 2510/3195 - Loss: 0.5725574493408203
+20-04-23 05:54:15, INFO: 2520/3195 - Loss: 0.5750570297241211
+20-04-23 05:54:55, INFO: 2530/3195 - Loss: 0.561484158039093
+20-04-23 05:55:37, INFO: 2540/3195 - Loss: 0.5683258175849915
+20-04-23 05:56:18, INFO: 2550/3195 - Loss: 0.583398163318634
+20-04-23 05:56:59, INFO: 2560/3195 - Loss: 0.5697821974754333
+20-04-23 05:57:40, INFO: 2570/3195 - Loss: 0.5746254324913025
+20-04-23 05:58:21, INFO: 2580/3195 - Loss: 0.5657148361206055
+20-04-23 05:59:02, INFO: 2590/3195 - Loss: 0.5811963081359863
+20-04-23 05:59:42, INFO: 2600/3195 - Loss: 0.5796262621879578
+20-04-23 05:59:42, INFO: models/resnet/checkpoint_20-04-23_05:59:42_2_2600.pth
+20-04-23 06:00:25, INFO: 2610/3195 - Loss: 0.574526309967041
+20-04-23 06:01:06, INFO: 2620/3195 - Loss: 0.5782086849212646
+20-04-23 06:01:46, INFO: 2630/3195 - Loss: 0.582027792930603
+20-04-23 06:02:26, INFO: 2640/3195 - Loss: 0.5812768936157227
+20-04-23 06:03:07, INFO: 2650/3195 - Loss: 0.5688856244087219
+20-04-23 06:03:48, INFO: 2660/3195 - Loss: 0.5612813830375671
+20-04-23 06:04:28, INFO: 2670/3195 - Loss: 0.5711797475814819
+20-04-23 06:05:08, INFO: 2680/3195 - Loss: 0.5794156193733215
+20-04-23 06:05:48, INFO: 2690/3195 - Loss: 0.5716966390609741
+20-04-23 06:06:28, INFO: 2700/3195 - Loss: 0.5830512642860413
+20-04-23 06:06:28, INFO: models/resnet/checkpoint_20-04-23_06:06:28_2_2700.pth
+20-04-23 06:07:09, INFO: 2710/3195 - Loss: 0.5731148719787598
+20-04-23 06:07:50, INFO: 2720/3195 - Loss: 0.5660173892974854
+20-04-23 06:08:30, INFO: 2730/3195 - Loss: 0.5593538284301758
+20-04-23 06:09:12, INFO: 2740/3195 - Loss: 0.5648766756057739
+20-04-23 06:09:52, INFO: 2750/3195 - Loss: 0.5705345273017883
+20-04-23 06:10:34, INFO: 2760/3195 - Loss: 0.5843871235847473
+20-04-23 06:11:14, INFO: 2770/3195 - Loss: 0.5632323026657104
+20-04-23 06:11:54, INFO: 2780/3195 - Loss: 0.5748220086097717
+20-04-23 06:12:35, INFO: 2790/3195 - Loss: 0.5717061758041382
+20-04-23 06:13:15, INFO: 2800/3195 - Loss: 0.575613796710968
+20-04-23 06:13:15, INFO: models/resnet/checkpoint_20-04-23_06:13:15_2_2800.pth
+20-04-23 06:13:56, INFO: 2810/3195 - Loss: 0.5674909353256226
+20-04-23 06:14:36, INFO: 2820/3195 - Loss: 0.5725604295730591
+20-04-23 06:15:16, INFO: 2830/3195 - Loss: 0.5735140442848206
+20-04-23 06:15:57, INFO: 2840/3195 - Loss: 0.5771296620368958
+20-04-23 06:16:37, INFO: 2850/3195 - Loss: 0.5771163105964661
+20-04-23 06:17:18, INFO: 2860/3195 - Loss: 0.552855908870697
+20-04-23 06:17:59, INFO: 2870/3195 - Loss: 0.5633593797683716
+20-04-23 06:18:39, INFO: 2880/3195 - Loss: 0.5844941735267639
+20-04-23 06:19:19, INFO: 2890/3195 - Loss: 0.5659021735191345
+20-04-23 06:19:59, INFO: 2900/3195 - Loss: 0.5733489394187927
+20-04-23 06:19:59, INFO: models/resnet/checkpoint_20-04-23_06:19:59_2_2900.pth
+20-04-23 06:20:40, INFO: 2910/3195 - Loss: 0.5847446322441101
+20-04-23 06:21:20, INFO: 2920/3195 - Loss: 0.5605295300483704
+20-04-23 06:22:02, INFO: 2930/3195 - Loss: 0.5847023725509644
+20-04-23 06:22:42, INFO: 2940/3195 - Loss: 0.5761153697967529
+20-04-23 06:23:22, INFO: 2950/3195 - Loss: 0.5717530250549316
+20-04-23 06:24:02, INFO: 2960/3195 - Loss: 0.5561272501945496
+20-04-23 06:24:42, INFO: 2970/3195 - Loss: 0.5805696845054626
+20-04-23 06:25:22, INFO: 2980/3195 - Loss: 0.5906274914741516
+20-04-23 06:26:03, INFO: 2990/3195 - Loss: 0.5735476016998291
+20-04-23 06:26:43, INFO: 3000/3195 - Loss: 0.5647647380828857
+20-04-23 06:26:43, INFO: models/resnet/checkpoint_20-04-23_06:26:43_2_3000.pth
+20-04-23 06:27:24, INFO: 3010/3195 - Loss: 0.5750977396965027
+20-04-23 06:28:04, INFO: 3020/3195 - Loss: 0.5686870813369751
+20-04-23 06:28:44, INFO: 3030/3195 - Loss: 0.5744349956512451
+20-04-23 06:29:24, INFO: 3040/3195 - Loss: 0.5770536661148071
+20-04-23 06:30:05, INFO: 3050/3195 - Loss: 0.5711253881454468
+20-04-23 06:30:46, INFO: 3060/3195 - Loss: 0.5716544985771179
+20-04-23 06:31:28, INFO: 3070/3195 - Loss: 0.5660027265548706
+20-04-23 06:32:08, INFO: 3080/3195 - Loss: 0.559498131275177
+20-04-23 06:32:49, INFO: 3090/3195 - Loss: 0.5836364030838013
+20-04-23 06:33:29, INFO: 3100/3195 - Loss: 0.5701631903648376
+20-04-23 06:33:29, INFO: models/resnet/checkpoint_20-04-23_06:33:29_2_3100.pth
+20-04-23 06:34:09, INFO: 3110/3195 - Loss: 0.5510525703430176
+20-04-23 06:34:50, INFO: 3120/3195 - Loss: 0.5769665241241455
+20-04-23 06:35:30, INFO: 3130/3195 - Loss: 0.5746866464614868
+20-04-23 06:36:10, INFO: 3140/3195 - Loss: 0.5692331194877625
+20-04-23 06:36:51, INFO: 3150/3195 - Loss: 0.5807368755340576
+20-04-23 06:37:32, INFO: 3160/3195 - Loss: 0.5655561685562134
+20-04-23 06:38:12, INFO: 3170/3195 - Loss: 0.5606995224952698
+20-04-23 06:38:53, INFO: 3180/3195 - Loss: 0.5651000142097473
+20-04-23 06:39:33, INFO: 3190/3195 - Loss: 0.573259711265564
+20-04-23 06:39:46, INFO: 3195/3195 - Loss: 0.575565755367279
+20-04-23 06:39:46, INFO: models/resnet/checkpoint_20-04-23_06:39:46_2.pth
+20-04-23 06:39:46, INFO: Test on 100000 pairs of sacre_coeur
+20-04-23 06:40:49, INFO: [91mTest set: Accuracy(FPR95): 0.00132000
+[0m
+20-04-23 06:40:49, INFO: Test on 100000 pairs of st_peters_square
+20-04-23 06:41:52, INFO: [91mTest set: Accuracy(FPR95): 0.00150000
+[0m
+20-04-23 06:41:52, INFO: Test on 100000 pairs of reichstag
+20-04-23 06:42:57, INFO: [91mTest set: Accuracy(FPR95): 0.00226000
+[0m
+20-04-23 06:42:58, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-23 06:43:02, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-23 06:43:06, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-23 06:43:09, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-23 06:43:13, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-23 06:43:20, INFO: Load notre_dame_front_facade dataset with n_points: 477105
+20-04-23 06:43:22, INFO: Load palace_of_westminster dataset with n_points: 114025
+20-04-23 06:43:24, INFO: Load pantheon_exterior dataset with n_points: 163635
+20-04-23 06:43:33, INFO: Load prague_old_town_square dataset with n_points: 549152
+20-04-23 06:43:34, INFO: Load taj_mahal dataset with n_points: 92991
+20-04-23 06:43:36, INFO: Load temple_nara_japan dataset with n_points: 91040
+20-04-23 06:43:45, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-23 06:43:48, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-23 06:43:48, INFO: num_3d_points: 3271254
+20-04-23 06:43:48, INFO: generate 3271254 triplets (simple add a negative patch to a matched patch)
+20-04-23 06:47:12, INFO: 10 first triplets: 
+20-04-23 06:47:12, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  patch_id2
+0  brandenburg_gate          2          0  brandenburg_gate          2          1
+1  brandenburg_gate          4          0  brandenburg_gate          4          1
+2  brandenburg_gate          7          0  brandenburg_gate          7          1
+3  brandenburg_gate         16          0  brandenburg_gate         16          1
+4  brandenburg_gate         17          0  brandenburg_gate         17          1
+5  brandenburg_gate         18          0  brandenburg_gate         18          1
+6  brandenburg_gate         24          0  brandenburg_gate         24          1
+7  brandenburg_gate         25          0  brandenburg_gate         25          1
+8  brandenburg_gate         26          0  brandenburg_gate         26          1
+9  brandenburg_gate         28          0  brandenburg_gate         28          1
+20-04-23 06:47:13, INFO: 10 last triplets: 
+20-04-23 06:47:13, INFO:                    scene_1  point_id1  patch_id1            scene_2  point_id2  patch_id2
+3271244  westminster_abbey     373536          0  westminster_abbey     373536          1
+3271245  westminster_abbey     373537          0  westminster_abbey     373537          1
+3271246  westminster_abbey     373538          0  westminster_abbey     373538          1
+3271247  westminster_abbey     373539          0  westminster_abbey     373539          1
+3271248  westminster_abbey     373540          0  westminster_abbey     373540          1
+3271249  westminster_abbey     373541          0  westminster_abbey     373541          1
+3271250  westminster_abbey     373542          0  westminster_abbey     373542          1
+3271251  westminster_abbey     373543          0  westminster_abbey     373543          1
+3271252  westminster_abbey     373544          0  westminster_abbey     373544          1
+3271253  westminster_abbey     373545          0  westminster_abbey     373545          1
+20-04-23 06:47:24, INFO: EPOCH: 3
+20-04-23 06:47:24, INFO: ========================
+20-04-23 06:47:24, INFO: Training sceces: 
+20-04-23 06:47:24, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-04-23 06:47:28, INFO: 0/3195 - Loss: 0.5575648546218872
+20-04-23 06:47:28, INFO: models/resnet/checkpoint_20-04-23_06:47:28_3_0.pth
+20-04-23 06:48:08, INFO: 10/3195 - Loss: 0.5585121512413025
+20-04-23 06:48:48, INFO: 20/3195 - Loss: 0.5553689002990723
+20-04-23 06:49:28, INFO: 30/3195 - Loss: 0.5660736560821533
+20-04-23 06:50:08, INFO: 40/3195 - Loss: 0.5573104023933411
+20-04-23 06:50:49, INFO: 50/3195 - Loss: 0.5780286192893982
+20-04-23 06:51:30, INFO: 60/3195 - Loss: 0.5675191879272461
+20-04-23 06:52:10, INFO: 70/3195 - Loss: 0.5632777810096741
+20-04-23 06:52:50, INFO: 80/3195 - Loss: 0.5707797408103943
+20-04-23 06:53:30, INFO: 90/3195 - Loss: 0.570832371711731
+20-04-23 06:54:11, INFO: 100/3195 - Loss: 0.5833831429481506
+20-04-23 06:54:11, INFO: models/resnet/checkpoint_20-04-23_06:54:11_3_100.pth
+20-04-23 06:54:52, INFO: 110/3195 - Loss: 0.5718317031860352
+20-04-23 06:55:33, INFO: 120/3195 - Loss: 0.5621548891067505
+20-04-23 06:56:15, INFO: 130/3195 - Loss: 0.5647451281547546
+20-04-23 06:56:57, INFO: 140/3195 - Loss: 0.560524582862854
+20-04-23 06:57:38, INFO: 150/3195 - Loss: 0.5656033158302307
+20-04-23 06:58:32, INFO: 160/3195 - Loss: 0.5605895519256592
+20-04-23 06:59:23, INFO: 170/3195 - Loss: 0.5651870965957642
+20-04-23 07:00:14, INFO: 180/3195 - Loss: 0.5747409462928772
+20-04-23 07:01:07, INFO: 190/3195 - Loss: 0.551455020904541
+20-04-23 07:01:56, INFO: 200/3195 - Loss: 0.581548273563385
+20-04-23 07:01:56, INFO: models/resnet/checkpoint_20-04-23_07:01:56_3_200.pth
+20-04-23 07:02:50, INFO: 210/3195 - Loss: 0.5584492087364197
+20-04-23 07:03:39, INFO: 220/3195 - Loss: 0.5624258518218994
+20-04-23 07:04:33, INFO: 230/3195 - Loss: 0.5699138641357422
+20-04-23 07:05:26, INFO: 240/3195 - Loss: 0.5634998679161072
+20-04-23 07:06:20, INFO: 250/3195 - Loss: 0.5647766590118408
+20-04-23 07:07:13, INFO: 260/3195 - Loss: 0.5783894062042236
+20-04-23 07:08:07, INFO: 270/3195 - Loss: 0.5631939172744751
+20-04-23 07:08:59, INFO: 280/3195 - Loss: 0.5492555499076843
+20-04-23 07:09:53, INFO: 290/3195 - Loss: 0.563507080078125
+20-04-23 07:10:47, INFO: 300/3195 - Loss: 0.5637974143028259
+20-04-23 07:10:47, INFO: models/resnet/checkpoint_20-04-23_07:10:47_3_300.pth
+20-04-23 07:11:43, INFO: 310/3195 - Loss: 0.5676320791244507
+20-04-23 07:12:36, INFO: 320/3195 - Loss: 0.5617917776107788
+20-04-23 07:13:31, INFO: 330/3195 - Loss: 0.5607314705848694
+20-04-23 07:14:25, INFO: 340/3195 - Loss: 0.5548580884933472
+20-04-23 07:15:17, INFO: 350/3195 - Loss: 0.5681379437446594
+20-04-23 07:16:08, INFO: 360/3195 - Loss: 0.5647009611129761
+20-04-23 07:17:01, INFO: 370/3195 - Loss: 0.5689036846160889
+20-04-23 07:17:55, INFO: 380/3195 - Loss: 0.5724772214889526
+20-04-23 07:18:49, INFO: 390/3195 - Loss: 0.5649411678314209
+20-04-23 07:19:42, INFO: 400/3195 - Loss: 0.554762601852417
+20-04-23 07:19:42, INFO: models/resnet/checkpoint_20-04-23_07:19:42_3_400.pth
+20-04-23 07:20:38, INFO: 410/3195 - Loss: 0.5652269124984741
+20-04-23 07:21:32, INFO: 420/3195 - Loss: 0.557915210723877
+20-04-23 07:22:26, INFO: 430/3195 - Loss: 0.5712108612060547
+20-04-23 07:23:21, INFO: 440/3195 - Loss: 0.560344398021698
+20-04-23 07:24:16, INFO: 450/3195 - Loss: 0.567382276058197
+20-04-23 07:25:11, INFO: 460/3195 - Loss: 0.5680226683616638
+20-04-23 07:26:05, INFO: 470/3195 - Loss: 0.5742106437683105
+20-04-23 07:26:59, INFO: 480/3195 - Loss: 0.5744754076004028
+20-04-23 07:27:54, INFO: 490/3195 - Loss: 0.5639268755912781
+20-04-23 07:28:49, INFO: 500/3195 - Loss: 0.5669347047805786
+20-04-23 07:28:49, INFO: models/resnet/checkpoint_20-04-23_07:28:49_3_500.pth
+20-04-23 07:29:43, INFO: 510/3195 - Loss: 0.5615448951721191
+20-04-23 07:30:37, INFO: 520/3195 - Loss: 0.5799925923347473
+20-04-23 07:31:31, INFO: 530/3195 - Loss: 0.5714865326881409
+20-04-23 07:32:25, INFO: 540/3195 - Loss: 0.561509370803833
+20-04-23 07:33:19, INFO: 550/3195 - Loss: 0.5659086108207703
+20-04-23 07:34:14, INFO: 560/3195 - Loss: 0.5855578184127808
+20-04-23 07:35:08, INFO: 570/3195 - Loss: 0.5797519683837891
+20-04-23 07:36:02, INFO: 580/3195 - Loss: 0.5711758732795715
+20-04-23 07:36:57, INFO: 590/3195 - Loss: 0.5594629049301147
+20-04-23 07:37:51, INFO: 600/3195 - Loss: 0.5755857229232788
+20-04-23 07:37:51, INFO: models/resnet/checkpoint_20-04-23_07:37:51_3_600.pth
+20-04-23 07:38:47, INFO: 610/3195 - Loss: 0.5714130401611328
+20-04-23 07:39:40, INFO: 620/3195 - Loss: 0.5729444622993469
+20-04-23 07:40:34, INFO: 630/3195 - Loss: 0.561598002910614
+20-04-23 07:41:30, INFO: 640/3195 - Loss: 0.5576446056365967
+20-04-23 07:42:24, INFO: 650/3195 - Loss: 0.5659760236740112
+20-04-23 07:43:18, INFO: 660/3195 - Loss: 0.574499249458313
+20-04-23 07:44:11, INFO: 670/3195 - Loss: 0.5670063495635986
+20-04-23 07:45:06, INFO: 680/3195 - Loss: 0.5607002973556519
+20-04-23 07:45:49, INFO: 690/3195 - Loss: 0.5780397653579712
+20-04-23 07:46:35, INFO: 700/3195 - Loss: 0.5617363452911377
+20-04-23 07:46:35, INFO: models/resnet/checkpoint_20-04-23_07:46:35_3_700.pth
+20-04-23 07:47:30, INFO: 710/3195 - Loss: 0.564654529094696
+20-04-23 07:48:25, INFO: 720/3195 - Loss: 0.5853728652000427
+20-04-23 07:49:19, INFO: 730/3195 - Loss: 0.5652122497558594
+20-04-23 07:50:13, INFO: 740/3195 - Loss: 0.5674165487289429
+20-04-23 07:51:08, INFO: 750/3195 - Loss: 0.5750638246536255
+20-04-23 07:52:02, INFO: 760/3195 - Loss: 0.5619632005691528
+20-04-23 07:52:56, INFO: 770/3195 - Loss: 0.5764783024787903
+20-04-23 07:53:50, INFO: 780/3195 - Loss: 0.5641019344329834
+20-04-23 07:54:46, INFO: 790/3195 - Loss: 0.5691996812820435
+20-04-23 07:55:40, INFO: 800/3195 - Loss: 0.5680549144744873
+20-04-23 07:55:40, INFO: models/resnet/checkpoint_20-04-23_07:55:40_3_800.pth
+20-04-23 07:56:36, INFO: 810/3195 - Loss: 0.5666822791099548
+20-04-23 07:57:30, INFO: 820/3195 - Loss: 0.5741289854049683
+20-04-23 07:58:25, INFO: 830/3195 - Loss: 0.5570169687271118
+20-04-23 07:59:19, INFO: 840/3195 - Loss: 0.5670298933982849
+20-04-23 08:00:15, INFO: 850/3195 - Loss: 0.5700435042381287
+20-04-23 08:01:10, INFO: 860/3195 - Loss: 0.5605396032333374
+20-04-23 08:02:03, INFO: 870/3195 - Loss: 0.5520036220550537
+20-04-23 08:02:58, INFO: 880/3195 - Loss: 0.5592994093894958
+20-04-23 08:03:53, INFO: 890/3195 - Loss: 0.5707961320877075
+20-04-23 08:04:47, INFO: 900/3195 - Loss: 0.5801637172698975
+20-04-23 08:04:47, INFO: models/resnet/checkpoint_20-04-23_08:04:47_3_900.pth
+20-04-23 08:05:42, INFO: 910/3195 - Loss: 0.5654056072235107
+20-04-23 08:06:37, INFO: 920/3195 - Loss: 0.556105375289917
+20-04-23 08:07:31, INFO: 930/3195 - Loss: 0.5734942555427551
+20-04-23 08:08:25, INFO: 940/3195 - Loss: 0.5660479068756104
+20-04-23 08:09:19, INFO: 950/3195 - Loss: 0.5612853765487671
+20-04-23 08:10:14, INFO: 960/3195 - Loss: 0.551580548286438
+20-04-23 08:11:08, INFO: 970/3195 - Loss: 0.5702773332595825
+20-04-23 08:12:02, INFO: 980/3195 - Loss: 0.5559701323509216
+20-04-23 08:12:55, INFO: 990/3195 - Loss: 0.5536744594573975
+20-04-23 08:13:50, INFO: 1000/3195 - Loss: 0.5729108452796936
+20-04-23 08:13:50, INFO: models/resnet/checkpoint_20-04-23_08:13:50_3_1000.pth
+20-04-23 08:14:45, INFO: 1010/3195 - Loss: 0.5738589763641357
+20-04-23 08:15:38, INFO: 1020/3195 - Loss: 0.5684197545051575
+20-04-23 08:16:33, INFO: 1030/3195 - Loss: 0.5634381175041199
+20-04-23 08:17:27, INFO: 1040/3195 - Loss: 0.569077730178833
+20-04-23 08:18:22, INFO: 1050/3195 - Loss: 0.5612805485725403
+20-04-23 08:19:16, INFO: 1060/3195 - Loss: 0.5620768070220947
+20-04-23 08:20:11, INFO: 1070/3195 - Loss: 0.5720309019088745
+20-04-23 08:21:05, INFO: 1080/3195 - Loss: 0.5649514198303223
+20-04-23 08:21:59, INFO: 1090/3195 - Loss: 0.577233612537384
+20-04-23 08:22:55, INFO: 1100/3195 - Loss: 0.5628068447113037
+20-04-23 08:22:55, INFO: models/resnet/checkpoint_20-04-23_08:22:55_3_1100.pth
+20-04-23 08:23:49, INFO: 1110/3195 - Loss: 0.5655977129936218
+20-04-23 08:24:44, INFO: 1120/3195 - Loss: 0.578770637512207
+20-04-23 08:25:39, INFO: 1130/3195 - Loss: 0.5628473162651062
+20-04-23 08:26:34, INFO: 1140/3195 - Loss: 0.5705419182777405
+20-04-23 08:27:27, INFO: 1150/3195 - Loss: 0.5658119320869446
+20-04-23 08:28:22, INFO: 1160/3195 - Loss: 0.5578094720840454
+20-04-23 08:29:16, INFO: 1170/3195 - Loss: 0.5630568861961365
+20-04-23 08:30:11, INFO: 1180/3195 - Loss: 0.5664294958114624
+20-04-23 08:31:04, INFO: 1190/3195 - Loss: 0.5670374035835266
+20-04-23 08:32:00, INFO: 1200/3195 - Loss: 0.5624063611030579
+20-04-23 08:32:00, INFO: models/resnet/checkpoint_20-04-23_08:32:00_3_1200.pth
+20-04-23 08:32:55, INFO: 1210/3195 - Loss: 0.5610718727111816
+20-04-23 08:33:49, INFO: 1220/3195 - Loss: 0.5662996172904968
+20-04-23 08:34:44, INFO: 1230/3195 - Loss: 0.5586042404174805
+20-04-23 08:35:37, INFO: 1240/3195 - Loss: 0.5735710859298706
+20-04-23 08:36:32, INFO: 1250/3195 - Loss: 0.5590884685516357
+20-04-23 08:37:27, INFO: 1260/3195 - Loss: 0.5872827768325806
+20-04-23 08:38:20, INFO: 1270/3195 - Loss: 0.5625900626182556
+20-04-23 08:39:15, INFO: 1280/3195 - Loss: 0.5567058324813843
+20-04-23 08:40:09, INFO: 1290/3195 - Loss: 0.5672294497489929
+20-04-23 08:41:03, INFO: 1300/3195 - Loss: 0.5641124248504639
+20-04-23 08:41:03, INFO: models/resnet/checkpoint_20-04-23_08:41:03_3_1300.pth
+20-04-23 08:41:58, INFO: 1310/3195 - Loss: 0.5804475545883179
+20-04-23 08:42:53, INFO: 1320/3195 - Loss: 0.5718552470207214
+20-04-23 08:43:48, INFO: 1330/3195 - Loss: 0.5575695037841797
+20-04-23 08:44:42, INFO: 1340/3195 - Loss: 0.5564584136009216
+20-04-23 08:45:36, INFO: 1350/3195 - Loss: 0.58041912317276
+20-04-23 08:46:29, INFO: 1360/3195 - Loss: 0.572013258934021
+20-04-23 08:47:23, INFO: 1370/3195 - Loss: 0.5814873576164246
+20-04-23 08:48:18, INFO: 1380/3195 - Loss: 0.5497932434082031
+20-04-23 08:49:12, INFO: 1390/3195 - Loss: 0.5577378273010254
+20-04-23 08:50:07, INFO: 1400/3195 - Loss: 0.569974422454834
+20-04-23 08:50:07, INFO: models/resnet/checkpoint_20-04-23_08:50:07_3_1400.pth
+20-04-23 08:51:02, INFO: 1410/3195 - Loss: 0.5629312992095947
+20-04-23 08:51:56, INFO: 1420/3195 - Loss: 0.5550098419189453
+20-04-23 08:52:50, INFO: 1430/3195 - Loss: 0.5632537603378296
+20-04-23 08:53:44, INFO: 1440/3195 - Loss: 0.5645588040351868
+20-04-23 08:54:39, INFO: 1450/3195 - Loss: 0.5667582750320435
+20-04-23 08:55:34, INFO: 1460/3195 - Loss: 0.5535275936126709
+20-04-23 08:56:27, INFO: 1470/3195 - Loss: 0.556052565574646
+20-04-23 08:57:22, INFO: 1480/3195 - Loss: 0.5667743682861328
+20-04-23 08:58:16, INFO: 1490/3195 - Loss: 0.5513238906860352
+20-04-23 08:59:11, INFO: 1500/3195 - Loss: 0.5566810369491577
+20-04-23 08:59:11, INFO: models/resnet/checkpoint_20-04-23_08:59:11_3_1500.pth
+20-04-23 09:00:05, INFO: 1510/3195 - Loss: 0.5626446008682251
+20-04-23 09:01:00, INFO: 1520/3195 - Loss: 0.5610055327415466
+20-04-23 09:01:55, INFO: 1530/3195 - Loss: 0.5666666030883789
+20-04-23 09:02:49, INFO: 1540/3195 - Loss: 0.5725322961807251
+20-04-23 09:03:44, INFO: 1550/3195 - Loss: 0.5730118155479431
+20-04-23 09:04:30, INFO: 1560/3195 - Loss: 0.5717757940292358
+20-04-23 09:05:12, INFO: 1570/3195 - Loss: 0.5749215483665466
+20-04-23 09:05:52, INFO: 1580/3195 - Loss: 0.568583607673645
+20-04-23 09:06:34, INFO: 1590/3195 - Loss: 0.551939845085144
+20-04-23 09:07:15, INFO: 1600/3195 - Loss: 0.5599285960197449
+20-04-23 09:07:15, INFO: models/resnet/checkpoint_20-04-23_09:07:15_3_1600.pth
+20-04-23 09:07:56, INFO: 1610/3195 - Loss: 0.5557808876037598
+20-04-23 09:08:36, INFO: 1620/3195 - Loss: 0.5665313601493835
+20-04-23 09:09:16, INFO: 1630/3195 - Loss: 0.5630162954330444
+20-04-23 09:09:58, INFO: 1640/3195 - Loss: 0.5619666576385498
+20-04-23 09:10:39, INFO: 1650/3195 - Loss: 0.5663495063781738
+20-04-23 09:11:20, INFO: 1660/3195 - Loss: 0.5632442831993103
+20-04-23 09:12:01, INFO: 1670/3195 - Loss: 0.5636278390884399
+20-04-23 09:12:43, INFO: 1680/3195 - Loss: 0.5544575452804565
+20-04-23 09:13:23, INFO: 1690/3195 - Loss: 0.5610719323158264
+20-04-23 09:14:03, INFO: 1700/3195 - Loss: 0.5594404935836792
+20-04-23 09:14:04, INFO: models/resnet/checkpoint_20-04-23_09:14:03_3_1700.pth
+20-04-23 09:14:43, INFO: 1710/3195 - Loss: 0.5585380792617798
+20-04-23 09:15:24, INFO: 1720/3195 - Loss: 0.5766584873199463
+20-04-23 09:16:05, INFO: 1730/3195 - Loss: 0.5658737421035767
+20-04-23 09:16:45, INFO: 1740/3195 - Loss: 0.561965823173523
+20-04-23 09:17:26, INFO: 1750/3195 - Loss: 0.5586517453193665
+20-04-23 09:18:07, INFO: 1760/3195 - Loss: 0.5685691237449646
+20-04-23 09:18:48, INFO: 1770/3195 - Loss: 0.5642595291137695
+20-04-23 09:19:29, INFO: 1780/3195 - Loss: 0.5474749803543091
+20-04-23 09:20:10, INFO: 1790/3195 - Loss: 0.5733901858329773
+20-04-23 09:20:50, INFO: 1800/3195 - Loss: 0.5453121662139893
+20-04-23 09:20:50, INFO: models/resnet/checkpoint_20-04-23_09:20:50_3_1800.pth
+20-04-23 09:21:32, INFO: 1810/3195 - Loss: 0.547677755355835
+20-04-23 09:22:14, INFO: 1820/3195 - Loss: 0.5629887580871582
+20-04-23 09:22:54, INFO: 1830/3195 - Loss: 0.5595765709877014
+20-04-23 09:23:36, INFO: 1840/3195 - Loss: 0.5648312568664551
+20-04-23 09:24:19, INFO: 1850/3195 - Loss: 0.5575780868530273
+20-04-23 09:25:00, INFO: 1860/3195 - Loss: 0.5623233318328857
+20-04-23 09:25:41, INFO: 1870/3195 - Loss: 0.5377576351165771
+20-04-23 09:26:22, INFO: 1880/3195 - Loss: 0.5657783150672913
+20-04-23 09:27:02, INFO: 1890/3195 - Loss: 0.5639795660972595
+20-04-23 09:27:44, INFO: 1900/3195 - Loss: 0.5644547343254089
+20-04-23 09:27:44, INFO: models/resnet/checkpoint_20-04-23_09:27:44_3_1900.pth
+20-04-23 09:28:24, INFO: 1910/3195 - Loss: 0.563237190246582
+20-04-23 09:29:05, INFO: 1920/3195 - Loss: 0.5583065748214722
+20-04-23 09:29:46, INFO: 1930/3195 - Loss: 0.566642701625824
+20-04-23 09:30:26, INFO: 1940/3195 - Loss: 0.5798348188400269
+20-04-23 09:31:17, INFO: 1950/3195 - Loss: 0.5507603883743286
+20-04-23 09:32:08, INFO: 1960/3195 - Loss: 0.5440370440483093
+20-04-23 09:32:49, INFO: 1970/3195 - Loss: 0.575020432472229
+20-04-23 09:33:30, INFO: 1980/3195 - Loss: 0.5600911974906921
+20-04-23 09:34:10, INFO: 1990/3195 - Loss: 0.5633167028427124
+20-04-23 09:34:50, INFO: 2000/3195 - Loss: 0.575027346611023
+20-04-23 09:34:50, INFO: models/resnet/checkpoint_20-04-23_09:34:50_3_2000.pth
+20-04-23 09:35:32, INFO: 2010/3195 - Loss: 0.5669482350349426
+20-04-23 09:36:15, INFO: 2020/3195 - Loss: 0.5716266632080078
+20-04-23 09:37:05, INFO: 2030/3195 - Loss: 0.5592600107192993
+20-04-23 09:37:45, INFO: 2040/3195 - Loss: 0.573280394077301
+20-04-23 09:38:26, INFO: 2050/3195 - Loss: 0.5577597618103027
+20-04-23 09:39:06, INFO: 2060/3195 - Loss: 0.57155442237854
+20-04-23 09:39:48, INFO: 2070/3195 - Loss: 0.5717637538909912
+20-04-23 09:40:29, INFO: 2080/3195 - Loss: 0.5547894835472107
+20-04-23 09:41:29, INFO: 2090/3195 - Loss: 0.5650884509086609
+20-04-23 09:42:19, INFO: 2100/3195 - Loss: 0.550765335559845
+20-04-23 09:42:20, INFO: models/resnet/checkpoint_20-04-23_09:42:19_3_2100.pth
+20-04-23 09:43:08, INFO: 2110/3195 - Loss: 0.5535602569580078
+20-04-23 09:44:00, INFO: 2120/3195 - Loss: 0.57337486743927
+20-04-23 09:44:50, INFO: 2130/3195 - Loss: 0.5726500749588013
+20-04-23 09:45:41, INFO: 2140/3195 - Loss: 0.5763916969299316
+20-04-23 09:46:58, INFO: 2150/3195 - Loss: 0.556063175201416
+20-04-23 09:47:39, INFO: 2160/3195 - Loss: 0.5598907470703125
+20-04-23 09:48:22, INFO: 2170/3195 - Loss: 0.5610209703445435
+20-04-23 09:49:06, INFO: 2180/3195 - Loss: 0.5554735064506531
+20-04-23 09:49:57, INFO: 2190/3195 - Loss: 0.5700849294662476
+20-04-23 09:50:38, INFO: 2200/3195 - Loss: 0.554656445980072
+20-04-23 09:50:39, INFO: models/resnet/checkpoint_20-04-23_09:50:38_3_2200.pth
+20-04-23 09:51:23, INFO: 2210/3195 - Loss: 0.5501677989959717
+20-04-23 09:52:22, INFO: 2220/3195 - Loss: 0.5624287128448486
+20-04-23 09:53:07, INFO: 2230/3195 - Loss: 0.5498942732810974
+20-04-23 09:54:02, INFO: 2240/3195 - Loss: 0.5530959367752075
+20-04-23 09:54:57, INFO: 2250/3195 - Loss: 0.5675508379936218
+20-04-23 09:55:52, INFO: 2260/3195 - Loss: 0.5563863515853882
+20-04-23 09:56:50, INFO: 2270/3195 - Loss: 0.5579084157943726
+20-04-23 09:57:47, INFO: 2280/3195 - Loss: 0.5698812007904053
+20-04-23 09:58:42, INFO: 2290/3195 - Loss: 0.5657005310058594
+20-04-23 09:59:36, INFO: 2300/3195 - Loss: 0.5657138228416443
+20-04-23 09:59:36, INFO: models/resnet/checkpoint_20-04-23_09:59:36_3_2300.pth
+20-04-23 10:00:32, INFO: 2310/3195 - Loss: 0.5530362725257874
+20-04-23 10:01:27, INFO: 2320/3195 - Loss: 0.5640459060668945
+20-04-23 10:02:22, INFO: 2330/3195 - Loss: 0.5758634805679321
+20-04-23 10:03:16, INFO: 2340/3195 - Loss: 0.5517438054084778
+20-04-23 10:04:11, INFO: 2350/3195 - Loss: 0.5627503395080566
+20-04-23 10:04:56, INFO: 2360/3195 - Loss: 0.5643131136894226
+20-04-23 10:05:52, INFO: 2370/3195 - Loss: 0.5529259443283081
+20-04-23 10:06:41, INFO: 2380/3195 - Loss: 0.5667202472686768
+20-04-23 10:07:44, INFO: 2390/3195 - Loss: 0.563349723815918
+20-04-23 10:08:39, INFO: 2400/3195 - Loss: 0.5567159652709961
+20-04-23 10:08:39, INFO: models/resnet/checkpoint_20-04-23_10:08:39_3_2400.pth
+20-04-23 10:09:32, INFO: 2410/3195 - Loss: 0.5606769919395447
+20-04-23 10:10:15, INFO: 2420/3195 - Loss: 0.569791316986084
+20-04-23 10:11:11, INFO: 2430/3195 - Loss: 0.5533257722854614
+20-04-23 10:11:59, INFO: 2440/3195 - Loss: 0.5616025924682617
+20-04-23 10:12:48, INFO: 2450/3195 - Loss: 0.5731122493743896
+20-04-23 10:13:39, INFO: 2460/3195 - Loss: 0.5595900416374207
+20-04-23 10:14:22, INFO: 2470/3195 - Loss: 0.5677194595336914
+20-04-23 10:15:10, INFO: 2480/3195 - Loss: 0.5660304427146912
+20-04-23 10:15:59, INFO: 2490/3195 - Loss: 0.552036464214325
+20-04-23 10:16:48, INFO: 2500/3195 - Loss: 0.5618714690208435
+20-04-23 10:16:48, INFO: models/resnet/checkpoint_20-04-23_10:16:48_3_2500.pth
+20-04-23 10:17:45, INFO: 2510/3195 - Loss: 0.5549257397651672
+20-04-23 10:18:40, INFO: 2520/3195 - Loss: 0.56480473279953
+20-04-23 10:19:34, INFO: 2530/3195 - Loss: 0.5507129430770874
+20-04-23 10:20:15, INFO: 2540/3195 - Loss: 0.5638208389282227
+20-04-23 10:20:56, INFO: 2550/3195 - Loss: 0.5622947216033936
+20-04-23 10:21:39, INFO: 2560/3195 - Loss: 0.5503767728805542
+20-04-23 10:22:25, INFO: 2570/3195 - Loss: 0.5729442834854126
+20-04-23 10:23:13, INFO: 2580/3195 - Loss: 0.5593788623809814
+20-04-23 10:24:05, INFO: 2590/3195 - Loss: 0.5521042943000793
+20-04-23 10:25:00, INFO: 2600/3195 - Loss: 0.5649725794792175
+20-04-23 10:25:00, INFO: models/resnet/checkpoint_20-04-23_10:25:00_3_2600.pth
+20-04-23 10:25:54, INFO: 2610/3195 - Loss: 0.5662592649459839
+20-04-23 10:26:48, INFO: 2620/3195 - Loss: 0.5539652705192566
+20-04-23 10:27:43, INFO: 2630/3195 - Loss: 0.5686057209968567
+20-04-23 10:28:35, INFO: 2640/3195 - Loss: 0.5529552698135376
+20-04-23 10:29:28, INFO: 2650/3195 - Loss: 0.562245786190033
+20-04-23 10:30:23, INFO: 2660/3195 - Loss: 0.5487666130065918
+20-04-23 10:31:16, INFO: 2670/3195 - Loss: 0.557685375213623
+20-04-23 10:32:10, INFO: 2680/3195 - Loss: 0.5603752136230469
+20-04-23 10:33:05, INFO: 2690/3195 - Loss: 0.556070864200592
+20-04-23 10:33:55, INFO: 2700/3195 - Loss: 0.5499471426010132
+20-04-23 10:33:55, INFO: models/resnet/checkpoint_20-04-23_10:33:55_3_2700.pth
+20-04-23 10:34:37, INFO: 2710/3195 - Loss: 0.5790058374404907
+20-04-23 10:35:18, INFO: 2720/3195 - Loss: 0.5633456110954285
+20-04-23 10:36:10, INFO: 2730/3195 - Loss: 0.561519980430603
+20-04-23 10:36:59, INFO: 2740/3195 - Loss: 0.5626169443130493
+20-04-23 10:37:47, INFO: 2750/3195 - Loss: 0.5490375757217407
+20-04-23 10:38:38, INFO: 2760/3195 - Loss: 0.5668427348136902
+20-04-23 10:39:28, INFO: 2770/3195 - Loss: 0.5592994689941406
+20-04-23 10:40:18, INFO: 2780/3195 - Loss: 0.5641741752624512
+20-04-23 10:41:07, INFO: 2790/3195 - Loss: 0.5677220821380615
+20-04-23 10:41:47, INFO: 2800/3195 - Loss: 0.5584982633590698
+20-04-23 10:41:47, INFO: models/resnet/checkpoint_20-04-23_10:41:47_3_2800.pth
+20-04-23 10:42:30, INFO: 2810/3195 - Loss: 0.5478450655937195
+20-04-23 10:43:11, INFO: 2820/3195 - Loss: 0.560655951499939
+20-04-23 10:43:51, INFO: 2830/3195 - Loss: 0.5512567758560181
+20-04-23 10:44:33, INFO: 2840/3195 - Loss: 0.5644822716712952
+20-04-23 10:45:14, INFO: 2850/3195 - Loss: 0.5550482273101807
+20-04-23 10:45:57, INFO: 2860/3195 - Loss: 0.5608288049697876
+20-04-23 10:46:41, INFO: 2870/3195 - Loss: 0.5541130304336548
+20-04-23 10:47:26, INFO: 2880/3195 - Loss: 0.5542768239974976
+20-04-23 10:48:10, INFO: 2890/3195 - Loss: 0.56514573097229
+20-04-23 10:48:52, INFO: 2900/3195 - Loss: 0.5556425452232361
+20-04-23 10:48:52, INFO: models/resnet/checkpoint_20-04-23_10:48:52_3_2900.pth
+20-04-23 10:49:34, INFO: 2910/3195 - Loss: 0.5639318227767944
+20-04-23 10:50:18, INFO: 2920/3195 - Loss: 0.5674922466278076
+20-04-23 10:51:05, INFO: 2930/3195 - Loss: 0.5544447302818298
+20-04-23 10:51:58, INFO: 2940/3195 - Loss: 0.560906708240509
+20-04-23 10:52:45, INFO: 2950/3195 - Loss: 0.5611574053764343
+20-04-23 10:53:26, INFO: 2960/3195 - Loss: 0.5485602021217346
+20-04-23 10:54:07, INFO: 2970/3195 - Loss: 0.5676043629646301
+20-04-23 10:54:47, INFO: 2980/3195 - Loss: 0.5506024956703186
+20-04-23 10:55:42, INFO: 2990/3195 - Loss: 0.569980263710022
+20-04-23 10:56:36, INFO: 3000/3195 - Loss: 0.5744948387145996
+20-04-23 10:56:36, INFO: models/resnet/checkpoint_20-04-23_10:56:36_3_3000.pth
+20-04-23 10:57:21, INFO: 3010/3195 - Loss: 0.5527378916740417
+20-04-23 10:58:17, INFO: 3020/3195 - Loss: 0.5682167410850525
+20-04-23 10:59:12, INFO: 3030/3195 - Loss: 0.5574527382850647
+20-04-23 11:00:01, INFO: 3040/3195 - Loss: 0.5597989559173584
+20-04-23 11:00:45, INFO: 3050/3195 - Loss: 0.5568275451660156
+20-04-23 11:01:34, INFO: 3060/3195 - Loss: 0.5713150501251221
+20-04-23 11:02:29, INFO: 3070/3195 - Loss: 0.5634904503822327
+20-04-23 11:03:23, INFO: 3080/3195 - Loss: 0.5705440640449524
+20-04-23 11:04:16, INFO: 3090/3195 - Loss: 0.5436446070671082
+20-04-23 11:05:10, INFO: 3100/3195 - Loss: 0.5607115030288696
+20-04-23 11:05:10, INFO: models/resnet/checkpoint_20-04-23_11:05:10_3_3100.pth
+20-04-23 11:06:06, INFO: 3110/3195 - Loss: 0.5515080094337463
+20-04-23 11:07:00, INFO: 3120/3195 - Loss: 0.5460332036018372
+20-04-23 11:07:56, INFO: 3130/3195 - Loss: 0.5598506927490234
+20-04-23 11:08:51, INFO: 3140/3195 - Loss: 0.56219083070755
+20-04-23 11:09:45, INFO: 3150/3195 - Loss: 0.5679700970649719
+20-04-23 11:10:39, INFO: 3160/3195 - Loss: 0.5654863119125366
+20-04-23 11:11:36, INFO: 3170/3195 - Loss: 0.5483905076980591
+20-04-23 11:12:29, INFO: 3180/3195 - Loss: 0.5708876848220825
+20-04-23 11:13:28, INFO: 3190/3195 - Loss: 0.5525678396224976
+20-04-23 11:13:44, INFO: 3195/3195 - Loss: 0.5482279062271118
+20-04-23 11:13:44, INFO: models/resnet/checkpoint_20-04-23_11:13:44_3.pth
+20-04-23 11:13:44, INFO: Test on 100000 pairs of sacre_coeur
+20-04-23 11:14:48, INFO: [91mTest set: Accuracy(FPR95): 0.00162000
+[0m
+20-04-23 11:14:48, INFO: Test on 100000 pairs of st_peters_square
+20-04-23 11:16:01, INFO: [91mTest set: Accuracy(FPR95): 0.00122000
+[0m
+20-04-23 11:16:01, INFO: Test on 100000 pairs of reichstag
+20-04-23 11:17:07, INFO: [91mTest set: Accuracy(FPR95): 0.00200000
+[0m
+20-04-23 11:17:09, INFO: Load brandenburg_gate dataset with n_points: 97698
+20-04-23 11:17:13, INFO: Load buckingham_palace dataset with n_points: 228041
+20-04-23 11:17:17, INFO: Load colosseum_exterior dataset with n_points: 257229
+20-04-23 11:17:20, INFO: Load grand_place_brussels dataset with n_points: 225733
+20-04-23 11:17:24, INFO: Load hagia_sophia_interior dataset with n_points: 228138
+20-04-23 11:17:32, INFO: Load notre_dame_front_facade dataset with n_points: 477105
+20-04-23 11:17:34, INFO: Load palace_of_westminster dataset with n_points: 114025
+20-04-23 11:17:36, INFO: Load pantheon_exterior dataset with n_points: 163635
+20-04-23 11:17:46, INFO: Load prague_old_town_square dataset with n_points: 549152
+20-04-23 11:17:48, INFO: Load taj_mahal dataset with n_points: 92991
+20-04-23 11:17:49, INFO: Load temple_nara_japan dataset with n_points: 91040
+20-04-23 11:17:58, INFO: Load trevi_fountain dataset with n_points: 552001
+20-04-23 11:18:01, INFO: Load westminster_abbey dataset with n_points: 194466
+20-04-23 11:18:02, INFO: num_3d_points: 3271254
+20-04-23 11:18:02, INFO: generate 3271254 triplets (simple add a negative patch to a matched patch)
+20-04-23 11:21:14, INFO: 10 first triplets: 
+20-04-23 11:21:14, INFO:             scene_1  point_id1  patch_id1           scene_2  point_id2  patch_id2
+0  brandenburg_gate          2          0  brandenburg_gate          2          1
+1  brandenburg_gate          4          0  brandenburg_gate          4          1
+2  brandenburg_gate          7          0  brandenburg_gate          7          1
+3  brandenburg_gate         16          0  brandenburg_gate         16          1
+4  brandenburg_gate         17          0  brandenburg_gate         17          1
+5  brandenburg_gate         18          0  brandenburg_gate         18          1
+6  brandenburg_gate         24          0  brandenburg_gate         24          1
+7  brandenburg_gate         25          0  brandenburg_gate         25          1
+8  brandenburg_gate         26          0  brandenburg_gate         26          1
+9  brandenburg_gate         28          0  brandenburg_gate         28          1
+20-04-23 11:21:14, INFO: 10 last triplets: 
+20-04-23 11:21:14, INFO:                    scene_1  point_id1  patch_id1            scene_2  point_id2  patch_id2
+3271244  westminster_abbey     373536          0  westminster_abbey     373536          1
+3271245  westminster_abbey     373537          0  westminster_abbey     373537          1
+3271246  westminster_abbey     373538          0  westminster_abbey     373538          1
+3271247  westminster_abbey     373539          0  westminster_abbey     373539          1
+3271248  westminster_abbey     373540          0  westminster_abbey     373540          1
+3271249  westminster_abbey     373541          0  westminster_abbey     373541          1
+3271250  westminster_abbey     373542          0  westminster_abbey     373542          1
+3271251  westminster_abbey     373543          0  westminster_abbey     373543          1
+3271252  westminster_abbey     373544          0  westminster_abbey     373544          1
+3271253  westminster_abbey     373545          0  westminster_abbey     373545          1
+20-04-23 11:21:24, INFO: EPOCH: 4
+20-04-23 11:21:24, INFO: ========================
+20-04-23 11:21:24, INFO: Training sceces: 
+20-04-23 11:21:24, INFO: ['brandenburg_gate', 'buckingham_palace', 'colosseum_exterior', 'grand_place_brussels', 'hagia_sophia_interior', 'notre_dame_front_facade', 'palace_of_westminster', 'pantheon_exterior', 'prague_old_town_square', 'taj_mahal', 'temple_nara_japan', 'trevi_fountain', 'westminster_abbey']
+20-04-23 11:21:29, INFO: 0/3195 - Loss: 0.5570555925369263
+20-04-23 11:21:29, INFO: models/resnet/checkpoint_20-04-23_11:21:29_4_0.pth
+20-04-23 11:22:13, INFO: 10/3195 - Loss: 0.5464516878128052
+20-04-23 11:22:56, INFO: 20/3195 - Loss: 0.5704440474510193
+20-04-23 11:23:37, INFO: 30/3195 - Loss: 0.5476254224777222
+20-04-23 11:24:18, INFO: 40/3195 - Loss: 0.557643711566925
+20-04-23 11:24:58, INFO: 50/3195 - Loss: 0.5566551089286804
+20-04-23 11:25:39, INFO: 60/3195 - Loss: 0.5517435073852539
+20-04-23 11:26:20, INFO: 70/3195 - Loss: 0.5677438974380493
+20-04-23 11:27:17, INFO: 80/3195 - Loss: 0.5442681908607483
+20-04-23 11:28:10, INFO: 90/3195 - Loss: 0.5624549984931946
+20-04-23 11:29:00, INFO: 100/3195 - Loss: 0.5451318025588989
+20-04-23 11:29:00, INFO: models/resnet/checkpoint_20-04-23_11:29:00_4_100.pth
+20-04-23 11:29:53, INFO: 110/3195 - Loss: 0.5733179450035095
+20-04-23 11:30:45, INFO: 120/3195 - Loss: 0.5523767471313477
+20-04-23 11:31:30, INFO: 130/3195 - Loss: 0.5491546392440796
+20-04-23 11:32:18, INFO: 140/3195 - Loss: 0.5522483587265015
+20-04-23 11:33:04, INFO: 150/3195 - Loss: 0.5436909198760986
+20-04-23 11:33:50, INFO: 160/3195 - Loss: 0.5553184747695923
+20-04-23 11:34:38, INFO: 170/3195 - Loss: 0.5523014068603516
+20-04-23 11:35:21, INFO: 180/3195 - Loss: 0.5569945573806763
+20-04-23 11:36:02, INFO: 190/3195 - Loss: 0.5602841377258301
+20-04-23 11:36:52, INFO: 200/3195 - Loss: 0.5581526756286621
+20-04-23 11:36:52, INFO: models/resnet/checkpoint_20-04-23_11:36:52_4_200.pth
+20-04-23 11:37:33, INFO: 210/3195 - Loss: 0.551040530204773
+20-04-23 11:38:13, INFO: 220/3195 - Loss: 0.5637426376342773
+20-04-23 11:39:07, INFO: 230/3195 - Loss: 0.5442301630973816
+20-04-23 11:39:48, INFO: 240/3195 - Loss: 0.5515496730804443
+20-04-23 11:40:28, INFO: 250/3195 - Loss: 0.5524442195892334
+20-04-23 11:41:28, INFO: 260/3195 - Loss: 0.5524610280990601
+20-04-23 11:42:25, INFO: 270/3195 - Loss: 0.5769699215888977
+20-04-23 11:43:07, INFO: 280/3195 - Loss: 0.5430077910423279
+20-04-23 11:44:08, INFO: 290/3195 - Loss: 0.5611835718154907
+20-04-23 11:44:48, INFO: 300/3195 - Loss: 0.5470849275588989
+20-04-23 11:44:48, INFO: models/resnet/checkpoint_20-04-23_11:44:48_4_300.pth
+20-04-23 11:45:36, INFO: 310/3195 - Loss: 0.5434322357177734
+20-04-23 11:46:32, INFO: 320/3195 - Loss: 0.559975802898407
+20-04-23 11:47:13, INFO: 330/3195 - Loss: 0.5576101541519165
+20-04-23 11:47:54, INFO: 340/3195 - Loss: 0.5588057637214661
+20-04-23 11:48:34, INFO: 350/3195 - Loss: 0.562548816204071
+20-04-23 11:49:15, INFO: 360/3195 - Loss: 0.5551449060440063
+20-04-23 11:49:56, INFO: 370/3195 - Loss: 0.5532494783401489
+20-04-23 11:50:36, INFO: 380/3195 - Loss: 0.5627078413963318
+20-04-23 11:51:16, INFO: 390/3195 - Loss: 0.5553441643714905
+20-04-23 11:51:56, INFO: 400/3195 - Loss: 0.5540201663970947
+20-04-23 11:51:56, INFO: models/resnet/checkpoint_20-04-23_11:51:56_4_400.pth
+20-04-23 11:52:36, INFO: 410/3195 - Loss: 0.5492771863937378
+20-04-23 11:53:18, INFO: 420/3195 - Loss: 0.5608279705047607
+20-04-23 11:53:58, INFO: 430/3195 - Loss: 0.5653247237205505
+20-04-23 11:54:38, INFO: 440/3195 - Loss: 0.5599514842033386
+20-04-23 11:55:19, INFO: 450/3195 - Loss: 0.5575478076934814
+20-04-23 11:56:00, INFO: 460/3195 - Loss: 0.5643715858459473
+20-04-23 11:56:52, INFO: 470/3195 - Loss: 0.5542510151863098
+20-04-23 11:57:34, INFO: 480/3195 - Loss: 0.554946780204773
+20-04-23 11:58:14, INFO: 490/3195 - Loss: 0.5543140172958374
+20-04-23 11:58:55, INFO: 500/3195 - Loss: 0.5620128512382507
+20-04-23 11:58:55, INFO: models/resnet/checkpoint_20-04-23_11:58:55_4_500.pth
+20-04-23 11:59:36, INFO: 510/3195 - Loss: 0.5648107528686523
+20-04-23 12:00:16, INFO: 520/3195 - Loss: 0.5537959337234497
+20-04-23 12:00:58, INFO: 530/3195 - Loss: 0.5633065700531006
+20-04-23 12:01:39, INFO: 540/3195 - Loss: 0.5430835485458374
+20-04-23 12:02:27, INFO: 550/3195 - Loss: 0.5816353559494019
+20-04-23 12:03:08, INFO: 560/3195 - Loss: 0.5513426661491394
+20-04-23 12:03:50, INFO: 570/3195 - Loss: 0.5630125403404236
+20-04-23 12:04:33, INFO: 580/3195 - Loss: 0.5500668883323669
+20-04-23 12:05:24, INFO: 590/3195 - Loss: 0.5604180097579956
+20-04-23 12:06:04, INFO: 600/3195 - Loss: 0.5481220483779907
+20-04-23 12:06:04, INFO: models/resnet/checkpoint_20-04-23_12:06:04_4_600.pth
+20-04-23 12:06:44, INFO: 610/3195 - Loss: 0.5537927150726318
+20-04-23 12:07:24, INFO: 620/3195 - Loss: 0.5643901824951172
+20-04-23 12:08:05, INFO: 630/3195 - Loss: 0.533394992351532
+20-04-23 12:08:46, INFO: 640/3195 - Loss: 0.5396235585212708
+20-04-23 12:09:27, INFO: 650/3195 - Loss: 0.5636407136917114
+20-04-23 12:10:07, INFO: 660/3195 - Loss: 0.555577278137207
+20-04-23 12:10:53, INFO: 670/3195 - Loss: 0.5253100991249084
+20-04-23 12:11:38, INFO: 680/3195 - Loss: 0.5330855846405029
+20-04-23 12:12:18, INFO: 690/3195 - Loss: 0.55661940574646
+20-04-23 12:13:00, INFO: 700/3195 - Loss: 0.5551401972770691
+20-04-23 12:13:00, INFO: models/resnet/checkpoint_20-04-23_12:13:00_4_700.pth
+20-04-23 12:13:41, INFO: 710/3195 - Loss: 0.5573760271072388
+20-04-23 12:14:21, INFO: 720/3195 - Loss: 0.5655419230461121
+20-04-23 12:15:02, INFO: 730/3195 - Loss: 0.5593401193618774
+20-04-23 12:15:42, INFO: 740/3195 - Loss: 0.5418325662612915
+20-04-23 12:16:23, INFO: 750/3195 - Loss: 0.552035927772522
+20-04-23 12:17:03, INFO: 760/3195 - Loss: 0.5611618757247925
+20-04-23 12:17:43, INFO: 770/3195 - Loss: 0.5535047650337219
+20-04-23 12:18:23, INFO: 780/3195 - Loss: 0.5532755255699158
+20-04-23 12:19:04, INFO: 790/3195 - Loss: 0.5615704655647278
+20-04-23 12:19:44, INFO: 800/3195 - Loss: 0.5572178959846497
+20-04-23 12:19:44, INFO: models/resnet/checkpoint_20-04-23_12:19:44_4_800.pth
+20-04-23 12:20:24, INFO: 810/3195 - Loss: 0.537713348865509
+20-04-23 12:21:07, INFO: 820/3195 - Loss: 0.5530988574028015
+20-04-23 12:21:48, INFO: 830/3195 - Loss: 0.5425548553466797
+20-04-23 12:22:33, INFO: 840/3195 - Loss: 0.5494951009750366
+20-04-23 12:23:16, INFO: 850/3195 - Loss: 0.5607016682624817
+20-04-23 12:23:56, INFO: 860/3195 - Loss: 0.5585986375808716
+20-04-23 12:24:37, INFO: 870/3195 - Loss: 0.552879273891449
+20-04-23 12:25:21, INFO: 880/3195 - Loss: 0.5550205707550049
+20-04-23 12:26:06, INFO: 890/3195 - Loss: 0.5519436001777649
+20-04-23 12:26:45, INFO: 900/3195 - Loss: 0.5616657137870789
+20-04-23 12:26:45, INFO: models/resnet/checkpoint_20-04-23_12:26:45_4_900.pth
+20-04-23 12:27:28, INFO: 910/3195 - Loss: 0.554103434085846
+20-04-23 12:28:15, INFO: 920/3195 - Loss: 0.5516785979270935
+20-04-23 12:29:12, INFO: 930/3195 - Loss: 0.5590947270393372
+20-04-23 12:30:09, INFO: 940/3195 - Loss: 0.5516529083251953
+20-04-23 12:31:04, INFO: 950/3195 - Loss: 0.5452634692192078
+20-04-23 12:31:55, INFO: 960/3195 - Loss: 0.5566977858543396
+20-04-23 12:32:48, INFO: 970/3195 - Loss: 0.5496032238006592
+20-04-23 12:33:42, INFO: 980/3195 - Loss: 0.5491318702697754
+20-04-23 12:34:37, INFO: 990/3195 - Loss: 0.5524227619171143
+20-04-23 12:35:34, INFO: 1000/3195 - Loss: 0.5516348481178284
+20-04-23 12:35:34, INFO: models/resnet/checkpoint_20-04-23_12:35:34_4_1000.pth
+20-04-23 12:36:28, INFO: 1010/3195 - Loss: 0.544037938117981
+20-04-23 12:37:23, INFO: 1020/3195 - Loss: 0.5606215000152588
+20-04-23 12:38:17, INFO: 1030/3195 - Loss: 0.560176432132721
+20-04-23 12:39:11, INFO: 1040/3195 - Loss: 0.5508521199226379
+20-04-23 12:40:06, INFO: 1050/3195 - Loss: 0.5604454278945923
+20-04-23 12:41:00, INFO: 1060/3195 - Loss: 0.5455153584480286
+20-04-23 12:41:53, INFO: 1070/3195 - Loss: 0.5549709796905518
+20-04-23 12:42:47, INFO: 1080/3195 - Loss: 0.5546200275421143
+20-04-23 12:43:40, INFO: 1090/3195 - Loss: 0.549979031085968
+20-04-23 12:44:34, INFO: 1100/3195 - Loss: 0.5479370355606079
+20-04-23 12:44:34, INFO: models/resnet/checkpoint_20-04-23_12:44:34_4_1100.pth
+20-04-23 12:45:29, INFO: 1110/3195 - Loss: 0.546199381351471
+20-04-23 12:46:23, INFO: 1120/3195 - Loss: 0.5618541836738586
+20-04-23 12:47:18, INFO: 1130/3195 - Loss: 0.5646529197692871
+20-04-23 12:48:10, INFO: 1140/3195 - Loss: 0.5633429288864136
+20-04-23 12:49:04, INFO: 1150/3195 - Loss: 0.5599089860916138
+20-04-23 12:49:59, INFO: 1160/3195 - Loss: 0.5682103633880615
+20-04-23 12:50:52, INFO: 1170/3195 - Loss: 0.561273455619812
+20-04-23 12:51:47, INFO: 1180/3195 - Loss: 0.5534856915473938
+20-04-23 12:52:40, INFO: 1190/3195 - Loss: 0.5530795454978943
+20-04-23 12:53:34, INFO: 1200/3195 - Loss: 0.5626429319381714
+20-04-23 12:53:34, INFO: models/resnet/checkpoint_20-04-23_12:53:34_4_1200.pth
+20-04-23 12:54:29, INFO: 1210/3195 - Loss: 0.5544101595878601
+20-04-23 12:55:23, INFO: 1220/3195 - Loss: 0.5475335121154785
+20-04-23 12:56:17, INFO: 1230/3195 - Loss: 0.5550265312194824
+20-04-23 12:57:11, INFO: 1240/3195 - Loss: 0.5529234409332275
+20-04-23 12:58:06, INFO: 1250/3195 - Loss: 0.5491375923156738
+20-04-23 12:59:04, INFO: 1260/3195 - Loss: 0.5304402112960815
+20-04-23 12:59:58, INFO: 1270/3195 - Loss: 0.5554243922233582
+20-04-23 13:00:52, INFO: 1280/3195 - Loss: 0.5530379414558411
+20-04-23 13:01:48, INFO: 1290/3195 - Loss: 0.5602334141731262

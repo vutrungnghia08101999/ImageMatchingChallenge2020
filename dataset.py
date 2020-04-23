@@ -85,10 +85,10 @@ def generate_triplets(train_scenes_info: pd.DataFrame) -> pd.DataFrame:
     columns = ['scene_1', 'point_id1', 'patch_id1',
                'scene_2', 'point_id2', 'patch_id2']
     df = pd.DataFrame(triplets, columns=columns)
-    logging.info('10 first triplets: ')
-    logging.info(df.head(10))
-    logging.info('10 last triplets: ')
-    logging.info(df.tail(10))
+#     logging.info('10 first triplets: ')
+#     logging.info(df.head(10))
+#     logging.info('10 last triplets: ')
+#     logging.info(df.tail(10))
     return df
 
 def load_train_dataset(root: str, scenes: list):
