@@ -1,18 +1,122 @@
-python process_data.py --scene brandenburg_gate
-python process_data.py --scene buckingham_palace
-python process_data.py --scene colosseum_exterior
-python process_data.py --scene grand_place_brussels
-python process_data.py --scene hagia_sophia_interior
-python process_data.py --scene notre_dame_front_facade
-python process_data.py --scene palace_of_westminster
+DATA_DIR="/mnt/DATA/Phototourism-dataset/train/"
+OUT_DIR="/mnt/DATA/cvpr_2020/"
+EXPORT="/mnt/DATA/patch_datasets/sift_scale/"
+# SCENE="palace_of_westminster"
+# SCENE="grand_place_brussels"
 
-# python process_data.py --scene reichstag
-# python process_data.py --scene sacre_coeur
-# python process_data.py --scene st_peters_square
+# SCENE="taj_mahal"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     # --matching_only \
 
-# python process_data.py --scene pantheon_exterior
-# python process_data.py --scene prague_old_town_square
-# python process_data.py --scene taj_mahal
-# python process_data.py --scene temple_nara_japan
-# python process_data.py --scene trevi_fountain
-# python process_data.py --scene westminster_abbey
+# training scenes
+
+# SCENE="brandenburg_gate"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="buckingham_palace"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="grand_place_brussels"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="hagia_sophia_interior"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="notre_dame_front_facade"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="palace_of_westminster"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="pantheon_exterior"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="prague_old_town_square"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="taj_mahal"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="temple_nara_japan"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="trevi_fountain"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# SCENE="westminster_abbey"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+# validation scenes
+DATA_DIR="/mnt/DATA/Phototourism-dataset/val/"
+
+# SCENE="reichstag"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
+
+SCENE="sacre_coeur"
+python run.py \
+    --scene_path $DATA_DIR$SCENE"/dense" \
+    --out_path $OUT_DIR$SCENE \
+    --patch_per_point 2 \
+    --export_path $EXPORT$SCENE \
+
+SCENE="st_peters_square"
+python run.py \
+    --scene_path $DATA_DIR$SCENE"/dense" \
+    --out_path $OUT_DIR$SCENE \
+    --patch_per_point 2 \
+    --export_path $EXPORT$SCENE \

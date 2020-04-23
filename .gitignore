@@ -13,4 +13,6 @@ gray_hardnet_model.pth
 logs_test.txt
 logs_test1.txt
 models.py
-
+*.ipynb*
+*.png
+test.*

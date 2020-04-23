@@ -1,84 +1,83 @@
-from tqdm import tqdm
-import yaml
-
+import os
 import numpy as np
+from tqdm import tqdm
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
-def read_yaml(file_path: str):
-    with open(file_path, 'r') as stream:
-        try:
-            file = yaml.safe_load(stream)
-        except yaml.YAMLError as exc:
-            raise RuntimeError(f'{file_path} does not exists!')
-    return file
-
-
-def save_h5(file_path: str):
-    with h5py.File(file_path, 'w') as file:
-        file.create_dataset("name-of-dataset",  data=data_to_write)
-############################################################################
-"""
-Functions for generate step
-"""
-
-
-def is_valid_patch(x: float, y: float, image: np.array, patch_size=32) -> bool:
-    height = image.shape[0]
-    width = image.shape[1]
-
-    half_size = int(patch_size/2)
-    if x - half_size < 0 or y - half_size < 0:
-        return False
-    if x - half_size + patch_size > height or y - half_size + patch_size > width:
-        return False
-    return True
-
-
-def get_patch(x: float, y: float, image: np.array, patch_size=32) -> np.array:
-    half_size = int(patch_size/2)
-    
-    x_start = int(x - half_size)
-    y_start = int(y - half_size)
-    return image[x_start: x_start+patch_size, y_start: y_start+patch_size, :]
-
-
-def concatenate_patches(patches: list) -> np.array:
-    assert len(patches) <= 256
-    cache = patches.copy()
-    n = len(cache)
-    for i in range(256 - n):
-        cache.append(np.zeros((32, 32, 3), np.uint8) + 255)
-    
-    rows = []
-    for row in range(16):
-        rows.append(np.concatenate(cache[row * 16: row * 16 + 16], axis=1))
-    return np.concatenate(rows, axis=0)
-
-
-def generate_test_set(points_ids: list, num_triplets:int, batch_size: int, dataset: dict):
-    test_set = []
+def generate_test_set(points_ids: list, num_triplets:int, dataset: dict):
     n_3dpoints = len(points_ids)
-    already_idxs = set()
+    # assert num_triplets <= n_3dpoints
+    point_inds1 = np.random.choice(n_3dpoints, num_triplets)
+    point_inds2 = np.random.choice(n_3dpoints, num_triplets)
+    
+    for i, (id1, id2) in enumerate(tqdm(zip(point_inds1, point_inds2))):
+        while id1 == id2:
+            id2 = np.random.randint(0, n_3dpoints)
+        point_inds2[i] = id2
 
-    for x in tqdm(range(num_triplets)):
-        x = 0
-        if len(already_idxs) >= batch_size:
-            already_idxs = set()
-        point_id1 = points_ids[np.random.randint(0, n_3dpoints)]
-        while point_id1 in already_idxs:
-            point_id1 = points_ids[np.random.randint(0, n_3dpoints)]
-        already_idxs.add(point_id1)
-        point_id2 = points_ids[np.random.randint(0, n_3dpoints)]
-        while point_id1 == point_id2:
-            point_id2 = points_ids[np.random.randint(0, n_3dpoints)]
+    pos_test_set = [
+        (dataset[points_ids[id1]][0], dataset[points_ids[id1]][1], 1)
+    for id1 in point_inds1]
+    
+    neg_test_set = [
+        (dataset[points_ids[id1]][1], dataset[points_ids[id2]][1], 0)
+    for id1, id2 in zip(point_inds1, point_inds2)]
 
-        pos_patch_id = np.random.randint(0, 2)
-        neg_patch_id = np.random.randint(0, 2)
+    return pos_test_set + neg_test_set
 
-        test_set.append(
-            (dataset[point_id1][pos_patch_id], dataset[point_id2][neg_patch_id], 0))
-        test_set.append(
-            (dataset[point_id1][0], dataset[point_id1][1], 1))
-    # return triplets
-    return test_set
+
+def generate_test_set_csv(points_ids: list, save_path):
+    n_points = len(points_ids)
+    points_ids1 = np.array(points_ids)
+
+    pos_test_set = np.stack([
+        points_ids1,
+        np.zeros_like(points_ids1),
+        points_ids1,
+        np.ones_like(points_ids),
+        np.ones_like(points_ids),
+    ], axis=1)
+
+    points_ids2 = points_ids1.copy()
+    np.random.shuffle(points_ids2)
+    for i, (id1, id2) in enumerate(tqdm(zip(points_ids1, points_ids2))):
+        while id1 == id2:
+            id2 = np.random.choice(points_ids1)
+        points_ids2[i] = id2
+
+    patch_id1 = np.random.choice(2, n_points)
+    patch_id2 = np.random.choice(2, n_points)
+    
+    neg_test_set = np.stack([
+        points_ids1,
+        patch_id1,
+        points_ids2,
+        patch_id2,
+        np.zeros_like(points_ids1),
+    ], axis=1)
+    
+    test_set = np.concatenate([pos_test_set, neg_test_set], axis=0)
+    df = pd.DataFrame(test_set, columns=[
+        "point_id1", "patch_id1", "point_id2", "patch_id2", "label"
+    ])
+
+    df.to_csv(save_path, index=False)
+
+
+def load_images(img_metadata, img_folder):
+    """
+    load all images of a scene
+    
+    args: 
+        --img_meta_data: loaded from images.bin
+        --img_folder: folder containing images to be loaded
+    """
+    img_dict = {}
+    for img_id, datum in tqdm(img_metadata.items()):
+        img_dict[img_id] = plt.imread(os.path.join(
+            img_folder, 
+            datum.name
+        ))
+    return img_dict
+
