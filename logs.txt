@@ -11001,3 +11001,23 @@ Training configurations:
 20-04-23 12:59:58, INFO: 1270/3195 - Loss: 0.5554243922233582
 20-04-23 13:00:52, INFO: 1280/3195 - Loss: 0.5530379414558411
 20-04-23 13:01:48, INFO: 1290/3195 - Loss: 0.5602334141731262
+20-04-24 19:58:32, INFO: 
+
+================ IMAGE MATCHING CHALLENGE 2020 ==================
+
+
+20-04-24 19:58:33, INFO: Load brandenburg_gate dataset with n_points: 62398
+20-04-24 19:58:36, INFO: Load buckingham_palace dataset with n_points: 183043
+20-04-24 19:58:39, INFO: Load colosseum_exterior dataset with n_points: 210011
+20-04-24 19:58:41, INFO: Load grand_place_brussels dataset with n_points: 197443
+20-04-24 19:58:44, INFO: Load hagia_sophia_interior dataset with n_points: 173387
+20-04-24 19:58:49, INFO: Load notre_dame_front_facade dataset with n_points: 388877
+20-04-24 19:58:50, INFO: Load palace_of_westminster dataset with n_points: 86601
+20-04-24 19:58:51, INFO: Load pantheon_exterior dataset with n_points: 122257
+20-04-24 19:58:57, INFO: Load prague_old_town_square dataset with n_points: 458836
+20-04-24 19:58:58, INFO: Load taj_mahal dataset with n_points: 65914
+20-04-24 19:58:59, INFO: Load temple_nara_japan dataset with n_points: 76018
+20-04-24 19:59:04, INFO: Load trevi_fountain dataset with n_points: 409604
+20-04-24 19:59:06, INFO: Load westminster_abbey dataset with n_points: 162940
+20-04-24 19:59:06, INFO: num_3d_points: 2597329
+20-04-24 19:59:06, INFO: generate 2597329 triplets (simple add a negative patch to a matched patch)

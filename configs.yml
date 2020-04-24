@@ -1,27 +1,27 @@
 dataset:
-    challenge_root: /home/nghiavt/workspace/dataset/32
+    challenge_root: /home/nghiavt/workspace/dataset/sift_scale_32 #32 #  #
     brown_root: /home/nghiavt/workspace/brown-data
     
     mean: 0.443728476019 # mean on train patch
     std: 0.20197947209 # std on train patch
     train_scenes: [
-#         'brandenburg_gate',
-#        'buckingham_palace',
-#        'colosseum_exterior',
-#        'grand_place_brussels',
-#        'hagia_sophia_interior',
-#        'notre_dame_front_facade',
-#        'palace_of_westminster',
-#        'pantheon_exterior',
-#        'prague_old_town_square',
-#        'taj_mahal',
-#        'temple_nara_japan',
-#        'trevi_fountain',
+        'brandenburg_gate',
+       'buckingham_palace',
+       'colosseum_exterior',
+       'grand_place_brussels',
+       'hagia_sophia_interior',
+       'notre_dame_front_facade',
+       'palace_of_westminster',
+       'pantheon_exterior',
+       'prague_old_town_square',
+       'taj_mahal',
+       'temple_nara_japan',
+       'trevi_fountain',
         'westminster_abbey']
     test_scenes:
         challenge: ['sacre_coeur', 'st_peters_square', 'reichstag']
 
-model_dir: models/sosnet
+model_dir: models/new_data_hardnet
 
 loss: triplet_margin
 batch_reduce: min
@@ -31,8 +31,8 @@ resume: '' #models/train_on_challenge_data/checkpoint_20-04-15_19:57:46_1.pth
 start_epoch: 0
 epochs: 20
 anchorswap: True
-batch_size: 512 #1024
-test_batch_size: 512 #1024
+batch_size: 1024
+test_batch_size: 1024
 margin: 1.0
 lr: 0.001
 fliprot: False

@@ -87,7 +87,7 @@ def loss_L2Net(anchor, positive, anchor_swap = False,  margin = 1.0, loss_type =
     return loss
 
 
-def loss_HardNet(anchor, positive, anchor_swap = False, margin = 1.0):
+def loss_HardNet(anchor, positive):
     """HardNet margin loss - calculates loss based on distance matrix based on positive distance and closest negative distance.
     """
 
@@ -105,13 +105,12 @@ def loss_HardNet(anchor, positive, anchor_swap = False, margin = 1.0):
     dist_without_min_on_diag = dist_without_min_on_diag+mask
 
     min_neg = torch.min(dist_without_min_on_diag,1)[0]
-    if anchor_swap:
-        min_neg2 = torch.min(dist_without_min_on_diag,0)[0]
-        min_neg = torch.min(min_neg,min_neg2)
+    min_neg2 = torch.min(dist_without_min_on_diag,0)[0]
+    min_neg = torch.min(min_neg,min_neg2)
 
     min_neg = min_neg
     pos = pos1
-    loss = torch.clamp(margin + pos - min_neg, min=0.0)
+    loss = torch.clamp(1 + pos - min_neg, min=0.0)
     loss = torch.mean(loss)
     return loss
 
