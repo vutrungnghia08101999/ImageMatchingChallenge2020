@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[ ]:
 
 
 from __future__ import division, print_function
@@ -31,7 +31,7 @@ from torch.utils.data import DataLoader
 from eval_metrics import ErrorRateAt95Recall
 from models import HardNet, ResNet, SOSNet32x32
 from dataset import TripletPhotoTour, BrownTest
-from losses import loss_HardNet, loss_L2Net
+from losses import loss_HardNet, loss_L2Net, loss_sosnet
 from utils import cv2_scale, np_reshape, read_yaml
 
 logging.basicConfig(filename='logs.txt',
@@ -82,7 +82,8 @@ def train(train_loader, model, optimizer, epoch):
         out_a = model(data_a)
         out_p = model(data_p)
 
-        loss = loss_HardNet(out_a, out_p)
+#         loss = loss_HardNet(out_a, out_p)
+        loss = loss_sosnet(out_a, out_p)
            
         optimizer.zero_grad()
         loss.backward()
@@ -180,8 +181,8 @@ for scene in configs['dataset']['test_scenes']['challenge']:
 
 
 # model = ResNet()
-model = HardNet()
-# model = SOSNet32x32()
+# model = HardNet()
+model = SOSNet32x32()
 if configs['use_cuda']:
     model = model.cuda()
 
@@ -192,9 +193,6 @@ logging.info(configs)
 # In[ ]:
 
 
-# optimizer = optim.SGD(model.features.parameters(), lr=configs['lr'],
-#                       momentum=0.9, dampening=0.9,
-#                       weight_decay=configs['weight_decay'])
 optimizer = torch.optim.Adam(model.parameters(),
                              lr=configs['lr'],
                              betas=(0.9, 0.999),

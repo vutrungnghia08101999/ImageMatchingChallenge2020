@@ -1,5 +1,5 @@
 dataset:
-    challenge_root: /home/nghiavt/workspace/dataset/sift_scale_32 #32 #  #
+    challenge_root: /home/nghiavt/workspace/dataset/32 #sift_scale_32 #32 #  #
     brown_root: /home/nghiavt/workspace/brown-data
     
     mean: 0.443728476019 # mean on train patch
@@ -17,28 +17,20 @@ dataset:
        'taj_mahal',
        'temple_nara_japan',
        'trevi_fountain',
-        'westminster_abbey']
+        'westminster_abbey',
+        ]
     test_scenes:
         challenge: ['sacre_coeur', 'st_peters_square', 'reichstag']
 
-model_dir: models/new_data_hardnet
+model_dir: models/sos_net_old_data
 
-loss: triplet_margin
-batch_reduce: min
 n_workers: 0
-anchorave: False
 resume: '' #models/train_on_challenge_data/checkpoint_20-04-15_19:57:46_1.pth
 start_epoch: 0
 epochs: 20
-anchorswap: True
-batch_size: 1024
-test_batch_size: 1024
-margin: 1.0
+# batch_size: 1024
+batch_size: 512
 lr: 0.001
-fliprot: False
-augmentation: False
-lr_decay: 0.000001
-weight_decay: 0.0001
 
 use_cuda: False
 gpu_id: 0

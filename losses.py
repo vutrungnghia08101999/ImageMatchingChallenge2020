@@ -123,58 +123,87 @@ def global_orthogonal_regularization(anchor, negative):
     return gor
 
 
-def pairwise_distances(x, y):
-    '''
-    Input: x is a Nxd matrix
-           y is an optional Mxd matirx
-    Output: dist is a NxM matrix where dist[i,j] is the square norm between x[i,:] and y[j,:]
-            if y is not given then use 'y=x'.
-    i.e. dist[i,j] = ||x[i,:]-y[j,:]||^2
-    '''
-    x_norm = (x**2).sum(1).view(-1, 1)
-    y_norm = (y**2).sum(1).view(1, -1)
-    dist = x_norm + y_norm - 2.0 * torch.mm(x, torch.transpose(y, 0, 1))
-    return torch.sqrt(dist)
 
-
-def get_KNN(a: torch.tensor, p: torch.tensor, idx: int, K=8):
-#     nearest_neighbors = set()
-    a_tmp = np.array(a[idx, :])
-    knn_a = a_tmp.argsort()[:K]
-    p_tmp = np.array(p[idx, :])
-    knn_p = p_tmp.argsort()[:K]
-    return set(knn_a).union(set(knn_p))
-    
-def loss_sosnet(out_a: torch.tensor, out_p: torch.tensor):
+############################ SOSNET ##################################
+def distance_matrix_vector_sosnet(anchor: torch.tensor, positive: torch.tensor, is_the_same=False) -> torch.tensor:
     """
-    out_a, out_p: 512 * 128
+    anchor, positive: batch_size x 128
+    return: batch_size x batch_size
     """
-    n = out_a.shape[0]
-    assert n == 512
-    tmp = 0
-    
-    dist_matrix_a = pairwise_distances(out_a, out_a)
-    dist_matrix = pairwise_distances(out_a, out_p)
-    dist_matrix_p = pairwise_distances(out_p, out_p)
+    d1_sq = torch.sum(anchor * anchor, dim=1).unsqueeze(-1)
+    d2_sq = torch.sum(positive * positive, dim=1).unsqueeze(-1)
 
-    a = dist_matrix_a.clone().detach() + torch.eye(n) * 1e+10
-    both = dist_matrix.clone().detach() + torch.eye(n) * 1e+10
-    p = dist_matrix_p.clone().detach() + torch.eye(n) * 1e+10
-    for i in range(n):
-        idx1 = torch.argmin(a[i, :])
-        idx2 = torch.argmin(both[i, :])
-        idx3 = torch.argmin(both[:, i])
-        idx4 = torch.argmin(p[i, :])
-        closest_neg_dis = min(dist_matrix_a[i][idx1], dist_matrix[i][idx2], dist_matrix[idx3][i], dist_matrix_p[i][idx4])
-        l = max(0, 1 + dist_matrix[i][i] - closest_neg_dis)
-        tmp += l * l
+    eps = 1e-6
+    s1 = (d1_sq.repeat(1, positive.size(0)) + torch.t(d2_sq.repeat(1, anchor.size(0)))
+                      - 2.0 * torch.bmm(anchor.unsqueeze(0), torch.t(positive).unsqueeze(0)).squeeze(0))
+    if is_the_same:
+        eye = torch.eye(s1.size(1), requires_grad=True)
+        s1 = s1 + eye * 1
+    dist_matrix = torch.sqrt(s1 + eps)
     
-#     sos_loss = 0
-#     for idx in range(n):
-#         pair_loss = 0
-#         knn = get_KNN(a, p, idx)
 
-#         for neighbor in knn:
-#             pair_loss += (dist_matrix_a[idx][neighbor] - dist_matrix_p[idx][neighbor]) ** 2
-#         sos_loss += torch.sqrt(pair_loss)
-    return sum(tmp)/n #(fos_loss + sos_loss)/n
+
+    return dist_matrix
+
+def get_distance_matrix_without_min_on_diag(dist_matrix: torch.tensor) -> torch.tensor:
+    """
+    dist_matrix: batch_size x batch_size
+    return: batch_size x batch_size
+    """
+    eye = torch.eye(dist_matrix.size(1), requires_grad=True)
+    
+    # steps to filter out same patches that occur in distance matrix as negatives
+    dist_without_min_on_diag = dist_matrix + eye * 10
+    mask = (dist_without_min_on_diag.ge(0.008).float()-1.0)*(-1)
+    mask = mask.type_as(dist_without_min_on_diag)*10
+    dist_without_min_on_diag = dist_without_min_on_diag + mask
+    return dist_without_min_on_diag
+    
+    
+def loss_sosnet(anchor, positive):
+    """HardNet margin loss - calculates loss based on distance matrix based on positive distance and closest negative distance.
+    """
+
+    assert anchor.size() == positive.size(), "Input sizes between positive and negative must be equal."
+    assert anchor.dim() == 2, "Inputd must be a 2D matrix."
+    n = anchor.shape[0]
+    eps = 1e-8
+
+    dist_matrix_a = distance_matrix_vector_sosnet(anchor, anchor, True) + eps
+    dist_without_min_on_diag_a = get_distance_matrix_without_min_on_diag(dist_matrix_a)
+
+    dist_matrix = distance_matrix_vector_sosnet(anchor, positive) + eps
+    pos1 = torch.diag(dist_matrix)
+    dist_without_min_on_diag = get_distance_matrix_without_min_on_diag(dist_matrix)
+
+    dist_matrix_p = distance_matrix_vector_sosnet(positive, positive, True) + eps
+    dist_without_min_on_diag_p = get_distance_matrix_without_min_on_diag(dist_matrix_p)
+
+    # first order loss
+    min_neg_a = torch.min(dist_without_min_on_diag_a,1)[0]
+    min_neg1 = torch.min(dist_without_min_on_diag,1)[0]
+    min_neg2 = torch.min(dist_without_min_on_diag,0)[0]
+    min_neg_p = torch.min(dist_without_min_on_diag_p, 1)[0]
+    
+    min_neg = torch.min(torch.min(min_neg1, min_neg2), torch.min(min_neg_a, min_neg_p))
+    pos = pos1
+
+    fos_loss = torch.clamp(1 + pos - min_neg, min=0.0)
+    fos_loss = torch.mean(fos_loss)
+    
+    # second order loss
+    with torch.no_grad():
+        _, indices_1 = torch.topk(dist_without_min_on_diag_a, k=8, dim=1, largest=False)
+        _, indices_2 = torch.topk(dist_without_min_on_diag_p, k=8, dim=1, largest=False)
+    mask = torch.zeros(n, n)
+    for i in range(mask.shape[0]):
+        mask[i][indices_1[i]] = 1
+        mask[i][indices_2[i]] = 1
+    
+    mask.requires_grad_(True)
+    s = (dist_without_min_on_diag_a - dist_without_min_on_diag_p) * (dist_without_min_on_diag_a - dist_without_min_on_diag_p)
+    s = mask * s
+    s = torch.sum(s, dim=1)
+    s = torch.sqrt(s + eps)
+    sos_loss = torch.mean(s)
+    return fos_loss + sos_loss
