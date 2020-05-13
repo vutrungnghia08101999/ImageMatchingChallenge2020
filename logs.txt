@@ -118,3 +118,10 @@ total 234052 3dpoints20-04-23 03:08:15, INFO: removed 51009 point(s) for poor ma
 20-04-23 14:48:25, INFO: detecting keypoint and matching
 20-04-23 14:48:27, INFO: result /mnt/DATA/cvpr_2020/st_peters_square/matching_result.npy exist, skip matching
 20-04-23 14:48:29, INFO: patches exist, skip extracting
+20-04-25 00:57:58, INFO: using GeForce GTX 1050 Ti with Max-Q Design
+20-04-25 00:58:09, INFO: loading images from /mnt/DATA/Phototourism-dataset/train/colosseum_exterior/dense
+20-04-25 00:58:37, INFO: detecting keypoint and matching
+20-04-25 01:02:59, INFO: matching result saved to /mnt/DATA/cvpr_2020/colosseum_exterior/matching_result.npy
+20-04-25 01:02:59, INFO: extract patches and save to /mnt/DATA/patch_datasets/sift_scale/colosseum_exterior
+20-04-25 01:16:13, INFO: removed 49796 point(s) for poor matching results
+20-04-25 01:16:13, INFO: saving patches ....

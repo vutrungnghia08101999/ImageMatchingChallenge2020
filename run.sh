@@ -1,15 +1,6 @@
 DATA_DIR="/mnt/DATA/Phototourism-dataset/train/"
 OUT_DIR="/mnt/DATA/cvpr_2020/"
 EXPORT="/mnt/DATA/patch_datasets/sift_scale/"
-# SCENE="palace_of_westminster"
-# SCENE="grand_place_brussels"
-
-# SCENE="taj_mahal"
-# python run.py \
-#     --scene_path $DATA_DIR$SCENE"/dense" \
-#     --out_path $OUT_DIR$SCENE \
-#     --patch_per_point 2 \
-#     # --matching_only \
 
 # training scenes
 
@@ -26,6 +17,13 @@ EXPORT="/mnt/DATA/patch_datasets/sift_scale/"
 #     --out_path $OUT_DIR$SCENE \
 #     --patch_per_point 2 \
 #     --export_path $EXPORT$SCENE \
+
+SCENE="colosseum_exterior"
+python run.py \
+    --scene_path $DATA_DIR$SCENE"/dense" \
+    --out_path $OUT_DIR$SCENE \
+    --patch_per_point 2 \
+    --export_path $EXPORT$SCENE \
 
 # SCENE="grand_place_brussels"
 # python run.py \
@@ -98,7 +96,7 @@ EXPORT="/mnt/DATA/patch_datasets/sift_scale/"
 #     --export_path $EXPORT$SCENE \
 
 # validation scenes
-DATA_DIR="/mnt/DATA/Phototourism-dataset/val/"
+# DATA_DIR="/mnt/DATA/Phototourism-dataset/val/"
 
 # SCENE="reichstag"
 # python run.py \
@@ -107,16 +105,16 @@ DATA_DIR="/mnt/DATA/Phototourism-dataset/val/"
 #     --patch_per_point 2 \
 #     --export_path $EXPORT$SCENE \
 
-SCENE="sacre_coeur"
-python run.py \
-    --scene_path $DATA_DIR$SCENE"/dense" \
-    --out_path $OUT_DIR$SCENE \
-    --patch_per_point 2 \
-    --export_path $EXPORT$SCENE \
+# SCENE="sacre_coeur"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
 
-SCENE="st_peters_square"
-python run.py \
-    --scene_path $DATA_DIR$SCENE"/dense" \
-    --out_path $OUT_DIR$SCENE \
-    --patch_per_point 2 \
-    --export_path $EXPORT$SCENE \
+# SCENE="st_peters_square"
+# python run.py \
+#     --scene_path $DATA_DIR$SCENE"/dense" \
+#     --out_path $OUT_DIR$SCENE \
+#     --patch_per_point 2 \
+#     --export_path $EXPORT$SCENE \
