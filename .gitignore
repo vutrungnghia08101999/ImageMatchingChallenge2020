@@ -1,0 +1,7 @@
+test.py
+test.sh
+Untitled*
+*.png
+*__pycache__*
+*.vscode*
+*.ipynb*
