@@ -15,7 +15,6 @@ from tqdm import tqdm
 
 from extract_patches.core import extract_patches
 from colmap.scripts.python.read_write_model import read_model
-from colmap.scripts.python.read_dense import read_array
 from extract_keypoint import get_SIFT_keypoints
 from matching import match
 from utils import generate_test_set, generate_test_set_csv, load_images
