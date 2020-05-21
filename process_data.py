@@ -72,10 +72,12 @@ for filename in tqdm(image_files):
 # Counter(matches).values()
 
 for image_id in tqdm(images.keys()):
+    image_id = 1
     image = images[image_id]
     height, width, _ = images_storage[image.name].shape
     width_check = (image.xys[:, 0] - 16 > 0) * (image.xys[:, 0] + 16 < width)
     height_check = (image.xys[:, 1] - 16 > 0) * (image.xys[:, 1] + 16 < height)
     has_3d_points = image.point3D_ids != -1
     flags = width_check * height_check * has_3d_points
-    image.flags = flags
+    image.keypoints = image.xys[flags]
+    image.point3d_ids = image.point3D_ids[flags]
