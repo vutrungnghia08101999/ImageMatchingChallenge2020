@@ -45,3 +45,17 @@
 ======== SUPERGLUE - DATA PREPROCESSING ========
 
 20-05-22 00:38:10, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'pantheon_exterior')]
+20-05-22 01:23:54, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 01:23:54, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
+20-05-22 01:24:03, INFO: No.points: 17823
+20-05-22 01:24:03, INFO: No.images: 75
+20-05-22 01:24:03, INFO: max no.pairs: 2775
+20-05-22 01:24:10, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 01:24:10, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
+20-05-22 01:24:11, INFO: No.points: 17823
+20-05-22 01:24:11, INFO: No.images: 75
+20-05-22 01:24:11, INFO: max no.pairs: 2775

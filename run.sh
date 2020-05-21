@@ -1,5 +1,5 @@
 python process_data.py --scene reichstag
-python process_data.py --scene brandenburg_gate --input 
+python process_data.py --scene brandenburg_gate
 python process_data.py --scene colosseum_exterior
 python process_data.py --scene hagia_sophia_interior
 python process_data.py --scene palace_of_westminster
