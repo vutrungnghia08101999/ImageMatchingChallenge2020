@@ -1,0 +1,47 @@
+20-05-22 00:37:38, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:37:38, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
+20-05-22 00:37:38, INFO: No.points: 17823
+20-05-22 00:37:38, INFO: No.images: 75
+20-05-22 00:37:38, INFO: max no.pairs: 2775
+20-05-22 00:37:40, INFO: Generated 2775 pairs of images
+20-05-22 00:37:43, INFO: Saved data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output/reichstag.npy
+20-05-22 00:37:43, INFO: Completed
+
+20-05-22 00:37:44, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:37:44, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'colosseum_exterior')]
+20-05-22 00:37:50, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:37:50, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'hagia_sophia_interior')]
+20-05-22 00:37:54, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:37:54, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'palace_of_westminster')]
+20-05-22 00:37:56, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:37:56, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'prague_old_town_square')]
+20-05-22 00:38:05, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:38:05, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'sacre_coeur')]
+20-05-22 00:38:08, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:38:08, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'taj_mahal')]
+20-05-22 00:38:08, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:38:08, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'trevi_fountain')]
+20-05-22 00:38:08, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:38:08, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'buckingham_palace')]
+20-05-22 00:38:10, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-22 00:38:10, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'pantheon_exterior')]
