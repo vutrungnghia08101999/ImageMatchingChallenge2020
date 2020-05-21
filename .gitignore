@@ -16,3 +16,4 @@ models.py
 *.ipynb*
 *.png
 test.*
+push.sh
