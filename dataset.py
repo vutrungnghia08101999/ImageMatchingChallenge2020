@@ -72,26 +72,23 @@ def transform_and_filter(pair: dict) -> dict:
     # construct the groundtruth matrix for keypoints after filtering
     height, width = pair['keypoints'][0].shape[0] + 1, pair['keypoints'][1].shape[0] + 1
     groundtruth = np.zeros((height, width))
-    right_append = np.ones(height)
-    bottom_append = np.ones(width)
-
     for kp1_idx, kp2_idx in pair['matches']:
         groundtruth[kp1_idx][kp2_idx] = 1
-        right_append[kp1_idx] = 0
-        bottom_append[kp2_idx] = 0
-
-    groundtruth[:, width - 1] += right_append
-    groundtruth[height - 1, :] += bottom_append
-    groundtruth[height - 1][width - 1] = 0
 
     filter0 = np.append(filter0, True)
     filter1 = np.append(filter1, True)
     groundtruth = groundtruth[filter0, :]
     groundtruth = groundtruth[:, filter1]
 
+    right_append = groundtruth.sum(axis=1) == 0
+    bottom_append = groundtruth.sum(axis=0) == 0
+    groundtruth[:, -1] += right_append
+    groundtruth[-1, :] += bottom_append
+    groundtruth[-1][-1] = 0
+
     return {
         'keypoints': (keypoints0, keypoints1),
-        'descriptors': (descriptors0, descriptors1),
+        'descriptors': (descriptors0.transpose(), descriptors1.transpose()),  # N x 128 => 128 x N, M x 128 => 128 x M
         'scores': (scores0, scores1),
         'shape': pair['shape'],
         'name': pair['name'],

@@ -122,39 +122,39 @@ config = {
     }
 }
 #########################################################
-superpoint = SuperPoint(config['superpoint']).to(device)
-superglue = SuperGlue(config['superglue']).to(device)
+# superpoint = SuperPoint(config['superpoint']).to(device)
+# superglue = SuperGlue(config['superglue']).to(device)
 
-pair = pairs[10]
-name0, name1 = pair[:2]
-stem0, stem1 = Path(name0).stem, Path(name1).stem
+# pair = pairs[10]
+# name0, name1 = pair[:2]
+# stem0, stem1 = Path(name0).stem, Path(name1).stem
 
-if len(pair) >= 5:
-    rot0, rot1 = int(pair[2]), int(pair[3])
-else:
-    rot0, rot1 = 0, 0
-input_dir = Path(args.input_dir)
-image0, inp0, scales0 = read_image(
-    input_dir / name0, device, args.resize, rot0, args.resize_float)
-image1, inp1, scales1 = read_image(
-    input_dir / name1, device, args.resize, rot1, args.resize_float)
+# if len(pair) >= 5:
+#     rot0, rot1 = int(pair[2]), int(pair[3])
+# else:
+#     rot0, rot1 = 0, 0
+# input_dir = Path(args.input_dir)
+# image0, inp0, scales0 = read_image(
+#     input_dir / name0, device, args.resize, rot0, args.resize_float)
+# image1, inp1, scales1 = read_image(
+#     input_dir / name1, device, args.resize, rot1, args.resize_float)
 
-image0_superpoint_out = superpoint({'image': inp0})
-image1_superpoint_out = superpoint({'image': inp1})
+# image0_superpoint_out = superpoint({'image': inp0})
+# image1_superpoint_out = superpoint({'image': inp1})
 
-superglue_inputs = {
-    'image0_shape': ToPILImage()(inp0.squeeze()).size,
-    'descriptors0': torch.stack(image0_superpoint_out['descriptors']),
-    'keypoints0': torch.stack(image0_superpoint_out['keypoints']),
-    'scores0': torch.stack(image0_superpoint_out['scores']),
+# superglue_inputs = {
+#     'image0_shape': ToPILImage()(inp0.squeeze()).size,
+#     'descriptors0': torch.stack(image0_superpoint_out['descriptors']),
+#     'keypoints0': torch.stack(image0_superpoint_out['keypoints']),
+#     'scores0': torch.stack(image0_superpoint_out['scores']),
 
-    'image1_shape': ToPILImage()(inp1.squeeze()).size,
-    'descriptors1': torch.stack(image1_superpoint_out['descriptors']),
-    'keypoints1': torch.stack(image1_superpoint_out['keypoints']),
-    'scores1': torch.stack(image1_superpoint_out['scores'])
-}
+#     'image1_shape': ToPILImage()(inp1.squeeze()).size,
+#     'descriptors1': torch.stack(image1_superpoint_out['descriptors']),
+#     'keypoints1': torch.stack(image1_superpoint_out['keypoints']),
+#     'scores1': torch.stack(image1_superpoint_out['scores'])
+# }
 
-superglue_out = superglue(superglue_inputs)
+# superglue_out = superglue(superglue_inputs)
 
 #########################################################
 
@@ -174,7 +174,7 @@ if args.viz:
 timer = AverageTimer(newline=True)
 
 for i, pair in enumerate(pairs):
-    pair = pairs[10]
+    # pair = pairs[10]
     name0, name1 = pair[:2]
     print(name0, name1)
     stem0, stem1 = Path(name0).stem, Path(name1).stem

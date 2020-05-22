@@ -20,7 +20,8 @@ def MLP(channels: list, do_bn=True):
 
 def normalize_keypoints(kpts, image_shape):
     """ Normalize keypoints locations based on image image_shape"""
-    width, height = image_shape
+    height = image_shape['height'].item()
+    width = image_shape['width'].item()
     one = kpts.new_tensor(1)
     size = torch.stack([one*width, one*height])[None]
     center = size / 2
@@ -37,8 +38,9 @@ class KeypointEncoder(nn.Module):
 
     def forward(self, kpts, scores):
         inputs = [kpts.transpose(1, 2), scores.unsqueeze(1)]
-        return self.encoder(torch.cat(inputs, dim=1))
-
+        if torch.cuda.is_available():
+            return self.encoder(torch.cat(inputs, dim=1).type(torch.cuda.FloatTensor))
+        return self.encoder(torch.cat(inputs, dim=1).type(torch.FloatTensor))
 
 def attention(query, key, value):
     dim = query.shape[1]
@@ -154,7 +156,7 @@ class SuperGlue(nn.Module):
     """
     default_config = {
         'descriptor_dim': 128,
-        'weights': 'indoor',
+        # 'weights': 'indoor',
         'keypoint_encoder': [32, 64, 128, 256],
         'GNN_layers': ['self', 'cross'] * 9,
         'sinkhorn_iterations': 100,
@@ -178,30 +180,14 @@ class SuperGlue(nn.Module):
         bin_score = torch.nn.Parameter(torch.tensor(1.))
         self.register_parameter('bin_score', bin_score)
 
-        assert self.config['weights'] in ['indoor', 'outdoor']
-        path = Path(__file__).parent
-        path = path / 'weights/superglue_{}.pth'.format(self.config['weights'])
-        self.load_state_dict(torch.load(path))
-        print('Loaded SuperGlue model (\"{}\" weights)'.format(
-            self.config['weights']))
-
-    def forward(self, data):
+    def forward(self, data, is_train=True):
         """Run SuperGlue on a pair of keypoints and descriptors"""
         desc0, desc1 = data['descriptors0'], data['descriptors1']
         kpts0, kpts1 = data['keypoints0'], data['keypoints1']
 
-        if kpts0.shape[1] == 0 or kpts1.shape[1] == 0:  # no keypoints
-            shape0, shape1 = kpts0.shape[:-1], kpts1.shape[:-1]
-            return {
-                'matches0': kpts0.new_full(shape0, -1, dtype=torch.int),
-                'matches1': kpts1.new_full(shape1, -1, dtype=torch.int),
-                'matching_scores0': kpts0.new_zeros(shape0),
-                'matching_scores1': kpts1.new_zeros(shape1),
-            }
-
         # Keypoint normalization.
-        kpts0 = normalize_keypoints(kpts0, data['image0_shape'])
-        kpts1 = normalize_keypoints(kpts1, data['image1_shape'])
+        kpts0 = normalize_keypoints(kpts0, data['shape0'])
+        kpts1 = normalize_keypoints(kpts1, data['shape1'])
 
         # Keypoint MLP encoder.
         desc0 = desc0 + self.kenc(kpts0, data['scores0'])
@@ -223,25 +209,27 @@ class SuperGlue(nn.Module):
             iters=self.config['sinkhorn_iterations'])
 
         # training phase
-        return scores  # return log probability matrix size (N+1) x (M+1)
+        if is_train:
+            return scores  # return log probability matrix size (N+1) x (M+1)
 
-        # # validating phase
-        # # Get the matches with score above "match_threshold".
-        # max0, max1 = scores[:, :-1, :-1].max(2), scores[:, :-1, :-1].max(1)
-        # indices0, indices1 = max0.indices, max1.indices
-        # mutual0 = arange_like(indices0, 1)[None] == indices1.gather(1, indices0)
-        # mutual1 = arange_like(indices1, 1)[None] == indices0.gather(1, indices1)
-        # zero = scores.new_tensor(0)
-        # mscores0 = torch.where(mutual0, max0.values.exp(), zero)
-        # mscores1 = torch.where(mutual1, mscores0.gather(1, indices1), zero)
-        # valid0 = mutual0 & (mscores0 > self.config['match_threshold'])
-        # valid1 = mutual1 & valid0.gather(1, indices1)
-        # indices0 = torch.where(valid0, indices0, indices0.new_tensor(-1))
-        # indices1 = torch.where(valid1, indices1, indices1.new_tensor(-1))
+        # validating phase
+        assert kpts0.shape[1] != 0 or kpts1.shape[1] != 0
+        # Get the matches with score above "match_threshold".
+        max0, max1 = scores[:, :-1, :-1].max(2), scores[:, :-1, :-1].max(1)
+        indices0, indices1 = max0.indices, max1.indices
+        mutual0 = arange_like(indices0, 1)[None] == indices1.gather(1, indices0)
+        mutual1 = arange_like(indices1, 1)[None] == indices0.gather(1, indices1)
+        zero = scores.new_tensor(0)
+        mscores0 = torch.where(mutual0, max0.values.exp(), zero)
+        mscores1 = torch.where(mutual1, mscores0.gather(1, indices1), zero)
+        valid0 = mutual0 & (mscores0 > self.config['match_threshold'])
+        valid1 = mutual1 & valid0.gather(1, indices1)
+        indices0 = torch.where(valid0, indices0, indices0.new_tensor(-1))
+        indices1 = torch.where(valid1, indices1, indices1.new_tensor(-1))
 
-        # return {
-        #     'matches0': indices0, # use -1 for invalid match
-        #     'matches1': indices1, # use -1 for invalid match
-        #     'matching_scores0': mscores0,
-        #     'matching_scores1': mscores1,
-        # }
+        return {
+            'matches0': indices0, # use -1 for invalid match
+            'matches1': indices1, # use -1 for invalid match
+            'matching_scores0': mscores0,
+            'matching_scores1': mscores1,
+        }
