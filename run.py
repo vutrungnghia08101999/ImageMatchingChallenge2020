@@ -30,7 +30,7 @@ def detect_match(img_dict, image_metadata, device):
             metadata = {"keypoint": datum.xys}
             
             gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-            pred_kps, sizes = get_SIFT_keypoints(sift, gray)
+            pred_kps, sizes, response = get_SIFT_keypoints(sift, gray)
         
             try:
                 match_ids, dist = match(

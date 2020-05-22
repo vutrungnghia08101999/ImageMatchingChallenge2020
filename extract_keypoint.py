@@ -16,5 +16,6 @@ def get_SIFT_keypoints(sift, img, max_kp=10000):
     unique = np.sort(unique)[:max_kp]
     pt = pt[unique]
     size = size[unique]
-    return pt, size
+    response = response[unique]
+    return pt, size, response
 

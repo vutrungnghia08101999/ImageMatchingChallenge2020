@@ -15,5 +15,6 @@ logs_test1.txt
 models.py
 *.ipynb*
 *.png
+*.npy
 test.*
 push.sh
