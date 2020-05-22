@@ -6,5 +6,5 @@ Generate pair of images includes:
 - descriptors: (N x 128, M x 128)
 - scores: (N, M)
 - 3dpoints: (N, M)
-- shape: ((width, height), (width, height))
+- shape: ({width: , height: }, {width: , height: })
 - name: (str, str)

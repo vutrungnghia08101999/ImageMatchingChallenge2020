@@ -1,32 +1,29 @@
 import argparse
-import logging
 import itertools
+import logging
 import os
-from tqdm import tqdm
 import random
-from PIL import Image
+from tqdm import tqdm
 
 import numpy as np
+from PIL import Image
 
 from colmap.scripts.python.read_write_model import read_points3d_binary
 logging.basicConfig(filename='logs.txt',
                     filemode='a',
                     format='%(asctime)s, %(levelname)s: %(message)s',
                     datefmt='%y-%m-%d %H:%M:%S',
-                    level=logging.DEBUG)
+                    level=logging.INFO)
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
 logging.getLogger().addHandler(console)
-
-np.random.seed(0)
-random.seed(0)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input')
 parser.add_argument('--output', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output')
 parser.add_argument('--scene', type=str, default='reichstag')
 parser.add_argument('--iou_thresold', type=float, default=0.1)
-args = parser.parse_args([])
+args = parser.parse_args()
 
 logging.info('\n======== SUPERGLUE - DATA PREPROCESSING ========\n')
 logging.info(args._get_kwargs())
@@ -113,6 +110,7 @@ points3d_IDs0 = []
 points3d_IDs1 = []
 has_descriptors0 = []
 has_descriptors1 = []
+counter = 0
 for k, v in tqdm(dataset.items()):
     matches.append(len(v['matches']))
     keypoints0.append(v['keypoints'][0].shape[0])
@@ -121,6 +119,9 @@ for k, v in tqdm(dataset.items()):
     points3d_IDs1.append(sum(v['3dpoints'][1] != -1))
     has_descriptors0.append(sum(~np.isnan(v['descriptors'][0][:, 0])))
     has_descriptors1.append(sum(~np.isnan(v['descriptors'][1][:, 0])))
+    counter += 1
+    if counter == 2000:
+        break
 
 logging.info(f'avg matches: {sum(matches)/len(matches)}')
 logging.info(f'avg keypoints0: {sum(keypoints0)/len(keypoints0)}')
