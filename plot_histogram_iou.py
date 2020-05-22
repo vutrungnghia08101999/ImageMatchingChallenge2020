@@ -9,14 +9,6 @@ import numpy as np
 import seaborn as sns
 
 from colmap.scripts.python.read_write_model import read_points3d_binary
-# logging.basicConfig(filename='logs.txt',
-#                     filemode='a',
-#                     format='%(asctime)s, %(levelname)s: %(message)s',
-#                     datefmt='%y-%m-%d %H:%M:%S',
-#                     level=logging.DEBUG)
-# console = logging.StreamHandler()
-# console.setLevel(logging.INFO)
-# logging.getLogger().addHandler(console)
 logging.basicConfig(level=logging.INFO)
 
 np.random.seed(0)
