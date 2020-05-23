@@ -1,36 +1,292 @@
-20-05-22 11:18:47, INFO: 
+20-05-23 19:32:22, INFO: 
 ======== SUPERGLUE - DATA PREPROCESSING ========
 
-20-05-22 11:18:47, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('iou_thresold', 0.1), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
-20-05-22 11:18:47, INFO: No.points: 17823
-20-05-22 11:18:47, INFO: No.images: 75
-20-05-22 11:18:47, INFO: max no.pairs: 2775
-20-05-22 11:18:48, INFO: No.pair filter/all: 185/2775
-20-05-22 11:18:59, INFO: avg matches: 1372.8540540540541
-20-05-22 11:18:59, INFO: avg keypoints0: 6529.513513513513
-20-05-22 11:18:59, INFO: avg keypoints1: 6633.502702702703
-20-05-22 11:18:59, INFO: avg points3d_IDs0: 2849.8
-20-05-22 11:18:59, INFO: avg points3d_IDs1: 3047.3945945945948
-20-05-22 11:18:59, INFO: avg has_descriptors0: 3501.8594594594597
-20-05-22 11:18:59, INFO: avg has_descriptors1: 3759.4864864864867
-20-05-22 11:19:00, INFO: Saved data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output/reichstag.npy
-20-05-22 11:19:00, INFO: Completed
+20-05-23 19:32:22, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'reichstag')]
+20-05-23 19:32:22, INFO: No.points: 17823
+20-05-23 19:32:22, INFO: No.images: 75
+20-05-23 19:32:22, INFO: max no.pairs: 2775
+20-05-23 19:32:23, INFO: No.pair filter/all: 185/2775
+20-05-23 19:32:32, INFO: avg matches: 1372.8540540540541
+20-05-23 19:32:32, INFO: avg keypoints0: 6529.513513513513
+20-05-23 19:32:32, INFO: avg keypoints1: 6633.502702702703
+20-05-23 19:32:32, INFO: avg points3d_IDs0: 2849.8
+20-05-23 19:32:32, INFO: avg points3d_IDs1: 3047.3945945945948
+20-05-23 19:32:32, INFO: avg has_descriptors0: 3501.8594594594597
+20-05-23 19:32:32, INFO: avg has_descriptors1: 3759.4864864864867
+20-05-23 19:32:32, INFO: Saved data at: /home/hieu123/nghia/processed_data/reichstag.npy
+20-05-23 19:32:32, INFO: Completed
 
-20-05-22 11:19:00, INFO: 
+20-05-23 19:32:33, INFO: 
 ======== SUPERGLUE - DATA PREPROCESSING ========
 
-20-05-22 11:19:00, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('iou_thresold', 0.12), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'brandenburg_gate')]
-20-05-22 11:19:20, INFO: No.points: 100040
-20-05-22 11:19:20, INFO: No.images: 1363
-20-05-22 11:19:20, INFO: max no.pairs: 928203
-20-05-22 11:24:21, INFO: No.pair filter/all: 11623/926592
-20-05-22 11:27:01, INFO: avg matches: 1073.957
-20-05-22 11:27:01, INFO: avg keypoints0: 4151.5845
-20-05-22 11:27:01, INFO: avg keypoints1: 4086.874
-20-05-22 11:27:01, INFO: avg points3d_IDs0: 2821.868
-20-05-22 11:27:01, INFO: avg points3d_IDs1: 2840.14
-20-05-22 11:27:01, INFO: avg has_descriptors0: 1984.2545
-20-05-22 11:27:01, INFO: avg has_descriptors1: 1909.735
-20-05-22 11:27:25, INFO: Saved data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output/brandenburg_gate.npy
-20-05-22 11:27:25, INFO: Completed
+20-05-23 19:32:33, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'brandenburg_gate')]
+20-05-23 19:32:37, INFO: No.points: 100040
+20-05-23 19:32:37, INFO: No.images: 1363
+20-05-23 19:32:37, INFO: max no.pairs: 928203
+20-05-23 19:36:21, INFO: No.pair filter/all: 25707/926592
+20-05-23 19:38:47, INFO: avg matches: 945.7465
+20-05-23 19:38:47, INFO: avg keypoints0: 4148.2845
+20-05-23 19:38:47, INFO: avg keypoints1: 4231.7645
+20-05-23 19:38:47, INFO: avg points3d_IDs0: 2672.0685
+20-05-23 19:38:47, INFO: avg points3d_IDs1: 2851.921
+20-05-23 19:38:47, INFO: avg has_descriptors0: 1934.401
+20-05-23 19:38:47, INFO: avg has_descriptors1: 1992.389
+20-05-23 19:39:05, INFO: Saved data at: /home/hieu123/nghia/processed_data/brandenburg_gate.npy
+20-05-23 19:39:05, INFO: Completed
+
+20-05-23 19:39:11, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 19:39:11, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'buckingham_palace')]
+20-05-23 19:39:19, INFO: No.points: 234052
+20-05-23 19:39:19, INFO: No.images: 1676
+20-05-23 19:39:19, INFO: max no.pairs: 1403650
+20-05-23 19:46:49, INFO: No.pair filter/all: 13200/1402436
+20-05-23 19:50:39, INFO: avg matches: 1486.2495
+20-05-23 19:50:39, INFO: avg keypoints0: 6972.341
+20-05-23 19:50:39, INFO: avg keypoints1: 6883.271
+20-05-23 19:50:39, INFO: avg points3d_IDs0: 3809.4905
+20-05-23 19:50:39, INFO: avg points3d_IDs1: 3744.4305
+20-05-23 19:50:39, INFO: avg has_descriptors0: 4641.6265
+20-05-23 19:50:39, INFO: avg has_descriptors1: 4556.6385
+20-05-23 19:50:58, INFO: Saved data at: /home/hieu123/nghia/processed_data/buckingham_palace.npy
+20-05-23 19:50:58, INFO: Completed
+
+20-05-23 19:51:03, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 19:51:03, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.15), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'colosseum_exterior')]
+20-05-23 19:51:15, INFO: No.points: 259807
+20-05-23 19:51:15, INFO: No.images: 2063
+20-05-23 19:51:15, INFO: max no.pairs: 2126953
+20-05-23 20:07:15, INFO: No.pair filter/all: 58218/1676734
+20-05-23 20:16:04, INFO: avg matches: 2831.6345
+20-05-23 20:16:04, INFO: avg keypoints0: 9127.699
+20-05-23 20:16:04, INFO: avg keypoints1: 9192.7705
+20-05-23 20:16:04, INFO: avg points3d_IDs0: 6403.383
+20-05-23 20:16:04, INFO: avg points3d_IDs1: 6407.24
+20-05-23 20:16:04, INFO: avg has_descriptors0: 5785.241
+20-05-23 20:16:04, INFO: avg has_descriptors1: 5759.3195
+20-05-23 20:18:00, INFO: Saved data at: /home/hieu123/nghia/processed_data/colosseum_exterior.npy
+20-05-23 20:18:00, INFO: Completed
+
+20-05-23 20:19:08, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 20:19:08, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'grand_place_brussels')]
+20-05-23 20:19:15, INFO: No.points: 229788
+20-05-23 20:19:15, INFO: No.images: 1083
+20-05-23 20:19:15, INFO: max no.pairs: 585903
+20-05-23 20:21:33, INFO: No.pair filter/all: 17718/357833
+20-05-23 20:25:03, INFO: avg matches: 2166.204
+20-05-23 20:25:03, INFO: avg keypoints0: 10087.4095
+20-05-23 20:25:03, INFO: avg keypoints1: 9985.983
+20-05-23 20:25:03, INFO: avg points3d_IDs0: 5446.29
+20-05-23 20:25:03, INFO: avg points3d_IDs1: 5415.3635
+20-05-23 20:25:03, INFO: avg has_descriptors0: 7824.5175
+20-05-23 20:25:03, INFO: avg has_descriptors1: 7662.8615
+20-05-23 20:25:30, INFO: Saved data at: /home/hieu123/nghia/processed_data/grand_place_brussels.npy
+20-05-23 20:25:30, INFO: Completed
+
+20-05-23 20:25:38, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 20:25:38, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'hagia_sophia_interior')]
+20-05-23 20:25:45, INFO: No.points: 235541
+20-05-23 20:25:45, INFO: No.images: 888
+20-05-23 20:25:45, INFO: max no.pairs: 393828
+20-05-23 20:29:05, INFO: No.pair filter/all: 9485/379151
+20-05-23 20:32:55, INFO: avg matches: 2540.7945
+20-05-23 20:32:55, INFO: avg keypoints0: 10947.0885
+20-05-23 20:32:55, INFO: avg keypoints1: 11301.2135
+20-05-23 20:32:55, INFO: avg points3d_IDs0: 7238.7765
+20-05-23 20:32:55, INFO: avg points3d_IDs1: 7429.5995
+20-05-23 20:32:55, INFO: avg has_descriptors0: 6517.269
+20-05-23 20:32:55, INFO: avg has_descriptors1: 6778.191
+20-05-23 20:33:17, INFO: Saved data at: /home/hieu123/nghia/processed_data/hagia_sophia_interior.npy
+20-05-23 20:33:17, INFO: Completed
+
+20-05-23 20:33:22, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 20:33:22, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'notre_dame_front_facade')]
+20-05-23 20:33:45, INFO: No.points: 488895
+20-05-23 20:33:45, INFO: No.images: 3765
+20-05-23 20:33:45, INFO: max no.pairs: 7085730
+20-05-23 21:17:16, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 21:17:16, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'palace_of_westminster')]
+20-05-23 21:17:20, INFO: No.points: 115868
+20-05-23 21:17:20, INFO: No.images: 983
+20-05-23 21:17:20, INFO: max no.pairs: 482653
+20-05-23 21:19:04, INFO: No.pair filter/all: 8875/475778
+20-05-23 21:21:17, INFO: avg matches: 1572.6495
+20-05-23 21:21:17, INFO: avg keypoints0: 6793.3075
+20-05-23 21:21:17, INFO: avg keypoints1: 6647.4815
+20-05-23 21:21:17, INFO: avg points3d_IDs0: 4236.1615
+20-05-23 21:21:17, INFO: avg points3d_IDs1: 4124.6675
+20-05-23 21:21:17, INFO: avg has_descriptors0: 3889.7685
+20-05-23 21:21:17, INFO: avg has_descriptors1: 3635.2615
+20-05-23 21:21:28, INFO: Saved data at: /home/hieu123/nghia/processed_data/palace_of_westminster.npy
+20-05-23 21:21:28, INFO: Completed
+
+20-05-23 21:21:31, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 21:21:31, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.15), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'pantheon_exterior')]
+20-05-23 21:21:38, INFO: No.points: 166923
+20-05-23 21:21:38, INFO: No.images: 1401
+20-05-23 21:21:38, INFO: max no.pairs: 980700
+20-05-23 21:32:17, INFO: No.pair filter/all: 31329/977309
+20-05-23 21:37:43, INFO: avg matches: 2128.0805
+20-05-23 21:37:43, INFO: avg keypoints0: 7169.185
+20-05-23 21:37:43, INFO: avg keypoints1: 7080.299
+20-05-23 21:37:43, INFO: avg points3d_IDs0: 4720.676
+20-05-23 21:37:43, INFO: avg points3d_IDs1: 4671.215
+20-05-23 21:37:43, INFO: avg has_descriptors0: 4774.4075
+20-05-23 21:37:43, INFO: avg has_descriptors1: 4642.112
+20-05-23 21:38:29, INFO: Saved data at: /home/hieu123/nghia/processed_data/pantheon_exterior.npy
+20-05-23 21:38:29, INFO: Completed
+
+20-05-23 21:38:46, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 21:38:46, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.15), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'prague_old_town_square')]
+20-05-23 21:39:01, INFO: No.points: 558600
+20-05-23 21:39:01, INFO: No.images: 2316
+20-05-23 21:39:01, INFO: max no.pairs: 2680770
+20-05-23 21:53:22, INFO: No.pair filter/all: 18786/1534020
+20-05-23 22:00:19, INFO: avg matches: 3320.7175
+20-05-23 22:00:19, INFO: avg keypoints0: 11097.7955
+20-05-23 22:00:19, INFO: avg keypoints1: 11083.5705
+20-05-23 22:00:19, INFO: avg points3d_IDs0: 8773.6535
+20-05-23 22:00:19, INFO: avg points3d_IDs1: 8935.1845
+20-05-23 22:00:19, INFO: avg has_descriptors0: 6981.28
+20-05-23 22:00:19, INFO: avg has_descriptors1: 7131.7925
+20-05-23 22:01:09, INFO: Saved data at: /home/hieu123/nghia/processed_data/prague_old_town_square.npy
+20-05-23 22:01:09, INFO: Completed
+
+20-05-23 22:01:24, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 22:01:24, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'sacre_coeur')]
+20-05-23 22:01:29, INFO: No.points: 140659
+20-05-23 22:01:29, INFO: No.images: 1179
+20-05-23 22:01:29, INFO: max no.pairs: 694431
+20-05-23 22:06:02, INFO: No.pair filter/all: 30232/693967
+20-05-23 22:09:29, INFO: avg matches: 1443.0545
+20-05-23 22:09:29, INFO: avg keypoints0: 6511.552
+20-05-23 22:09:29, INFO: avg keypoints1: 6414.9765
+20-05-23 22:09:29, INFO: avg points3d_IDs0: 3565.5275
+20-05-23 22:09:29, INFO: avg points3d_IDs1: 3627.4105
+20-05-23 22:09:29, INFO: avg has_descriptors0: 4509.1035
+20-05-23 22:09:29, INFO: avg has_descriptors1: 4396.025
+20-05-23 22:10:02, INFO: Saved data at: /home/hieu123/nghia/processed_data/sacre_coeur.npy
+20-05-23 22:10:02, INFO: Completed
+
+20-05-23 22:10:13, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 22:10:13, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'st_peters_square')]
+20-05-23 22:10:24, INFO: No.points: 232329
+20-05-23 22:10:24, INFO: No.images: 2504
+20-05-23 22:10:24, INFO: max no.pairs: 3133756
+20-05-23 22:31:54, INFO: No.pair filter/all: 105769/3133134
+20-05-23 22:43:03, INFO: avg matches: 1682.978
+20-05-23 22:43:03, INFO: avg keypoints0: 7529.9465
+20-05-23 22:43:03, INFO: avg keypoints1: 7499.7905
+20-05-23 22:43:03, INFO: avg points3d_IDs0: 4395.1355
+20-05-23 22:43:03, INFO: avg points3d_IDs1: 4429.234
+20-05-23 22:43:03, INFO: avg has_descriptors0: 4664.834
+20-05-23 22:43:03, INFO: avg has_descriptors1: 4731.046
+20-05-23 22:45:21, INFO: Saved data at: /home/hieu123/nghia/processed_data/st_peters_square.npy
+20-05-23 22:45:21, INFO: Completed
+
+20-05-23 22:46:35, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 22:46:35, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'taj_mahal')]
+20-05-23 22:46:40, INFO: No.points: 94121
+20-05-23 22:46:40, INFO: No.images: 1312
+20-05-23 22:46:40, INFO: max no.pairs: 860016
+20-05-23 23:00:41, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 23:00:41, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'taj_mahal')]
+20-05-23 23:00:44, INFO: No.points: 94121
+20-05-23 23:00:44, INFO: No.images: 1312
+20-05-23 23:00:44, INFO: max no.pairs: 860016
+20-05-23 23:07:26, INFO: No.pair filter/all: 39643/859875
+20-05-23 23:11:25, INFO: avg matches: 1326.4305
+20-05-23 23:11:25, INFO: avg keypoints0: 5882.3835
+20-05-23 23:11:25, INFO: avg keypoints1: 6056.1855
+20-05-23 23:11:25, INFO: avg points3d_IDs0: 3631.308
+20-05-23 23:11:25, INFO: avg points3d_IDs1: 3657.1235
+20-05-23 23:11:25, INFO: avg has_descriptors0: 2767.7945
+20-05-23 23:11:25, INFO: avg has_descriptors1: 3010.4
+20-05-23 23:12:01, INFO: Saved data at: /home/hieu123/nghia/processed_data/taj_mahal.npy
+20-05-23 23:12:01, INFO: Completed
+
+20-05-23 23:12:14, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-23 23:12:14, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'trevi_fountain')]
+20-05-23 23:12:36, INFO: No.points: 580673
+20-05-23 23:12:36, INFO: No.images: 3191
+20-05-23 23:12:36, INFO: max no.pairs: 5089645
+20-05-24 00:14:18, INFO: No.pair filter/all: 347810/5084525
+20-05-24 00:15:44, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-24 00:15:44, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.2), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'trevi_fountain')]
+20-05-24 00:15:59, INFO: No.points: 580673
+20-05-24 00:15:59, INFO: No.images: 3191
+20-05-24 00:15:59, INFO: max no.pairs: 5089645
+20-05-24 01:17:28, INFO: No.pair filter/all: 10358/5084525
+20-05-24 01:34:37, INFO: avg matches: 3858.6885
+20-05-24 01:34:37, INFO: avg keypoints0: 10426.343
+20-05-24 01:34:37, INFO: avg keypoints1: 10606.774
+20-05-24 01:34:37, INFO: avg points3d_IDs0: 8202.701
+20-05-24 01:34:37, INFO: avg points3d_IDs1: 8294.795
+20-05-24 01:34:37, INFO: avg has_descriptors0: 6219.0925
+20-05-24 01:34:37, INFO: avg has_descriptors1: 6356.4985
+20-05-24 01:35:25, INFO: Saved data at: /home/hieu123/nghia/processed_data/trevi_fountain.npy
+20-05-24 01:35:25, INFO: Completed
+
+20-05-24 01:35:38, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-24 01:35:38, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.2), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'westminster_abbey')]
+20-05-24 01:35:46, INFO: No.points: 198222
+20-05-24 01:35:46, INFO: No.images: 1061
+20-05-24 01:35:46, INFO: max no.pairs: 562330
+20-05-24 01:44:30, INFO: No.pair filter/all: 47414/383210
+20-05-24 01:52:05, INFO: avg matches: 3864.3465
+20-05-24 01:52:05, INFO: avg keypoints0: 10049.633
+20-05-24 01:52:05, INFO: avg keypoints1: 9913.201
+20-05-24 01:52:05, INFO: avg points3d_IDs0: 7999.7255
+20-05-24 01:52:05, INFO: avg points3d_IDs1: 7826.353
+20-05-24 01:52:05, INFO: avg has_descriptors0: 7250.7105
+20-05-24 01:52:05, INFO: avg has_descriptors1: 7160.845
+20-05-24 01:54:11, INFO: Saved data at: /home/hieu123/nghia/processed_data/westminster_abbey.npy
+20-05-24 01:54:11, INFO: Completed
+
+20-05-24 01:55:14, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-24 01:55:14, INFO: [('input', '/home/hieu123/data/local_features'), ('iou_thresold', 0.1), ('output', '/home/hieu123/nghia/processed_data'), ('scene', 'temple_nara_japan')]
+20-05-24 01:55:18, INFO: No.points: 92131
+20-05-24 01:55:18, INFO: No.images: 904
+20-05-24 01:55:18, INFO: max no.pairs: 408156
+20-05-24 01:58:05, INFO: No.pair filter/all: 27790/408122
+20-05-24 02:01:04, INFO: avg matches: 1493.7805
+20-05-24 02:01:04, INFO: avg keypoints0: 6693.2315
+20-05-24 02:01:04, INFO: avg keypoints1: 6948.868
+20-05-24 02:01:04, INFO: avg points3d_IDs0: 3693.326
+20-05-24 02:01:04, INFO: avg points3d_IDs1: 3807.3785
+20-05-24 02:01:04, INFO: avg has_descriptors0: 4897.0735
+20-05-24 02:01:04, INFO: avg has_descriptors1: 5071.5415
+20-05-24 02:01:34, INFO: Saved data at: /home/hieu123/nghia/processed_data/temple_nara_japan.npy
+20-05-24 02:01:34, INFO: Completed
 
