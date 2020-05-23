@@ -1,0 +1,517 @@
+20-05-23 23:02:38, INFO: 
+========= TRIANING ==========
+
+20-05-23 23:02:38, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:03:04, INFO: 
+========= TRIANING ==========
+
+20-05-23 23:03:04, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:10:22, DEBUG: diff parser start
+20-05-23 23:10:22, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:10:22, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:10:22, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:10:22, DEBUG: diff parser end
+20-05-23 23:10:22, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-05-23 23:10:22, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-05-23 23:13:12, INFO: 
+========= TRIANING ==========
+
+20-05-23 23:13:12, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:13:24, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-05-23 23:13:24, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-05-23 23:14:48, DEBUG: diff parser start
+20-05-23 23:14:48, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:14:48, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:14:48, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:14:48, DEBUG: diff parser end
+20-05-23 23:14:50, DEBUG: diff parser start
+20-05-23 23:14:50, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:14:50, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:14:50, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:14:50, DEBUG: diff parser end
+20-05-23 23:14:50, DEBUG: diff parser start
+20-05-23 23:14:50, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:14:50, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:14:50, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:14:50, DEBUG: diff parser end
+20-05-23 23:19:27, DEBUG: diff parser start
+20-05-23 23:19:27, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:19:27, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:19:27, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:19:27, DEBUG: diff parser end
+20-05-23 23:19:27, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-05-23 23:19:27, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-05-23 23:20:18, DEBUG: diff parser start
+20-05-23 23:20:18, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:20:18, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:20:18, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:20:18, DEBUG: diff parser end
+20-05-23 23:21:26, DEBUG: diff parser start
+20-05-23 23:21:26, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:21:26, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:21:26, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:21:26, DEBUG: diff parser end
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/__init__.py
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/__init__.pyi
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/functional.py
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/_utils_internal.py
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/random.py
+20-05-23 23:21:26, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/serialization.py
+20-05-23 23:21:38, DEBUG: diff parser start
+20-05-23 23:21:38, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:21:38, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:21:38, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:21:38, DEBUG: diff parser end
+20-05-23 23:23:19, DEBUG: diff parser start
+20-05-23 23:23:19, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:19, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:19, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:19, DEBUG: diff parser end
+20-05-23 23:23:19, DEBUG: diff parser start
+20-05-23 23:23:19, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:19, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:19, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:19, DEBUG: diff parser end
+20-05-23 23:23:20, DEBUG: diff parser start
+20-05-23 23:23:20, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:20, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:20, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:20, DEBUG: diff parser end
+20-05-23 23:23:20, DEBUG: diff parser start
+20-05-23 23:23:20, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:20, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:20, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:20, DEBUG: diff parser end
+20-05-23 23:23:20, DEBUG: diff parser start
+20-05-23 23:23:20, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:20, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:20, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:20, DEBUG: diff parser end
+20-05-23 23:23:20, DEBUG: diff parser start
+20-05-23 23:23:20, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:20, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:20, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:20, DEBUG: diff parser end
+20-05-23 23:23:33, DEBUG: diff parser start
+20-05-23 23:23:33, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:33, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:33, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:33, DEBUG: diff parser end
+20-05-23 23:23:48, DEBUG: diff parser start
+20-05-23 23:23:48, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:48, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:48, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:48, DEBUG: diff parser end
+20-05-23 23:23:49, DEBUG: diff parser start
+20-05-23 23:23:49, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:49, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:49, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:49, DEBUG: diff parser end
+20-05-23 23:23:55, DEBUG: diff parser start
+20-05-23 23:23:55, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:55, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:55, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:55, DEBUG: diff parser end
+20-05-23 23:23:59, DEBUG: diff parser start
+20-05-23 23:23:59, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:59, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:59, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:59, DEBUG: diff parser end
+20-05-23 23:23:59, DEBUG: diff parser start
+20-05-23 23:23:59, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:23:59, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:23:59, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:23:59, DEBUG: diff parser end
+20-05-23 23:24:03, DEBUG: diff parser start
+20-05-23 23:24:03, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:03, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:03, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:03, DEBUG: diff parser end
+20-05-23 23:24:03, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/torch/_tensor_str.py
+20-05-23 23:24:06, DEBUG: diff parser start
+20-05-23 23:24:06, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:06, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:06, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:06, DEBUG: diff parser end
+20-05-23 23:24:16, DEBUG: diff parser start
+20-05-23 23:24:16, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:16, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:16, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:16, DEBUG: diff parser end
+20-05-23 23:24:17, DEBUG: diff parser start
+20-05-23 23:24:17, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:17, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:17, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:17, DEBUG: diff parser end
+20-05-23 23:24:21, DEBUG: diff parser start
+20-05-23 23:24:21, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:21, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:21, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:21, DEBUG: diff parser end
+20-05-23 23:24:21, DEBUG: diff parser start
+20-05-23 23:24:21, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:21, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:21, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:21, DEBUG: diff parser end
+20-05-23 23:24:21, DEBUG: diff parser start
+20-05-23 23:24:21, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:21, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:21, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:21, DEBUG: diff parser end
+20-05-23 23:24:21, DEBUG: diff parser start
+20-05-23 23:24:21, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:21, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:21, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:21, DEBUG: diff parser end
+20-05-23 23:24:41, DEBUG: diff parser start
+20-05-23 23:24:41, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:41, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:41, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:41, DEBUG: diff parser end
+20-05-23 23:24:47, DEBUG: diff parser start
+20-05-23 23:24:47, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:47, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:47, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:47, DEBUG: diff parser end
+20-05-23 23:24:48, DEBUG: diff parser start
+20-05-23 23:24:48, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:48, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:48, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:48, DEBUG: diff parser end
+20-05-23 23:24:49, DEBUG: diff parser start
+20-05-23 23:24:49, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:24:49, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:24:49, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:24:49, DEBUG: diff parser end
+20-05-23 23:25:35, DEBUG: diff parser start
+20-05-23 23:25:35, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:25:35, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:25:35, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:25:35, DEBUG: diff parser end
+20-05-23 23:25:57, DEBUG: diff parser start
+20-05-23 23:25:57, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:25:57, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:25:57, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:25:57, DEBUG: diff parser end
+20-05-23 23:26:37, DEBUG: diff parser start
+20-05-23 23:26:37, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:26:37, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:26:37, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:26:37, DEBUG: diff parser end
+20-05-23 23:26:55, DEBUG: diff parser start
+20-05-23 23:26:55, DEBUG: line_lengths old: 1; new: 2
+20-05-23 23:26:55, DEBUG: -> code[replace] old[1:1] new[1:2]
+20-05-23 23:26:55, DEBUG: parse_part from 1 to 2 (to 1 in part parser)
+20-05-23 23:26:55, DEBUG: diff parser end
+20-05-23 23:26:55, DEBUG: diff parser start
+20-05-23 23:26:55, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:26:55, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: copy old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:26:55, DEBUG: parse_part from 2 to 2 (to 1 in part parser)
+20-05-23 23:26:55, DEBUG: diff parser end
+20-05-23 23:26:55, DEBUG: diff parser start
+20-05-23 23:26:55, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:26:55, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: copy old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:26:55, DEBUG: parse_part from 2 to 2 (to 1 in part parser)
+20-05-23 23:26:55, DEBUG: diff parser end
+20-05-23 23:26:55, DEBUG: diff parser start
+20-05-23 23:26:55, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:26:55, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: copy old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:26:55, DEBUG: parse_part from 2 to 2 (to 1 in part parser)
+20-05-23 23:26:55, DEBUG: diff parser end
+20-05-23 23:26:55, DEBUG: diff parser start
+20-05-23 23:26:55, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:26:55, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: copy old[1:1] new[1:1]
+20-05-23 23:26:55, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:26:55, DEBUG: parse_part from 2 to 2 (to 1 in part parser)
+20-05-23 23:26:55, DEBUG: diff parser end
+20-05-23 23:26:56, DEBUG: diff parser start
+20-05-23 23:26:56, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:26:56, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:26:56, DEBUG: copy old[1:1] new[1:1]
+20-05-23 23:26:56, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:26:56, DEBUG: parse_part from 2 to 2 (to 1 in part parser)
+20-05-23 23:26:56, DEBUG: diff parser end
+20-05-23 23:27:00, DEBUG: diff parser start
+20-05-23 23:27:00, DEBUG: line_lengths old: 2; new: 1
+20-05-23 23:27:00, DEBUG: -> code[replace] old[1:2] new[1:1]
+20-05-23 23:27:00, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:27:00, DEBUG: diff parser end
+20-05-23 23:27:39, DEBUG: diff parser start
+20-05-23 23:27:39, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:27:39, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:27:39, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:27:39, DEBUG: diff parser end
+20-05-23 23:28:52, DEBUG: diff parser start
+20-05-23 23:28:52, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:28:52, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:28:52, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:28:52, DEBUG: diff parser end
+20-05-23 23:28:53, DEBUG: diff parser start
+20-05-23 23:28:53, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:28:53, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:28:53, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:28:53, DEBUG: diff parser end
+20-05-23 23:28:56, DEBUG: diff parser start
+20-05-23 23:28:56, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:28:56, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:28:56, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:28:56, DEBUG: diff parser end
+20-05-23 23:29:03, DEBUG: diff parser start
+20-05-23 23:29:03, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:29:03, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:29:03, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:29:03, DEBUG: diff parser end
+20-05-23 23:29:06, DEBUG: diff parser start
+20-05-23 23:29:06, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:29:06, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:29:06, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:29:06, DEBUG: diff parser end
+20-05-23 23:30:39, DEBUG: diff parser start
+20-05-23 23:30:39, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:30:39, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:30:39, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:30:39, DEBUG: diff parser end
+20-05-23 23:30:40, DEBUG: diff parser start
+20-05-23 23:30:40, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:30:40, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:30:40, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:30:40, DEBUG: diff parser end
+20-05-23 23:30:40, DEBUG: diff parser start
+20-05-23 23:30:40, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:30:40, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:30:40, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:30:40, DEBUG: diff parser end
+20-05-23 23:30:43, DEBUG: diff parser start
+20-05-23 23:30:43, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:30:43, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:30:43, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:30:43, DEBUG: diff parser end
+20-05-23 23:30:46, DEBUG: diff parser start
+20-05-23 23:30:46, DEBUG: line_lengths old: 1; new: 2
+20-05-23 23:30:46, DEBUG: -> code[replace] old[1:1] new[1:2]
+20-05-23 23:30:46, DEBUG: parse_part from 1 to 2 (to 1 in part parser)
+20-05-23 23:30:46, DEBUG: diff parser end
+20-05-23 23:30:46, DEBUG: diff parser start
+20-05-23 23:30:46, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:30:46, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:30:46, DEBUG: parse_part from 1 to 2 (to 1 in part parser)
+20-05-23 23:30:46, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:30:46, DEBUG: diff parser end
+20-05-23 23:30:50, DEBUG: diff parser start
+20-05-23 23:30:50, DEBUG: line_lengths old: 2; new: 2
+20-05-23 23:30:50, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:30:50, DEBUG: parse_part from 1 to 2 (to 1 in part parser)
+20-05-23 23:30:50, DEBUG: -> code[replace] old[2:2] new[2:2]
+20-05-23 23:30:50, DEBUG: diff parser end
+20-05-23 23:30:52, DEBUG: diff parser start
+20-05-23 23:30:52, DEBUG: line_lengths old: 2; new: 3
+20-05-23 23:30:52, DEBUG: -> code[equal] old[1:1] new[1:1]
+20-05-23 23:30:52, DEBUG: parse_part from 1 to 3 (to 2 in part parser)
+20-05-23 23:30:52, DEBUG: -> code[replace] old[2:2] new[2:3]
+20-05-23 23:30:52, DEBUG: diff parser end
+20-05-23 23:30:54, DEBUG: diff parser start
+20-05-23 23:30:54, DEBUG: line_lengths old: 3; new: 3
+20-05-23 23:30:54, DEBUG: -> code[equal] old[1:2] new[1:2]
+20-05-23 23:30:54, DEBUG: parse_part from 1 to 3 (to 2 in part parser)
+20-05-23 23:30:54, DEBUG: -> code[replace] old[3:3] new[3:3]
+20-05-23 23:30:54, DEBUG: diff parser end
+20-05-23 23:30:57, DEBUG: diff parser start
+20-05-23 23:30:57, DEBUG: line_lengths old: 3; new: 4
+20-05-23 23:30:57, DEBUG: -> code[equal] old[1:2] new[1:2]
+20-05-23 23:30:57, DEBUG: parse_part from 1 to 4 (to 3 in part parser)
+20-05-23 23:30:57, DEBUG: -> code[replace] old[3:3] new[3:4]
+20-05-23 23:30:57, DEBUG: diff parser end
+20-05-23 23:30:58, DEBUG: diff parser start
+20-05-23 23:30:58, DEBUG: line_lengths old: 4; new: 5
+20-05-23 23:30:58, DEBUG: -> code[equal] old[1:3] new[1:3]
+20-05-23 23:30:58, DEBUG: parse_part from 1 to 5 (to 4 in part parser)
+20-05-23 23:30:58, DEBUG: -> code[replace] old[4:4] new[4:5]
+20-05-23 23:30:58, DEBUG: diff parser end
+20-05-23 23:31:00, DEBUG: diff parser start
+20-05-23 23:31:00, DEBUG: line_lengths old: 5; new: 5
+20-05-23 23:31:00, DEBUG: -> code[equal] old[1:4] new[1:4]
+20-05-23 23:31:00, DEBUG: parse_part from 1 to 5 (to 4 in part parser)
+20-05-23 23:31:00, DEBUG: -> code[replace] old[5:5] new[5:5]
+20-05-23 23:31:00, DEBUG: diff parser end
+20-05-23 23:31:01, DEBUG: diff parser start
+20-05-23 23:31:01, DEBUG: line_lengths old: 5; new: 5
+20-05-23 23:31:01, DEBUG: -> code[equal] old[1:4] new[1:4]
+20-05-23 23:31:01, DEBUG: parse_part from 1 to 5 (to 4 in part parser)
+20-05-23 23:31:01, DEBUG: -> code[replace] old[5:5] new[5:5]
+20-05-23 23:31:01, DEBUG: diff parser end
+20-05-23 23:32:27, DEBUG: diff parser start
+20-05-23 23:32:27, DEBUG: line_lengths old: 5; new: 1
+20-05-23 23:32:27, DEBUG: -> code[replace] old[1:5] new[1:1]
+20-05-23 23:32:27, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:32:27, DEBUG: diff parser end
+20-05-23 23:32:43, DEBUG: diff parser start
+20-05-23 23:32:43, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:32:43, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:32:43, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:32:43, DEBUG: diff parser end
+20-05-23 23:33:26, DEBUG: diff parser start
+20-05-23 23:33:26, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:33:26, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:33:26, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:33:26, DEBUG: diff parser end
+20-05-23 23:33:28, DEBUG: diff parser start
+20-05-23 23:33:28, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:33:28, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:33:28, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:33:28, DEBUG: diff parser end
+20-05-23 23:35:43, INFO: 
+========= TRIANING ==========
+
+20-05-23 23:35:43, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:36:09, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/site-packages/numpy/__init__.py
+20-05-23 23:36:15, DEBUG: diff parser start
+20-05-23 23:36:15, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:36:15, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:36:15, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:36:15, DEBUG: diff parser end
+20-05-23 23:36:15, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+20-05-23 23:36:15, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/sys.pyi
+20-05-23 23:36:57, DEBUG: diff parser start
+20-05-23 23:36:57, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:36:57, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:36:57, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:36:57, DEBUG: diff parser end
+20-05-23 23:36:58, DEBUG: pickle loaded: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/ImageMatchingChallenge2020/utils.py
+20-05-23 23:36:58, DEBUG: pickle loaded: /home/vutrungnghia/miniconda3/envs/env_36/lib/python3.6/typing.py
+20-05-23 23:36:58, DEBUG: pickle loaded: /home/vutrungnghia/.vscode/extensions/ms-python.python-2020.5.80290/pythonFiles/lib/python/jedi/third_party/typeshed/stdlib/3/typing.pyi
+20-05-23 23:36:59, DEBUG: diff parser start
+20-05-23 23:36:59, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:36:59, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:36:59, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:36:59, DEBUG: diff parser end
+20-05-23 23:37:02, DEBUG: diff parser start
+20-05-23 23:37:02, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:37:02, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:37:02, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:37:02, DEBUG: diff parser end
+20-05-23 23:37:42, DEBUG: diff parser start
+20-05-23 23:37:42, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:37:42, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:37:42, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:37:42, DEBUG: diff parser end
+20-05-23 23:37:43, DEBUG: diff parser start
+20-05-23 23:37:43, DEBUG: line_lengths old: 1; new: 1
+20-05-23 23:37:43, DEBUG: -> code[replace] old[1:1] new[1:1]
+20-05-23 23:37:43, DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+20-05-23 23:37:43, DEBUG: diff parser end
+20-05-23 23:44:24, INFO: 
+========= TRIANING ==========
+
+20-05-23 23:44:24, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:59:26, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-23 23:59:26, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-23 23:59:27, INFO: EPOCH: 1/50
+20-05-23 23:59:27, INFO: TRAINING PHASE:
+20-05-24 00:00:38, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-24 00:00:39, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-24 00:00:57, INFO: EPOCH: 1/50
+20-05-24 00:00:57, INFO: TRAINING PHASE:
+20-05-24 00:05:03, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-24 00:05:03, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-24 00:05:04, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-24 00:05:04, INFO: EPOCH: 1/50
+20-05-24 00:05:04, INFO: TRAINING PHASE:
+20-05-24 00:05:10, INFO: avg loss: 3.149660991854881
+20-05-24 00:05:16, INFO: avg loss: 3.494303718300629
+20-05-24 00:05:20, INFO: avg loss: 3.193641714978197
+20-05-24 00:05:22, INFO: avg loss: 2.805584732932403
+20-05-24 00:05:55, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-24 00:05:55, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-24 00:05:55, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-24 00:05:56, INFO: EPOCH: 1/50
+20-05-24 00:05:56, INFO: TRAINING PHASE:
+20-05-24 00:05:58, INFO: avg loss: 3.1352828616003547
+20-05-24 00:05:58, INFO: VALID PHASE:
+20-05-24 00:06:10, INFO: avg loss: 2.8448342839944445
+20-05-24 00:06:10, INFO: VALID PHASE:
+20-05-24 00:06:25, INFO: avg loss: 2.605882155305923
+20-05-24 00:06:25, INFO: VALID PHASE:
+20-05-24 00:06:39, INFO: avg loss: 2.4947146088607104
+20-05-24 00:06:39, INFO: VALID PHASE:
+20-05-24 00:07:00, INFO: avg loss: 2.639567453070581
+20-05-24 00:07:00, INFO: VALID PHASE:
+20-05-24 00:07:14, INFO: avg loss: 2.561537185206148
+20-05-24 00:07:14, INFO: VALID PHASE:
+20-05-24 00:07:29, INFO: avg loss: 2.440436818143205
+20-05-24 00:07:29, INFO: VALID PHASE:
+20-05-24 00:07:45, INFO: avg loss: 2.3487498788070478
+20-05-24 00:07:45, INFO: VALID PHASE:
+20-05-24 00:07:59, INFO: avg loss: 2.287709520478815
+20-05-24 00:07:59, INFO: VALID PHASE:
+20-05-24 00:08:16, INFO: avg loss: 2.2648661459284236
+20-05-24 00:08:16, INFO: VALID PHASE:
+20-05-24 00:08:31, INFO: avg loss: 2.2506086225837403
+20-05-24 00:08:31, INFO: VALID PHASE:
+20-05-24 00:08:48, INFO: avg loss: 2.250150671216225
+20-05-24 00:08:48, INFO: VALID PHASE:
+20-05-24 00:09:04, INFO: avg loss: 2.2608608989695558
+20-05-24 00:09:04, INFO: VALID PHASE:
+20-05-24 00:09:18, INFO: avg loss: 2.240957844940415
+20-05-24 00:09:18, INFO: VALID PHASE:
+20-05-24 00:09:39, INFO: avg loss: 2.2651978566520303
+20-05-24 00:09:39, INFO: VALID PHASE:
+20-05-24 00:09:57, INFO: avg loss: 2.2665442461635195
+20-05-24 00:09:57, INFO: VALID PHASE:
+20-05-24 00:10:14, INFO: avg loss: 2.2649662486529927
+20-05-24 00:10:14, INFO: VALID PHASE:
+20-05-24 00:10:29, INFO: avg loss: 2.314167430831678
+20-05-24 00:10:29, INFO: VALID PHASE:
+20-05-24 00:10:44, INFO: avg loss: 2.297191535687647
+20-05-24 00:10:44, INFO: VALID PHASE:
+20-05-24 00:10:57, INFO: avg loss: 2.271860155245736
+20-05-24 00:10:57, INFO: VALID PHASE:
+20-05-24 00:11:12, INFO: avg loss: 2.2474344750101656
+20-05-24 00:11:12, INFO: VALID PHASE:
+20-05-24 00:11:28, INFO: avg loss: 2.240672245637282
+20-05-24 00:11:28, INFO: VALID PHASE:
+20-05-24 00:11:44, INFO: avg loss: 2.2429130802654824
+20-05-24 00:11:44, INFO: VALID PHASE:
+20-05-24 00:11:56, INFO: avg loss: 2.2146239890899424
+20-05-24 00:11:56, INFO: VALID PHASE:
+20-05-24 00:12:08, INFO: avg loss: 2.194773327211312
+20-05-24 00:12:08, INFO: VALID PHASE:
+20-05-24 00:12:22, INFO: avg loss: 2.1733054978787596
+20-05-24 00:12:22, INFO: VALID PHASE:
+20-05-24 00:12:40, INFO: avg loss: 2.172005065253122
+20-05-24 00:12:40, INFO: VALID PHASE:
+20-05-24 00:12:51, INFO: avg loss: 2.162684523600549
+20-05-24 00:12:51, INFO: VALID PHASE:
+20-05-24 00:13:04, INFO: avg loss: 2.1532467762107967
+20-05-24 00:13:04, INFO: VALID PHASE:
+20-05-24 00:13:25, INFO: avg loss: 2.171970576770519
+20-05-24 00:13:25, INFO: VALID PHASE:
+20-05-24 00:13:40, INFO: avg loss: 2.173966911602356
+20-05-24 00:13:40, INFO: VALID PHASE:
+20-05-24 00:13:56, INFO: avg loss: 2.1746184913011395
+20-05-24 00:13:56, INFO: VALID PHASE:
+20-05-24 07:31:13, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-24 07:31:13, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/valid/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-24 07:34:11, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-24 07:34:11, INFO: [('match_threshold', 0.2), ('n_epochs', 50), ('root', '/home/hieu123/nghia/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/home/hieu123/nghia/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_sample_pairs_with_gt.txt'), ('weights', '')]
+20-05-24 07:34:13, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-24 07:34:39, INFO: EPOCH: 1/50
+20-05-24 07:34:39, INFO: TRAINING PHASE:
