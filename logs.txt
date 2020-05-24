@@ -290,3 +290,22 @@
 20-05-24 02:01:34, INFO: Saved data at: /home/hieu123/nghia/processed_data/temple_nara_japan.npy
 20-05-24 02:01:34, INFO: Completed
 
+20-05-24 09:23:54, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-24 09:23:54, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input'), ('iou_thresold', 0.1), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
+20-05-24 09:24:14, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-24 09:24:14, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input'), ('iou_thresold', 0.1), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output'), ('scene', 'reichstag')]
+20-05-24 09:24:17, INFO: No.points: 17823
+20-05-24 09:24:17, INFO: No.images: 75
+20-05-24 09:24:17, INFO: max no.pairs: 2775
+20-05-24 09:24:32, INFO: No.pair filter/all: 185/2775
+20-05-24 09:24:55, INFO: avg matches: 1372.8540540540541
+20-05-24 09:24:55, INFO: avg keypoints0: 6529.513513513513
+20-05-24 09:24:55, INFO: avg keypoints1: 6633.502702702703
+20-05-24 09:24:55, INFO: avg points3d_IDs0: 2849.8
+20-05-24 09:24:55, INFO: avg points3d_IDs1: 3047.3945945945948
+20-05-24 09:24:55, INFO: avg has_descriptors0: 3501.8594594594597
+20-05-24 09:24:55, INFO: avg has_descriptors1: 3759.4864864864867

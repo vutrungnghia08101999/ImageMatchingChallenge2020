@@ -19,11 +19,11 @@ console.setLevel(logging.INFO)
 logging.getLogger().addHandler(console)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input')
+parser.add_argument('--input', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input')
 parser.add_argument('--output', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output')
 parser.add_argument('--scene', type=str, default='reichstag')
 parser.add_argument('--iou_thresold', type=float, default=0.1)
-args = parser.parse_args()
+args = parser.parse_args([])
 
 logging.info('\n======== SUPERGLUE - DATA PREPROCESSING ========\n')
 logging.info(args._get_kwargs())
@@ -136,11 +136,10 @@ np.save(OUTPUT, dataset)
 logging.info(f'Saved data at: {OUTPUT}')
 logging.info('Completed\n')
 
-# pair = dataset[(1, 2)]
+pair = dataset[(14, 24)]
 # this function is used to create groundtruth, filtered keypoints, descriptors and scores on the fly during training
-def transform_and_filter(pair: dict) -> dict:
+def transform_and_filter(pair: dict, max_keypoints=1000) -> dict:
     """get groundtruth matrix for a pair of images
-
     Arguments:
         pair {dict}:
             matches: [(idx1, idx2), .... ]
@@ -165,6 +164,13 @@ def transform_and_filter(pair: dict) -> dict:
     has_3d_points0 = pair['3dpoints'][0] != -1
     has_descriptors0 = ~np.isnan(pair['descriptors'][0][:, 0])
     filter0 = has_3d_points0 * has_descriptors0
+    if sum(filter0) > max_keypoints:
+        true_idxs = np.argwhere(filter0 == True).squeeze()
+        np.random.shuffle(true_idxs)
+        reduced_true_idxs = true_idxs[:max_keypoints]
+        filter0 = filter0 * False
+        filter0[reduced_true_idxs] = True
+
     keypoints0 = pair['keypoints'][0][filter0]
     descriptors0 = pair['descriptors'][0][filter0]
     scores0 = pair['scores'][0][filter0]
@@ -172,6 +178,12 @@ def transform_and_filter(pair: dict) -> dict:
     has_3d_points1 = pair['3dpoints'][1] != -1
     has_descriptors1 = ~np.isnan(pair['descriptors'][1][:, 0])
     filter1 = has_3d_points1 * has_descriptors1
+    if sum(filter1) > max_keypoints:
+        true_idxs = np.argwhere(filter1 == True).squeeze()
+        np.random.shuffle(true_idxs)
+        reduced_true_idxs = true_idxs[:max_keypoints]
+        filter1 = filter1 * False
+        filter1[reduced_true_idxs] = True
     keypoints1 = pair['keypoints'][1][filter1]
     descriptors1 = pair['descriptors'][1][filter1]
     scores1 = pair['scores'][1][filter1]
@@ -179,31 +191,29 @@ def transform_and_filter(pair: dict) -> dict:
     # construct the groundtruth matrix for keypoints after filtering
     height, width = pair['keypoints'][0].shape[0] + 1, pair['keypoints'][1].shape[0] + 1
     groundtruth = np.zeros((height, width))
-    right_append = np.ones(height)
-    bottom_append = np.ones(width)
-
     for kp1_idx, kp2_idx in pair['matches']:
         groundtruth[kp1_idx][kp2_idx] = 1
-        right_append[kp1_idx] = 0
-        bottom_append[kp2_idx] = 0
-
-    groundtruth[:, width - 1] += right_append
-    groundtruth[height - 1, :] += bottom_append
-    groundtruth[height - 1][width - 1] = 0
 
     filter0 = np.append(filter0, True)
     filter1 = np.append(filter1, True)
     groundtruth = groundtruth[filter0, :]
     groundtruth = groundtruth[:, filter1]
 
+    right_append = groundtruth.sum(axis=1) == 0
+    bottom_append = groundtruth.sum(axis=0) == 0
+    groundtruth[:, -1] += right_append
+    groundtruth[-1, :] += bottom_append
+    groundtruth[-1][-1] = 0
+
     return {
         'keypoints': (keypoints0, keypoints1),
-        'descriptors': (descriptors0, descriptors1),
+        'descriptors': (descriptors0.transpose(), descriptors1.transpose()),  # N x 128 => 128 x N, M x 128 => 128 x M
         'scores': (scores0, scores1),
         'shape': pair['shape'],
         'name': pair['name'],
         'groundtruth': groundtruth
     }
+
 
 # import matplotlib.pyplot as plt
 # s = transform_and_filter(dataset[list(dataset.keys())[0]])
