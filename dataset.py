@@ -1,7 +1,9 @@
+import logging
 import os
 from tqdm import tqdm
 
 import numpy as np
+from random import shuffle
 import torch
 from torch.utils.data import Dataset
 import torch.nn as nn
@@ -23,16 +25,22 @@ class SuperGlueDataset(Dataset):
         pair = self.pairs[index]
         return transform_and_filter(pair)
 
-def load_data(root: str, scenes: list) -> list:
+def load_data(root: str, scenes: list, n=10000) -> list:
     dataset = []
-    for scene in tqdm(scenes):
+    logging.info('    Load training data')
+    for scene in scenes:
         s = np.load(os.path.join(root, f'{scene}.npy'), allow_pickle=True).item()
+        subset = []
         for k, v in s.items():
-            dataset.append(v)
+            subset.append(v)
+        shuffle(subset)
+        subset = subset[:int(n/len(scenes))]
+        dataset = dataset + subset
+        logging.info(f'      {scene}: {len(subset)}/{len(s)}')
     return dataset
 
 
-def transform_and_filter(pair: dict) -> dict:
+def transform_and_filter(pair: dict, max_keypoints=2048) -> dict:
     """get groundtruth matrix for a pair of images
     Arguments:
         pair {dict}:
@@ -58,6 +66,12 @@ def transform_and_filter(pair: dict) -> dict:
     has_3d_points0 = pair['3dpoints'][0] != -1
     has_descriptors0 = ~np.isnan(pair['descriptors'][0][:, 0])
     filter0 = has_3d_points0 * has_descriptors0
+    if sum(filter0) > max_keypoints:
+        true_idxs = np.argwhere(filter0 == True).squeeze()
+        np.random.shuffle(true_idxs)
+        reduced_true_idxs = true_idxs[:max_keypoints]
+        filter0 = filter0 * False
+        filter0[reduced_true_idxs] = True
     keypoints0 = pair['keypoints'][0][filter0]
     descriptors0 = pair['descriptors'][0][filter0]
     scores0 = pair['scores'][0][filter0]
@@ -65,6 +79,12 @@ def transform_and_filter(pair: dict) -> dict:
     has_3d_points1 = pair['3dpoints'][1] != -1
     has_descriptors1 = ~np.isnan(pair['descriptors'][1][:, 0])
     filter1 = has_3d_points1 * has_descriptors1
+    if sum(filter1) > max_keypoints:
+        true_idxs = np.argwhere(filter1 == True).squeeze()
+        np.random.shuffle(true_idxs)
+        reduced_true_idxs = true_idxs[:max_keypoints]
+        filter1 = filter1 * False
+        filter1[reduced_true_idxs] = True
     keypoints1 = pair['keypoints'][1][filter1]
     descriptors1 = pair['descriptors'][1][filter1]
     scores1 = pair['scores'][1][filter1]
