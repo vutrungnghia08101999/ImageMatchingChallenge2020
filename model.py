@@ -159,8 +159,8 @@ class SuperGlue(nn.Module):
         # 'weights': 'indoor',
         'keypoint_encoder': [32, 64, 128, 256],
         'GNN_layers': ['self', 'cross'] * 9,
-        'sinkhorn_iterations': 100,
-        'match_threshold': 0.2,
+        # 'sinkhorn_iterations': 100,
+        # 'match_threshold': 0.2,
     }
 
     def __init__(self, config):
