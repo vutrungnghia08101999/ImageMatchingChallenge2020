@@ -2448,3 +2448,80 @@
 20-05-26 06:31:22, INFO:     avg loss: 1.3173332691641397
 20-05-26 06:31:22, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-26_06:31:22_7.pth
 20-05-26 06:31:22, INFO:   VALID PHASE:
+20-05-27 03:54:38, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-27 03:54:38, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/train_data'), ('sinkhorn_iterations', 5), ('train_scenes', 'buckingham_palace'), ('valid_data', '/home/hieu123/nghia/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_buckingham_palace.txt'), ('weights', '')]
+20-05-27 03:54:39, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-27 03:54:39, INFO:   reichstag: 76
+20-05-27 03:54:39, INFO:   sacre_coeur: 500
+20-05-27 03:54:39, INFO:   notre_dame_front_facade: 500
+20-05-27 03:54:39, INFO:   buckingham_palace: 500
+20-05-27 03:54:39, INFO:   No.gt_pairs: 709
+20-05-27 03:54:40, INFO: EPOCH: 1/50
+20-05-27 03:54:40, INFO:   TRAINING PHASE:
+20-05-27 03:54:40, INFO:     Load training data
+20-05-27 03:54:44, INFO:       buckingham_palace: 2200/13200
+20-05-27 03:54:44, INFO:     Generated 2200 samples
+20-05-27 06:12:34, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-27 06:12:34, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/train_data'), ('sinkhorn_iterations', 5), ('train_scenes', 'buckingham_palace'), ('valid_data', '/home/hieu123/nghia/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_buckingham_palace.txt'), ('weights', '')]
+20-05-27 06:12:35, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-27 06:12:35, INFO:   reichstag: 76
+20-05-27 06:12:35, INFO:   sacre_coeur: 500
+20-05-27 06:12:35, INFO:   notre_dame_front_facade: 500
+20-05-27 06:12:35, INFO:   buckingham_palace: 500
+20-05-27 06:12:35, INFO:   No.gt_pairs: 709
+20-05-27 06:12:36, INFO: EPOCH: 1/50
+20-05-27 06:12:36, INFO:   TRAINING PHASE:
+20-05-27 06:12:36, INFO:     Load training data
+20-05-27 06:12:40, INFO:       buckingham_palace: 2200/13200
+20-05-27 06:12:40, INFO:     Generated 2200 samples
+20-05-27 06:23:06, INFO:     avg loss: 0.7253562281704434
+20-05-27 06:23:07, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-27_06:23:06_0.pth
+20-05-27 06:23:07, INFO:   VALID PHASE:
+20-05-27 06:23:43, INFO: Evaluation Results (mean over 709 pairs):
+20-05-27 06:23:43, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-27 06:23:43, INFO: 12.28	 25.62	 40.45	 72.11	 2.25	
+20-05-27 06:23:43, INFO: EPOCH: 2/50
+20-05-27 06:23:43, INFO:   TRAINING PHASE:
+20-05-27 06:23:43, INFO:     Load training data
+20-05-27 06:27:25, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-27 06:27:25, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 5), ('train_scenes', 'buckingham_palace'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_buckingham_palace.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-27_06:23:06_0.pth')]
+20-05-27 06:27:25, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-27 06:27:25, INFO:   reichstag: 76
+20-05-27 06:27:25, INFO:   sacre_coeur: 500
+20-05-27 06:27:25, INFO:   notre_dame_front_facade: 500
+20-05-27 06:27:25, INFO:   buckingham_palace: 500
+20-05-27 06:27:25, INFO:   No.gt_pairs: 709
+20-05-27 06:27:27, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-27_06:23:06_0.pth
+20-05-27 06:27:27, INFO: EPOCH: 1/50
+20-05-27 06:27:27, INFO:   TRAINING PHASE:
+20-05-27 06:27:27, INFO:     Load training data
+20-05-27 06:27:30, INFO:       buckingham_palace: 2200/13200
+20-05-27 06:27:31, INFO:     Generated 2200 samples
+20-05-27 06:37:57, INFO:     avg loss: 0.41579985324421376
+20-05-27 06:37:57, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-27_06:37:57_0.pth
+20-05-27 06:37:57, INFO:   VALID PHASE:
+20-05-27 06:38:35, INFO: Evaluation Results (mean over 709 pairs):
+20-05-27 06:38:35, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-27 06:38:35, INFO: 18.15	 34.45	 51.48	 79.77	 3.16	
+20-05-27 06:38:35, INFO: EPOCH: 2/50
+20-05-27 06:38:35, INFO:   TRAINING PHASE:
+20-05-27 06:38:35, INFO:     Load training data
+20-05-27 06:38:39, INFO:       buckingham_palace: 2200/13200
+20-05-27 06:38:40, INFO:     Generated 2200 samples
+20-05-27 06:49:10, INFO:     avg loss: 1.027047524663073
+20-05-27 06:49:10, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-27_06:49:10_1.pth
+20-05-27 06:49:10, INFO:   VALID PHASE:
+20-05-27 06:49:44, INFO: Evaluation Results (mean over 709 pairs):
+20-05-27 06:49:44, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-27 06:49:44, INFO: 0.00	 0.00	 0.00	 0.14	 0.00	
+20-05-27 06:49:44, INFO: EPOCH: 3/50
+20-05-27 06:49:44, INFO:   TRAINING PHASE:
+20-05-27 06:49:44, INFO:     Load training data
+20-05-27 06:49:48, INFO:       buckingham_palace: 2200/13200
+20-05-27 06:49:49, INFO:     Generated 2200 samples

@@ -46,7 +46,7 @@ logging.getLogger().addHandler(console)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root', type=str,
-                    default='/home/hieu123/nghia/train_data')
+                    default='/home/hieu123/nghia/dataset/train_data')
 parser.add_argument('--train_scenes', type=str,
                     default='reichstag,')
 parser.add_argument('--sinkhorn_iterations', type=int, default=20,
@@ -56,7 +56,7 @@ parser.add_argument('--match_threshold', type=float, default=0.2,
 parser.add_argument('--weights', type=str,
                     default='')
 parser.add_argument('--valid_data', type=str,
-                    default='/home/hieu123/nghia/test_data/val_2048.npy')
+                    default='/home/hieu123/nghia/dataset/test_data/val_2048.npy')
 parser.add_argument('--valid_gt', type=str,
                     default='valid/yfcc_sample_pairs_with_gt.txt')
 parser.add_argument('--models_folder', type=str,
