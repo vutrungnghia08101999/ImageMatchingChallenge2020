@@ -286,7 +286,7 @@ def read_image(path, device, resize, rotation, resize_float):
 
 
 def estimate_pose(kpts0, kpts1, K0, K1, thresh, conf=0.99999):
-    if len(kpts0) < 5:
+    if len(kpts0) < 6:
         return None
 
     f_mean = np.mean([K0[0, 0], K1[1, 1], K0[0, 0], K1[1, 1]])

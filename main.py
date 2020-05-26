@@ -10,6 +10,7 @@ import logging
 import os
 import random
 from tqdm import tqdm
+import cv2
 
 import numpy as np
 import torch
@@ -74,6 +75,9 @@ valid_data = np.load(args.valid_data, allow_pickle=True).item()
 with open(args.valid_gt, 'r') as f:
     valid_gt = [l.split() for l in f.readlines()]
 logging.info(f'VALID_SCENES: {valid_data.keys()}')
+for k, v in valid_data.items():
+    logging.info(f'  {k}: {len(v)}')
+logging.info(f'  No.gt_pairs: {len(valid_gt)}')
 
 # create superglue model and load checkpoint if exist
 model = SuperGlue({'sinkhorn_iterations': args.sinkhorn_iterations,
@@ -82,6 +86,7 @@ if torch.cuda.is_available():
     model = model.cuda()
 start_epoch = 0
 if args.weights:
+    logging.info(f'Load model: {args.weights}')
     checkpoint = torch.load(args.weights)
     model.load_state_dict(checkpoint['state_dict'])
     start_epoch = checkpoint['epoch']
@@ -135,7 +140,7 @@ for epoch in range(start_epoch, args.n_epochs):
     logging.info(f'    {model_checkpoint}')
     
     # ******************* VALIDATE PHASE ************************
-    logging.info('\tVALID PHASE:')
+    logging.info('  VALID PHASE:')
     results = []
     model.eval()
     for pair in tqdm(valid_gt):
