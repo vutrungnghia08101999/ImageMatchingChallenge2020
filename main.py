@@ -113,13 +113,13 @@ for epoch in range(start_epoch, args.n_epochs):
         groundtruth = pair['groundtruth']
         inputs = {
             'shape0': pair['shape'][0],
-            'descriptors0': pair['descriptors'][0],
-            'keypoints0': pair['keypoints'][0],
-            'scores0': pair['scores'][0],
+            'descriptors0': pair['descriptors'][0].cuda(),
+            'keypoints0': pair['keypoints'][0].cuda(),
+            'scores0': pair['scores'][0].cuda(),
             'shape1': pair['shape'][1],
-            'descriptors1': pair['descriptors'][1],
-            'keypoints1': pair['keypoints'][1],
-            'scores1': pair['scores'][1]
+            'descriptors1': pair['descriptors'][1].cuda(),
+            'keypoints1': pair['keypoints'][1].cuda(),
+            'scores1': pair['scores'][1].cuda(),
         }
 
         log_matrix = model(inputs)  # log_matrix.exp() satifys: sum(row) = sum(col) = 1
@@ -158,15 +158,15 @@ for epoch in range(start_epoch, args.n_epochs):
             'shape0': {
                 'height': torch.tensor(features0['shape']['height']),
                 'width': torch.tensor(features0['shape']['width'])},
-            'descriptors0': torch.from_numpy(features0['descriptors'].transpose()).unsqueeze(0),
-            'keypoints0': torch.from_numpy(features0['keypoints']).unsqueeze(0),
-            'scores0': torch.from_numpy(features0['scores']).unsqueeze(0),
+            'descriptors0': torch.from_numpy(features0['descriptors'].transpose()).unsqueeze(0).cuda(),
+            'keypoints0': torch.from_numpy(features0['keypoints']).unsqueeze(0).cuda(),
+            'scores0': torch.from_numpy(features0['scores']).unsqueeze(0).cuda(),
             'shape1': {
                 'height': torch.tensor(features1['shape']['height']),
                 'width': torch.tensor(features1['shape']['width'])},
-            'descriptors1': torch.from_numpy(features1['descriptors'].transpose()).unsqueeze(0),
-            'keypoints1': torch.from_numpy(features1['keypoints']).unsqueeze(0),
-            'scores1': torch.from_numpy(features1['scores']).unsqueeze(0)
+            'descriptors1': torch.from_numpy(features1['descriptors'].transpose()).unsqueeze(0).cuda(),
+            'keypoints1': torch.from_numpy(features1['keypoints']).unsqueeze(0).cuda(),
+            'scores1': torch.from_numpy(features1['scores']).unsqueeze(0).cuda()
         }
         with torch.no_grad():
             pred = model(inputs, is_train=False)

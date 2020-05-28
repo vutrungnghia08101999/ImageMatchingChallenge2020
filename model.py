@@ -3,6 +3,7 @@ from pathlib import Path
 import torch
 from torch import nn
 
+# from .knn import knn_indices
 
 def MLP(channels: list, do_bn=True):
     """ Multi-layer perceptron """
@@ -22,9 +23,11 @@ def normalize_keypoints(kpts, image_shape):
     """ Normalize keypoints locations based on image image_shape"""
     height = image_shape['height'].item()
     width = image_shape['width'].item()
-    one = kpts.new_tensor(1)
-    size = torch.stack([one*width, one*height])[None]
+    one = kpts.new_tensor(1) # shape, ()
+    # print("one", one.shape, one)
+    size = torch.stack([one*width, one*height])[None] # (1,2)
     center = size / 2
+    # print("center", center.shape)
     scaling = size.max(1, keepdim=True).values * 0.7
     return (kpts - center[:, None, :]) / scaling[:, None, :]
 
@@ -38,9 +41,9 @@ class KeypointEncoder(nn.Module):
 
     def forward(self, kpts, scores):
         inputs = [kpts.transpose(1, 2), scores.unsqueeze(1)]
-        if torch.cuda.is_available():
-            return self.encoder(torch.cat(inputs, dim=1).type(torch.cuda.FloatTensor))
-        return self.encoder(torch.cat(inputs, dim=1).type(torch.FloatTensor))
+        # if torch.cuda.is_available():
+        #     return self.encoder(torch.cat(inputs, dim=1).type(torch.cuda.FloatTensor))
+        return self.encoder(torch.cat(inputs, dim=1).float())
 
 def attention(query, key, value):
     dim = query.shape[1]
@@ -64,7 +67,7 @@ class MultiHeadedAttention(nn.Module):
         query, key, value = [l(x).view(batch_dim, self.dim, self.num_heads, -1)
                              for l, x in zip(self.proj, (query, key, value))]
         x, prob = attention(query, key, value)
-        self.prob.append(prob)
+        # self.prob.append(prob)
         return self.merge(x.contiguous().view(batch_dim, self.dim*self.num_heads, -1))
 
 
@@ -78,8 +81,8 @@ class AttentionalPropagation(nn.Module):
     def forward(self, x, source):
         message = self.attn(x, source, source)
         return self.mlp(torch.cat([x, message], dim=1))
-
-
+        
+        
 class AttentionalGNN(nn.Module):
     def __init__(self, feature_dim: int, layer_names: list):
         super().__init__()
@@ -90,7 +93,7 @@ class AttentionalGNN(nn.Module):
 
     def forward(self, desc0, desc1):
         for layer, name in zip(self.layers, self.names):
-            layer.attn.prob = []
+            # layer.attn.prob = []
             if name == 'cross':
                 src0, src1 = desc1, desc0
             else:  # if name == 'self':
@@ -190,11 +193,259 @@ class SuperGlue(nn.Module):
         kpts1 = normalize_keypoints(kpts1, data['shape1'])
 
         # Keypoint MLP encoder.
-        desc0 = desc0.cuda() + self.kenc(kpts0, data['scores0'])
-        desc1 = desc1.cuda() + self.kenc(kpts1, data['scores1'])
+        desc0 = desc0 + self.kenc(kpts0, data['scores0'])
+        desc1 = desc1 + self.kenc(kpts1, data['scores1'])
 
         # Multi-layer Transformer network.
         desc0, desc1 = self.gnn(desc0, desc1)
+
+        # Final MLP projection.
+        mdesc0, mdesc1 = self.final_proj(desc0), self.final_proj(desc1)
+
+        # Compute matching descriptor distance.
+        scores = torch.einsum('bdn,bdm->bnm', mdesc0, mdesc1)
+        scores = scores / self.config['descriptor_dim']**.5
+
+        # Run the optimal transport.
+        scores = log_optimal_transport(
+            scores, self.bin_score,
+            iters=self.config['sinkhorn_iterations'])
+
+        # training phase
+        if is_train:
+            return scores  # return log probability matrix size (N+1) x (M+1)
+
+        # validating phase
+        assert kpts0.shape[1] != 0 or kpts1.shape[1] != 0
+        # Get the matches with score above "match_threshold".
+        max0, max1 = scores[:, :-1, :-1].max(2), scores[:, :-1, :-1].max(1)
+        indices0, indices1 = max0.indices, max1.indices
+        mutual0 = arange_like(indices0, 1)[None] == indices1.gather(1, indices0)
+        mutual1 = arange_like(indices1, 1)[None] == indices0.gather(1, indices1)
+        zero = scores.new_tensor(0)
+        mscores0 = torch.where(mutual0, max0.values.exp(), zero)
+        mscores1 = torch.where(mutual1, mscores0.gather(1, indices1), zero)
+        valid0 = mutual0 & (mscores0 > self.config['match_threshold'])
+        valid1 = mutual1 & valid0.gather(1, indices1)
+        indices0 = torch.where(valid0, indices0, indices0.new_tensor(-1))
+        indices1 = torch.where(valid1, indices1, indices1.new_tensor(-1))
+
+        return {
+            'keypoints0': data['keypoints0'],
+            'keypoints1': data['keypoints1'],
+            'matches0': indices0, # use -1 for invalid match
+            'matches1': indices1, # use -1 for invalid match
+            'matching_scores0': mscores0,
+            'matching_scores1': mscores1,
+        }
+
+
+def pairwise_dist(kps1, kps2):
+    """
+    compute pairwise square of l2 distance
+    
+    args:
+        kps1: tensor of shape (N,M1,D)
+        kps2: tensor of shape (N,M2,D)
+        
+    return:
+        tensor of shape (N,M1,M2)
+    """
+    diff = kps1[:,:,None,:] - kps2[:,None,:,:]
+    return (diff*diff).sum(dim=-1)
+
+
+def knn_indices(points, queries, k):
+    """
+    args:
+        points: shape (N,P,D)
+        queries: shape (N,Q,D)
+    return shape (N,Q,K)
+    """
+    dist = pairwise_dist(queries, points) # (N,Q,P)
+    _, indices = dist.topk(k=k+1, largest=False, dim=-1, sorted=True)
+    return indices[:,:,1:] # exclude the the query-point
+
+
+class ShellConv(nn.Module):
+    def __init__(
+        self,
+        feature_dim,
+        num_shells,
+        shell_size,
+    ):
+        """
+        args:
+            feature_dim(int): dimention of descriptor
+            num_shells(int): number of shell for each point
+            shell_size(int): number of points in each shell
+        => number of neighbors for each point: K = num_shells * shell_size
+        """
+        super().__init__()
+        self.shell_maxpool = nn.MaxPool2d(
+            kernel_size=(1,shell_size),
+            stride=(1,shell_size),
+        )
+        self.conv = nn.Conv2d(
+            in_channels=2*feature_dim,
+            out_channels=feature_dim,
+            kernel_size=(1,num_shells),
+            stride=(1,num_shells)
+        )
+    
+    def forward(self, pos_fts, neighbors_idxs, descriptors):
+        """
+        args:
+            pos_fts: position feature of neighbors of each point, shape (N,D,P,K)
+            neighbors_idxs: index of neighbors of each point, shape (N,P,K)
+            descriptors: features of each point, shape (N,D,P)
+        """
+        N, D, P, K = pos_fts.size()
+        neighbor_feats = descriptors[
+            torch.arange(N).view(-1,1,1,1),
+            torch.arange(D).view(1,-1,1,1), 
+            neighbors_idxs.view(N,1,P,K)
+        ] # (N,D,P,K)
+        # print("neighbor features", neighbor_feats.shape)
+        neighbor_feats = torch.cat([neighbor_feats, pos_fts], dim=1) # (N,2*D,P,K)
+        # print("cat", neighbor_feats.shape)
+        shell_feats = self.shell_maxpool(neighbor_feats)  # (N,2*D,P,S)
+        # print("shell features", shell_feats.shape)
+        descriptors = self.conv(shell_feats) # (N,D,P,1)
+        # print("descriptor", descriptors.shape)
+        return descriptors.squeeze(3) # (N,D,P)
+
+
+class ShellAttentionalGNN(nn.Module):
+    def __init__(
+        self, feature_dim, layer_names, num_shells, shell_size
+    ):
+        """
+        args:
+            feature_dim(int): dimention of descriptor
+            layer_names(list(str)): list of feature names, 
+                each of which is either 'self', 'cross', or 'shell'
+            num_shells(int): number of shells per point
+            shell_size(int): number of points in each shell
+        """
+        super().__init__()
+        for name in layer_names:
+            assert name in ["self", "cross", "shell"], \
+                f"invalid layer name, got {name}"
+        layers = []
+        for name in layer_names:
+            if name in ["self", "cross"]:
+                layers.append(AttentionalPropagation(feature_dim, 4))
+            else: # name == "shell"
+                layers.append(ShellConv(
+                    feature_dim, num_shells, shell_size))
+            
+        self.layers = nn.ModuleList(layers)
+        self.names = layer_names
+
+    def forward(self, 
+        desc0, pos0, neighbors_idxs0, 
+        desc1, pos1, neighbors_idxs1
+    ):
+        for layer, name in zip(self.layers, self.names):
+            # layer.attn.prob = []
+            if name == 'cross':
+                src0, src1 = desc1, desc0
+                delta0, delta1 = layer(desc0, src0), layer(desc1, src1)
+
+            elif name == 'self':  
+                src0, src1 = desc0, desc1
+                delta0, delta1 = layer(desc0, src0), layer(desc1, src1)
+                
+            else: # name == 'shell'
+                delta0 = layer(pos0, neighbors_idxs0, desc0)
+                delta1 = layer(pos1, neighbors_idxs1, desc1)
+                
+            desc0, desc1 = (desc0 + delta0), (desc1 + delta1)
+        return desc0, desc1
+
+
+class SuperShellGlue(nn.Module):
+    """
+    a combination of superglue and shellConv 
+
+    """
+    default_config = {
+        'descriptor_dim': 128,
+        "num_shells": 4,
+        "shell_size": 8,
+        'keypoint_encoder': [32, 64, 128, 256],
+        'GNN_layers': ['shell', 'cross'] * 9,
+        'sinkhorn_iterations': 100,
+        'match_threshold': 0.2,
+    }
+
+    def __init__(self, config):
+        super().__init__()
+        self.config = {**self.default_config, **config}
+
+        self.kenc = KeypointEncoder(
+            self.config['descriptor_dim'], self.config['keypoint_encoder'])
+
+        self.local_enc = KeypointEncoder(
+            self.config['descriptor_dim'], self.config['keypoint_encoder'])
+        
+        self.gnn = ShellAttentionalGNN(
+            self.config['descriptor_dim'], self.config['GNN_layers'],
+            self.config["num_shells"], self.config["shell_size"],)
+
+        self.final_proj = nn.Conv1d(
+            self.config['descriptor_dim'], self.config['descriptor_dim'],
+            kernel_size=1, bias=True)
+
+        bin_score = torch.nn.Parameter(torch.tensor(1.))
+        self.register_parameter('bin_score', bin_score)
+
+    def forward(self, data, is_train=True):
+        """Run SuperGlue on a pair of keypoints and descriptors"""
+        desc0, desc1 = data['descriptors0'], data['descriptors1']
+        kpts0, kpts1 = data['keypoints0'], data['keypoints1']
+
+        # Keypoint normalization.
+        kpts0 = normalize_keypoints(kpts0, data['shape0']) #(N,P1,2)
+        kpts1 = normalize_keypoints(kpts1, data['shape1']) #(N,P2,2)
+
+        # Keypoint MLP encoder.
+        score0, score1 = data['scores0'], data['scores1'] # (N,P1), (N,P2)
+        desc0 = desc0 + self.kenc(kpts0, score0) 
+        desc1 = desc1 + self.kenc(kpts1, score1)
+
+        # find neighbor
+        k = self.config["num_shells"] * self.config["shell_size"]
+        neighbor_idxs0 = knn_indices(kpts0, kpts0, k) # (N,P0,K)
+        neighbor_idxs1 = knn_indices(kpts1, kpts1, k)
+        
+        # local keypoint normalization
+        N, P0, _ = kpts0.size()
+        N, P1, _ = kpts1.size()
+        idxs0 = [torch.arange(N).view(-1,1,1), neighbor_idxs0]
+        idxs1 = [torch.arange(N).view(-1,1,1), neighbor_idxs1]
+        neighbor0 = kpts0[idxs0]# (N,P0,K,2)
+        neighbor1 = kpts1[idxs1]# (N,P1,K,2)
+        neighbor0 = neighbor0 - kpts0[:,:,None,:]
+        neighbor1 = neighbor1 - kpts1[:,:,None,:]
+        
+        # local keypoint encoder
+        D = self.config["descriptor_dim"]
+        neighbor_fts0 = self.local_enc(
+            neighbor0.view(N,-1,2),
+            score0[idxs0].view(N,-1),
+        ).view(N,D,P0,k)
+        neighbor_fts1 = self.local_enc(
+            neighbor1.view(N,-1,2),
+            score1[idxs1].view(N,-1)
+        ).view(N,D,P1,k)
+        
+        # Multi-layer Transformer network.
+        desc0, desc1 = self.gnn(
+            desc0, neighbor_fts0, neighbor_idxs0,
+            desc1, neighbor_fts1, neighbor_idxs1
+        )
 
         # Final MLP projection.
         mdesc0, mdesc1 = self.final_proj(desc0), self.final_proj(desc1)
