@@ -40,7 +40,7 @@ def load_data(root: str, scenes: list, n=2200) -> list:
     return dataset
 
 
-def transform_and_filter(pair: dict, max_keypoints=2048) -> dict:
+def transform_and_filter(pair: dict, top_k=2048) -> dict:
     """get groundtruth matrix for a pair of images
     Arguments:
         pair {dict}:
@@ -63,28 +63,23 @@ def transform_and_filter(pair: dict, max_keypoints=2048) -> dict:
     assert pair['keypoints'][1].shape[0] == pair['3dpoints'][1].shape[0]
 
     # get keypoints, descriptors and scores base on filter of has 3d points and descriptors
-    has_3d_points0 = pair['3dpoints'][0] != -1
+    # has_3d_points0 = pair['3dpoints'][0] != -1
     has_descriptors0 = ~np.isnan(pair['descriptors'][0][:, 0])
-    filter0 = has_3d_points0 * has_descriptors0
-    if sum(filter0) > max_keypoints:
-        true_idxs = np.argwhere(filter0 == True).squeeze()
-        np.random.shuffle(true_idxs)
-        reduced_true_idxs = true_idxs[:max_keypoints]
-        filter0 = filter0 * False
-        filter0[reduced_true_idxs] = True
+    top_k_scores0_idxs = np.argsort(
+        -(pair['scores'][0] + has_descriptors0))[:top_k]
+    top_k_filter0 = np.array([False] * has_descriptors0.shape[0])
+    top_k_filter0[top_k_scores0_idxs] = True
+    filter0 = top_k_filter0 * has_descriptors0
     keypoints0 = pair['keypoints'][0][filter0]
     descriptors0 = pair['descriptors'][0][filter0]
     scores0 = pair['scores'][0][filter0]
 
-    has_3d_points1 = pair['3dpoints'][1] != -1
     has_descriptors1 = ~np.isnan(pair['descriptors'][1][:, 0])
-    filter1 = has_3d_points1 * has_descriptors1
-    if sum(filter1) > max_keypoints:
-        true_idxs = np.argwhere(filter1 == True).squeeze()
-        np.random.shuffle(true_idxs)
-        reduced_true_idxs = true_idxs[:max_keypoints]
-        filter1 = filter1 * False
-        filter1[reduced_true_idxs] = True
+    top_k_scores1_idxs = np.argsort(
+        -(pair['scores'][1] + has_descriptors1))[:top_k]
+    top_k_filter1 = np.array([False] * has_descriptors1.shape[0])
+    top_k_filter1[top_k_scores1_idxs] = True
+    filter1 = top_k_filter1 * has_descriptors1
     keypoints1 = pair['keypoints'][1][filter1]
     descriptors1 = pair['descriptors'][1][filter1]
     scores1 = pair['scores'][1][filter1]
