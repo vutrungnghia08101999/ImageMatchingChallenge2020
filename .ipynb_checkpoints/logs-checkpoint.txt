@@ -202,28 +202,3 @@
 20-05-28 18:28:19, INFO:     Load training data
 20-05-28 18:28:20, INFO:       reichstag: 2775/2775
 20-05-28 18:28:20, INFO:     Generated 2775 samples
-20-05-28 18:38:06, INFO:     avg loss: 1.9619544509847535
-20-05-28 18:38:06, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-28_18:38:06_1.pth
-20-05-28 18:38:06, INFO:   VALID PHASE:
-20-05-28 18:40:56, INFO: Evaluation Results (mean over 1000 pairs):
-20-05-28 18:40:56, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
-20-05-28 18:40:56, INFO: 0.00	 0.14	 1.02	 5.60	 0.47	
-20-05-28 18:40:56, INFO: EPOCH: 3/50
-20-05-28 18:40:56, INFO:   TRAINING PHASE:
-20-05-28 18:40:56, INFO:     Load training data
-20-05-28 18:40:56, INFO:       reichstag: 2775/2775
-20-05-28 18:40:56, INFO:     Generated 2775 samples
-20-05-28 18:50:41, INFO:     avg loss: 1.0160829896222516
-20-05-28 18:50:41, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-28_18:50:41_2.pth
-20-05-28 18:50:41, INFO:   VALID PHASE:
-20-05-28 18:53:27, INFO: Evaluation Results (mean over 1000 pairs):
-20-05-28 18:53:27, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
-20-05-28 18:53:27, INFO: 0.00	 0.13	 0.76	 5.63	 0.47	
-20-05-28 18:53:27, INFO: EPOCH: 4/50
-20-05-28 18:53:27, INFO:   TRAINING PHASE:
-20-05-28 18:53:27, INFO:     Load training data
-20-05-28 18:53:27, INFO:       reichstag: 2775/2775
-20-05-28 18:53:27, INFO:     Generated 2775 samples
-20-05-28 19:03:14, INFO:     avg loss: 4.366169906364793
-20-05-28 19:03:14, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-28_19:03:14_3.pth
-20-05-28 19:03:14, INFO:   VALID PHASE:
