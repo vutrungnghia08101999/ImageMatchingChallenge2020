@@ -227,3 +227,381 @@
 20-05-28 19:03:14, INFO:     avg loss: 4.366169906364793
 20-05-28 19:03:14, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-28_19:03:14_3.pth
 20-05-28 19:03:14, INFO:   VALID PHASE:
+20-05-29 00:34:20, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 00:34:20, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data_cut_middle_iou'), ('sinkhorn_iterations', 20), ('train_scenes', 'reichstag'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_reichstag.txt'), ('weights', '')]
+20-05-29 00:34:21, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 00:34:21, INFO:   reichstag: 76
+20-05-29 00:34:21, INFO:   sacre_coeur: 500
+20-05-29 00:34:21, INFO:   notre_dame_front_facade: 500
+20-05-29 00:34:21, INFO:   buckingham_palace: 500
+20-05-29 00:34:21, INFO:   No.gt_pairs: 1000
+20-05-29 00:34:22, INFO: EPOCH: 1/50
+20-05-29 00:34:22, INFO:   TRAINING PHASE:
+20-05-29 00:34:22, INFO:     Load training data
+20-05-29 00:34:22, INFO:       reichstag: 2775/2775
+20-05-29 00:34:22, INFO:     Generated 2775 samples
+20-05-29 00:44:58, INFO:     avg loss: 0.5554181832673797
+20-05-29 00:44:58, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_00:44:58_0.pth
+20-05-29 00:44:58, INFO:   VALID PHASE:
+20-05-29 00:45:49, INFO: Evaluation Results (mean over 1000 pairs):
+20-05-29 00:45:49, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 00:45:49, INFO: 0.69	 1.72	 2.80	 9.65	 0.25	
+20-05-29 00:45:49, INFO: EPOCH: 2/50
+20-05-29 00:45:49, INFO:   TRAINING PHASE:
+20-05-29 00:45:49, INFO:     Load training data
+20-05-29 00:45:50, INFO:       reichstag: 2775/2775
+20-05-29 00:45:50, INFO:     Generated 2775 samples
+20-05-29 00:56:27, INFO:     avg loss: 0.2694797062117975
+20-05-29 00:56:27, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_00:56:27_1.pth
+20-05-29 00:56:27, INFO:   VALID PHASE:
+20-05-29 00:57:19, INFO: Evaluation Results (mean over 1000 pairs):
+20-05-29 00:57:19, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 00:57:19, INFO: 0.36	 0.53	 0.71	 3.32	 0.02	
+20-05-29 00:57:19, INFO: EPOCH: 3/50
+20-05-29 00:57:19, INFO:   TRAINING PHASE:
+20-05-29 00:57:19, INFO:     Load training data
+20-05-29 00:57:19, INFO:       reichstag: 2775/2775
+20-05-29 00:57:19, INFO:     Generated 2775 samples
+20-05-29 01:00:03, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 01:00:03, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,st_peters_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '')]
+20-05-29 01:00:03, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 01:00:03, INFO:   reichstag: 76
+20-05-29 01:00:03, INFO:   sacre_coeur: 500
+20-05-29 01:00:03, INFO:   notre_dame_front_facade: 500
+20-05-29 01:00:03, INFO:   buckingham_palace: 500
+20-05-29 01:00:03, INFO:   No.gt_pairs: 4000
+20-05-29 01:00:05, INFO: EPOCH: 1/50
+20-05-29 01:00:05, INFO:   TRAINING PHASE:
+20-05-29 01:00:05, INFO:     Load training data
+20-05-29 01:00:10, INFO:       brandenburg_gate: 200/25707
+20-05-29 01:00:39, INFO:       colosseum_exterior: 200/58218
+20-05-29 01:01:01, INFO:       grand_place_brussels: 200/17718
+20-05-29 01:01:11, INFO:       hagia_sophia_interior: 200/9485
+20-05-29 01:01:15, INFO:       palace_of_westminster: 200/8875
+20-05-29 01:01:29, INFO:       pantheon_exterior: 200/31329
+20-05-29 01:01:53, INFO:       prague_old_town_square: 200/18786
+20-05-29 01:02:41, INFO:       st_peters_square: 200/105769
+20-05-29 01:03:18, INFO:       taj_mahal: 200/39643
+20-05-29 01:03:36, INFO:       trevi_fountain: 200/10358
+20-05-29 01:03:48, INFO:       temple_nara_japan: 200/27790
+20-05-29 01:04:02, INFO:     Generated 2200 samples
+20-05-29 01:15:58, INFO:     avg loss: 0.7861635415889991
+20-05-29 01:15:58, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_01:15:58_0.pth
+20-05-29 01:15:58, INFO:   VALID PHASE:
+20-05-29 01:20:18, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 01:20:18, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 01:20:18, INFO: 21.19	 36.37	 52.29	 85.26	 4.43	
+20-05-29 01:20:18, INFO: EPOCH: 2/50
+20-05-29 01:20:18, INFO:   TRAINING PHASE:
+20-05-29 01:20:18, INFO:     Load training data
+20-05-29 01:20:24, INFO:       brandenburg_gate: 200/25707
+20-05-29 01:20:59, INFO:       colosseum_exterior: 200/58218
+20-05-29 01:21:28, INFO:       grand_place_brussels: 200/17718
+20-05-29 01:21:39, INFO:       hagia_sophia_interior: 200/9485
+20-05-29 01:21:45, INFO:       palace_of_westminster: 200/8875
+20-05-29 01:22:03, INFO:       pantheon_exterior: 200/31329
+20-05-29 01:22:26, INFO:       prague_old_town_square: 200/18786
+20-05-29 01:23:18, INFO:       st_peters_square: 200/105769
+20-05-29 01:24:00, INFO:       taj_mahal: 200/39643
+20-05-29 01:24:19, INFO:       trevi_fountain: 200/10358
+20-05-29 01:24:33, INFO:       temple_nara_japan: 200/27790
+20-05-29 01:24:50, INFO:     Generated 2200 samples
+20-05-29 01:30:09, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 01:30:09, INFO: [('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '')]
+20-05-29 01:30:10, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 01:30:10, INFO:   reichstag: 76
+20-05-29 01:30:10, INFO:   sacre_coeur: 500
+20-05-29 01:30:10, INFO:   notre_dame_front_facade: 500
+20-05-29 01:30:10, INFO:   buckingham_palace: 500
+20-05-29 01:30:10, INFO:   No.gt_pairs: 4000
+20-05-29 01:30:12, INFO: EPOCH: 1/50
+20-05-29 01:30:12, INFO:   TRAINING PHASE:
+20-05-29 01:30:12, INFO:     Load training data
+20-05-29 01:30:17, INFO:       brandenburg_gate: 220/25707
+20-05-29 01:30:46, INFO:       colosseum_exterior: 220/58218
+20-05-29 01:31:08, INFO:       grand_place_brussels: 220/17718
+20-05-29 01:31:17, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 01:31:22, INFO:       palace_of_westminster: 220/8875
+20-05-29 01:31:36, INFO:       pantheon_exterior: 220/31329
+20-05-29 01:32:01, INFO:       prague_old_town_square: 220/18786
+20-05-29 01:32:17, INFO:       taj_mahal: 220/39643
+20-05-29 01:32:36, INFO:       trevi_fountain: 220/10358
+20-05-29 01:32:49, INFO:       temple_nara_japan: 220/27790
+20-05-29 01:33:00, INFO:     Generated 2200 samples
+20-05-29 01:45:07, INFO:     avg loss: 0.774816325321032
+20-05-29 01:45:07, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_01:45:07_0.pth
+20-05-29 01:45:07, INFO:   VALID PHASE:
+20-05-29 01:49:38, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 01:49:38, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 01:49:38, INFO: 20.58	 35.81	 51.36	 85.12	 3.79	
+20-05-29 01:49:38, INFO: EPOCH: 2/50
+20-05-29 01:49:38, INFO:   TRAINING PHASE:
+20-05-29 01:49:38, INFO:     Load training data
+20-05-29 01:49:48, INFO:       brandenburg_gate: 220/25707
+20-05-29 01:50:44, INFO:       colosseum_exterior: 220/58218
+20-05-29 01:51:29, INFO:       grand_place_brussels: 220/17718
+20-05-29 01:51:46, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 01:51:54, INFO:       palace_of_westminster: 220/8875
+20-05-29 01:52:22, INFO:       pantheon_exterior: 220/31329
+20-05-29 01:52:55, INFO:       prague_old_town_square: 220/18786
+20-05-29 01:53:29, INFO:       taj_mahal: 220/39643
+20-05-29 01:53:56, INFO:       trevi_fountain: 220/10358
+20-05-29 01:54:22, INFO:       temple_nara_japan: 220/27790
+20-05-29 01:54:40, INFO:     Generated 2200 samples
+20-05-29 02:08:46, INFO:     avg loss: 0.44590070850127245
+20-05-29 02:08:46, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_02:08:46_1.pth
+20-05-29 02:08:46, INFO:   VALID PHASE:
+20-05-29 02:13:23, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 02:13:23, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 02:13:23, INFO: 24.06	 40.57	 57.11	 87.52	 5.18	
+20-05-29 02:13:23, INFO: EPOCH: 3/50
+20-05-29 02:13:23, INFO:   TRAINING PHASE:
+20-05-29 02:13:23, INFO:     Load training data
+20-05-29 02:13:31, INFO:       brandenburg_gate: 220/25707
+20-05-29 02:15:04, INFO:       colosseum_exterior: 220/58218
+20-05-29 02:15:50, INFO:       grand_place_brussels: 220/17718
+20-05-29 02:16:14, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 02:16:25, INFO:       palace_of_westminster: 220/8875
+20-05-29 02:16:55, INFO:       pantheon_exterior: 220/31329
+20-05-29 02:17:46, INFO:       prague_old_town_square: 220/18786
+20-05-29 02:18:19, INFO:       taj_mahal: 220/39643
+20-05-29 02:18:49, INFO:       trevi_fountain: 220/10358
+20-05-29 02:19:15, INFO:       temple_nara_japan: 220/27790
+20-05-29 02:19:36, INFO:     Generated 2200 samples
+20-05-29 02:33:53, INFO:     avg loss: 0.35039139873699254
+20-05-29 02:33:53, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth
+20-05-29 02:33:53, INFO:   VALID PHASE:
+20-05-29 02:38:43, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 02:38:43, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 02:38:43, INFO: 23.73	 40.95	 57.70	 87.41	 5.58	
+20-05-29 02:38:43, INFO: EPOCH: 4/50
+20-05-29 02:38:43, INFO:   TRAINING PHASE:
+20-05-29 02:38:43, INFO:     Load training data
+20-05-29 02:38:56, INFO:       brandenburg_gate: 220/25707
+20-05-29 02:40:11, INFO:       colosseum_exterior: 220/58218
+20-05-29 02:41:04, INFO:       grand_place_brussels: 220/17718
+20-05-29 02:41:29, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 02:41:40, INFO:       palace_of_westminster: 220/8875
+20-05-29 02:42:07, INFO:       pantheon_exterior: 220/31329
+20-05-29 02:42:56, INFO:       prague_old_town_square: 220/18786
+20-05-29 02:43:29, INFO:       taj_mahal: 220/39643
+20-05-29 02:44:01, INFO:       trevi_fountain: 220/10358
+20-05-29 02:44:27, INFO:       temple_nara_japan: 220/27790
+20-05-29 02:44:49, INFO:     Generated 2200 samples
+20-05-29 02:59:11, INFO:     avg loss: 0.3032232236158215
+20-05-29 02:59:11, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_02:59:11_3.pth
+20-05-29 02:59:11, INFO:   VALID PHASE:
+20-05-29 03:03:27, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 03:03:27, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 03:03:27, INFO: 13.35	 23.62	 34.50	 82.18	 2.69	
+20-05-29 03:03:27, INFO: EPOCH: 5/50
+20-05-29 03:03:27, INFO:   TRAINING PHASE:
+20-05-29 03:03:27, INFO:     Load training data
+20-05-29 03:03:36, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:05:45, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 03:05:45, INFO: [('lr', 0.0001), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth')]
+20-05-29 03:05:46, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 03:05:46, INFO:   reichstag: 76
+20-05-29 03:05:46, INFO:   sacre_coeur: 500
+20-05-29 03:05:46, INFO:   notre_dame_front_facade: 500
+20-05-29 03:05:46, INFO:   buckingham_palace: 500
+20-05-29 03:05:46, INFO:   No.gt_pairs: 4000
+20-05-29 03:05:48, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth
+20-05-29 03:05:48, INFO: EPOCH: 3/50
+20-05-29 03:05:48, INFO:   TRAINING PHASE:
+20-05-29 03:05:48, INFO:     Load training data
+20-05-29 03:05:53, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:06:22, INFO:       colosseum_exterior: 220/58218
+20-05-29 03:06:45, INFO:       grand_place_brussels: 220/17718
+20-05-29 03:06:55, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 03:06:59, INFO:       palace_of_westminster: 220/8875
+20-05-29 03:07:14, INFO:       pantheon_exterior: 220/31329
+20-05-29 03:07:38, INFO:       prague_old_town_square: 220/18786
+20-05-29 03:07:54, INFO:       taj_mahal: 220/39643
+20-05-29 03:08:12, INFO:       trevi_fountain: 220/10358
+20-05-29 03:08:25, INFO:       temple_nara_japan: 220/27790
+20-05-29 03:08:36, INFO:     Generated 2200 samples
+20-05-29 03:20:24, INFO:     avg loss: 0.28410005218092205
+20-05-29 03:20:24, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_03:20:24_2.pth
+20-05-29 03:20:24, INFO:   VALID PHASE:
+20-05-29 03:24:36, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 03:24:36, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 03:24:36, INFO: 11.99	 20.70	 30.18	 76.99	 2.84	
+20-05-29 03:24:36, INFO: EPOCH: 4/50
+20-05-29 03:24:36, INFO:   TRAINING PHASE:
+20-05-29 03:24:36, INFO:     Load training data
+20-05-29 03:24:42, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:25:33, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 03:25:33, INFO: [('lr', 1e-05), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth')]
+20-05-29 03:25:34, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 03:25:34, INFO:   reichstag: 76
+20-05-29 03:25:34, INFO:   sacre_coeur: 500
+20-05-29 03:25:34, INFO:   notre_dame_front_facade: 500
+20-05-29 03:25:34, INFO:   buckingham_palace: 500
+20-05-29 03:25:34, INFO:   No.gt_pairs: 4000
+20-05-29 03:25:36, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth
+20-05-29 03:25:36, INFO: EPOCH: 3/50
+20-05-29 03:25:36, INFO:   TRAINING PHASE:
+20-05-29 03:25:36, INFO:     Load training data
+20-05-29 03:25:40, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:26:07, INFO:       colosseum_exterior: 220/58218
+20-05-29 03:26:29, INFO:       grand_place_brussels: 220/17718
+20-05-29 03:26:39, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 03:26:43, INFO:       palace_of_westminster: 220/8875
+20-05-29 03:26:57, INFO:       pantheon_exterior: 220/31329
+20-05-29 03:27:21, INFO:       prague_old_town_square: 220/18786
+20-05-29 03:27:37, INFO:       taj_mahal: 220/39643
+20-05-29 03:27:56, INFO:       trevi_fountain: 220/10358
+20-05-29 03:28:09, INFO:       temple_nara_japan: 220/27790
+20-05-29 03:28:20, INFO:     Generated 2200 samples
+20-05-29 03:40:12, INFO:     avg loss: 0.2990042020689855
+20-05-29 03:40:12, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_03:40:12_2.pth
+20-05-29 03:40:12, INFO:   VALID PHASE:
+20-05-29 03:44:35, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 03:44:35, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 03:44:35, INFO: 24.93	 42.20	 59.09	 87.49	 6.52	
+20-05-29 03:44:35, INFO: EPOCH: 4/50
+20-05-29 03:44:35, INFO:   TRAINING PHASE:
+20-05-29 03:44:35, INFO:     Load training data
+20-05-29 03:44:41, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:45:15, INFO:       colosseum_exterior: 220/58218
+20-05-29 03:45:44, INFO:       grand_place_brussels: 220/17718
+20-05-29 03:45:54, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 03:46:00, INFO:       palace_of_westminster: 220/8875
+20-05-29 03:46:17, INFO:       pantheon_exterior: 220/31329
+20-05-29 03:46:40, INFO:       prague_old_town_square: 220/18786
+20-05-29 03:47:01, INFO:       taj_mahal: 220/39643
+20-05-29 03:47:20, INFO:       trevi_fountain: 220/10358
+20-05-29 03:47:37, INFO:       temple_nara_japan: 220/27790
+20-05-29 03:47:50, INFO:     Generated 2200 samples
+20-05-29 03:50:39, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 03:50:39, INFO: [('lr', 1e-05), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth')]
+20-05-29 03:50:41, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 03:50:41, INFO:   reichstag: 76
+20-05-29 03:50:41, INFO:   sacre_coeur: 500
+20-05-29 03:50:41, INFO:   notre_dame_front_facade: 500
+20-05-29 03:50:41, INFO:   buckingham_palace: 500
+20-05-29 03:50:41, INFO:   No.gt_pairs: 4000
+20-05-29 03:50:42, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-29_02:33:53_2.pth
+20-05-29 03:50:42, INFO: EPOCH: 3/50
+20-05-29 03:50:42, INFO:   TRAINING PHASE:
+20-05-29 03:50:42, INFO:     Load training data
+20-05-29 03:50:47, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:51:16, INFO:       colosseum_exterior: 220/58218
+20-05-29 03:51:38, INFO:       grand_place_brussels: 220/17718
+20-05-29 03:51:47, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 03:51:52, INFO:       palace_of_westminster: 220/8875
+20-05-29 03:52:06, INFO:       pantheon_exterior: 220/31329
+20-05-29 03:52:29, INFO:       prague_old_town_square: 220/18786
+20-05-29 03:52:55, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 03:52:55, INFO: [('lr', 1e-05), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_03:40:12_2.pth')]
+20-05-29 03:52:57, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 03:52:57, INFO:   reichstag: 76
+20-05-29 03:52:57, INFO:   sacre_coeur: 500
+20-05-29 03:52:57, INFO:   notre_dame_front_facade: 500
+20-05-29 03:52:57, INFO:   buckingham_palace: 500
+20-05-29 03:52:57, INFO:   No.gt_pairs: 4000
+20-05-29 03:52:58, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-29_03:40:12_2.pth
+20-05-29 03:52:58, INFO: EPOCH: 3/50
+20-05-29 03:52:58, INFO:   TRAINING PHASE:
+20-05-29 03:52:58, INFO:     Load training data
+20-05-29 03:53:03, INFO:       brandenburg_gate: 220/25707
+20-05-29 03:53:32, INFO:       colosseum_exterior: 220/58218
+20-05-29 03:53:55, INFO:       grand_place_brussels: 220/17718
+20-05-29 03:54:04, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 03:54:09, INFO:       palace_of_westminster: 220/8875
+20-05-29 03:54:23, INFO:       pantheon_exterior: 220/31329
+20-05-29 03:54:46, INFO:       prague_old_town_square: 220/18786
+20-05-29 03:55:02, INFO:       taj_mahal: 220/39643
+20-05-29 03:55:21, INFO:       trevi_fountain: 220/10358
+20-05-29 03:55:34, INFO:       temple_nara_japan: 220/27790
+20-05-29 03:55:45, INFO:     Generated 2200 samples
+20-05-29 04:07:35, INFO:     avg loss: 0.286501908255011
+20-05-29 04:07:35, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_04:07:35_3.pth
+20-05-29 04:07:35, INFO:   VALID PHASE:
+20-05-29 04:11:54, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 04:11:54, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 04:11:54, INFO: 22.70	 38.93	 54.70	 87.10	 5.70	
+20-05-29 04:11:54, INFO: EPOCH: 4/50
+20-05-29 04:11:54, INFO:   TRAINING PHASE:
+20-05-29 04:11:54, INFO:     Load training data
+20-05-29 04:12:00, INFO:       brandenburg_gate: 220/25707
+20-05-29 04:12:35, INFO:       colosseum_exterior: 220/58218
+20-05-29 04:13:03, INFO:       grand_place_brussels: 220/17718
+20-05-29 04:13:14, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 04:13:19, INFO:       palace_of_westminster: 220/8875
+20-05-29 04:13:37, INFO:       pantheon_exterior: 220/31329
+20-05-29 04:14:00, INFO:       prague_old_town_square: 220/18786
+20-05-29 04:14:21, INFO:       taj_mahal: 220/39643
+20-05-29 04:14:40, INFO:       trevi_fountain: 220/10358
+20-05-29 04:14:56, INFO:       temple_nara_japan: 220/27790
+20-05-29 04:15:10, INFO:     Generated 2200 samples
+20-05-29 04:16:33, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 04:16:33, INFO: [('lr', 1e-06), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_03:40:12_2.pth')]
+20-05-29 04:16:34, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-29 04:16:34, INFO:   reichstag: 76
+20-05-29 04:16:34, INFO:   sacre_coeur: 500
+20-05-29 04:16:34, INFO:   notre_dame_front_facade: 500
+20-05-29 04:16:34, INFO:   buckingham_palace: 500
+20-05-29 04:16:34, INFO:   No.gt_pairs: 4000
+20-05-29 04:16:36, INFO: Load model: /home/hieu123/nghia/models/checkpoint_20-05-29_03:40:12_2.pth
+20-05-29 04:16:36, INFO: EPOCH: 3/50
+20-05-29 04:16:36, INFO:   TRAINING PHASE:
+20-05-29 04:16:36, INFO:     Load training data
+20-05-29 04:16:41, INFO:       brandenburg_gate: 220/25707
+20-05-29 04:17:10, INFO:       colosseum_exterior: 220/58218
+20-05-29 04:17:32, INFO:       grand_place_brussels: 220/17718
+20-05-29 04:17:41, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 04:17:46, INFO:       palace_of_westminster: 220/8875
+20-05-29 04:18:00, INFO:       pantheon_exterior: 220/31329
+20-05-29 04:18:24, INFO:       prague_old_town_square: 220/18786
+20-05-29 04:18:39, INFO:       taj_mahal: 220/39643
+20-05-29 04:18:58, INFO:       trevi_fountain: 220/10358
+20-05-29 04:19:11, INFO:       temple_nara_japan: 220/27790
+20-05-29 04:19:22, INFO:     Generated 2200 samples
+20-05-29 04:31:11, INFO:     avg loss: 0.29013771969355706
+20-05-29 04:31:11, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_04:31:11_3.pth
+20-05-29 04:31:11, INFO:   VALID PHASE:
+20-05-29 04:35:35, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 04:35:35, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 04:35:35, INFO: 25.73	 42.93	 59.62	 87.59	 6.66	
+20-05-29 04:35:35, INFO: EPOCH: 4/50
+20-05-29 04:35:35, INFO:   TRAINING PHASE:
+20-05-29 04:35:35, INFO:     Load training data
+20-05-29 04:35:41, INFO:       brandenburg_gate: 220/25707
+20-05-29 04:36:16, INFO:       colosseum_exterior: 220/58218
+20-05-29 04:36:44, INFO:       grand_place_brussels: 220/17718
+20-05-29 04:36:55, INFO:       hagia_sophia_interior: 220/9485
+20-05-29 04:37:00, INFO:       palace_of_westminster: 220/8875
+20-05-29 04:37:17, INFO:       pantheon_exterior: 220/31329
+20-05-29 04:37:40, INFO:       prague_old_town_square: 220/18786
+20-05-29 04:38:01, INFO:       taj_mahal: 220/39643
+20-05-29 04:38:19, INFO:       trevi_fountain: 220/10358
+20-05-29 04:38:35, INFO:       temple_nara_japan: 220/27790
+20-05-29 04:38:49, INFO:     Generated 2200 samples
+20-05-29 04:50:47, INFO:     avg loss: 0.28912619001026485
+20-05-29 04:50:47, INFO:     /home/hieu123/nghia/models/checkpoint_20-05-29_04:50:47_4.pth
+20-05-29 04:50:47, INFO:   VALID PHASE:
+20-05-29 04:55:08, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-29 04:55:08, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-29 04:55:08, INFO: 24.87	 41.17	 57.31	 88.04	 6.05	
+20-05-29 04:55:08, INFO: EPOCH: 5/50
+20-05-29 04:55:08, INFO:   TRAINING PHASE:
+20-05-29 04:55:08, INFO:     Load training data
+20-05-29 04:55:14, INFO:       brandenburg_gate: 220/25707

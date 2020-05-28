@@ -62,6 +62,7 @@ parser.add_argument('--valid_gt', type=str,
 parser.add_argument('--models_folder', type=str,
                     default='/home/hieu123/nghia/models')
 parser.add_argument('--n_epochs', type=int, default=50)
+parser.add_argument('--lr', type=float, default=0.001)
 args = parser.parse_args()
 logging.info(f'\n========= IMAGE MATCHING CHALLENGE 2020 ==========\n')
 logging.info(args._get_kwargs())
@@ -93,15 +94,15 @@ if args.weights:
 
 # create optimizer
 optimizer = torch.optim.Adam(model.parameters(),
-                             lr=0.001,
+                             lr=args.lr,
                              betas=(0.9, 0.999))
 
 
 # In[ ]:
 
 
-for epoch in range(start_epoch, args.n_epochs):
-    logging.info(f'EPOCH: {epoch+1}/{args.n_epochs}')
+for epoch in range(start_epoch + 1, args.n_epochs):
+    logging.info(f'EPOCH: {epoch}/{args.n_epochs}')
     # ******************* TRAINING PHASE ***********************
     logging.info(f'  TRAINING PHASE:')
     dataset = SuperGlueDataset(args.root, args.train_scenes.split(','))

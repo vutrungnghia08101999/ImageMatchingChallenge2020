@@ -25,7 +25,7 @@ class SuperGlueDataset(Dataset):
         pair = self.pairs[index]
         return transform_and_filter(pair)
 
-def load_data(root: str, scenes: list, n=5000) -> list:
+def load_data(root: str, scenes: list, n=2200) -> list:
     dataset = []
     logging.info('    Load training data')
     for scene in scenes:
