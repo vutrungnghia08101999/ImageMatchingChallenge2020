@@ -1,0 +1,10 @@
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-29 06:16:09, INFO: [('match_threshold', 0.2), ('output', '/home/hieu123/nghia/dataset/submission'), ('sinkhorn_iterations', 20), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048_100_2020.npy'), ('weights', '/home/hieu123/nghia/models/checkpoint_20-05-29_04:31:11_3.pth')]
+20-05-29 06:16:11, INFO: Load model at: /home/hieu123/nghia/models/checkpoint_20-05-29_04:31:11_3.pth
+20-05-29 06:16:11, INFO: SCENE: reichstag
+20-05-29 06:19:43, INFO: avg_matches: 167.95261014439097
+20-05-29 06:19:44, INFO: SCENE: sacre_coeur
+20-05-29 06:26:27, INFO: avg_matches: 109.25878787878789
+20-05-29 06:26:28, INFO: SCENE: st_peters_square
+20-05-29 06:32:59, INFO: avg_matches: 77.26484848484849
