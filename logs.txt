@@ -394,3 +394,40 @@
 20-05-27 00:14:10, INFO: Saved data at: /media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output_random_cut_10000/buckingham_palace.npy
 20-05-27 00:14:10, INFO: Completed
 
+20-05-28 08:32:26, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-28 08:32:26, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input'), ('iou_thresold', 0.1), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('scene', 'reichstag')]
+20-05-28 08:32:34, INFO: No.points: 17823
+20-05-28 08:32:34, INFO: No.images: 75
+20-05-28 08:32:34, INFO: max no.pairs: 2775
+20-05-28 08:33:23, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-28 08:33:23, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input'), ('low_iou_thresold', 0.05), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('scene', 'reichstag'), ('up_iou_thresold', 0.1)]
+20-05-28 08:33:23, INFO: No.points: 17823
+20-05-28 08:33:23, INFO: No.images: 75
+20-05-28 08:33:23, INFO: max no.pairs: 2775
+20-05-28 08:34:38, INFO: No.pair filter/all: 977/2775
+20-05-28 08:35:27, INFO: avg matches: 875.0040941658137
+20-05-28 08:35:27, INFO: avg keypoints0: 6670.096212896622
+20-05-28 08:35:27, INFO: avg keypoints1: 6581.507676560901
+20-05-28 08:35:27, INFO: avg points3d_IDs0: 2533.045035823951
+20-05-28 08:35:27, INFO: avg points3d_IDs1: 2435.96417604913
+20-05-28 08:35:27, INFO: avg has_descriptors0: 3617.3715455475945
+20-05-28 08:35:27, INFO: avg has_descriptors1: 3552.558853633572
+20-05-28 09:43:00, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-28 09:43:00, INFO: [('input', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input'), ('low_iou_thresold', 0.05), ('output', '/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output'), ('scene', 'reichstag'), ('up_iou_thresold', 0.1)]
+20-05-28 09:43:00, INFO: No.points: 17823
+20-05-28 09:43:00, INFO: No.images: 75
+20-05-28 09:43:00, INFO: max no.pairs: 2775
+20-05-28 09:43:01, INFO: No.pair filter/all: 977/2775
+20-05-28 09:43:52, INFO: avg matches: 875.0040941658137
+20-05-28 09:43:52, INFO: avg keypoints0: 6670.096212896622
+20-05-28 09:43:52, INFO: avg keypoints1: 6581.507676560901
+20-05-28 09:43:52, INFO: avg points3d_IDs0: 2533.045035823951
+20-05-28 09:43:52, INFO: avg points3d_IDs1: 2435.96417604913
+20-05-28 09:43:52, INFO: avg has_descriptors0: 3617.3715455475945
+20-05-28 09:43:52, INFO: avg has_descriptors1: 3552.558853633572
