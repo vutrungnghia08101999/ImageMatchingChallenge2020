@@ -431,3 +431,39 @@
 20-05-28 09:43:52, INFO: avg points3d_IDs1: 2435.96417604913
 20-05-28 09:43:52, INFO: avg has_descriptors0: 3617.3715455475945
 20-05-28 09:43:52, INFO: avg has_descriptors1: 3552.558853633572
+20-05-28 16:56:13, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-28 16:56:13, INFO: [('input', '/home/hieu123/data/local_features'), ('low_iou_thresold', 0.01), ('output', '/home/hieu123/nghia/dataset/train_data_cut_middle_iou'), ('scene', 'reichstag'), ('up_iou_thresold', 0.05)]
+20-05-28 16:56:14, INFO: No.points: 17823
+20-05-28 16:56:14, INFO: No.images: 75
+20-05-28 16:56:14, INFO: max no.pairs: 2775
+20-05-28 16:56:14, INFO: No.pair filter/all: 1509/2775
+20-05-28 16:57:31, INFO: avg matches: 392.5487077534791
+20-05-28 16:57:31, INFO: avg keypoints0: 7059.540092776673
+20-05-28 16:57:31, INFO: avg keypoints1: 7049.532140490391
+20-05-28 16:57:31, INFO: avg points3d_IDs0: 2056.9768058316768
+20-05-28 16:57:31, INFO: avg points3d_IDs1: 2087.283631544069
+20-05-28 16:57:31, INFO: avg has_descriptors0: 4063.6514247846258
+20-05-28 16:57:31, INFO: avg has_descriptors1: 3941.051689860835
+20-05-28 16:57:32, INFO: Saved data at: /home/hieu123/nghia/dataset/train_data_cut_middle_iou/reichstag.npy
+20-05-28 16:57:32, INFO: Completed
+
+20-05-28 18:14:53, INFO: 
+======== SUPERGLUE - DATA PREPROCESSING ========
+
+20-05-28 18:14:53, INFO: [('input', '/home/hieu123/data/local_features'), ('low_iou_thresold', -1.0), ('output', '/home/hieu123/nghia/dataset/train_data_cut_middle_iou'), ('scene', 'reichstag'), ('up_iou_thresold', 1.0)]
+20-05-28 18:14:53, INFO: No.points: 17823
+20-05-28 18:14:53, INFO: No.images: 75
+20-05-28 18:14:53, INFO: max no.pairs: 2775
+20-05-28 18:14:54, INFO: No.pair filter/all: 2775/2775
+20-05-28 18:16:39, INFO: avg matches: 688.455
+20-05-28 18:16:39, INFO: avg keypoints0: 7102.8835
+20-05-28 18:16:39, INFO: avg keypoints1: 7130.937
+20-05-28 18:16:39, INFO: avg points3d_IDs0: 2374.054
+20-05-28 18:16:39, INFO: avg points3d_IDs1: 2390.7335
+20-05-28 18:16:39, INFO: avg has_descriptors0: 3967.52
+20-05-28 18:16:39, INFO: avg has_descriptors1: 3945.867
+20-05-28 18:16:41, INFO: Saved data at: /home/hieu123/nghia/dataset/train_data_cut_middle_iou/reichstag.npy
+20-05-28 18:16:41, INFO: Completed
+

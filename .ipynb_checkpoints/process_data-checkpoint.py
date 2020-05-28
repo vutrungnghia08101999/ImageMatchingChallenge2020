@@ -19,10 +19,11 @@ console.setLevel(logging.INFO)
 logging.getLogger().addHandler(console)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/input')
-parser.add_argument('--output', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/output')
+parser.add_argument('--input', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/input')
+parser.add_argument('--output', type=str, default='/media/vutrungnghia/New Volume/P2-ImageMatchingChallenge/dataset/superglue/train/output')
 parser.add_argument('--scene', type=str, default='reichstag')
-parser.add_argument('--iou_thresold', type=float, default=0.1)
+parser.add_argument('--up_iou_thresold', type=float, default=0.1)
+parser.add_argument('--low_iou_thresold', type=float, default=0.05)
 args = parser.parse_args()
 
 logging.info('\n======== SUPERGLUE - DATA PREPROCESSING ========\n')
@@ -62,11 +63,10 @@ for (u, v) in all_pairs.keys():
 
 dataset = {}
 for k, v in all_pairs.items():
-    if v['iou'] > args.iou_thresold:
+    if v['iou'] > args.low_iou_thresold and v['iou'] < args.up_iou_thresold:
         dataset[k] = {'matches': []}
 
 logging.info(f'No.pair filter/all: {len(dataset)}/{len(all_pairs)}')
-
 # generate list of matched index keypoints for each pairs after filtering
 for point_id in tqdm(points.keys()):
     point = points[point_id]
@@ -136,11 +136,10 @@ np.save(OUTPUT, dataset)
 logging.info(f'Saved data at: {OUTPUT}')
 logging.info('Completed\n')
 
-# pair = dataset[(1, 2)]
+# pair = dataset[(6, 42)]
 # this function is used to create groundtruth, filtered keypoints, descriptors and scores on the fly during training
-def transform_and_filter(pair: dict) -> dict:
+def transform_and_filter(pair: dict, top_k=2048) -> dict:
     """get groundtruth matrix for a pair of images
-
     Arguments:
         pair {dict}:
             matches: [(idx1, idx2), .... ]
@@ -162,16 +161,23 @@ def transform_and_filter(pair: dict) -> dict:
     assert pair['keypoints'][1].shape[0] == pair['3dpoints'][1].shape[0]
 
     # get keypoints, descriptors and scores base on filter of has 3d points and descriptors
-    has_3d_points0 = pair['3dpoints'][0] != -1
+    # has_3d_points0 = pair['3dpoints'][0] != -1
     has_descriptors0 = ~np.isnan(pair['descriptors'][0][:, 0])
-    filter0 = has_3d_points0 * has_descriptors0
+    top_k_scores0_idxs = np.argsort(
+        -(pair['scores'][0] + has_descriptors0))[:top_k]
+    top_k_filter0 = np.array([False] * has_descriptors0.shape[0])
+    top_k_filter0[top_k_scores0_idxs] = True
+    filter0 = top_k_filter0 * has_descriptors0
     keypoints0 = pair['keypoints'][0][filter0]
     descriptors0 = pair['descriptors'][0][filter0]
     scores0 = pair['scores'][0][filter0]
 
-    has_3d_points1 = pair['3dpoints'][1] != -1
     has_descriptors1 = ~np.isnan(pair['descriptors'][1][:, 0])
-    filter1 = has_3d_points1 * has_descriptors1
+    top_k_scores1_idxs = np.argsort(
+        -(pair['scores'][1] + has_descriptors1))[:top_k]
+    top_k_filter1 = np.array([False] * has_descriptors1.shape[0])
+    top_k_filter1[top_k_scores1_idxs] = True
+    filter1 = top_k_filter1 * has_descriptors1
     keypoints1 = pair['keypoints'][1][filter1]
     descriptors1 = pair['descriptors'][1][filter1]
     scores1 = pair['scores'][1][filter1]
@@ -179,26 +185,23 @@ def transform_and_filter(pair: dict) -> dict:
     # construct the groundtruth matrix for keypoints after filtering
     height, width = pair['keypoints'][0].shape[0] + 1, pair['keypoints'][1].shape[0] + 1
     groundtruth = np.zeros((height, width))
-    right_append = np.ones(height)
-    bottom_append = np.ones(width)
-
     for kp1_idx, kp2_idx in pair['matches']:
         groundtruth[kp1_idx][kp2_idx] = 1
-        right_append[kp1_idx] = 0
-        bottom_append[kp2_idx] = 0
-
-    groundtruth[:, width - 1] += right_append
-    groundtruth[height - 1, :] += bottom_append
-    groundtruth[height - 1][width - 1] = 0
 
     filter0 = np.append(filter0, True)
     filter1 = np.append(filter1, True)
     groundtruth = groundtruth[filter0, :]
     groundtruth = groundtruth[:, filter1]
 
+    right_append = groundtruth.sum(axis=1) == 0
+    bottom_append = groundtruth.sum(axis=0) == 0
+    groundtruth[:, -1] += right_append
+    groundtruth[-1, :] += bottom_append
+    groundtruth[-1][-1] = 0
+
     return {
         'keypoints': (keypoints0, keypoints1),
-        'descriptors': (descriptors0, descriptors1),
+        'descriptors': (descriptors0.transpose(), descriptors1.transpose()),  # N x 128 => 128 x N, M x 128 => 128 x M
         'scores': (scores0, scores1),
         'shape': pair['shape'],
         'name': pair['name'],
@@ -224,11 +227,11 @@ def transform_and_filter(pair: dict) -> dict:
 # plt.imshow(image1)
 # plt.scatter(kps1[kp1][0], kps1[kp1][1])
 
-#
+
 # s = transform_and_filter(dataset[list(dataset.keys())[0]])
 # a = np.argwhere(s['groundtruth'][:-1, :-1] == 1)
-# descriptors0 = s['descriptors'][0]
-# descriptors1 = s['descriptors'][1]
+# descriptors0 = s['descriptors'][0].transpose()
+# descriptors1 = s['descriptors'][1].transpose()
 
 # a1 = []
 # for u in a:
