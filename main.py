@@ -119,7 +119,7 @@ for epoch in range(start_epoch, args.n_epochs):
             'shape1': pair['shape'][1],
             'descriptors1': pair['descriptors'][1].cuda(),
             'keypoints1': pair['keypoints'][1].cuda(),
-            'scores1': pair['scores'][1].cuda(),
+            'scores1': pair['scores'][1].cuda()
         }
 
         log_matrix = model(inputs)  # log_matrix.exp() satifys: sum(row) = sum(col) = 1

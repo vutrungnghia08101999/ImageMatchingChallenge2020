@@ -41,8 +41,8 @@ class KeypointEncoder(nn.Module):
 
     def forward(self, kpts, scores):
         inputs = [kpts.transpose(1, 2), scores.unsqueeze(1)]
-        # if torch.cuda.is_available():
-        #     return self.encoder(torch.cat(inputs, dim=1).type(torch.cuda.FloatTensor))
+        if torch.cuda.is_available():
+            return self.encoder(torch.cat(inputs, dim=1).type(torch.cuda.FloatTensor))
         return self.encoder(torch.cat(inputs, dim=1).float())
 
 def attention(query, key, value):
@@ -375,7 +375,7 @@ class SuperShellGlue(nn.Module):
         "num_shells": 4,
         "shell_size": 8,
         'keypoint_encoder': [32, 64, 128, 256],
-        'GNN_layers': ['shell', 'cross'] * 9,
+        'GNN_layers': ['shell', 'cross'] * 5,
         'sinkhorn_iterations': 100,
         'match_threshold': 0.2,
     }
