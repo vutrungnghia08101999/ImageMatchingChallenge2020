@@ -190,8 +190,8 @@ class SuperGlue(nn.Module):
         kpts1 = normalize_keypoints(kpts1, data['shape1'])
 
         # Keypoint MLP encoder.
-        desc0 = desc0.cuda() + self.kenc(kpts0, data['scores0'])
-        desc1 = desc1.cuda() + self.kenc(kpts1, data['scores1'])
+        desc0 = desc0 + self.kenc(kpts0, data['scores0'])
+        desc1 = desc1 + self.kenc(kpts1, data['scores1'])
 
         # Multi-layer Transformer network.
         desc0, desc1 = self.gnn(desc0, desc1)

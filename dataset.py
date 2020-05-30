@@ -171,8 +171,8 @@ def transform_and_filter(pair: dict, max_keypoints=2048) -> dict:
 
     right_append = groundtruth.sum(axis=1) == 0
     bottom_append = groundtruth.sum(axis=0) == 0
-    groundtruth[:, -1] += right_append * 0.1
-    groundtruth[-1, :] += bottom_append * 0.1
+    groundtruth[:, -1] += right_append
+    groundtruth[-1, :] += bottom_append
     groundtruth[-1][-1] = 0
 
     return {

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import argparse
 import datetime
 import logging
@@ -30,25 +24,12 @@ torch.backends.cudnn.benchmark = False
 np.random.seed(0)
 torch.manual_seed(0)
 
-logging.basicConfig(filename='logs.txt',
-                    filemode='a',
-                    format='%(asctime)s, %(levelname)s: %(message)s',
-                    datefmt='%y-%m-%d %H:%M:%S',
-                    level=logging.INFO)
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-logging.getLogger().addHandler(console)
-# logging.basicConfig(level=logging.INFO)
-
-
-# In[ ]:
-
-
 parser = argparse.ArgumentParser()
+parser.add_argument('--exp_name', type=str, required=True)
 parser.add_argument('--root', type=str,
                     default='/home/hieu123/nghia/dataset/train_data')
 parser.add_argument('--train_scenes', type=str,
-                    default='reichstag,')
+                    default='reichstag')
 parser.add_argument('--sinkhorn_iterations', type=int, default=20,
                     help='Number of Sinkhorn iterations performed by SuperGlue')
 parser.add_argument('--match_threshold', type=float, default=0.2,
@@ -64,12 +45,19 @@ parser.add_argument('--models_folder', type=str,
 parser.add_argument('--n_epochs', type=int, default=50)
 parser.add_argument('--lr', type=float, default=0.001)
 args = parser.parse_args()
+
+logging.basicConfig(filename=f'logs/{args.exp_name}.txt',
+                    filemode='w',
+                    format='%(asctime)s, %(levelname)s: %(message)s',
+                    datefmt='%y-%m-%d %H:%M:%S',
+                    level=logging.INFO)
+console = logging.StreamHandler()
+console.setLevel(logging.INFO)
+logging.getLogger().addHandler(console)
+# logging.basicConfig(level=logging.INFO)
+
 logging.info(f'\n========= IMAGE MATCHING CHALLENGE 2020 ==========\n')
 logging.info(args._get_kwargs())
-
-
-# In[ ]:
-
 
 # creat train dataset and dataloader, load valid data and valid gt
 valid_data = np.load(args.valid_data, allow_pickle=True).item()
@@ -78,7 +66,7 @@ with open(args.valid_gt, 'r') as f:
 logging.info(f'VALID_SCENES: {valid_data.keys()}')
 for k, v in valid_data.items():
     logging.info(f'  {k}: {len(v)}')
-logging.info(f'  No.gt_pairs: {len(valid_gt)}')
+logging.info(f'No.gt_pairs: {len(valid_gt)}')
 
 # create superglue model and load checkpoint if exist
 model = SuperGlue({'sinkhorn_iterations': args.sinkhorn_iterations,
@@ -97,30 +85,26 @@ optimizer = torch.optim.Adam(model.parameters(),
                              lr=args.lr,
                              betas=(0.9, 0.999))
 
-
-# In[ ]:
-
-
 for epoch in range(start_epoch + 1, args.n_epochs):
     logging.info(f'EPOCH: {epoch}/{args.n_epochs}')
     # ******************* TRAINING PHASE ***********************
-    logging.info(f'  TRAINING PHASE:')
+    logging.info(f'TRAINING PHASE:')
     dataset = SuperGlueDataset(args.root, args.train_scenes.split(','))
     dataloader = DataLoader(dataset, batch_size=1, shuffle=True)
-    logging.info(f'    Generated {len(dataloader)} samples')
+    logging.info(f'Generated {len(dataloader)} samples')
     model.train()
     avg_loss = AverageMeter()
     for pair in tqdm(dataloader):
         groundtruth = pair['groundtruth']
         inputs = {
             'shape0': pair['shape'][0],
-            'descriptors0': pair['descriptors'][0],
-            'keypoints0': pair['keypoints'][0],
-            'scores0': pair['scores'][0],
+            'descriptors0': pair['descriptors'][0].cuda(),
+            'keypoints0': pair['keypoints'][0].cuda(),
+            'scores0': pair['scores'][0].cuda(),
             'shape1': pair['shape'][1],
-            'descriptors1': pair['descriptors'][1],
-            'keypoints1': pair['keypoints'][1],
-            'scores1': pair['scores'][1]
+            'descriptors1': pair['descriptors'][1].cuda(),
+            'keypoints1': pair['keypoints'][1].cuda(),
+            'scores1': pair['scores'][1].cuda()
         }
 
         log_matrix = model(inputs)  # log_matrix.exp() satifys: sum(row) = sum(col) = 1
@@ -133,17 +117,68 @@ for epoch in range(start_epoch + 1, args.n_epochs):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-    logging.info(f'    avg loss: {avg_loss.avg}')
+    logging.info(f'avg loss: {avg_loss.avg}')
     x = datetime.datetime.now()
     time = x.strftime("%y-%m-%d_%H:%M:%S")
     model_checkpoint = os.path.join(args.models_folder, f'checkpoint_{time}_{epoch}.pth')
     torch.save({'epoch': epoch, 'state_dict': model.state_dict()}, model_checkpoint)
-    logging.info(f'    {model_checkpoint}')
+    logging.info(f'{model_checkpoint}')
+    # ******************* VALIDATE TRAIN PHASE **********************
+    logging.info('VALID TRAIN PHASE:')
+    model.eval()
+    avg_keypoints = AverageMeter()
+    avg_matches = AverageMeter()
+    avg_pred_positive = AverageMeter()
+    avg_true_positive = AverageMeter()
+    for pair in tqdm(dataloader):
+        groundtruth = pair['groundtruth']
+        inputs = {
+            'shape0': pair['shape'][0],
+            'descriptors0': pair['descriptors'][0].cuda(),
+            'keypoints0': pair['keypoints'][0].cuda(),
+            'scores0': pair['scores'][0].cuda(),
+            'shape1': pair['shape'][1],
+            'descriptors1': pair['descriptors'][1].cuda(),
+            'keypoints1': pair['keypoints'][1].cuda(),
+            'scores1': pair['scores'][1].cuda()
+        }
+        with torch.no_grad():
+            pred = model(inputs, is_train=False)
+        pred = {k: v[0].cpu().numpy() for k, v in pred.items()}
+        matches = pred['matches0']
+
+        indices_img0 = np.argwhere(matches != -1)
+        indices_img1 = matches[indices_img0]
+        links = np.stack([indices_img0, indices_img1], axis=1)
+        links = links[:, :, 0]
+
+        groundtruth = groundtruth.squeeze()[:-1, :-1].numpy().astype(np.int)
+        pred_matrix = np.zeros(groundtruth.shape)
+
+        for row, col in links:
+            pred_matrix[row][col] = 1
+        pred_matrix = pred_matrix.astype(np.int)
+
+        avg_keypoints.update(sum(groundtruth.shape) / len(groundtruth.shape))
+        avg_matches.update(groundtruth.sum())
+        avg_pred_positive.update(pred_matrix.sum())
+        true_positive = (pred_matrix == groundtruth) * groundtruth
+        avg_true_positive.update(true_positive.sum())
+    logging.info(f'avg_keypoints: {avg_keypoints.avg}')
+    logging.info(f'avg_matches: {avg_matches.avg}')
+    logging.info(f'avg_pred_positive: {avg_pred_positive.avg}')
+    logging.info(f'avg_true_positive: {avg_true_positive.avg}')
     
     # ******************* VALIDATE PHASE ************************
-    logging.info('  VALID PHASE:')
+    logging.info('VALID PHASE:')
     results = []
     model.eval()
+
+    summary_result = {}
+    for scene in valid_data.keys():
+        summary_result[scene] = {'avg_keypoints': AverageMeter(),
+                                 'avg_pred_positive': AverageMeter(),
+                                 'avg_true_positive': AverageMeter()}
     for pair in tqdm(valid_gt):
         path0, path1 = pair[:2]
         scene = path0.split('/')[0]
@@ -159,15 +194,15 @@ for epoch in range(start_epoch + 1, args.n_epochs):
             'shape0': {
                 'height': torch.tensor(features0['shape']['height']),
                 'width': torch.tensor(features0['shape']['width'])},
-            'descriptors0': torch.from_numpy(features0['descriptors'].transpose()).unsqueeze(0),
-            'keypoints0': torch.from_numpy(features0['keypoints']).unsqueeze(0),
-            'scores0': torch.from_numpy(features0['scores']).unsqueeze(0),
+            'descriptors0': torch.from_numpy(features0['descriptors'].transpose()).unsqueeze(0).cuda(),
+            'keypoints0': torch.from_numpy(features0['keypoints']).unsqueeze(0).cuda(),
+            'scores0': torch.from_numpy(features0['scores']).unsqueeze(0).cuda(),
             'shape1': {
                 'height': torch.tensor(features1['shape']['height']),
                 'width': torch.tensor(features1['shape']['width'])},
-            'descriptors1': torch.from_numpy(features1['descriptors'].transpose()).unsqueeze(0),
-            'keypoints1': torch.from_numpy(features1['keypoints']).unsqueeze(0),
-            'scores1': torch.from_numpy(features1['scores']).unsqueeze(0)
+            'descriptors1': torch.from_numpy(features1['descriptors'].transpose()).unsqueeze(0).cuda(),
+            'keypoints1': torch.from_numpy(features1['keypoints']).unsqueeze(0).cuda(),
+            'scores1': torch.from_numpy(features1['scores']).unsqueeze(0).cuda()
         }
         with torch.no_grad():
             pred = model(inputs, is_train=False)
@@ -207,6 +242,10 @@ for epoch in range(start_epoch + 1, args.n_epochs):
         epi_errs = compute_epipolar_error(mkpts0, mkpts1, T_0to1, K0, K1)
         correct = epi_errs < 5e-4
         num_correct = np.sum(correct)
+        summary_result[scene]['avg_keypoints'].update(len(kpts0))
+        summary_result[scene]['avg_pred_positive'].update(len(correct))
+        summary_result[scene]['avg_true_positive'].update(num_correct)
+        
         precision = np.mean(correct) if len(correct) > 0 else 0
         matching_score = num_correct / len(kpts0) if len(kpts0) > 0 else 0
 
@@ -240,14 +279,15 @@ for epoch in range(start_epoch + 1, args.n_epochs):
     aucs = [100.*yy for yy in aucs]
     prec = 100.*np.mean(precisions)
     ms = 100.*np.mean(matching_scores)
+    for scene, v in summary_result.items():
+        v1 = v['avg_keypoints'].avg
+        v2 = v['avg_pred_positive'].avg
+        v3 = v['avg_true_positive'].avg
+        logging.info(f'{scene}')
+        logging.info(f'  avg_keypoints: {v1}')
+        logging.info(f'  avg_pred_positive: {v2}')
+        logging.info(f'  avg_true_positive: {v3}')
     logging.info('Evaluation Results (mean over {} pairs):'.format(len(valid_gt)))
     logging.info('AUC@5\t AUC@10\t AUC@20\t Prec\t MScore\t')
     logging.info('{:.2f}\t {:.2f}\t {:.2f}\t {:.2f}\t {:.2f}\t'.format(
         aucs[0], aucs[1], aucs[2], prec, ms))
-
-
-# In[ ]:
-
-
-
-
