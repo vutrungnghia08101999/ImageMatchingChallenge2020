@@ -1,0 +1,992 @@
+20-05-31 04:07:54, INFO: 
+========= IMAGE MATCHING CHALLENGE 2020 ==========
+
+20-05-31 04:07:54, INFO: [('exp_name', 'iou0_1_9layers_without_weightGT_max_2048kpts_has_3dp_has_descriptors_fix_dataset'), ('lr', 0.001), ('match_threshold', 0.2), ('models_folder', '/home/hieu123/nghia/models'), ('n_epochs', 50), ('root', '/home/hieu123/nghia/dataset/train_data'), ('sinkhorn_iterations', 20), ('train_scenes', 'brandenburg_gate,colosseum_exterior,grand_place_brussels,hagia_sophia_interior,palace_of_westminster,pantheon_exterior,prague_old_town_square,taj_mahal,trevi_fountain,temple_nara_japan'), ('valid_data', '/home/hieu123/nghia/dataset/test_data/val_2048.npy'), ('valid_gt', 'valid/yfcc_test_pairs_with_gt.txt'), ('weights', '')]
+20-05-31 04:07:55, INFO: VALID_SCENES: dict_keys(['reichstag', 'sacre_coeur', 'notre_dame_front_facade', 'buckingham_palace'])
+20-05-31 04:07:55, INFO:   reichstag: 76
+20-05-31 04:07:55, INFO:   sacre_coeur: 500
+20-05-31 04:07:55, INFO:   notre_dame_front_facade: 500
+20-05-31 04:07:55, INFO:   buckingham_palace: 500
+20-05-31 04:07:55, INFO: No.gt_pairs: 4000
+20-05-31 04:07:56, INFO:     Load training data
+20-05-31 04:08:01, INFO:       brandenburg_gate: 220/25707
+20-05-31 04:08:29, INFO:       colosseum_exterior: 220/58218
+20-05-31 04:08:51, INFO:       grand_place_brussels: 220/17718
+20-05-31 04:09:00, INFO:       hagia_sophia_interior: 220/9485
+20-05-31 04:09:05, INFO:       palace_of_westminster: 220/8875
+20-05-31 04:09:18, INFO:       pantheon_exterior: 220/31329
+20-05-31 04:09:42, INFO:       prague_old_town_square: 220/18786
+20-05-31 04:09:57, INFO:       taj_mahal: 220/39643
+20-05-31 04:10:15, INFO:       trevi_fountain: 220/10358
+20-05-31 04:10:28, INFO:       temple_nara_japan: 220/27790
+20-05-31 04:10:38, INFO: EPOCH: 1/50
+20-05-31 04:10:38, INFO: TRAINING PHASE:
+20-05-31 04:10:38, INFO: Generated 2200 samples
+20-05-31 04:21:57, INFO: avg loss: 0.7850581521870665
+20-05-31 04:21:57, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_04:21:57_1.pth
+20-05-31 04:21:57, INFO: VALID TRAIN PHASE:
+20-05-31 04:28:10, INFO: avg_keypoints: 1841.976818181818
+20-05-31 04:28:10, INFO: avg_matches: 348.0159090909091
+20-05-31 04:28:10, INFO: avg_pred_positive: 200.74954545454545
+20-05-31 04:28:10, INFO: avg_true_positive: 132.55318181818183
+20-05-31 04:28:10, INFO: VALID PHASE:
+20-05-31 04:32:25, INFO: reichstag
+20-05-31 04:32:25, INFO:   avg_keypoints: 1436.797
+20-05-31 04:32:25, INFO:   avg_pred_positive: 99.686
+20-05-31 04:32:25, INFO:   avg_true_positive: 93.452
+20-05-31 04:32:25, INFO: sacre_coeur
+20-05-31 04:32:25, INFO:   avg_keypoints: 1753.867
+20-05-31 04:32:25, INFO:   avg_pred_positive: 75.939
+20-05-31 04:32:25, INFO:   avg_true_positive: 71.956
+20-05-31 04:32:25, INFO: notre_dame_front_facade
+20-05-31 04:32:25, INFO:   avg_keypoints: 1770.478
+20-05-31 04:32:25, INFO:   avg_pred_positive: 96.472
+20-05-31 04:32:25, INFO:   avg_true_positive: 91.192
+20-05-31 04:32:25, INFO: buckingham_palace
+20-05-31 04:32:25, INFO:   avg_keypoints: 1665.429
+20-05-31 04:32:25, INFO:   avg_pred_positive: 45.195
+20-05-31 04:32:25, INFO:   avg_true_positive: 40.573
+20-05-31 04:32:25, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 04:32:25, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 04:32:25, INFO: 23.47	 39.92	 56.05	 85.57	 4.89	
+20-05-31 04:32:25, INFO: EPOCH: 2/50
+20-05-31 04:32:25, INFO: TRAINING PHASE:
+20-05-31 04:32:25, INFO: Generated 2200 samples
+20-05-31 04:45:14, INFO: avg loss: 0.4432337567877431
+20-05-31 04:45:14, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_04:45:14_2.pth
+20-05-31 04:45:14, INFO: VALID TRAIN PHASE:
+20-05-31 04:51:56, INFO: avg_keypoints: 1841.976818181818
+20-05-31 04:51:56, INFO: avg_matches: 348.03545454545457
+20-05-31 04:51:56, INFO: avg_pred_positive: 243.59045454545455
+20-05-31 04:51:56, INFO: avg_true_positive: 159.70772727272728
+20-05-31 04:51:56, INFO: VALID PHASE:
+20-05-31 04:55:59, INFO: reichstag
+20-05-31 04:55:59, INFO:   avg_keypoints: 1436.797
+20-05-31 04:55:59, INFO:   avg_pred_positive: 126.07
+20-05-31 04:55:59, INFO:   avg_true_positive: 117.259
+20-05-31 04:55:59, INFO: sacre_coeur
+20-05-31 04:55:59, INFO:   avg_keypoints: 1753.867
+20-05-31 04:55:59, INFO:   avg_pred_positive: 92.359
+20-05-31 04:55:59, INFO:   avg_true_positive: 86.91
+20-05-31 04:55:59, INFO: notre_dame_front_facade
+20-05-31 04:55:59, INFO:   avg_keypoints: 1770.478
+20-05-31 04:55:59, INFO:   avg_pred_positive: 123.196
+20-05-31 04:55:59, INFO:   avg_true_positive: 115.051
+20-05-31 04:55:59, INFO: buckingham_palace
+20-05-31 04:55:59, INFO:   avg_keypoints: 1665.429
+20-05-31 04:55:59, INFO:   avg_pred_positive: 58.809
+20-05-31 04:55:59, INFO:   avg_true_positive: 51.073
+20-05-31 04:55:59, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 04:55:59, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 04:55:59, INFO: 25.04	 41.91	 58.75	 83.78	 6.07	
+20-05-31 04:55:59, INFO: EPOCH: 3/50
+20-05-31 04:55:59, INFO: TRAINING PHASE:
+20-05-31 04:55:59, INFO: Generated 2200 samples
+20-05-31 05:07:00, INFO: avg loss: 0.35217724510335957
+20-05-31 05:07:00, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_05:07:00_3.pth
+20-05-31 05:07:00, INFO: VALID TRAIN PHASE:
+20-05-31 05:12:52, INFO: avg_keypoints: 1841.976818181818
+20-05-31 05:12:52, INFO: avg_matches: 348.17136363636365
+20-05-31 05:12:52, INFO: avg_pred_positive: 264.9004545454545
+20-05-31 05:12:52, INFO: avg_true_positive: 171.105
+20-05-31 05:12:52, INFO: VALID PHASE:
+20-05-31 05:17:09, INFO: reichstag
+20-05-31 05:17:09, INFO:   avg_keypoints: 1436.797
+20-05-31 05:17:09, INFO:   avg_pred_positive: 137.972
+20-05-31 05:17:09, INFO:   avg_true_positive: 128.086
+20-05-31 05:17:09, INFO: sacre_coeur
+20-05-31 05:17:09, INFO:   avg_keypoints: 1753.867
+20-05-31 05:17:09, INFO:   avg_pred_positive: 114.285
+20-05-31 05:17:09, INFO:   avg_true_positive: 105.873
+20-05-31 05:17:09, INFO: notre_dame_front_facade
+20-05-31 05:17:09, INFO:   avg_keypoints: 1770.478
+20-05-31 05:17:09, INFO:   avg_pred_positive: 138.485
+20-05-31 05:17:09, INFO:   avg_true_positive: 126.43
+20-05-31 05:17:09, INFO: buckingham_palace
+20-05-31 05:17:09, INFO:   avg_keypoints: 1665.429
+20-05-31 05:17:09, INFO:   avg_pred_positive: 80.192
+20-05-31 05:17:09, INFO:   avg_true_positive: 69.339
+20-05-31 05:17:09, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 05:17:09, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 05:17:09, INFO: 26.98	 45.08	 62.83	 85.03	 7.00	
+20-05-31 05:17:09, INFO: EPOCH: 4/50
+20-05-31 05:17:09, INFO: TRAINING PHASE:
+20-05-31 05:17:09, INFO: Generated 2200 samples
+20-05-31 05:28:35, INFO: avg loss: 0.31225509393682055
+20-05-31 05:28:35, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_05:28:35_4.pth
+20-05-31 05:28:35, INFO: VALID TRAIN PHASE:
+20-05-31 05:34:42, INFO: avg_keypoints: 1841.976818181818
+20-05-31 05:34:42, INFO: avg_matches: 347.8781818181818
+20-05-31 05:34:42, INFO: avg_pred_positive: 229.9359090909091
+20-05-31 05:34:42, INFO: avg_true_positive: 151.01227272727272
+20-05-31 05:34:42, INFO: VALID PHASE:
+20-05-31 05:39:13, INFO: reichstag
+20-05-31 05:39:13, INFO:   avg_keypoints: 1436.797
+20-05-31 05:39:13, INFO:   avg_pred_positive: 118.548
+20-05-31 05:39:13, INFO:   avg_true_positive: 111.126
+20-05-31 05:39:13, INFO: sacre_coeur
+20-05-31 05:39:13, INFO:   avg_keypoints: 1753.867
+20-05-31 05:39:13, INFO:   avg_pred_positive: 101.49
+20-05-31 05:39:13, INFO:   avg_true_positive: 94.855
+20-05-31 05:39:13, INFO: notre_dame_front_facade
+20-05-31 05:39:13, INFO:   avg_keypoints: 1770.478
+20-05-31 05:39:13, INFO:   avg_pred_positive: 124.692
+20-05-31 05:39:13, INFO:   avg_true_positive: 116.168
+20-05-31 05:39:13, INFO: buckingham_palace
+20-05-31 05:39:13, INFO:   avg_keypoints: 1665.429
+20-05-31 05:39:13, INFO:   avg_pred_positive: 58.609
+20-05-31 05:39:13, INFO:   avg_true_positive: 51.422
+20-05-31 05:39:13, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 05:39:13, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 05:39:13, INFO: 25.31	 42.69	 59.62	 85.29	 6.09	
+20-05-31 05:39:13, INFO: EPOCH: 5/50
+20-05-31 05:39:13, INFO: TRAINING PHASE:
+20-05-31 05:39:13, INFO: Generated 2200 samples
+20-05-31 05:51:04, INFO: avg loss: 0.6457461751170602
+20-05-31 05:51:04, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_05:51:04_5.pth
+20-05-31 05:51:04, INFO: VALID TRAIN PHASE:
+20-05-31 05:57:13, INFO: avg_keypoints: 1841.976818181818
+20-05-31 05:57:13, INFO: avg_matches: 348.1036363636364
+20-05-31 05:57:13, INFO: avg_pred_positive: 0.4531818181818182
+20-05-31 05:57:13, INFO: avg_true_positive: 0.0009090909090909091
+20-05-31 05:57:13, INFO: VALID PHASE:
+20-05-31 06:01:26, INFO: reichstag
+20-05-31 06:01:26, INFO:   avg_keypoints: 1436.797
+20-05-31 06:01:26, INFO:   avg_pred_positive: 0.019
+20-05-31 06:01:26, INFO:   avg_true_positive: 0.001
+20-05-31 06:01:26, INFO: sacre_coeur
+20-05-31 06:01:26, INFO:   avg_keypoints: 1753.867
+20-05-31 06:01:26, INFO:   avg_pred_positive: 1.124
+20-05-31 06:01:26, INFO:   avg_true_positive: 0.108
+20-05-31 06:01:26, INFO: notre_dame_front_facade
+20-05-31 06:01:26, INFO:   avg_keypoints: 1770.478
+20-05-31 06:01:26, INFO:   avg_pred_positive: 1.093
+20-05-31 06:01:26, INFO:   avg_true_positive: 0.092
+20-05-31 06:01:26, INFO: buckingham_palace
+20-05-31 06:01:26, INFO:   avg_keypoints: 1665.429
+20-05-31 06:01:26, INFO:   avg_pred_positive: 0.113
+20-05-31 06:01:26, INFO:   avg_true_positive: 0.011
+20-05-31 06:01:26, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 06:01:26, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 06:01:26, INFO: 0.00	 0.00	 0.00	 2.25	 0.00	
+20-05-31 06:01:26, INFO: EPOCH: 6/50
+20-05-31 06:01:26, INFO: TRAINING PHASE:
+20-05-31 06:01:26, INFO: Generated 2200 samples
+20-05-31 06:13:19, INFO: avg loss: 1.1146714870461976
+20-05-31 06:13:19, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_06:13:19_6.pth
+20-05-31 06:13:19, INFO: VALID TRAIN PHASE:
+20-05-31 06:19:29, INFO: avg_keypoints: 1841.976818181818
+20-05-31 06:19:29, INFO: avg_matches: 347.6922727272727
+20-05-31 06:19:29, INFO: avg_pred_positive: 0.30863636363636365
+20-05-31 06:19:29, INFO: avg_true_positive: 0.00045454545454545455
+20-05-31 06:19:29, INFO: VALID PHASE:
+20-05-31 06:23:43, INFO: reichstag
+20-05-31 06:23:43, INFO:   avg_keypoints: 1436.797
+20-05-31 06:23:43, INFO:   avg_pred_positive: 0.27
+20-05-31 06:23:43, INFO:   avg_true_positive: 0.031
+20-05-31 06:23:43, INFO: sacre_coeur
+20-05-31 06:23:43, INFO:   avg_keypoints: 1753.867
+20-05-31 06:23:43, INFO:   avg_pred_positive: 1.062
+20-05-31 06:23:43, INFO:   avg_true_positive: 0.089
+20-05-31 06:23:43, INFO: notre_dame_front_facade
+20-05-31 06:23:43, INFO:   avg_keypoints: 1770.478
+20-05-31 06:23:43, INFO:   avg_pred_positive: 1.126
+20-05-31 06:23:43, INFO:   avg_true_positive: 0.092
+20-05-31 06:23:43, INFO: buckingham_palace
+20-05-31 06:23:43, INFO:   avg_keypoints: 1665.429
+20-05-31 06:23:43, INFO:   avg_pred_positive: 0.288
+20-05-31 06:23:43, INFO:   avg_true_positive: 0.028
+20-05-31 06:23:43, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 06:23:43, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 06:23:43, INFO: 0.00	 0.00	 0.00	 4.06	 0.00	
+20-05-31 06:23:43, INFO: EPOCH: 7/50
+20-05-31 06:23:43, INFO: TRAINING PHASE:
+20-05-31 06:23:43, INFO: Generated 2200 samples
+20-05-31 06:35:35, INFO: avg loss: 1.091145365996666
+20-05-31 06:35:35, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_06:35:35_7.pth
+20-05-31 06:35:35, INFO: VALID TRAIN PHASE:
+20-05-31 06:41:44, INFO: avg_keypoints: 1841.976818181818
+20-05-31 06:41:44, INFO: avg_matches: 348.0659090909091
+20-05-31 06:41:44, INFO: avg_pred_positive: 0.1509090909090909
+20-05-31 06:41:44, INFO: avg_true_positive: 0.0
+20-05-31 06:41:44, INFO: VALID PHASE:
+20-05-31 06:45:55, INFO: reichstag
+20-05-31 06:45:55, INFO:   avg_keypoints: 1436.797
+20-05-31 06:45:55, INFO:   avg_pred_positive: 0.034
+20-05-31 06:45:55, INFO:   avg_true_positive: 0.001
+20-05-31 06:45:55, INFO: sacre_coeur
+20-05-31 06:45:55, INFO:   avg_keypoints: 1753.867
+20-05-31 06:45:55, INFO:   avg_pred_positive: 0.335
+20-05-31 06:45:55, INFO:   avg_true_positive: 0.035
+20-05-31 06:45:55, INFO: notre_dame_front_facade
+20-05-31 06:45:55, INFO:   avg_keypoints: 1770.478
+20-05-31 06:45:55, INFO:   avg_pred_positive: 0.422
+20-05-31 06:45:55, INFO:   avg_true_positive: 0.031
+20-05-31 06:45:55, INFO: buckingham_palace
+20-05-31 06:45:55, INFO:   avg_keypoints: 1665.429
+20-05-31 06:45:55, INFO:   avg_pred_positive: 0.037
+20-05-31 06:45:55, INFO:   avg_true_positive: 0.003
+20-05-31 06:45:55, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 06:45:55, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 06:45:55, INFO: 0.00	 0.00	 0.00	 1.21	 0.00	
+20-05-31 06:45:55, INFO: EPOCH: 8/50
+20-05-31 06:45:55, INFO: TRAINING PHASE:
+20-05-31 06:45:55, INFO: Generated 2200 samples
+20-05-31 06:57:46, INFO: avg loss: 1.111108419980664
+20-05-31 06:57:46, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_06:57:46_8.pth
+20-05-31 06:57:46, INFO: VALID TRAIN PHASE:
+20-05-31 07:03:54, INFO: avg_keypoints: 1841.976818181818
+20-05-31 07:03:54, INFO: avg_matches: 347.78909090909093
+20-05-31 07:03:54, INFO: avg_pred_positive: 0.00045454545454545455
+20-05-31 07:03:54, INFO: avg_true_positive: 0.0
+20-05-31 07:03:54, INFO: VALID PHASE:
+20-05-31 07:08:04, INFO: reichstag
+20-05-31 07:08:04, INFO:   avg_keypoints: 1436.797
+20-05-31 07:08:04, INFO:   avg_pred_positive: 0.0
+20-05-31 07:08:04, INFO:   avg_true_positive: 0.0
+20-05-31 07:08:04, INFO: sacre_coeur
+20-05-31 07:08:04, INFO:   avg_keypoints: 1753.867
+20-05-31 07:08:04, INFO:   avg_pred_positive: 0.002
+20-05-31 07:08:04, INFO:   avg_true_positive: 0.0
+20-05-31 07:08:04, INFO: notre_dame_front_facade
+20-05-31 07:08:04, INFO:   avg_keypoints: 1770.478
+20-05-31 07:08:04, INFO:   avg_pred_positive: 0.003
+20-05-31 07:08:04, INFO:   avg_true_positive: 0.0
+20-05-31 07:08:04, INFO: buckingham_palace
+20-05-31 07:08:04, INFO:   avg_keypoints: 1665.429
+20-05-31 07:08:04, INFO:   avg_pred_positive: 0.002
+20-05-31 07:08:04, INFO:   avg_true_positive: 0.0
+20-05-31 07:08:04, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 07:08:04, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 07:08:04, INFO: 0.00	 0.00	 0.00	 0.00	 0.00	
+20-05-31 07:08:04, INFO: EPOCH: 9/50
+20-05-31 07:08:04, INFO: TRAINING PHASE:
+20-05-31 07:08:04, INFO: Generated 2200 samples
+20-05-31 07:19:52, INFO: avg loss: 1.2096243202913532
+20-05-31 07:19:52, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_07:19:52_9.pth
+20-05-31 07:19:52, INFO: VALID TRAIN PHASE:
+20-05-31 07:25:58, INFO: avg_keypoints: 1841.976818181818
+20-05-31 07:25:58, INFO: avg_matches: 348.13045454545454
+20-05-31 07:25:58, INFO: avg_pred_positive: 0.48818181818181816
+20-05-31 07:25:58, INFO: avg_true_positive: 0.0
+20-05-31 07:25:58, INFO: VALID PHASE:
+20-05-31 07:30:06, INFO: reichstag
+20-05-31 07:30:06, INFO:   avg_keypoints: 1436.797
+20-05-31 07:30:06, INFO:   avg_pred_positive: 0.321
+20-05-31 07:30:06, INFO:   avg_true_positive: 0.036
+20-05-31 07:30:06, INFO: sacre_coeur
+20-05-31 07:30:06, INFO:   avg_keypoints: 1753.867
+20-05-31 07:30:06, INFO:   avg_pred_positive: 0.797
+20-05-31 07:30:06, INFO:   avg_true_positive: 0.065
+20-05-31 07:30:06, INFO: notre_dame_front_facade
+20-05-31 07:30:06, INFO:   avg_keypoints: 1770.478
+20-05-31 07:30:06, INFO:   avg_pred_positive: 0.673
+20-05-31 07:30:06, INFO:   avg_true_positive: 0.046
+20-05-31 07:30:06, INFO: buckingham_palace
+20-05-31 07:30:06, INFO:   avg_keypoints: 1665.429
+20-05-31 07:30:06, INFO:   avg_pred_positive: 0.285
+20-05-31 07:30:06, INFO:   avg_true_positive: 0.026
+20-05-31 07:30:06, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 07:30:06, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 07:30:06, INFO: 0.00	 0.00	 0.00	 2.80	 0.00	
+20-05-31 07:30:06, INFO: EPOCH: 10/50
+20-05-31 07:30:06, INFO: TRAINING PHASE:
+20-05-31 07:30:06, INFO: Generated 2200 samples
+20-05-31 07:41:53, INFO: avg loss: 1.1111607240047268
+20-05-31 07:41:53, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_07:41:53_10.pth
+20-05-31 07:41:53, INFO: VALID TRAIN PHASE:
+20-05-31 07:47:59, INFO: avg_keypoints: 1841.976818181818
+20-05-31 07:47:59, INFO: avg_matches: 348.4777272727273
+20-05-31 07:47:59, INFO: avg_pred_positive: 0.1009090909090909
+20-05-31 07:47:59, INFO: avg_true_positive: 0.0
+20-05-31 07:47:59, INFO: VALID PHASE:
+20-05-31 07:52:07, INFO: reichstag
+20-05-31 07:52:07, INFO:   avg_keypoints: 1436.797
+20-05-31 07:52:07, INFO:   avg_pred_positive: 0.123
+20-05-31 07:52:07, INFO:   avg_true_positive: 0.013
+20-05-31 07:52:07, INFO: sacre_coeur
+20-05-31 07:52:07, INFO:   avg_keypoints: 1753.867
+20-05-31 07:52:07, INFO:   avg_pred_positive: 0.202
+20-05-31 07:52:07, INFO:   avg_true_positive: 0.024
+20-05-31 07:52:07, INFO: notre_dame_front_facade
+20-05-31 07:52:07, INFO:   avg_keypoints: 1770.478
+20-05-31 07:52:07, INFO:   avg_pred_positive: 0.128
+20-05-31 07:52:07, INFO:   avg_true_positive: 0.007
+20-05-31 07:52:07, INFO: buckingham_palace
+20-05-31 07:52:07, INFO:   avg_keypoints: 1665.429
+20-05-31 07:52:07, INFO:   avg_pred_positive: 0.235
+20-05-31 07:52:07, INFO:   avg_true_positive: 0.017
+20-05-31 07:52:07, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 07:52:07, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 07:52:07, INFO: 0.00	 0.00	 0.00	 1.11	 0.00	
+20-05-31 07:52:07, INFO: EPOCH: 11/50
+20-05-31 07:52:07, INFO: TRAINING PHASE:
+20-05-31 07:52:07, INFO: Generated 2200 samples
+20-05-31 08:03:56, INFO: avg loss: 1.1123868475277274
+20-05-31 08:03:56, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_08:03:56_11.pth
+20-05-31 08:03:56, INFO: VALID TRAIN PHASE:
+20-05-31 08:10:03, INFO: avg_keypoints: 1841.976818181818
+20-05-31 08:10:03, INFO: avg_matches: 347.72409090909093
+20-05-31 08:10:03, INFO: avg_pred_positive: 0.14227272727272727
+20-05-31 08:10:03, INFO: avg_true_positive: 0.0
+20-05-31 08:10:03, INFO: VALID PHASE:
+20-05-31 08:14:13, INFO: reichstag
+20-05-31 08:14:13, INFO:   avg_keypoints: 1436.797
+20-05-31 08:14:13, INFO:   avg_pred_positive: 0.097
+20-05-31 08:14:13, INFO:   avg_true_positive: 0.008
+20-05-31 08:14:13, INFO: sacre_coeur
+20-05-31 08:14:13, INFO:   avg_keypoints: 1753.867
+20-05-31 08:14:13, INFO:   avg_pred_positive: 0.153
+20-05-31 08:14:13, INFO:   avg_true_positive: 0.018
+20-05-31 08:14:13, INFO: notre_dame_front_facade
+20-05-31 08:14:13, INFO:   avg_keypoints: 1770.478
+20-05-31 08:14:13, INFO:   avg_pred_positive: 0.184
+20-05-31 08:14:13, INFO:   avg_true_positive: 0.005
+20-05-31 08:14:13, INFO: buckingham_palace
+20-05-31 08:14:13, INFO:   avg_keypoints: 1665.429
+20-05-31 08:14:13, INFO:   avg_pred_positive: 0.096
+20-05-31 08:14:13, INFO:   avg_true_positive: 0.004
+20-05-31 08:14:13, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 08:14:13, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 08:14:13, INFO: 0.00	 0.00	 0.00	 0.71	 0.00	
+20-05-31 08:14:13, INFO: EPOCH: 12/50
+20-05-31 08:14:13, INFO: TRAINING PHASE:
+20-05-31 08:14:13, INFO: Generated 2200 samples
+20-05-31 08:26:04, INFO: avg loss: 1.1123633459318627
+20-05-31 08:26:04, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_08:26:04_12.pth
+20-05-31 08:26:04, INFO: VALID TRAIN PHASE:
+20-05-31 08:32:12, INFO: avg_keypoints: 1841.976818181818
+20-05-31 08:32:12, INFO: avg_matches: 347.725
+20-05-31 08:32:12, INFO: avg_pred_positive: 0.215
+20-05-31 08:32:12, INFO: avg_true_positive: 0.0022727272727272726
+20-05-31 08:32:12, INFO: VALID PHASE:
+20-05-31 08:36:20, INFO: reichstag
+20-05-31 08:36:20, INFO:   avg_keypoints: 1436.797
+20-05-31 08:36:20, INFO:   avg_pred_positive: 0.594
+20-05-31 08:36:20, INFO:   avg_true_positive: 0.091
+20-05-31 08:36:20, INFO: sacre_coeur
+20-05-31 08:36:20, INFO:   avg_keypoints: 1753.867
+20-05-31 08:36:20, INFO:   avg_pred_positive: 0.162
+20-05-31 08:36:20, INFO:   avg_true_positive: 0.018
+20-05-31 08:36:20, INFO: notre_dame_front_facade
+20-05-31 08:36:20, INFO:   avg_keypoints: 1770.478
+20-05-31 08:36:20, INFO:   avg_pred_positive: 0.115
+20-05-31 08:36:20, INFO:   avg_true_positive: 0.016
+20-05-31 08:36:20, INFO: buckingham_palace
+20-05-31 08:36:20, INFO:   avg_keypoints: 1665.429
+20-05-31 08:36:20, INFO:   avg_pred_positive: 0.435
+20-05-31 08:36:20, INFO:   avg_true_positive: 0.064
+20-05-31 08:36:20, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 08:36:20, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 08:36:20, INFO: 0.00	 0.00	 0.00	 3.69	 0.00	
+20-05-31 08:36:20, INFO: EPOCH: 13/50
+20-05-31 08:36:20, INFO: TRAINING PHASE:
+20-05-31 08:36:20, INFO: Generated 2200 samples
+20-05-31 08:48:10, INFO: avg loss: 1.099066586351915
+20-05-31 08:48:10, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_08:48:10_13.pth
+20-05-31 08:48:10, INFO: VALID TRAIN PHASE:
+20-05-31 08:54:18, INFO: avg_keypoints: 1841.976818181818
+20-05-31 08:54:18, INFO: avg_matches: 348.09090909090907
+20-05-31 08:54:18, INFO: avg_pred_positive: 0.007727272727272728
+20-05-31 08:54:18, INFO: avg_true_positive: 0.0
+20-05-31 08:54:18, INFO: VALID PHASE:
+20-05-31 08:58:24, INFO: reichstag
+20-05-31 08:58:24, INFO:   avg_keypoints: 1436.797
+20-05-31 08:58:24, INFO:   avg_pred_positive: 0.037
+20-05-31 08:58:24, INFO:   avg_true_positive: 0.002
+20-05-31 08:58:24, INFO: sacre_coeur
+20-05-31 08:58:24, INFO:   avg_keypoints: 1753.867
+20-05-31 08:58:24, INFO:   avg_pred_positive: 0.009
+20-05-31 08:58:24, INFO:   avg_true_positive: 0.0
+20-05-31 08:58:24, INFO: notre_dame_front_facade
+20-05-31 08:58:24, INFO:   avg_keypoints: 1770.478
+20-05-31 08:58:24, INFO:   avg_pred_positive: 0.007
+20-05-31 08:58:24, INFO:   avg_true_positive: 0.0
+20-05-31 08:58:24, INFO: buckingham_palace
+20-05-31 08:58:24, INFO:   avg_keypoints: 1665.429
+20-05-31 08:58:24, INFO:   avg_pred_positive: 0.038
+20-05-31 08:58:24, INFO:   avg_true_positive: 0.005
+20-05-31 08:58:24, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 08:58:24, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 08:58:24, INFO: 0.00	 0.00	 0.00	 0.16	 0.00	
+20-05-31 08:58:24, INFO: EPOCH: 14/50
+20-05-31 08:58:24, INFO: TRAINING PHASE:
+20-05-31 08:58:24, INFO: Generated 2200 samples
+20-05-31 09:10:13, INFO: avg loss: 1.1451127494557685
+20-05-31 09:10:13, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_09:10:13_14.pth
+20-05-31 09:10:13, INFO: VALID TRAIN PHASE:
+20-05-31 09:16:19, INFO: avg_keypoints: 1841.976818181818
+20-05-31 09:16:19, INFO: avg_matches: 347.8818181818182
+20-05-31 09:16:19, INFO: avg_pred_positive: 0.15045454545454545
+20-05-31 09:16:19, INFO: avg_true_positive: 0.0
+20-05-31 09:16:19, INFO: VALID PHASE:
+20-05-31 09:20:26, INFO: reichstag
+20-05-31 09:20:26, INFO:   avg_keypoints: 1436.797
+20-05-31 09:20:26, INFO:   avg_pred_positive: 0.173
+20-05-31 09:20:26, INFO:   avg_true_positive: 0.018
+20-05-31 09:20:26, INFO: sacre_coeur
+20-05-31 09:20:26, INFO:   avg_keypoints: 1753.867
+20-05-31 09:20:26, INFO:   avg_pred_positive: 0.141
+20-05-31 09:20:26, INFO:   avg_true_positive: 0.011
+20-05-31 09:20:26, INFO: notre_dame_front_facade
+20-05-31 09:20:26, INFO:   avg_keypoints: 1770.478
+20-05-31 09:20:26, INFO:   avg_pred_positive: 0.109
+20-05-31 09:20:26, INFO:   avg_true_positive: 0.013
+20-05-31 09:20:26, INFO: buckingham_palace
+20-05-31 09:20:26, INFO:   avg_keypoints: 1665.429
+20-05-31 09:20:26, INFO:   avg_pred_positive: 0.133
+20-05-31 09:20:26, INFO:   avg_true_positive: 0.003
+20-05-31 09:20:26, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 09:20:26, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 09:20:26, INFO: 0.00	 0.00	 0.00	 1.05	 0.00	
+20-05-31 09:20:26, INFO: EPOCH: 15/50
+20-05-31 09:20:26, INFO: TRAINING PHASE:
+20-05-31 09:20:26, INFO: Generated 2200 samples
+20-05-31 09:32:12, INFO: avg loss: 1.0815611211232943
+20-05-31 09:32:12, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_09:32:12_15.pth
+20-05-31 09:32:12, INFO: VALID TRAIN PHASE:
+20-05-31 09:38:19, INFO: avg_keypoints: 1841.976818181818
+20-05-31 09:38:19, INFO: avg_matches: 348.1759090909091
+20-05-31 09:38:19, INFO: avg_pred_positive: 0.15409090909090908
+20-05-31 09:38:19, INFO: avg_true_positive: 0.0013636363636363637
+20-05-31 09:38:19, INFO: VALID PHASE:
+20-05-31 09:42:25, INFO: reichstag
+20-05-31 09:42:25, INFO:   avg_keypoints: 1436.797
+20-05-31 09:42:25, INFO:   avg_pred_positive: 0.041
+20-05-31 09:42:25, INFO:   avg_true_positive: 0.001
+20-05-31 09:42:25, INFO: sacre_coeur
+20-05-31 09:42:25, INFO:   avg_keypoints: 1753.867
+20-05-31 09:42:25, INFO:   avg_pred_positive: 0.14
+20-05-31 09:42:25, INFO:   avg_true_positive: 0.01
+20-05-31 09:42:25, INFO: notre_dame_front_facade
+20-05-31 09:42:25, INFO:   avg_keypoints: 1770.478
+20-05-31 09:42:25, INFO:   avg_pred_positive: 0.144
+20-05-31 09:42:25, INFO:   avg_true_positive: 0.01
+20-05-31 09:42:25, INFO: buckingham_palace
+20-05-31 09:42:25, INFO:   avg_keypoints: 1665.429
+20-05-31 09:42:25, INFO:   avg_pred_positive: 0.1
+20-05-31 09:42:25, INFO:   avg_true_positive: 0.01
+20-05-31 09:42:25, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 09:42:25, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 09:42:25, INFO: 0.00	 0.00	 0.00	 0.65	 0.00	
+20-05-31 09:42:25, INFO: EPOCH: 16/50
+20-05-31 09:42:25, INFO: TRAINING PHASE:
+20-05-31 09:42:25, INFO: Generated 2200 samples
+20-05-31 09:54:13, INFO: avg loss: 1.4361517705237719
+20-05-31 09:54:13, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_09:54:13_16.pth
+20-05-31 09:54:13, INFO: VALID TRAIN PHASE:
+20-05-31 10:00:21, INFO: avg_keypoints: 1841.976818181818
+20-05-31 10:00:21, INFO: avg_matches: 347.6818181818182
+20-05-31 10:00:21, INFO: avg_pred_positive: 0.05590909090909091
+20-05-31 10:00:21, INFO: avg_true_positive: 0.0
+20-05-31 10:00:21, INFO: VALID PHASE:
+20-05-31 10:04:29, INFO: reichstag
+20-05-31 10:04:29, INFO:   avg_keypoints: 1436.797
+20-05-31 10:04:29, INFO:   avg_pred_positive: 0.09
+20-05-31 10:04:29, INFO:   avg_true_positive: 0.003
+20-05-31 10:04:29, INFO: sacre_coeur
+20-05-31 10:04:29, INFO:   avg_keypoints: 1753.867
+20-05-31 10:04:29, INFO:   avg_pred_positive: 0.041
+20-05-31 10:04:29, INFO:   avg_true_positive: 0.002
+20-05-31 10:04:29, INFO: notre_dame_front_facade
+20-05-31 10:04:29, INFO:   avg_keypoints: 1770.478
+20-05-31 10:04:29, INFO:   avg_pred_positive: 0.042
+20-05-31 10:04:29, INFO:   avg_true_positive: 0.002
+20-05-31 10:04:29, INFO: buckingham_palace
+20-05-31 10:04:29, INFO:   avg_keypoints: 1665.429
+20-05-31 10:04:29, INFO:   avg_pred_positive: 0.114
+20-05-31 10:04:29, INFO:   avg_true_positive: 0.015
+20-05-31 10:04:29, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 10:04:29, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 10:04:29, INFO: 0.00	 0.00	 0.00	 0.50	 0.00	
+20-05-31 10:04:29, INFO: EPOCH: 17/50
+20-05-31 10:04:29, INFO: TRAINING PHASE:
+20-05-31 10:04:29, INFO: Generated 2200 samples
+20-05-31 10:16:17, INFO: avg loss: 1.1353492046630946
+20-05-31 10:16:17, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_10:16:17_17.pth
+20-05-31 10:16:17, INFO: VALID TRAIN PHASE:
+20-05-31 10:22:23, INFO: avg_keypoints: 1841.976818181818
+20-05-31 10:22:23, INFO: avg_matches: 347.5559090909091
+20-05-31 10:22:23, INFO: avg_pred_positive: 1.1936363636363636
+20-05-31 10:22:23, INFO: avg_true_positive: 0.0
+20-05-31 10:22:23, INFO: VALID PHASE:
+20-05-31 10:26:29, INFO: reichstag
+20-05-31 10:26:29, INFO:   avg_keypoints: 1436.797
+20-05-31 10:26:29, INFO:   avg_pred_positive: 0.011
+20-05-31 10:26:29, INFO:   avg_true_positive: 0.001
+20-05-31 10:26:29, INFO: sacre_coeur
+20-05-31 10:26:29, INFO:   avg_keypoints: 1753.867
+20-05-31 10:26:29, INFO:   avg_pred_positive: 0.78
+20-05-31 10:26:29, INFO:   avg_true_positive: 0.035
+20-05-31 10:26:29, INFO: notre_dame_front_facade
+20-05-31 10:26:29, INFO:   avg_keypoints: 1770.478
+20-05-31 10:26:29, INFO:   avg_pred_positive: 0.684
+20-05-31 10:26:29, INFO:   avg_true_positive: 0.022
+20-05-31 10:26:29, INFO: buckingham_palace
+20-05-31 10:26:29, INFO:   avg_keypoints: 1665.429
+20-05-31 10:26:29, INFO:   avg_pred_positive: 0.102
+20-05-31 10:26:29, INFO:   avg_true_positive: 0.005
+20-05-31 10:26:29, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 10:26:29, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 10:26:29, INFO: 0.00	 0.00	 0.00	 0.66	 0.00	
+20-05-31 10:26:29, INFO: EPOCH: 18/50
+20-05-31 10:26:29, INFO: TRAINING PHASE:
+20-05-31 10:26:29, INFO: Generated 2200 samples
+20-05-31 10:38:17, INFO: avg loss: 2.8639997650389417
+20-05-31 10:38:17, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_10:38:17_18.pth
+20-05-31 10:38:17, INFO: VALID TRAIN PHASE:
+20-05-31 10:44:24, INFO: avg_keypoints: 1841.976818181818
+20-05-31 10:44:24, INFO: avg_matches: 347.7431818181818
+20-05-31 10:44:24, INFO: avg_pred_positive: 0.85
+20-05-31 10:44:24, INFO: avg_true_positive: 0.0
+20-05-31 10:44:24, INFO: VALID PHASE:
+20-05-31 10:48:32, INFO: reichstag
+20-05-31 10:48:32, INFO:   avg_keypoints: 1436.797
+20-05-31 10:48:32, INFO:   avg_pred_positive: 0.367
+20-05-31 10:48:32, INFO:   avg_true_positive: 0.015
+20-05-31 10:48:32, INFO: sacre_coeur
+20-05-31 10:48:32, INFO:   avg_keypoints: 1753.867
+20-05-31 10:48:32, INFO:   avg_pred_positive: 0.929
+20-05-31 10:48:32, INFO:   avg_true_positive: 0.057
+20-05-31 10:48:32, INFO: notre_dame_front_facade
+20-05-31 10:48:32, INFO:   avg_keypoints: 1770.478
+20-05-31 10:48:32, INFO:   avg_pred_positive: 0.851
+20-05-31 10:48:32, INFO:   avg_true_positive: 0.027
+20-05-31 10:48:32, INFO: buckingham_palace
+20-05-31 10:48:32, INFO:   avg_keypoints: 1665.429
+20-05-31 10:48:32, INFO:   avg_pred_positive: 0.226
+20-05-31 10:48:32, INFO:   avg_true_positive: 0.015
+20-05-31 10:48:32, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 10:48:32, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 10:48:32, INFO: 0.00	 0.00	 0.02	 0.90	 0.00	
+20-05-31 10:48:32, INFO: EPOCH: 19/50
+20-05-31 10:48:32, INFO: TRAINING PHASE:
+20-05-31 10:48:32, INFO: Generated 2200 samples
+20-05-31 11:00:21, INFO: avg loss: 1.1263902863123774
+20-05-31 11:00:21, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_11:00:21_19.pth
+20-05-31 11:00:21, INFO: VALID TRAIN PHASE:
+20-05-31 11:06:27, INFO: avg_keypoints: 1841.976818181818
+20-05-31 11:06:27, INFO: avg_matches: 348.2318181818182
+20-05-31 11:06:27, INFO: avg_pred_positive: 0.19227272727272726
+20-05-31 11:06:27, INFO: avg_true_positive: 0.0
+20-05-31 11:06:27, INFO: VALID PHASE:
+20-05-31 11:10:30, INFO: reichstag
+20-05-31 11:10:30, INFO:   avg_keypoints: 1436.797
+20-05-31 11:10:30, INFO:   avg_pred_positive: 0.001
+20-05-31 11:10:30, INFO:   avg_true_positive: 0.0
+20-05-31 11:10:30, INFO: sacre_coeur
+20-05-31 11:10:30, INFO:   avg_keypoints: 1753.867
+20-05-31 11:10:30, INFO:   avg_pred_positive: 0.349
+20-05-31 11:10:30, INFO:   avg_true_positive: 0.02
+20-05-31 11:10:30, INFO: notre_dame_front_facade
+20-05-31 11:10:30, INFO:   avg_keypoints: 1770.478
+20-05-31 11:10:30, INFO:   avg_pred_positive: 0.335
+20-05-31 11:10:30, INFO:   avg_true_positive: 0.013
+20-05-31 11:10:30, INFO: buckingham_palace
+20-05-31 11:10:30, INFO:   avg_keypoints: 1665.429
+20-05-31 11:10:30, INFO:   avg_pred_positive: 0.016
+20-05-31 11:10:30, INFO:   avg_true_positive: 0.001
+20-05-31 11:10:30, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 11:10:30, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 11:10:30, INFO: 0.00	 0.00	 0.00	 0.54	 0.00	
+20-05-31 11:10:30, INFO: EPOCH: 20/50
+20-05-31 11:10:30, INFO: TRAINING PHASE:
+20-05-31 11:10:30, INFO: Generated 2200 samples
+20-05-31 11:22:19, INFO: avg loss: 1.989248728190438
+20-05-31 11:22:19, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_11:22:19_20.pth
+20-05-31 11:22:19, INFO: VALID TRAIN PHASE:
+20-05-31 11:28:26, INFO: avg_keypoints: 1841.976818181818
+20-05-31 11:28:26, INFO: avg_matches: 347.8259090909091
+20-05-31 11:28:26, INFO: avg_pred_positive: 0.038636363636363635
+20-05-31 11:28:26, INFO: avg_true_positive: 0.0
+20-05-31 11:28:26, INFO: VALID PHASE:
+20-05-31 11:32:30, INFO: reichstag
+20-05-31 11:32:30, INFO:   avg_keypoints: 1436.797
+20-05-31 11:32:30, INFO:   avg_pred_positive: 0.052
+20-05-31 11:32:30, INFO:   avg_true_positive: 0.007
+20-05-31 11:32:30, INFO: sacre_coeur
+20-05-31 11:32:30, INFO:   avg_keypoints: 1753.867
+20-05-31 11:32:30, INFO:   avg_pred_positive: 0.025
+20-05-31 11:32:30, INFO:   avg_true_positive: 0.003
+20-05-31 11:32:30, INFO: notre_dame_front_facade
+20-05-31 11:32:30, INFO:   avg_keypoints: 1770.478
+20-05-31 11:32:30, INFO:   avg_pred_positive: 0.018
+20-05-31 11:32:30, INFO:   avg_true_positive: 0.0
+20-05-31 11:32:30, INFO: buckingham_palace
+20-05-31 11:32:30, INFO:   avg_keypoints: 1665.429
+20-05-31 11:32:30, INFO:   avg_pred_positive: 0.147
+20-05-31 11:32:30, INFO:   avg_true_positive: 0.013
+20-05-31 11:32:30, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 11:32:30, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 11:32:30, INFO: 0.00	 0.00	 0.00	 0.50	 0.00	
+20-05-31 11:32:30, INFO: EPOCH: 21/50
+20-05-31 11:32:30, INFO: TRAINING PHASE:
+20-05-31 11:32:30, INFO: Generated 2200 samples
+20-05-31 11:44:18, INFO: avg loss: 1.0986904069516894
+20-05-31 11:44:18, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_11:44:18_21.pth
+20-05-31 11:44:18, INFO: VALID TRAIN PHASE:
+20-05-31 11:50:23, INFO: avg_keypoints: 1841.976818181818
+20-05-31 11:50:23, INFO: avg_matches: 348.1268181818182
+20-05-31 11:50:23, INFO: avg_pred_positive: 0.019545454545454546
+20-05-31 11:50:23, INFO: avg_true_positive: 0.0
+20-05-31 11:50:23, INFO: VALID PHASE:
+20-05-31 11:54:29, INFO: reichstag
+20-05-31 11:54:29, INFO:   avg_keypoints: 1436.797
+20-05-31 11:54:29, INFO:   avg_pred_positive: 0.008
+20-05-31 11:54:29, INFO:   avg_true_positive: 0.0
+20-05-31 11:54:29, INFO: sacre_coeur
+20-05-31 11:54:29, INFO:   avg_keypoints: 1753.867
+20-05-31 11:54:29, INFO:   avg_pred_positive: 0.005
+20-05-31 11:54:29, INFO:   avg_true_positive: 0.0
+20-05-31 11:54:29, INFO: notre_dame_front_facade
+20-05-31 11:54:29, INFO:   avg_keypoints: 1770.478
+20-05-31 11:54:29, INFO:   avg_pred_positive: 0.007
+20-05-31 11:54:29, INFO:   avg_true_positive: 0.001
+20-05-31 11:54:29, INFO: buckingham_palace
+20-05-31 11:54:29, INFO:   avg_keypoints: 1665.429
+20-05-31 11:54:29, INFO:   avg_pred_positive: 0.024
+20-05-31 11:54:29, INFO:   avg_true_positive: 0.001
+20-05-31 11:54:29, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 11:54:29, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 11:54:29, INFO: 0.00	 0.00	 0.00	 0.05	 0.00	
+20-05-31 11:54:29, INFO: EPOCH: 22/50
+20-05-31 11:54:29, INFO: TRAINING PHASE:
+20-05-31 11:54:29, INFO: Generated 2200 samples
+20-05-31 12:06:20, INFO: avg loss: 1.8329663707172432
+20-05-31 12:06:20, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_12:06:20_22.pth
+20-05-31 12:06:20, INFO: VALID TRAIN PHASE:
+20-05-31 12:12:26, INFO: avg_keypoints: 1841.976818181818
+20-05-31 12:12:26, INFO: avg_matches: 347.625
+20-05-31 12:12:26, INFO: avg_pred_positive: 0.007727272727272728
+20-05-31 12:12:26, INFO: avg_true_positive: 0.0
+20-05-31 12:12:26, INFO: VALID PHASE:
+20-05-31 12:16:31, INFO: reichstag
+20-05-31 12:16:31, INFO:   avg_keypoints: 1436.797
+20-05-31 12:16:31, INFO:   avg_pred_positive: 0.011
+20-05-31 12:16:31, INFO:   avg_true_positive: 0.001
+20-05-31 12:16:31, INFO: sacre_coeur
+20-05-31 12:16:31, INFO:   avg_keypoints: 1753.867
+20-05-31 12:16:31, INFO:   avg_pred_positive: 0.008
+20-05-31 12:16:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:16:31, INFO: notre_dame_front_facade
+20-05-31 12:16:31, INFO:   avg_keypoints: 1770.478
+20-05-31 12:16:31, INFO:   avg_pred_positive: 0.012
+20-05-31 12:16:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:16:31, INFO: buckingham_palace
+20-05-31 12:16:31, INFO:   avg_keypoints: 1665.429
+20-05-31 12:16:31, INFO:   avg_pred_positive: 0.007
+20-05-31 12:16:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:16:31, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 12:16:31, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 12:16:31, INFO: 0.00	 0.00	 0.00	 0.03	 0.00	
+20-05-31 12:16:31, INFO: EPOCH: 23/50
+20-05-31 12:16:31, INFO: TRAINING PHASE:
+20-05-31 12:16:31, INFO: Generated 2200 samples
+20-05-31 12:28:18, INFO: avg loss: 1.081297931523564
+20-05-31 12:28:18, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_12:28:18_23.pth
+20-05-31 12:28:18, INFO: VALID TRAIN PHASE:
+20-05-31 12:34:25, INFO: avg_keypoints: 1841.976818181818
+20-05-31 12:34:25, INFO: avg_matches: 347.7409090909091
+20-05-31 12:34:25, INFO: avg_pred_positive: 0.01090909090909091
+20-05-31 12:34:25, INFO: avg_true_positive: 0.0
+20-05-31 12:34:25, INFO: VALID PHASE:
+20-05-31 12:38:31, INFO: reichstag
+20-05-31 12:38:31, INFO:   avg_keypoints: 1436.797
+20-05-31 12:38:31, INFO:   avg_pred_positive: 0.008
+20-05-31 12:38:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:38:31, INFO: sacre_coeur
+20-05-31 12:38:31, INFO:   avg_keypoints: 1753.867
+20-05-31 12:38:31, INFO:   avg_pred_positive: 0.011
+20-05-31 12:38:31, INFO:   avg_true_positive: 0.001
+20-05-31 12:38:31, INFO: notre_dame_front_facade
+20-05-31 12:38:31, INFO:   avg_keypoints: 1770.478
+20-05-31 12:38:31, INFO:   avg_pred_positive: 0.026
+20-05-31 12:38:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:38:31, INFO: buckingham_palace
+20-05-31 12:38:31, INFO:   avg_keypoints: 1665.429
+20-05-31 12:38:31, INFO:   avg_pred_positive: 0.017
+20-05-31 12:38:31, INFO:   avg_true_positive: 0.0
+20-05-31 12:38:31, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 12:38:31, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 12:38:31, INFO: 0.00	 0.00	 0.00	 0.03	 0.00	
+20-05-31 12:38:31, INFO: EPOCH: 24/50
+20-05-31 12:38:31, INFO: TRAINING PHASE:
+20-05-31 12:38:31, INFO: Generated 2200 samples
+20-05-31 12:50:19, INFO: avg loss: 1.1238310749785358
+20-05-31 12:50:19, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_12:50:19_24.pth
+20-05-31 12:50:19, INFO: VALID TRAIN PHASE:
+20-05-31 12:56:25, INFO: avg_keypoints: 1841.976818181818
+20-05-31 12:56:25, INFO: avg_matches: 347.9959090909091
+20-05-31 12:56:25, INFO: avg_pred_positive: 0.012727272727272728
+20-05-31 12:56:25, INFO: avg_true_positive: 0.00045454545454545455
+20-05-31 12:56:25, INFO: VALID PHASE:
+20-05-31 13:00:31, INFO: reichstag
+20-05-31 13:00:31, INFO:   avg_keypoints: 1436.797
+20-05-31 13:00:31, INFO:   avg_pred_positive: 0.001
+20-05-31 13:00:31, INFO:   avg_true_positive: 0.0
+20-05-31 13:00:31, INFO: sacre_coeur
+20-05-31 13:00:31, INFO:   avg_keypoints: 1753.867
+20-05-31 13:00:31, INFO:   avg_pred_positive: 0.021
+20-05-31 13:00:31, INFO:   avg_true_positive: 0.005
+20-05-31 13:00:31, INFO: notre_dame_front_facade
+20-05-31 13:00:31, INFO:   avg_keypoints: 1770.478
+20-05-31 13:00:31, INFO:   avg_pred_positive: 0.015
+20-05-31 13:00:31, INFO:   avg_true_positive: 0.0
+20-05-31 13:00:31, INFO: buckingham_palace
+20-05-31 13:00:31, INFO:   avg_keypoints: 1665.429
+20-05-31 13:00:31, INFO:   avg_pred_positive: 0.014
+20-05-31 13:00:31, INFO:   avg_true_positive: 0.0
+20-05-31 13:00:31, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 13:00:31, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 13:00:31, INFO: 0.00	 0.00	 0.00	 0.10	 0.00	
+20-05-31 13:00:31, INFO: EPOCH: 25/50
+20-05-31 13:00:31, INFO: TRAINING PHASE:
+20-05-31 13:00:31, INFO: Generated 2200 samples
+20-05-31 13:12:19, INFO: avg loss: 1.2121287010265873
+20-05-31 13:12:19, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_13:12:19_25.pth
+20-05-31 13:12:19, INFO: VALID TRAIN PHASE:
+20-05-31 13:18:25, INFO: avg_keypoints: 1841.976818181818
+20-05-31 13:18:25, INFO: avg_matches: 347.73318181818183
+20-05-31 13:18:25, INFO: avg_pred_positive: 0.0013636363636363637
+20-05-31 13:18:25, INFO: avg_true_positive: 0.0
+20-05-31 13:18:25, INFO: VALID PHASE:
+20-05-31 13:22:30, INFO: reichstag
+20-05-31 13:22:30, INFO:   avg_keypoints: 1436.797
+20-05-31 13:22:30, INFO:   avg_pred_positive: 0.001
+20-05-31 13:22:30, INFO:   avg_true_positive: 0.0
+20-05-31 13:22:30, INFO: sacre_coeur
+20-05-31 13:22:30, INFO:   avg_keypoints: 1753.867
+20-05-31 13:22:30, INFO:   avg_pred_positive: 0.001
+20-05-31 13:22:30, INFO:   avg_true_positive: 0.0
+20-05-31 13:22:30, INFO: notre_dame_front_facade
+20-05-31 13:22:30, INFO:   avg_keypoints: 1770.478
+20-05-31 13:22:30, INFO:   avg_pred_positive: 0.001
+20-05-31 13:22:30, INFO:   avg_true_positive: 0.0
+20-05-31 13:22:30, INFO: buckingham_palace
+20-05-31 13:22:30, INFO:   avg_keypoints: 1665.429
+20-05-31 13:22:30, INFO:   avg_pred_positive: 0.002
+20-05-31 13:22:30, INFO:   avg_true_positive: 0.0
+20-05-31 13:22:30, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 13:22:30, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 13:22:30, INFO: 0.00	 0.00	 0.00	 0.00	 0.00	
+20-05-31 13:22:30, INFO: EPOCH: 26/50
+20-05-31 13:22:30, INFO: TRAINING PHASE:
+20-05-31 13:22:30, INFO: Generated 2200 samples
+20-05-31 13:34:17, INFO: avg loss: 1.1696337925839377
+20-05-31 13:34:17, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_13:34:17_26.pth
+20-05-31 13:34:17, INFO: VALID TRAIN PHASE:
+20-05-31 13:40:25, INFO: avg_keypoints: 1841.976818181818
+20-05-31 13:40:25, INFO: avg_matches: 347.8990909090909
+20-05-31 13:40:25, INFO: avg_pred_positive: 0.03
+20-05-31 13:40:25, INFO: avg_true_positive: 0.0
+20-05-31 13:40:25, INFO: VALID PHASE:
+20-05-31 13:44:29, INFO: reichstag
+20-05-31 13:44:29, INFO:   avg_keypoints: 1436.797
+20-05-31 13:44:29, INFO:   avg_pred_positive: 0.024
+20-05-31 13:44:29, INFO:   avg_true_positive: 0.002
+20-05-31 13:44:29, INFO: sacre_coeur
+20-05-31 13:44:29, INFO:   avg_keypoints: 1753.867
+20-05-31 13:44:29, INFO:   avg_pred_positive: 0.023
+20-05-31 13:44:29, INFO:   avg_true_positive: 0.0
+20-05-31 13:44:29, INFO: notre_dame_front_facade
+20-05-31 13:44:29, INFO:   avg_keypoints: 1770.478
+20-05-31 13:44:29, INFO:   avg_pred_positive: 0.019
+20-05-31 13:44:29, INFO:   avg_true_positive: 0.0
+20-05-31 13:44:29, INFO: buckingham_palace
+20-05-31 13:44:29, INFO:   avg_keypoints: 1665.429
+20-05-31 13:44:29, INFO:   avg_pred_positive: 0.033
+20-05-31 13:44:29, INFO:   avg_true_positive: 0.0
+20-05-31 13:44:29, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 13:44:29, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 13:44:29, INFO: 0.00	 0.00	 0.00	 0.03	 0.00	
+20-05-31 13:44:29, INFO: EPOCH: 27/50
+20-05-31 13:44:29, INFO: TRAINING PHASE:
+20-05-31 13:44:29, INFO: Generated 2200 samples
+20-05-31 13:56:16, INFO: avg loss: 1.9367176344714025
+20-05-31 13:56:16, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_13:56:16_27.pth
+20-05-31 13:56:16, INFO: VALID TRAIN PHASE:
+20-05-31 14:02:23, INFO: avg_keypoints: 1841.976818181818
+20-05-31 14:02:23, INFO: avg_matches: 348.0072727272727
+20-05-31 14:02:23, INFO: avg_pred_positive: 0.02590909090909091
+20-05-31 14:02:23, INFO: avg_true_positive: 0.0
+20-05-31 14:02:23, INFO: VALID PHASE:
+20-05-31 14:06:28, INFO: reichstag
+20-05-31 14:06:28, INFO:   avg_keypoints: 1436.797
+20-05-31 14:06:28, INFO:   avg_pred_positive: 0.014
+20-05-31 14:06:28, INFO:   avg_true_positive: 0.001
+20-05-31 14:06:28, INFO: sacre_coeur
+20-05-31 14:06:28, INFO:   avg_keypoints: 1753.867
+20-05-31 14:06:28, INFO:   avg_pred_positive: 0.032
+20-05-31 14:06:28, INFO:   avg_true_positive: 0.002
+20-05-31 14:06:28, INFO: notre_dame_front_facade
+20-05-31 14:06:28, INFO:   avg_keypoints: 1770.478
+20-05-31 14:06:28, INFO:   avg_pred_positive: 0.064
+20-05-31 14:06:28, INFO:   avg_true_positive: 0.001
+20-05-31 14:06:28, INFO: buckingham_palace
+20-05-31 14:06:28, INFO:   avg_keypoints: 1665.429
+20-05-31 14:06:28, INFO:   avg_pred_positive: 0.034
+20-05-31 14:06:28, INFO:   avg_true_positive: 0.005
+20-05-31 14:06:28, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 14:06:28, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 14:06:28, INFO: 0.00	 0.00	 0.00	 0.20	 0.00	
+20-05-31 14:06:28, INFO: EPOCH: 28/50
+20-05-31 14:06:28, INFO: TRAINING PHASE:
+20-05-31 14:06:28, INFO: Generated 2200 samples
+20-05-31 14:18:15, INFO: avg loss: 1.1224505070912196
+20-05-31 14:18:15, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_14:18:15_28.pth
+20-05-31 14:18:15, INFO: VALID TRAIN PHASE:
+20-05-31 14:24:20, INFO: avg_keypoints: 1841.976818181818
+20-05-31 14:24:20, INFO: avg_matches: 348.12954545454545
+20-05-31 14:24:20, INFO: avg_pred_positive: 0.008181818181818182
+20-05-31 14:24:20, INFO: avg_true_positive: 0.0
+20-05-31 14:24:20, INFO: VALID PHASE:
+20-05-31 14:28:25, INFO: reichstag
+20-05-31 14:28:25, INFO:   avg_keypoints: 1436.797
+20-05-31 14:28:25, INFO:   avg_pred_positive: 0.011
+20-05-31 14:28:25, INFO:   avg_true_positive: 0.0
+20-05-31 14:28:25, INFO: sacre_coeur
+20-05-31 14:28:25, INFO:   avg_keypoints: 1753.867
+20-05-31 14:28:25, INFO:   avg_pred_positive: 0.008
+20-05-31 14:28:25, INFO:   avg_true_positive: 0.001
+20-05-31 14:28:25, INFO: notre_dame_front_facade
+20-05-31 14:28:25, INFO:   avg_keypoints: 1770.478
+20-05-31 14:28:25, INFO:   avg_pred_positive: 0.01
+20-05-31 14:28:25, INFO:   avg_true_positive: 0.001
+20-05-31 14:28:25, INFO: buckingham_palace
+20-05-31 14:28:25, INFO:   avg_keypoints: 1665.429
+20-05-31 14:28:25, INFO:   avg_pred_positive: 0.022
+20-05-31 14:28:25, INFO:   avg_true_positive: 0.0
+20-05-31 14:28:25, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 14:28:25, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 14:28:25, INFO: 0.00	 0.00	 0.00	 0.04	 0.00	
+20-05-31 14:28:25, INFO: EPOCH: 29/50
+20-05-31 14:28:25, INFO: TRAINING PHASE:
+20-05-31 14:28:25, INFO: Generated 2200 samples
+20-05-31 14:40:12, INFO: avg loss: 1.1216036882808562
+20-05-31 14:40:12, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_14:40:12_29.pth
+20-05-31 14:40:12, INFO: VALID TRAIN PHASE:
+20-05-31 14:46:18, INFO: avg_keypoints: 1841.976818181818
+20-05-31 14:46:18, INFO: avg_matches: 347.79318181818184
+20-05-31 14:46:18, INFO: avg_pred_positive: 0.04772727272727273
+20-05-31 14:46:18, INFO: avg_true_positive: 0.00045454545454545455
+20-05-31 14:46:18, INFO: VALID PHASE:
+20-05-31 14:50:23, INFO: reichstag
+20-05-31 14:50:23, INFO:   avg_keypoints: 1436.797
+20-05-31 14:50:23, INFO:   avg_pred_positive: 0.016
+20-05-31 14:50:23, INFO:   avg_true_positive: 0.002
+20-05-31 14:50:23, INFO: sacre_coeur
+20-05-31 14:50:23, INFO:   avg_keypoints: 1753.867
+20-05-31 14:50:23, INFO:   avg_pred_positive: 0.038
+20-05-31 14:50:23, INFO:   avg_true_positive: 0.001
+20-05-31 14:50:23, INFO: notre_dame_front_facade
+20-05-31 14:50:23, INFO:   avg_keypoints: 1770.478
+20-05-31 14:50:23, INFO:   avg_pred_positive: 0.06
+20-05-31 14:50:23, INFO:   avg_true_positive: 0.001
+20-05-31 14:50:23, INFO: buckingham_palace
+20-05-31 14:50:23, INFO:   avg_keypoints: 1665.429
+20-05-31 14:50:23, INFO:   avg_pred_positive: 0.047
+20-05-31 14:50:23, INFO:   avg_true_positive: 0.004
+20-05-31 14:50:23, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 14:50:23, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 14:50:23, INFO: 0.00	 0.00	 0.00	 0.20	 0.00	
+20-05-31 14:50:23, INFO: EPOCH: 30/50
+20-05-31 14:50:23, INFO: TRAINING PHASE:
+20-05-31 14:50:23, INFO: Generated 2200 samples
+20-05-31 15:02:11, INFO: avg loss: 1.0879785477731791
+20-05-31 15:02:11, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_15:02:11_30.pth
+20-05-31 15:02:11, INFO: VALID TRAIN PHASE:
+20-05-31 15:08:17, INFO: avg_keypoints: 1841.976818181818
+20-05-31 15:08:17, INFO: avg_matches: 348.3340909090909
+20-05-31 15:08:17, INFO: avg_pred_positive: 0.05227272727272727
+20-05-31 15:08:17, INFO: avg_true_positive: 0.00045454545454545455
+20-05-31 15:08:17, INFO: VALID PHASE:
+20-05-31 15:12:23, INFO: reichstag
+20-05-31 15:12:23, INFO:   avg_keypoints: 1436.797
+20-05-31 15:12:23, INFO:   avg_pred_positive: 0.031
+20-05-31 15:12:23, INFO:   avg_true_positive: 0.005
+20-05-31 15:12:23, INFO: sacre_coeur
+20-05-31 15:12:23, INFO:   avg_keypoints: 1753.867
+20-05-31 15:12:23, INFO:   avg_pred_positive: 0.132
+20-05-31 15:12:23, INFO:   avg_true_positive: 0.015
+20-05-31 15:12:23, INFO: notre_dame_front_facade
+20-05-31 15:12:23, INFO:   avg_keypoints: 1770.478
+20-05-31 15:12:23, INFO:   avg_pred_positive: 0.1
+20-05-31 15:12:23, INFO:   avg_true_positive: 0.01
+20-05-31 15:12:23, INFO: buckingham_palace
+20-05-31 15:12:23, INFO:   avg_keypoints: 1665.429
+20-05-31 15:12:23, INFO:   avg_pred_positive: 0.067
+20-05-31 15:12:23, INFO:   avg_true_positive: 0.003
+20-05-31 15:12:23, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 15:12:23, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 15:12:23, INFO: 0.00	 0.00	 0.00	 0.60	 0.00	
+20-05-31 15:12:23, INFO: EPOCH: 31/50
+20-05-31 15:12:23, INFO: TRAINING PHASE:
+20-05-31 15:12:23, INFO: Generated 2200 samples
+20-05-31 15:24:11, INFO: avg loss: 1.5988848921257646
+20-05-31 15:24:11, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_15:24:11_31.pth
+20-05-31 15:24:11, INFO: VALID TRAIN PHASE:
+20-05-31 15:30:18, INFO: avg_keypoints: 1841.976818181818
+20-05-31 15:30:18, INFO: avg_matches: 348.0459090909091
+20-05-31 15:30:18, INFO: avg_pred_positive: 0.10954545454545454
+20-05-31 15:30:18, INFO: avg_true_positive: 0.0
+20-05-31 15:30:18, INFO: VALID PHASE:
+20-05-31 15:34:23, INFO: reichstag
+20-05-31 15:34:23, INFO:   avg_keypoints: 1436.797
+20-05-31 15:34:23, INFO:   avg_pred_positive: 0.036
+20-05-31 15:34:23, INFO:   avg_true_positive: 0.001
+20-05-31 15:34:23, INFO: sacre_coeur
+20-05-31 15:34:23, INFO:   avg_keypoints: 1753.867
+20-05-31 15:34:23, INFO:   avg_pred_positive: 0.023
+20-05-31 15:34:23, INFO:   avg_true_positive: 0.0
+20-05-31 15:34:23, INFO: notre_dame_front_facade
+20-05-31 15:34:23, INFO:   avg_keypoints: 1770.478
+20-05-31 15:34:23, INFO:   avg_pred_positive: 0.017
+20-05-31 15:34:23, INFO:   avg_true_positive: 0.001
+20-05-31 15:34:23, INFO: buckingham_palace
+20-05-31 15:34:23, INFO:   avg_keypoints: 1665.429
+20-05-31 15:34:23, INFO:   avg_pred_positive: 0.026
+20-05-31 15:34:23, INFO:   avg_true_positive: 0.0
+20-05-31 15:34:23, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 15:34:23, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 15:34:23, INFO: 0.00	 0.00	 0.00	 0.05	 0.00	
+20-05-31 15:34:23, INFO: EPOCH: 32/50
+20-05-31 15:34:23, INFO: TRAINING PHASE:
+20-05-31 15:34:23, INFO: Generated 2200 samples
+20-05-31 15:46:10, INFO: avg loss: 1.0998979182346045
+20-05-31 15:46:10, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_15:46:10_32.pth
+20-05-31 15:46:10, INFO: VALID TRAIN PHASE:
+20-05-31 15:52:17, INFO: avg_keypoints: 1841.976818181818
+20-05-31 15:52:17, INFO: avg_matches: 348.08772727272725
+20-05-31 15:52:17, INFO: avg_pred_positive: 0.01818181818181818
+20-05-31 15:52:17, INFO: avg_true_positive: 0.0
+20-05-31 15:52:17, INFO: VALID PHASE:
+20-05-31 15:56:22, INFO: reichstag
+20-05-31 15:56:22, INFO:   avg_keypoints: 1436.797
+20-05-31 15:56:22, INFO:   avg_pred_positive: 0.028
+20-05-31 15:56:22, INFO:   avg_true_positive: 0.004
+20-05-31 15:56:22, INFO: sacre_coeur
+20-05-31 15:56:22, INFO:   avg_keypoints: 1753.867
+20-05-31 15:56:22, INFO:   avg_pred_positive: 0.024
+20-05-31 15:56:22, INFO:   avg_true_positive: 0.002
+20-05-31 15:56:22, INFO: notre_dame_front_facade
+20-05-31 15:56:22, INFO:   avg_keypoints: 1770.478
+20-05-31 15:56:22, INFO:   avg_pred_positive: 0.024
+20-05-31 15:56:22, INFO:   avg_true_positive: 0.002
+20-05-31 15:56:22, INFO: buckingham_palace
+20-05-31 15:56:22, INFO:   avg_keypoints: 1665.429
+20-05-31 15:56:22, INFO:   avg_pred_positive: 0.024
+20-05-31 15:56:22, INFO:   avg_true_positive: 0.002
+20-05-31 15:56:22, INFO: Evaluation Results (mean over 4000 pairs):
+20-05-31 15:56:22, INFO: AUC@5	 AUC@10	 AUC@20	 Prec	 MScore	
+20-05-31 15:56:22, INFO: 0.00	 0.00	 0.00	 0.22	 0.00	
+20-05-31 15:56:22, INFO: EPOCH: 33/50
+20-05-31 15:56:22, INFO: TRAINING PHASE:
+20-05-31 15:56:22, INFO: Generated 2200 samples
+20-05-31 16:08:08, INFO: avg loss: 1.1161831840291143
+20-05-31 16:08:08, INFO: /home/hieu123/nghia/models/checkpoint_20-05-31_16:08:08_33.pth
+20-05-31 16:08:08, INFO: VALID TRAIN PHASE:
+20-05-31 16:14:14, INFO: avg_keypoints: 1841.976818181818
+20-05-31 16:14:14, INFO: avg_matches: 347.8209090909091
+20-05-31 16:14:14, INFO: avg_pred_positive: 0.022272727272727274
+20-05-31 16:14:14, INFO: avg_true_positive: 0.0
+20-05-31 16:14:14, INFO: VALID PHASE:

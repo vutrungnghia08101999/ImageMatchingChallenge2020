@@ -85,12 +85,14 @@ optimizer = torch.optim.Adam(model.parameters(),
                              lr=args.lr,
                              betas=(0.9, 0.999))
 
+dataset = SuperGlueDataset(args.root, args.train_scenes.split(','))
+dataloader = DataLoader(dataset, batch_size=1, shuffle=True)
 for epoch in range(start_epoch + 1, args.n_epochs):
     logging.info(f'EPOCH: {epoch}/{args.n_epochs}')
     # ******************* TRAINING PHASE ***********************
     logging.info(f'TRAINING PHASE:')
-    dataset = SuperGlueDataset(args.root, args.train_scenes.split(','))
-    dataloader = DataLoader(dataset, batch_size=1, shuffle=True)
+    # dataset = SuperGlueDataset(args.root, args.train_scenes.split(','))
+    # dataloader = DataLoader(dataset, batch_size=1, shuffle=True)
     logging.info(f'Generated {len(dataloader)} samples')
     model.train()
     avg_loss = AverageMeter()
